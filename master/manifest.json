@@ -23474,6 +23474,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.AutoRotationSensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.AutoRotationSensor.html",
+          "hash": "Xlwi5MT3e/GYZkLYCrq83Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.AutoRotationSensorDataUpdatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.AutoRotationSensorDataUpdatedEventArgs.html",
+          "hash": "LOdOV22Af5vGfARTevn3GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.AutoRotationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.AutoRotationState.html",
+          "hash": "j62GQqhFmQ+eKL63xFm/Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tizen.Sensor.DetectorState.yml",
       "output": {
         ".html": {
@@ -23946,7 +23982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.Sensor.html",
-          "hash": "MK0O9f2GFUhH4x4//KTJIw=="
+          "hash": "vlKdv6Heyzofv32qjfKLPA=="
         }
       },
       "is_incremental": false,
@@ -24198,7 +24234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.html",
-          "hash": "rGYNbKtUT/9PF0YUOsvGHA=="
+          "hash": "ymBxeG6sYwFDnDttj5chAA=="
         }
       },
       "is_incremental": false,
@@ -27705,7 +27741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pjhFpwHxISfv2JfCvaONJg=="
+          "hash": "0CG0jpN5UikSxFrTgTln9A=="
         }
       },
       "is_incremental": false,
@@ -27783,18 +27819,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2337,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -27807,6 +27831,18 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2340,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
           "skipped_file_count": 0
         }
       }
