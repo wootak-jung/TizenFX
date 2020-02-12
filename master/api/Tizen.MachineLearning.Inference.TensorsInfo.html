@@ -94,17 +94,12 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Tizen.MachineLearning.Inference.TensorsInfo.html">TensorsInfo</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
     </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
@@ -123,7 +118,7 @@
   <h6><strong>Assembly</strong>: Tizen.MachineLearning.Inference.dll</h6>
   <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TensorsInfo : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TensorsInfo : IDisposable, IEquatable&lt;TensorsInfo&gt;</code></pre>
   </div>
   
   
@@ -373,6 +368,102 @@
   </table>
   
   
+  <a id="Tizen_MachineLearning_Inference_TensorsInfo_Equals_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.Equals*"></a>
+  <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_Equals_System_Object_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Compare TensorsInfo, which is its contents are the same or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Object to compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>True if the given object is the same object or its contents are the same</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a></div>
+  
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_Equals_System_Object__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <a id="Tizen_MachineLearning_Inference_TensorsInfo_Equals_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.Equals*"></a>
+  <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_Equals_Tizen_MachineLearning_Inference_TensorsInfo_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.Equals(Tizen.MachineLearning.Inference.TensorsInfo)">Equals(TensorsInfo)</h4>
+  <div class="markdown level1 summary"><p>Compare TensorsInfo, which is its contents are the same or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(TensorsInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.MachineLearning.Inference.TensorsInfo.html">TensorsInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>TensorsInfo instance to compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>True if the given object is the same object or its contents are the same</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_Equals_Tizen_MachineLearning_Inference_TensorsInfo__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
   <a id="Tizen_MachineLearning_Inference_TensorsInfo_Finalize_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.Finalize*"></a>
   <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_Finalize" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Destroys the TensorsInfo resource.</p>
@@ -432,6 +523,9 @@
   
   <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetDimension_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">6 </span>
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetDimension_System_Int32__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
+</div>
   
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,11 +536,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></td>
-        <td><p>Thrown when the index is greater than the number of Tensor.</p>
-</td>
-      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td><p>Thrown when the method failed due to an invalid parameter.</p>
@@ -459,6 +548,37 @@
       </tr>
     </tbody>
   </table>
+  <a id="Tizen_MachineLearning_Inference_TensorsInfo_GetHashCode_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetHashCode*"></a>
+  <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_GetHashCode" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Gets the the hash code of this TensorsInfo object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The hash code</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a></div>
+  
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetHashCode_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
   <a id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorName_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetTensorName*"></a>
   <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorName_System_Int32_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetTensorName(System.Int32)">GetTensorName(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the tensor name with given index.</p>
@@ -497,7 +617,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>The tensor name.</p>
+        <td><p>The tensor name</p>
 </td>
       </tr>
     </tbody>
@@ -505,6 +625,9 @@
   
   <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorName_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">6 </span>
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorName_System_Int32__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
+</div>
   
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -516,8 +639,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></td>
-        <td><p>Thrown when the index is greater than the number of Tensor.</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown when the method failed due to an invalid parameter.</p>
 </td>
       </tr>
       <tr>
@@ -580,6 +703,77 @@
       </tr>
     </tbody>
   </table>
+  <a id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorSize_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetTensorSize*"></a>
+  <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorSize_System_Int32_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetTensorSize(System.Int32)">GetTensorSize(Int32)</h4>
+  <div class="markdown level1 summary"><p>Calculates the byte size of tensor data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetTensorSize(int idx)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">idx</span></td>
+        <td><p>The index of the tensor information in the list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The byte size of tensor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorSize_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorSize_System_Int32__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
+</div>
+  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown when the method failed due to an invalid parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>Thrown when the feature is not supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorType_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetTensorType*"></a>
   <h4 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorType_System_Int32_" data-uid="Tizen.MachineLearning.Inference.TensorsInfo.GetTensorType(System.Int32)">GetTensorType(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the tensor type with given index.</p>
@@ -626,6 +820,9 @@
   
   <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorType_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">6 </span>
+  <h5 id="Tizen_MachineLearning_Inference_TensorsInfo_GetTensorType_System_Int32__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
+</div>
   
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -636,11 +833,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></td>
-        <td><p>Thrown when the index is greater than the number of Tensor.</p>
-</td>
-      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td><p>Thrown when the method failed due to an invalid parameter.</p>
@@ -703,11 +895,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></td>
-        <td><p>Thrown when the index is greater than the number of Tensor.</p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td><p>Thrown when the method failed due to an invalid parameter.</p>
 </td>
@@ -768,11 +955,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></td>
-        <td><p>Thrown when the index is greater than the number of Tensor.</p>
-</td>
-      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td><p>Thrown when the method failed due to an invalid parameter.</p>
@@ -835,11 +1017,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.indexoutofrangeexception">IndexOutOfRangeException</a></td>
-        <td><p>Thrown when the index is greater than the number of Tensor.</p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td><p>Thrown when the method failed due to an invalid parameter.</p>
 </td>
@@ -854,6 +1031,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
   </div>
 </article>
           </div>
