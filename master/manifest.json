@@ -3822,7 +3822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Applications.ApplicationComponentType.html",
-          "hash": "TdIbga9OIcT0e4upC92vSw=="
+          "hash": "LV4NGwGMrCCRw2YFyay5LA=="
         }
       },
       "is_incremental": false,
@@ -9402,7 +9402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.AudioDevice.html",
-          "hash": "C3npOqdvPSn94jNSsOs5Gg=="
+          "hash": "tmoJqU5VJCXFXEvILju8OA=="
         }
       },
       "is_incremental": false,
@@ -9439,30 +9439,6 @@
         ".html": {
           "relative_path": "api/Tizen.Multimedia.AudioDeviceRunningChangedEventArgs.html",
           "hash": "78WnSxHvIZ/vTSuwCt/ENQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Tizen.Multimedia.AudioDeviceState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Tizen.Multimedia.AudioDeviceState.html",
-          "hash": "pgLz+sfaeAtOFDqrBJ4jZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Tizen.Multimedia.AudioDeviceStateChangedEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Tizen.Multimedia.AudioDeviceStateChangedEventArgs.html",
-          "hash": "h70Q5j34xrnply/4ruST+A=="
         }
       },
       "is_incremental": false,
@@ -9558,7 +9534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.AudioManager.html",
-          "hash": "5jJqAE7hbVOLkVKr8ejC4Q=="
+          "hash": "vfEo6m2ZUDrHdAcaCAQ3ZA=="
         }
       },
       "is_incremental": false,
@@ -13758,7 +13734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.html",
-          "hash": "35tdb1n6o8DN+9XJpT2VFA=="
+          "hash": "MPlrOWrEvogI9f3Nd+2e8Q=="
         }
       },
       "is_incremental": false,
@@ -27741,7 +27717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0CG0jpN5UikSxFrTgTln9A=="
+          "hash": "FHRxKiETLohnWLZrV5efpw=="
         }
       },
       "is_incremental": false,
@@ -27819,6 +27795,13 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -27826,23 +27809,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2338,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2340,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
