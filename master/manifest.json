@@ -9402,7 +9402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.AudioDevice.html",
-          "hash": "tmoJqU5VJCXFXEvILju8OA=="
+          "hash": "C3npOqdvPSn94jNSsOs5Gg=="
         }
       },
       "is_incremental": false,
@@ -9439,6 +9439,30 @@
         ".html": {
           "relative_path": "api/Tizen.Multimedia.AudioDeviceRunningChangedEventArgs.html",
           "hash": "78WnSxHvIZ/vTSuwCt/ENQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Multimedia.AudioDeviceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Multimedia.AudioDeviceState.html",
+          "hash": "pgLz+sfaeAtOFDqrBJ4jZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Multimedia.AudioDeviceStateChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Multimedia.AudioDeviceStateChangedEventArgs.html",
+          "hash": "h70Q5j34xrnply/4ruST+A=="
         }
       },
       "is_incremental": false,
@@ -9534,7 +9558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.AudioManager.html",
-          "hash": "vfEo6m2ZUDrHdAcaCAQ3ZA=="
+          "hash": "5jJqAE7hbVOLkVKr8ejC4Q=="
         }
       },
       "is_incremental": false,
@@ -13734,7 +13758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.html",
-          "hash": "MPlrOWrEvogI9f3Nd+2e8Q=="
+          "hash": "35tdb1n6o8DN+9XJpT2VFA=="
         }
       },
       "is_incremental": false,
@@ -27717,7 +27741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "FHRxKiETLohnWLZrV5efpw=="
+          "hash": "0CG0jpN5UikSxFrTgTln9A=="
         }
       },
       "is_incremental": false,
@@ -27812,7 +27836,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2338,
+          "total_file_count": 2340,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
