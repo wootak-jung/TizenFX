@@ -14598,7 +14598,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Button.html",
-          "hash": "svye9CeG7xqpAzfQ/2MF1Q=="
+          "hash": "r393Lk2gL32Ncgom/ujlxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.ButtonStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.ButtonStyle.html",
+          "hash": "7AVaQOzs6b0WqIuEW04jMQ=="
         }
       },
       "is_incremental": false,
@@ -14610,7 +14622,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Loading.html",
-          "hash": "c6qLA58i0wXt0HNDmjtClw=="
+          "hash": "o9rMK0xGd/VfOLhg9hGREA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.LoadingStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.LoadingStyle.html",
+          "hash": "2i4sQ6uwJ5N4It3buhp5Yg=="
         }
       },
       "is_incremental": false,
@@ -14634,7 +14658,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Popup.html",
-          "hash": "6I4AlXTdlbV4D9Ia37PMcg=="
+          "hash": "wNVoEarkckqPSCzuHz+Snw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.PopupStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.PopupStyle.html",
+          "hash": "ofiAy5+DMYMxOx1qJAeETQ=="
         }
       },
       "is_incremental": false,
@@ -14658,7 +14694,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Progress.html",
-          "hash": "m7MFXFgIvkcKrGMeTalzKw=="
+          "hash": "f2+Fbl6ygFS7rM07+Vpp4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.ProgressStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.ProgressStyle.html",
+          "hash": "Cwe1y73i7J7sbn5F8sGBPg=="
         }
       },
       "is_incremental": false,
@@ -14682,7 +14730,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.ScrollBar.html",
-          "hash": "BI4WvzaAauD1OP8H6MkLBg=="
+          "hash": "hQGonfjHAkZjgOQK5Db62Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.ScrollBarStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.ScrollBarStyle.html",
+          "hash": "tQIS6E3QDeB7duVCeeoF7w=="
         }
       },
       "is_incremental": false,
@@ -14754,7 +14814,55 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Slider.html",
-          "hash": "hpBygnDh5VE/Q6WBikB//g=="
+          "hash": "y2mxVsK4npK1LJ9U07Duxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.SliderStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.SliderStyle.html",
+          "hash": "8YfReBCTe+Lsr+MrKebJDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.StyleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.StyleBase.html",
+          "hash": "tTupqG+XpcXicSmTxW90Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs.html",
+          "hash": "tb+Ce3lepD19wZ3HFmRGaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.StyleManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.StyleManager.html",
+          "hash": "tNxEciBLCqJcD7Y2ETxaYQ=="
         }
       },
       "is_incremental": false,
@@ -14778,7 +14886,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Switch.html",
-          "hash": "cfUJGjV7l7qqDem8PFqenQ=="
+          "hash": "deZx9LJM636ipt39sEOgyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.SwitchStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.SwitchStyle.html",
+          "hash": "gZjnxYclfp6CnX1JNGA8BQ=="
         }
       },
       "is_incremental": false,
@@ -14814,7 +14934,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Tab.html",
-          "hash": "+bHUgnB1GyVFWMzWQGaPMA=="
+          "hash": "iD/NpETNPwaJmQ8iNUpg5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.TabStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.TabStyle.html",
+          "hash": "VwwRZph7U7p6H6DfNKiPww=="
         }
       },
       "is_incremental": false,
@@ -14826,7 +14958,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.Toast.html",
-          "hash": "RMVql4i9LUYEu7+Ls/Uwqw=="
+          "hash": "oJrpmjUra+5XYlD1WMeLxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.Components.ToastStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.Components.ToastStyle.html",
+          "hash": "E700ham8K27qNzAllx2elQ=="
         }
       },
       "is_incremental": false,
@@ -14838,7 +14982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.Components.html",
-          "hash": "RrnECltDqgAkJgAmxTDCIQ=="
+          "hash": "atwmOM5gWIztD7ux4Yz5pw=="
         }
       },
       "is_incremental": false,
@@ -27717,7 +27861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "FHRxKiETLohnWLZrV5efpw=="
+          "hash": "didjxlvaSTvQomwu1RHuXg=="
         }
       },
       "is_incremental": false,
@@ -27795,23 +27939,23 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2338,
+          "total_file_count": 2350,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

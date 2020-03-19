@@ -171,6 +171,9 @@ User can handle Navigation by adding/inserting/deleting NavigationItem.</p>
       <a class="xref" href="Tizen.NUI.Components.Button.html#Tizen_NUI_Components_Button_OnKey_Tizen_NUI_Key_">Button.OnKey(Key)</a>
     </div>
     <div>
+      <a class="xref" href="Tizen.NUI.Components.Button.html#Tizen_NUI_Components_Button_ApplyStyle_Tizen_NUI_BaseComponents_ViewStyle_">Button.ApplyStyle(ViewStyle)</a>
+    </div>
+    <div>
       <a class="xref" href="Tizen.NUI.BaseComponents.VisualView.html#Tizen_NUI_BaseComponents_VisualView_NumberOfVisuals">VisualView.NumberOfVisuals</a>
     </div>
     <div>
@@ -830,8 +833,98 @@ User can handle Navigation by adding/inserting/deleting NavigationItem.</p>
   <h5 id="Tizen_NUI_Components_Switch__ctor_sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">6 </span>
   
+  <a id="Tizen_NUI_Components_Switch__ctor_" data-uid="Tizen.NUI.Components.Switch.#ctor*"></a>
+  <h4 id="Tizen_NUI_Components_Switch__ctor_System_String_" data-uid="Tizen.NUI.Components.Switch.#ctor(System.String)">Switch(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of a Switch with style.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Switch(string style)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">style</span></td>
+        <td><p>Create Switch by special style defined in UX.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_Components_Switch__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <a id="Tizen_NUI_Components_Switch__ctor_" data-uid="Tizen.NUI.Components.Switch.#ctor*"></a>
+  <h4 id="Tizen_NUI_Components_Switch__ctor_Tizen_NUI_Components_SwitchStyle_" data-uid="Tizen.NUI.Components.Switch.#ctor(Tizen.NUI.Components.SwitchStyle)">Switch(SwitchStyle)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of a Switch with style.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Switch(SwitchStyle switchStyle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.NUI.Components.SwitchStyle.html">SwitchStyle</a></td>
+        <td><span class="parametername">switchStyle</span></td>
+        <td><p>Create Switch by style customized by user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_Components_Switch__ctor_Tizen_NUI_Components_SwitchStyle__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
   <h3 id="properties">Properties
   </h3>
+  <a id="Tizen_NUI_Components_Switch_Style_" data-uid="Tizen.NUI.Components.Switch.Style*"></a>
+  <h4 id="Tizen_NUI_Components_Switch_Style" data-uid="Tizen.NUI.Components.Switch.Style">Style</h4>
+  <div class="markdown level1 summary"><p>Get style of switch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SwitchStyle Style { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.NUI.Components.SwitchStyle.html">SwitchStyle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_Components_Switch_Style_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
   <a id="Tizen_NUI_Components_Switch_SwitchBackgroundImageURLSelector_" data-uid="Tizen.NUI.Components.Switch.SwitchBackgroundImageURLSelector*"></a>
   <h4 id="Tizen_NUI_Components_Switch_SwitchBackgroundImageURLSelector" data-uid="Tizen.NUI.Components.Switch.SwitchBackgroundImageURLSelector">SwitchBackgroundImageURLSelector</h4>
   <div class="markdown level1 summary"><p>Background image&apos;s resource url selector in Switch.</p>
@@ -978,6 +1071,76 @@ User can handle Navigation by adding/inserting/deleting NavigationItem.</p>
   
   <h5 id="Tizen_NUI_Components_Switch_Dispose_Tizen_NUI_DisposeTypes__sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">6 </span>
+  
+  <a id="Tizen_NUI_Components_Switch_GetViewStyle_" data-uid="Tizen.NUI.Components.Switch.GetViewStyle*"></a>
+  <h4 id="Tizen_NUI_Components_Switch_GetViewStyle" data-uid="Tizen.NUI.Components.Switch.GetViewStyle">GetViewStyle()</h4>
+  <div class="markdown level1 summary"><p>Get Switch style.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override ViewStyle GetViewStyle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tizen.NUI.BaseComponents.ViewStyle</span></td>
+        <td><p>The default switch style.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Tizen.NUI.Components.Button.html#Tizen_NUI_Components_Button_GetViewStyle">Button.GetViewStyle()</a></div>
+  
+  <h5 id="Tizen_NUI_Components_Switch_GetViewStyle_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <a id="Tizen_NUI_Components_Switch_OnThemeChangedEvent_" data-uid="Tizen.NUI.Components.Switch.OnThemeChangedEvent*"></a>
+  <h4 id="Tizen_NUI_Components_Switch_OnThemeChangedEvent_System_Object_Tizen_NUI_Components_StyleManager_ThemeChangeEventArgs_" data-uid="Tizen.NUI.Components.Switch.OnThemeChangedEvent(System.Object,Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs)">OnThemeChangedEvent(Object, StyleManager.ThemeChangeEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Theme change callback when theme is changed, this callback will be trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnThemeChangedEvent(object sender, StyleManager.ThemeChangeEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>The sender</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs.html">StyleManager.ThemeChangeEventArgs</a></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>The event data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Tizen.NUI.Components.Button.html#Tizen_NUI_Components_Button_OnThemeChangedEvent_System_Object_Tizen_NUI_Components_StyleManager_ThemeChangeEventArgs_">Button.OnThemeChangedEvent(Object, StyleManager.ThemeChangeEventArgs)</a></div>
+  
+  <h5 id="Tizen_NUI_Components_Switch_OnThemeChangedEvent_System_Object_Tizen_NUI_Components_StyleManager_ThemeChangeEventArgs__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
   
   <h3 id="events">Events
   </h3>
