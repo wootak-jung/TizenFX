@@ -726,6 +726,189 @@ The alarm will first go off delay seconds later and then will go off every certa
     </tbody>
   </table>
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
+  <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_AppControl_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,Tizen.Applications.AlarmStandardPeriod,Tizen.Applications.AppControl)">CreateAlarm(Int32, AlarmStandardPeriod, AppControl)</h4>
+  <div class="markdown level1 summary"><p>Sets an alarm to be triggered after a specific time.
+The alarm will first go off delay seconds later and then will go off every certain amount of time defined using standard period seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Alarm CreateAlarm(int delay, AlarmStandardPeriod standardPeriod, AppControl appControl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>The amount of time before the first execution (in seconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.Applications.AlarmStandardPeriod.html">AlarmStandardPeriod</a></td>
+        <td><span class="parametername">standardPeriod</span></td>
+        <td><p>It can be the <a class="xref" href="Tizen.Applications.AlarmStandardPeriod.html">AlarmStandardPeriod</a>. If then, the period of alarm is guaranteed. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.Applications.AppControl.html">AppControl</a></td>
+        <td><span class="parametername">appControl</span></td>
+        <td><p>The destination AppControl is used to perform a specific task when the alarm is triggered. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.Applications.Alarm.html">Alarm</a></td>
+        <td><p>An alarm instance is created with the set param values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_AppControl__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_AppControl__privlevel" class="privlevel">Privilege Level</h5>
+  <span class="markdown level1 privlevel">public</span>
+  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_AppControl__privilege" class="privilege">Privilege</h5>
+  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
+</div>
+  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown in case of an invalid parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.unauthorizedaccessexception">UnauthorizedAccessException</a></td>
+        <td><p>Thrown in case of a permission denied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>Thrown in case of any internal error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
+  <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_Notifications_Notification_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,Tizen.Applications.AlarmStandardPeriod,Tizen.Applications.Notifications.Notification)">CreateAlarm(Int32, AlarmStandardPeriod, Notification)</h4>
+  <div class="markdown level1 summary"><p>Sets a notification alarm to be triggered after a specific time.
+The alarm will first go off delay seconds later and then will go off every certain amount of time defined using period seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Alarm CreateAlarm(int delay, AlarmStandardPeriod standardPeriod, Notification notification)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>The amount of time before the first execution (in seconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.Applications.AlarmStandardPeriod.html">AlarmStandardPeriod</a></td>
+        <td><span class="parametername">standardPeriod</span></td>
+        <td><p>It can be the <a class="xref" href="Tizen.Applications.AlarmStandardPeriod.html">AlarmStandardPeriod</a>. If then, the period of alarm is guaranteed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.Applications.Notifications.Notification.html">Notification</a></td>
+        <td><span class="parametername">notification</span></td>
+        <td><p>The notification to be posted when the alarm is triggered. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.Applications.Alarm.html">Alarm</a></td>
+        <td><p>An alarm instance is created with the set param values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_Notifications_Notification__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_Notifications_Notification__privlevel" class="privlevel">Privilege Level</h5>
+  <span class="markdown level1 privlevel">public</span>
+  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AlarmStandardPeriod_Tizen_Applications_Notifications_Notification__privilege" class="privilege">Privilege</h5>
+  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
+<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
+</div>
+  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown in case of an invalid parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.unauthorizedaccessexception">UnauthorizedAccessException</a></td>
+        <td><p>Thrown in case of a permission denied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>Thrown in case of any internal error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AppControl_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,Tizen.Applications.AppControl)">CreateAlarm(Int32, AppControl)</h4>
   <div class="markdown level1 summary"><p>Sets an alarm to be triggered after a specific time.
 The alarm will go off delay seconds later.</p>
