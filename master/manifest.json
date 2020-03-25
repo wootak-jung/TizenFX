@@ -8286,7 +8286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.MachineLearning.Inference.SingleShot.html",
-          "hash": "MPUuZIXkb5K2i/MpnBpbZA=="
+          "hash": "sryu/JCzeBov+3batxR8nQ=="
         }
       },
       "is_incremental": false,
@@ -12402,7 +12402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.StreamRecorder.html",
-          "hash": "AmwlkSG+DNxYiqgla0UWHA=="
+          "hash": "IDfEF+oHBVQpw2ZULdRuQA=="
         }
       },
       "is_incremental": false,
@@ -27958,11 +27958,10 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 2351,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -27971,10 +27970,11 @@
           "total_file_count": 2,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 2351,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

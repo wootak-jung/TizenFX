@@ -500,6 +500,77 @@
   <h5 id="Tizen_MachineLearning_Inference_SingleShot_Finalize_sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">6 </span>
   
+  <a id="Tizen_MachineLearning_Inference_SingleShot_GetValue_" data-uid="Tizen.MachineLearning.Inference.SingleShot.GetValue*"></a>
+  <h4 id="Tizen_MachineLearning_Inference_SingleShot_GetValue_System_String_" data-uid="Tizen.MachineLearning.Inference.SingleShot.GetValue(System.String)">GetValue(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the property value for the given model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetValue(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The property name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The property value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_MachineLearning_Inference_SingleShot_GetValue_System_String__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  <h5 id="Tizen_MachineLearning_Inference_SingleShot_GetValue_System_String__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
+</div>
+  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>Thrown when the feature is not supported, or given property is not available.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown when the method failed due to an invalid parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Tizen_MachineLearning_Inference_SingleShot_Invoke_" data-uid="Tizen.MachineLearning.Inference.SingleShot.Invoke*"></a>
   <h4 id="Tizen_MachineLearning_Inference_SingleShot_Invoke_Tizen_MachineLearning_Inference_TensorsData_" data-uid="Tizen.MachineLearning.Inference.SingleShot.Invoke(Tizen.MachineLearning.Inference.TensorsData)">Invoke(TensorsData)</h4>
   <div class="markdown level1 summary"><p>Invokes the model with the given input data.</p>
@@ -624,6 +695,70 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
         <td><p>Thrown when the feature is not supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tizen_MachineLearning_Inference_SingleShot_SetValue_" data-uid="Tizen.MachineLearning.Inference.SingleShot.SetValue*"></a>
+  <h4 id="Tizen_MachineLearning_Inference_SingleShot_SetValue_System_String_System_String_" data-uid="Tizen.MachineLearning.Inference.SingleShot.SetValue(System.String,System.String)">SetValue(String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the property value for the given model.
+<p>A model/framework may support changing the model information, such as tensor dimension and data layout, after opening the model.</p>
+<p>If tries to change unavailable property or the model does not allow changing the information, this will raise an exception.</p>
+<p>For the details about the properties, see &apos;tensor_filter&apos; plugin definition in <a href="https://github.com/nnsuite/nnstreamer">NNStreamer</a>.</p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue(string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The property name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The property value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_MachineLearning_Inference_SingleShot_SetValue_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  <h5 id="Tizen_MachineLearning_Inference_SingleShot_SetValue_System_String_System_String__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
+</div>
+  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>Thrown when the feature is not supported, or given property is not available.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown when the method failed due to an invalid parameter.</p>
 </td>
       </tr>
     </tbody>
