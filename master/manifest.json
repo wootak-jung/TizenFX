@@ -8258,11 +8258,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.DataReceivedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.DataReceivedEventArgs.html",
+          "hash": "9Fz6fn7vVHL7S9FqheC/aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tizen.MachineLearning.Inference.HWType.yml",
       "output": {
         ".html": {
           "relative_path": "api/Tizen.MachineLearning.Inference.HWType.html",
-          "hash": "UF6QOXHR6X9peO/AFu1W6w=="
+          "hash": "qEHkW3tWrKp2DzeQqMIFIg=="
         }
       },
       "is_incremental": false,
@@ -8274,7 +8286,103 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.MachineLearning.Inference.NNFWType.html",
-          "hash": "BnfCCNYiKrckmXQqvupgXg=="
+          "hash": "E3KI4scdV05IdwCJE5TAew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.NodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.NodeInfo.html",
+          "hash": "hJniixcCuzKtDjY767U3aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.NodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.NodeType.html",
+          "hash": "RC2sXcF7VuABu/0R9BTunQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.SinkNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.SinkNode.html",
+          "hash": "j4klBfRjYwqQ0OBufO0BUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.SourceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.SourceNode.html",
+          "hash": "8GvcsI8V7HVLPZg1dT39Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.SwitchNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.SwitchNode.html",
+          "hash": "Ird7bW9Rf8zpjPeDCNlHuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.ValveNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.ValveNode.html",
+          "hash": "n0JTcPpaDZ/ETDtKt+s+wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.Pipeline.html",
+          "hash": "vNJL2qnj7fxd7mnh5cYAEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.PipelineState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.PipelineState.html",
+          "hash": "tGuxJFuWIugvSvD9CDCDeA=="
         }
       },
       "is_incremental": false,
@@ -8286,7 +8394,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.MachineLearning.Inference.SingleShot.html",
-          "hash": "sryu/JCzeBov+3batxR8nQ=="
+          "hash": "y6Huxsmx07EGiT1ZqrNsbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.MachineLearning.Inference.StateChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.MachineLearning.Inference.StateChangedEventArgs.html",
+          "hash": "jXNnEXK59AXf4Aa8MEws3w=="
         }
       },
       "is_incremental": false,
@@ -8322,7 +8442,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.MachineLearning.Inference.TensorsInfo.html",
-          "hash": "RabP2AkduqWVV6KgD6x1kQ=="
+          "hash": "vlke6pJ/XauRABLIjaEqCQ=="
         }
       },
       "is_incremental": false,
@@ -8334,7 +8454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.MachineLearning.Inference.html",
-          "hash": "ihSnBhDXlErQfPf2gpsiMg=="
+          "hash": "2F3hGBUKfnXXZV3/lJhhGg=="
         }
       },
       "is_incremental": false,
@@ -27873,7 +27993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "db3x85vpYP6KxxbFdhFezg=="
+          "hash": "zmgDihtKaVHfAUHz6Ani6Q=="
         }
       },
       "is_incremental": false,
@@ -27958,23 +28078,23 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2351,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2361,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
           "skipped_file_count": 0
         }
       }
