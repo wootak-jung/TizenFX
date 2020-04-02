@@ -17730,7 +17730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Network.Bluetooth.BluetoothAdapter.html",
-          "hash": "U10TR1/Z9Xjw7O/kOVKRzA=="
+          "hash": "qvuo1WG3HiepvBuKPMbVTQ=="
         }
       },
       "is_incremental": false,
@@ -18127,6 +18127,18 @@
         ".html": {
           "relative_path": "api/Tizen.Network.Bluetooth.BluetoothLePacketType.html",
           "hash": "q6B8uGXgbAdREzBHnZIrhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Network.Bluetooth.BluetoothLeScanMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Network.Bluetooth.BluetoothLeScanMode.html",
+          "hash": "575qSLsJyFVuWGN2tdIEug=="
         }
       },
       "is_incremental": false,
@@ -18834,7 +18846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Network.Bluetooth.html",
-          "hash": "X1N6FDSopxqqsl1WbS4b6w=="
+          "hash": "HOxtW3ZNlUGlQL0sjSAkRA=="
         }
       },
       "is_incremental": false,
@@ -27741,7 +27753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0CG0jpN5UikSxFrTgTln9A=="
+          "hash": "SqhFeKCxMv8SOtDkcAPrvg=="
         }
       },
       "is_incremental": false,
@@ -27826,23 +27838,23 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2340,
+          "total_file_count": 2341,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
