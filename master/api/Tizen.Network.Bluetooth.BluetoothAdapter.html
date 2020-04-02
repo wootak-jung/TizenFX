@@ -1046,6 +1046,65 @@ or the Start LE scan is failed.</p>
       </tr>
     </tbody>
   </table>
+  <a id="Tizen_Network_Bluetooth_BluetoothAdapter_StartLeScan_" data-uid="Tizen.Network.Bluetooth.BluetoothAdapter.StartLeScan*"></a>
+  <h4 id="Tizen_Network_Bluetooth_BluetoothAdapter_StartLeScan_Tizen_Network_Bluetooth_BluetoothLeScanMode_" data-uid="Tizen.Network.Bluetooth.BluetoothAdapter.StartLeScan(Tizen.Network.Bluetooth.BluetoothLeScanMode)">StartLeScan(BluetoothLeScanMode)</h4>
+  <div class="markdown level1 summary"><p>Starts the Bluetooth LE scan operation with scan mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StartLeScan(BluetoothLeScanMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.Network.Bluetooth.BluetoothLeScanMode.html">BluetoothLeScanMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The LE scan mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Tizen_Network_Bluetooth_BluetoothAdapter_StartLeScan_Tizen_Network_Bluetooth_BluetoothLeScanMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The Bluetooth must be enabled.</p>
+</div>
+  
+  <h5 id="Tizen_Network_Bluetooth_BluetoothAdapter_StartLeScan_Tizen_Network_Bluetooth_BluetoothLeScanMode__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">7 </span>
+  <h5 id="Tizen_Network_Bluetooth_BluetoothAdapter_StartLeScan_Tizen_Network_Bluetooth_BluetoothLeScanMode__feature" class="feature">Feature</h5>
+  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.bluetooth.le">http://tizen.org/feature/network.bluetooth.le</a></p>
+</div>
+  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>Thrown when the Bluetooth LE is not supported.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>Thrown when the Bluetooth LE is not enabled
+or the Start LE scan is failed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Tizen_Network_Bluetooth_BluetoothAdapter_StopDiscovery_" data-uid="Tizen.Network.Bluetooth.BluetoothAdapter.StopDiscovery*"></a>
   <h4 id="Tizen_Network_Bluetooth_BluetoothAdapter_StopDiscovery" data-uid="Tizen.Network.Bluetooth.BluetoothAdapter.StopDiscovery">StopDiscovery()</h4>
   <div class="markdown level1 summary"><p>Stops the device discovery process.</p>
