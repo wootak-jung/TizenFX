@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SensorAccuracyChangedEventArgs
+    <title>Class HeartRateMonitorBatchData
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SensorAccuracyChangedEventArgs
+    <meta name="title" content="Class HeartRateMonitorBatchData
    ">
     <meta name="generator" content="docfx 1.0.0.0">
     
@@ -78,24 +78,27 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs">
+            <article class="content wrap" id="_content" data-uid="Tizen.Sensor.HeartRateMonitorBatchData">
   
   
-  <h1 id="Tizen_Sensor_SensorAccuracyChangedEventArgs" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs" class="text-break">Class SensorAccuracyChangedEventArgs
+  <h1 id="Tizen_Sensor_HeartRateMonitorBatchData" data-uid="Tizen.Sensor.HeartRateMonitorBatchData" class="text-break">Class HeartRateMonitorBatchData
   </h1>
-  <div class="markdown level0 summary"><p>The sensor accuracy changed event arguments class contains the parameters to be returned through the accuracy callback.</p>
+  <div class="markdown level0 summary"><p>The HeartRateMonitorBatchData class is used for storing value of HeartRateMonitorBatch sensor.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></div>
-    <div class="level2"><span class="xref">SensorAccuracyChangedEventArgs</span></div>
+    <div class="level1"><a class="xref" href="Tizen.Sensor.BatchData.html">BatchData</a></div>
+    <div class="level2"><span class="xref">HeartRateMonitorBatchData</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs.empty">EventArgs.Empty</a>
+      <a class="xref" href="Tizen.Sensor.BatchData.html#Tizen_Sensor_BatchData_Timestamp">BatchData.Timestamp</a>
+    </div>
+    <div>
+      <a class="xref" href="Tizen.Sensor.BatchData.html#Tizen_Sensor_BatchData_Accuracy">BatchData.Accuracy</a>
     </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
@@ -121,99 +124,156 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Sensor.html">Tizen.Sensor</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Sensor.dll</h6>
-  <h5 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_syntax">Syntax</h5>
+  <h5 id="Tizen_Sensor_HeartRateMonitorBatchData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SensorAccuracyChangedEventArgs : EventArgs</code></pre>
+    <pre><code class="lang-csharp hljs">public class HeartRateMonitorBatchData : BatchData</code></pre>
   </div>
   
   
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
-  <a id="Tizen_Sensor_SensorAccuracyChangedEventArgs_Accuracy_" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs.Accuracy*"></a>
-  <h4 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_Accuracy" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs.Accuracy">Accuracy</h4>
-  <div class="markdown level1 summary"><p>Gets the accuracy.</p>
+  <a id="Tizen_Sensor_HeartRateMonitorBatchData__ctor_" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.#ctor*"></a>
+  <h4 id="Tizen_Sensor_HeartRateMonitorBatchData__ctor_System_UInt64_Tizen_Sensor_SensorDataAccuracy_Tizen_Sensor_HeartRateMonitorBatchState_System_Int32_System_Int32_" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.#ctor(System.UInt64,Tizen.Sensor.SensorDataAccuracy,Tizen.Sensor.HeartRateMonitorBatchState,System.Int32,System.Int32)">HeartRateMonitorBatchData(UInt64, SensorDataAccuracy, HeartRateMonitorBatchState, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the HeartRateMonitorBatchData class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SensorDataAccuracy Accuracy { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public HeartRateMonitorBatchData(ulong timestamp, SensorDataAccuracy accuracy, HeartRateMonitorBatchState state, int heartRate, int rri)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Tizen.Sensor.SensorDataAccuracy.html">SensorDataAccuracy</a></td>
-        <td><p>Accuracy </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <h5 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_Accuracy_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
-  <a id="Tizen_Sensor_SensorAccuracyChangedEventArgs_TimeSpan_" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs.TimeSpan*"></a>
-  <h4 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_TimeSpan" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs.TimeSpan">TimeSpan</h4>
-  <div class="markdown level1 summary"><p>Gets the time stamp.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeSpan TimeSpan { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
-        <td><p>The time span. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <h5 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_TimeSpan_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
-  <a id="Tizen_Sensor_SensorAccuracyChangedEventArgs_Timestamp_" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs.Timestamp*"></a>
-  <h4 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_Timestamp" data-uid="Tizen.Sensor.SensorAccuracyChangedEventArgs.Timestamp">Timestamp</h4>
-  <div class="markdown level1 summary"><p>Gets the time stamp.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong Timestamp { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
-        <td><p>Timestamp </p>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>Timestamp of HeartRateMonitorBatch sensor event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.Sensor.SensorDataAccuracy.html">SensorDataAccuracy</a></td>
+        <td><span class="parametername">accuracy</span></td>
+        <td><p>Sensor accuracy of HeartRateMonitorBatch sensor event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Tizen.Sensor.HeartRateMonitorBatchState.html">HeartRateMonitorBatchState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Value indicating the status of the HeartRateMonitorBatch sensor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">heartRate</span></td>
+        <td><p>heartRate of HeartRateMonitorBatch sensor event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">rri</span></td>
+        <td><p>rri of HeartRateMonitorBatch sensor event.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Sensor_SensorAccuracyChangedEventArgs_Timestamp_sinceTizen" class="sinceTizen">API Version</h5>
+  <h5 id="Tizen_Sensor_HeartRateMonitorBatchData__ctor_System_UInt64_Tizen_Sensor_SensorDataAccuracy_Tizen_Sensor_HeartRateMonitorBatchState_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Tizen_Sensor_HeartRateMonitorBatchData_HeartRate_" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.HeartRate*"></a>
+  <h4 id="Tizen_Sensor_HeartRateMonitorBatchData_HeartRate" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.HeartRate">HeartRate</h4>
+  <div class="markdown level1 summary"><p>Heart rate in beats per minute</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int HeartRate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>HeartRate </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_Sensor_HeartRateMonitorBatchData_HeartRate_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <a id="Tizen_Sensor_HeartRateMonitorBatchData_RRInterval_" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.RRInterval*"></a>
+  <h4 id="Tizen_Sensor_HeartRateMonitorBatchData_RRInterval" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.RRInterval">RRInterval</h4>
+  <div class="markdown level1 summary"><p>Gets the value R wave-to-R wave interval(RRI) from ECG sensor(Unit is millisecond).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RRInterval { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>RRInterval </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_Sensor_HeartRateMonitorBatchData_RRInterval_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <a id="Tizen_Sensor_HeartRateMonitorBatchData_State_" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.State*"></a>
+  <h4 id="Tizen_Sensor_HeartRateMonitorBatchData_State" data-uid="Tizen.Sensor.HeartRateMonitorBatchData.State">State</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the HeartRateMonitorBatch state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HeartRateMonitorBatchState State { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.Sensor.HeartRateMonitorBatchState.html">HeartRateMonitorBatchState</a></td>
+        <td><p>State </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_Sensor_HeartRateMonitorBatchData_State_sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">8 </span>
   
 </article>

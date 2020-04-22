@@ -10242,7 +10242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.CameraPixelFormat.html",
-          "hash": "AoZAm33SZ5SpKQho6gKw3Q=="
+          "hash": "pCKOG5TMSovnp2NX/MSM2w=="
         }
       },
       "is_incremental": false,
@@ -10506,7 +10506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Multimedia.EncodedPlane.html",
-          "hash": "olAfUEzr2H+twYcbTVO6kA=="
+          "hash": "kHJBaTugjvurfhfzG2Zhow=="
         }
       },
       "is_incremental": false,
@@ -23694,7 +23694,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.Accelerometer.html",
-          "hash": "vqa2zB1prV+DM2z2sttyvw=="
+          "hash": "BxGKCWefsqJ5cHTK1p9EGA=="
         }
       },
       "is_incremental": false,
@@ -23730,7 +23730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.ActivityDetector.html",
-          "hash": "txX2GmgxBFwYX7yOztDqpA=="
+          "hash": "/2qNI7Oq3bQYqysbarAWtw=="
         }
       },
       "is_incremental": false,
@@ -23742,7 +23742,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.AutoRotationSensor.html",
-          "hash": "Xlwi5MT3e/GYZkLYCrq83Q=="
+          "hash": "pExtI5NmgIq3lnKrFMhpxw=="
         }
       },
       "is_incremental": false,
@@ -23774,6 +23774,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.BatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.BatchData.html",
+          "hash": "HafwG1paWHP0S72hlvLqXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.BatchSensor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.BatchSensor-1.html",
+          "hash": "BvjvKCBrbnk4RUbgOIIYJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tizen.Sensor.DetectorState.yml",
       "output": {
         ".html": {
@@ -23790,7 +23814,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.FaceDownGestureDetector.html",
-          "hash": "O1F7gPVU2xLsbkMUyVwoIg=="
+          "hash": "kz3Nrq4sD1K24YIj8BPnGg=="
         }
       },
       "is_incremental": false,
@@ -23814,7 +23838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.GravitySensor.html",
-          "hash": "rFrS/cg7qxl9llC8/B2LHw=="
+          "hash": "qffrCoDmjm8VVrQigXpOYQ=="
         }
       },
       "is_incremental": false,
@@ -23838,7 +23862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.Gyroscope.html",
-          "hash": "Q8J/pcyLOR9lU+36wxmrIw=="
+          "hash": "BiMQFbFKym1Mu9jsivh0/g=="
         }
       },
       "is_incremental": false,
@@ -23862,7 +23886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.GyroscopeRotationVectorSensor.html",
-          "hash": "t4npqXOrEveAu8E8P4IqvQ=="
+          "hash": "Q2laAYzUk6X0KCU/R6Vl8Q=="
         }
       },
       "is_incremental": false,
@@ -23886,7 +23910,55 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.HeartRateMonitor.html",
-          "hash": "oI677G27UEEPCKH2zA9SqA=="
+          "hash": "qaSsgFH0wE57KkWBQNw8Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorBatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorBatch.html",
+          "hash": "F7x2IpgpdJelK50AEKlRSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorBatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorBatchData.html",
+          "hash": "5i07RdY4awDeII3Zh11Nhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorBatchDataUpdatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorBatchDataUpdatedEventArgs.html",
+          "hash": "QHsRZlvdpUX7MHyMGyMEfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorBatchState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorBatchState.html",
+          "hash": "rmR2XnG6/xQYXzECs7iynw=="
         }
       },
       "is_incremental": false,
@@ -23906,11 +23978,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorLEDGreenBatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorLEDGreenBatch.html",
+          "hash": "6wmbXDlnw/jkjpHmrr7Bog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorLEDGreenBatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorLEDGreenBatchData.html",
+          "hash": "Sh6vOrfLv2qxi5JJx8PKdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.Sensor.HeartRateMonitorLEDGreenBatchDataUpdatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.Sensor.HeartRateMonitorLEDGreenBatchDataUpdatedEventArgs.html",
+          "hash": "giYIFKglAexzLpV8BRXHNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tizen.Sensor.HumiditySensor.yml",
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.HumiditySensor.html",
-          "hash": "EHF4aJ6DvNQYZm0L+W9B8Q=="
+          "hash": "biAv8cum8hEOb+9H/3x0lQ=="
         }
       },
       "is_incremental": false,
@@ -23934,7 +24042,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.InVehicleActivityDetector.html",
-          "hash": "rb4MM1wMaqPyfIBvS5nyDw=="
+          "hash": "JJoA9GJsUN6pG7on2R5m6Q=="
         }
       },
       "is_incremental": false,
@@ -23958,7 +24066,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.LightSensor.html",
-          "hash": "P5uFEn0JdLPSbHunyB8JjQ=="
+          "hash": "V+ooYwf3XkILTaRZd6UkNA=="
         }
       },
       "is_incremental": false,
@@ -23982,7 +24090,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.LinearAccelerationSensor.html",
-          "hash": "JDSjSP2TuQtJgg/7SRT7bw=="
+          "hash": "IzTt4j3XJV7ksYdtwmXySw=="
         }
       },
       "is_incremental": false,
@@ -24006,7 +24114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.Magnetometer.html",
-          "hash": "yoMmnr3y3UnwyVp3b7ioew=="
+          "hash": "LJyQy7RLGsXDfExb3l9siA=="
         }
       },
       "is_incremental": false,
@@ -24030,7 +24138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.MagnetometerRotationVectorSensor.html",
-          "hash": "/6a9RCRjWqEikM1a/6o+8A=="
+          "hash": "O8BYzLDWo9szesDbUivufg=="
         }
       },
       "is_incremental": false,
@@ -24054,7 +24162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.OrientationSensor.html",
-          "hash": "aAuES3EQSJREZiwJYdIQIA=="
+          "hash": "sCIAmNsh9R6+XRFI8nb/KQ=="
         }
       },
       "is_incremental": false,
@@ -24078,7 +24186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.Pedometer.html",
-          "hash": "lPeS0MPEYCeILDZKvOZM2w=="
+          "hash": "1IHkRagVq5N+s8fmMOuyqA=="
         }
       },
       "is_incremental": false,
@@ -24114,7 +24222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.PickUpGestureDetector.html",
-          "hash": "eeF1sVYrS5b8KdtXCgejVw=="
+          "hash": "bk15OpIBdmsIdNHtGCC+pQ=="
         }
       },
       "is_incremental": false,
@@ -24138,7 +24246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.PressureSensor.html",
-          "hash": "LxJdchroWoRHvL6oeh/o4w=="
+          "hash": "Ub1acNLsxmFlUn5mQsjYyQ=="
         }
       },
       "is_incremental": false,
@@ -24162,7 +24270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.ProximitySensor.html",
-          "hash": "I4FCQyWhmjytQoJGD7jyRw=="
+          "hash": "bCJp1sNDl7NWTZ8IMycycg=="
         }
       },
       "is_incremental": false,
@@ -24198,7 +24306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.RotationVectorSensor.html",
-          "hash": "H8/ZDvbSmO5pSt0ZpMU8Fg=="
+          "hash": "losfO6slw+mdrUE/UZp9vA=="
         }
       },
       "is_incremental": false,
@@ -24222,7 +24330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.RunningActivityDetector.html",
-          "hash": "49vtVAJG6cIuq4PyEJUn/g=="
+          "hash": "SWVVJzIBWRs7esNkIxZdmQ=="
         }
       },
       "is_incremental": false,
@@ -24246,7 +24354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.Sensor.html",
-          "hash": "vlKdv6Heyzofv32qjfKLPA=="
+          "hash": "nkbJFecXYcZQoZ4VrHso2g=="
         }
       },
       "is_incremental": false,
@@ -24258,7 +24366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.SensorAccuracyChangedEventArgs.html",
-          "hash": "91SJvGZHmU6WaT0GtiEU8g=="
+          "hash": "b7eeZh0hNs4cZuF4pwfrBA=="
         }
       },
       "is_incremental": false,
@@ -24294,7 +24402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.SleepMonitor.html",
-          "hash": "dbyEdIlHDNEMYNQ4MD81Jw=="
+          "hash": "UxBXfPBkXyfuW67T+TerTQ=="
         }
       },
       "is_incremental": false,
@@ -24330,7 +24438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.StationaryActivityDetector.html",
-          "hash": "xPGA+Vm/yOj3LNtJl2HCNQ=="
+          "hash": "IBJK8LwWCwJKGAyjNDmPIQ=="
         }
       },
       "is_incremental": false,
@@ -24354,7 +24462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.TemperatureSensor.html",
-          "hash": "arXFSGgU15fSQdQpBfl+jQ=="
+          "hash": "kPPQ+tLHvgF0gpTxrawV0Q=="
         }
       },
       "is_incremental": false,
@@ -24378,7 +24486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.UltravioletSensor.html",
-          "hash": "EJC3A9nk8nB4a3LL+mXShw=="
+          "hash": "D1FWqtIWhfvAcZyP5mFHUQ=="
         }
       },
       "is_incremental": false,
@@ -24402,7 +24510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.UncalibratedGyroscope.html",
-          "hash": "dAlA/3kn6SooOrcakqDazg=="
+          "hash": "p8oIbfhVPhnD/cboN0g6vg=="
         }
       },
       "is_incremental": false,
@@ -24426,7 +24534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.UncalibratedMagnetometer.html",
-          "hash": "st0Yl4+Aza2kOvD+PZn+qA=="
+          "hash": "rmE9s4RA0G2DdOLTk9r48g=="
         }
       },
       "is_incremental": false,
@@ -24450,7 +24558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.WalkingActivityDetector.html",
-          "hash": "Ccn9Jb+YtbARXHkMdOIEyg=="
+          "hash": "lVJG8VTcKI+XoHYDTSL15g=="
         }
       },
       "is_incremental": false,
@@ -24474,7 +24582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.WristUpGestureDetector.html",
-          "hash": "FNdrlFMXRZUwz0o9MSPHfg=="
+          "hash": "95gpZ8KVqSHYh1Or8Fz1bQ=="
         }
       },
       "is_incremental": false,
@@ -24498,7 +24606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.html",
-          "hash": "ymBxeG6sYwFDnDttj5chAA=="
+          "hash": "DOkWI48VBrTIsVjMBI2dSg=="
         }
       },
       "is_incremental": false,
@@ -28005,7 +28113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "W+cspSOKQyo9RV50cVIo9w=="
+          "hash": "VFZm8cGglrszMPsV3mYV7Q=="
         }
       },
       "is_incremental": false,
@@ -28083,13 +28191,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -28097,16 +28198,23 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 2362,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2371,
           "skipped_file_count": 0
         }
       }
