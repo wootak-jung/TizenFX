@@ -183,6 +183,36 @@ public InputMethodContext()</code></pre>
   <h5 id="Tizen_NUI_InputMethodContext__ctor_sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">5 </span>
   
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Tizen_NUI_InputMethodContext_TextPrediction_" data-uid="Tizen.NUI.InputMethodContext.TextPrediction*"></a>
+  <h4 id="Tizen_NUI_InputMethodContext_TextPrediction" data-uid="Tizen.NUI.InputMethodContext.TextPrediction">TextPrediction</h4>
+  <div class="markdown level1 summary"><p>Gets or sets whether the IM context allows to use the text prediction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TextPrediction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_InputMethodContext_TextPrediction_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
   <h3 id="methods">Methods
   </h3>
   <a id="Tizen_NUI_InputMethodContext_Activate_" data-uid="Tizen.NUI.InputMethodContext.Activate*"></a>
@@ -319,6 +349,35 @@ the values then taken down. So ideally, GetInputMethodArea() must be called afte
   
   <h5 id="Tizen_NUI_InputMethodContext_GetInputMethodArea_sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">5 </span>
+  
+  <a id="Tizen_NUI_InputMethodContext_GetInputPanelLanguage_" data-uid="Tizen.NUI.InputMethodContext.GetInputPanelLanguage*"></a>
+  <h4 id="Tizen_NUI_InputMethodContext_GetInputPanelLanguage" data-uid="Tizen.NUI.InputMethodContext.GetInputPanelLanguage">GetInputPanelLanguage()</h4>
+  <div class="markdown level1 summary"><p>Gets the language of the input panel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputMethodContext.InputPanelLanguage GetInputPanelLanguage()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.NUI.InputMethodContext.InputPanelLanguage.html">InputMethodContext.InputPanelLanguage</a></td>
+        <td><p>The language of the input panel</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_InputMethodContext_GetInputPanelLanguage_sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
   
   <a id="Tizen_NUI_InputMethodContext_GetInputPanelLocale_" data-uid="Tizen.NUI.InputMethodContext.GetInputPanelLocale*"></a>
   <h4 id="Tizen_NUI_InputMethodContext_GetInputPanelLocale" data-uid="Tizen.NUI.InputMethodContext.GetInputPanelLocale">GetInputPanelLocale()</h4>
@@ -629,6 +688,74 @@ If true, then the keyboard will be restored (activated) after the focus is regai
   <h5 id="Tizen_NUI_InputMethodContext_SetCursorPosition_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">5 </span>
   
+  <a id="Tizen_NUI_InputMethodContext_SetInputPanelLanguage_" data-uid="Tizen.NUI.InputMethodContext.SetInputPanelLanguage*"></a>
+  <h4 id="Tizen_NUI_InputMethodContext_SetInputPanelLanguage_Tizen_NUI_InputMethodContext_InputPanelLanguage_" data-uid="Tizen.NUI.InputMethodContext.SetInputPanelLanguage(Tizen.NUI.InputMethodContext.InputPanelLanguage)">SetInputPanelLanguage(InputMethodContext.InputPanelLanguage)</h4>
+  <div class="markdown level1 summary"><p>Sets the language of the input panel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInputPanelLanguage(InputMethodContext.InputPanelLanguage language)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tizen.NUI.InputMethodContext.InputPanelLanguage.html">InputMethodContext.InputPanelLanguage</a></td>
+        <td><span class="parametername">language</span></td>
+        <td><p>The language to be set to the input panel</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_InputMethodContext_SetInputPanelLanguage_Tizen_NUI_InputMethodContext_InputPanelLanguage__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
+  <a id="Tizen_NUI_InputMethodContext_SetInputPanelPosition_" data-uid="Tizen.NUI.InputMethodContext.SetInputPanelPosition*"></a>
+  <h4 id="Tizen_NUI_InputMethodContext_SetInputPanelPosition_System_UInt32_System_UInt32_" data-uid="Tizen.NUI.InputMethodContext.SetInputPanelPosition(System.UInt32,System.UInt32)">SetInputPanelPosition(UInt32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Sets the x,y coordinates of the input panel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInputPanelPosition(uint x, uint y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The top-left x coordinate of the input panel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The top-left y coordinate of the input panel.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_InputMethodContext_SetInputPanelPosition_System_UInt32_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
+  
   <a id="Tizen_NUI_InputMethodContext_SetInputPanelUserData_" data-uid="Tizen.NUI.InputMethodContext.SetInputPanelUserData*"></a>
   <h4 id="Tizen_NUI_InputMethodContext_SetInputPanelUserData_System_String_" data-uid="Tizen.NUI.InputMethodContext.SetInputPanelUserData(System.String)">SetInputPanelUserData(String)</h4>
   <div class="markdown level1 summary"><p>Sets up the input panel specific data.</p>
@@ -659,6 +786,38 @@ If true, then the keyboard will be restored (activated) after the focus is regai
   
   <h5 id="Tizen_NUI_InputMethodContext_SetInputPanelUserData_System_String__sinceTizen" class="sinceTizen">API Version</h5>
   <span class="level1 sinceTizen">5 </span>
+  
+  <a id="Tizen_NUI_InputMethodContext_SetMIMEType_" data-uid="Tizen.NUI.InputMethodContext.SetMIMEType*"></a>
+  <h4 id="Tizen_NUI_InputMethodContext_SetMIMEType_System_String_" data-uid="Tizen.NUI.InputMethodContext.SetMIMEType(System.String)">SetMIMEType(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the allowed MIME Type to deliver to the input panel. <br>
+For example, string mimeType = &quot;text/plain,image/png,image/gif,application/pdf&quot;;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMIMEType(string mimeType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">mimeType</span></td>
+        <td><p>The allowed MIME type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="Tizen_NUI_InputMethodContext_SetMIMEType_System_String__sinceTizen" class="sinceTizen">API Version</h5>
+  <span class="level1 sinceTizen">8 </span>
   
   <a id="Tizen_NUI_InputMethodContext_SetRestoreAfterFocusLost_" data-uid="Tizen.NUI.InputMethodContext.SetRestoreAfterFocusLost*"></a>
   <h4 id="Tizen_NUI_InputMethodContext_SetRestoreAfterFocusLost_System_Boolean_" data-uid="Tizen.NUI.InputMethodContext.SetRestoreAfterFocusLost(System.Boolean)">SetRestoreAfterFocusLost(Boolean)</h4>

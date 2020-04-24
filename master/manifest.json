@@ -16022,6 +16022,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.NUI.InputMethodContext.InputPanelLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.NUI.InputMethodContext.InputPanelLanguage.html",
+          "hash": "S+29X3Lcxhm40wuF1QvDSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tizen.NUI.InputMethodContext.KeyboardType.yml",
       "output": {
         ".html": {
@@ -16110,7 +16122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.InputMethodContext.html",
-          "hash": "Skqpwb6SOvD3afKxrQqHow=="
+          "hash": "Wl9R+LQM1u701hhacsfwVg=="
         }
       },
       "is_incremental": false,
@@ -17910,7 +17922,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.html",
-          "hash": "30Nu0obGAU4vFw7n2eGSuQ=="
+          "hash": "VtS0w9Yp/LWGGq2s3SUbNg=="
         }
       },
       "is_incremental": false,
@@ -25166,6 +25178,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.System.PowerUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.System.PowerUsage.html",
+          "hash": "E1ALVVRrPI9eiUAu15Y1Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tizen.System.PowerUsageResourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tizen.System.PowerUsageResourceType.html",
+          "hash": "emU99EN/0PCcn11Yids9Fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tizen.System.ProcessCpuUsage.yml",
       "output": {
         ".html": {
@@ -25734,7 +25770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.System.html",
-          "hash": "bbNn3X47XdrewsL7QlvHNg=="
+          "hash": "q4uJSZ6bYA4TQAQh0Cl7gg=="
         }
       },
       "is_incremental": false,
@@ -28113,7 +28149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "VFZm8cGglrszMPsV3mYV7Q=="
+          "hash": "R33qMMnO2Dgt9hsJyzCdWA=="
         }
       },
       "is_incremental": false,
@@ -28198,16 +28234,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2374,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2371,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
