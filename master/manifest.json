@@ -23778,7 +23778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.AutoRotationSensor.html",
-          "hash": "pExtI5NmgIq3lnKrFMhpxw=="
+          "hash": "6lbOFnA9ivf2maBi/6sP8w=="
         }
       },
       "is_incremental": false,
@@ -23790,7 +23790,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.AutoRotationSensorDataUpdatedEventArgs.html",
-          "hash": "LOdOV22Af5vGfARTevn3GQ=="
+          "hash": "P1CS+fzmMNll60tYEJjzPg=="
         }
       },
       "is_incremental": false,
@@ -23802,7 +23802,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.AutoRotationState.html",
-          "hash": "j62GQqhFmQ+eKL63xFm/Fg=="
+          "hash": "kB+PuAQm90la/U9YM5wFyQ=="
         }
       },
       "is_incremental": false,
@@ -24642,7 +24642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Sensor.html",
-          "hash": "DOkWI48VBrTIsVjMBI2dSg=="
+          "hash": "H1RqURWfh+0btIJMNjxHqA=="
         }
       },
       "is_incremental": false,
@@ -28251,18 +28251,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2376,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -28275,6 +28263,18 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2376,
           "skipped_file_count": 0
         }
       }
