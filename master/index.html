@@ -84,15 +84,12 @@ For the full specification, see the <a href="api/index.html">TizenFX API Referen
 <h2 id="xamarinforms">Xamarin.Forms</h2>
 <p><a href="https://developer.xamarin.com/guides/xamarin-forms/getting-started/">Xamarin.Forms</a> provides cross-platform APIs, which allow you to create user interfaces that can be shared across platforms. The Tizen.NET Visual Studio extension enables Tizen support for Xamarin.Forms.</p>
 <p>You can efficiently build your Tizen .NET application UI and its supporting logic using the Xamarin.Forms APIs. Extended details for these APIs are available on the <a href="https://developer.xamarin.com/api/namespace/Xamarin.Forms/">Xamarin Web site</a>.</p>
-<p>The Tizen 4.0 public M2 contains a few limitations on the Xamarin.Forms APIs; these limitations are to be eliminated in future releases. The following classes are not supported:</p>
-<ul>
-<li><code>AppLinkEntry</code></li>
-<li><code>OpenGLView</code></li>
-</ul>
-<p>A list of limitations is available at <a href="https://developer.tizen.org/development/articles/current-xamarin.forms-limitations">Current Xamarin.Forms limitations</a>.</p>
 <h2 id="tizenfx-api">TizenFX API</h2>
 <p>TizenFX API constists of the following namespaces:</p>
 <ul>
+<li><a class="xref" href="api/ElmSharp.html">ElmSharp</a></li>
+<li><a class="xref" href="api/ElmSharp.Accessible.html">ElmSharp.Accessible</a></li>
+<li><a class="xref" href="api/ElmSharp.Wearable.html">ElmSharp.Wearable</a></li>
 <li><a class="xref" href="api/Tizen.html">Tizen</a></li>
 <li><a class="xref" href="api/Tizen.Account.AccountManager.html">Tizen.Account.AccountManager</a></li>
 <li><a class="xref" href="api/Tizen.Account.FidoClient.html">Tizen.Account.FidoClient</a></li>
@@ -100,12 +97,18 @@ For the full specification, see the <a href="api/index.html">TizenFX API Referen
 <li><a class="xref" href="api/Tizen.Account.SyncManager.html">Tizen.Account.SyncManager</a></li>
 <li><a class="xref" href="api/Tizen.Applications.html">Tizen.Applications</a></li>
 <li><a class="xref" href="api/Tizen.Applications.AttachPanel.html">Tizen.Applications.AttachPanel</a></li>
+<li><a class="xref" href="api/Tizen.Applications.ComponentBased.html">Tizen.Applications.ComponentBased</a></li>
+<li><a class="xref" href="api/Tizen.Applications.ComponentBased.Common.html">Tizen.Applications.ComponentBased.Common</a></li>
+<li><a class="xref" href="api/Tizen.Applications.ComponentBased.Default.html">Tizen.Applications.ComponentBased.Default</a></li>
 <li><a class="xref" href="api/Tizen.Applications.CoreBackend.html">Tizen.Applications.CoreBackend</a></li>
 <li><a class="xref" href="api/Tizen.Applications.DataControl.html">Tizen.Applications.DataControl</a></li>
+<li><a class="xref" href="api/Tizen.Applications.EventManager.html">Tizen.Applications.EventManager</a></li>
+<li><a class="xref" href="api/Tizen.Applications.EventManager.SystemEvents.html">Tizen.Applications.EventManager.SystemEvents</a></li>
 <li><a class="xref" href="api/Tizen.Applications.Exceptions.html">Tizen.Applications.Exceptions</a></li>
 <li><a class="xref" href="api/Tizen.Applications.Messages.html">Tizen.Applications.Messages</a></li>
 <li><a class="xref" href="api/Tizen.Applications.NotificationEventListener.html">Tizen.Applications.NotificationEventListener</a></li>
 <li><a class="xref" href="api/Tizen.Applications.Notifications.html">Tizen.Applications.Notifications</a></li>
+<li><a class="xref" href="api/Tizen.Applications.RPCPort.html">Tizen.Applications.RPCPort</a></li>
 <li><a class="xref" href="api/Tizen.Applications.Shortcut.html">Tizen.Applications.Shortcut</a></li>
 <li><a class="xref" href="api/Tizen.Applications.WatchfaceComplication.html">Tizen.Applications.WatchfaceComplication</a></li>
 <li><a class="xref" href="api/Tizen.Common.html">Tizen.Common</a></li>
@@ -116,6 +119,7 @@ For the full specification, see the <a href="api/index.html">TizenFX API Referen
 <li><a class="xref" href="api/Tizen.Internals.Errors.html">Tizen.Internals.Errors</a></li>
 <li><a class="xref" href="api/Tizen.Location.html">Tizen.Location</a></li>
 <li><a class="xref" href="api/Tizen.Location.Geofence.html">Tizen.Location.Geofence</a></li>
+<li><a class="xref" href="api/Tizen.MachineLearning.Inference.html">Tizen.MachineLearning.Inference</a></li>
 <li><a class="xref" href="api/Tizen.Maps.html">Tizen.Maps</a></li>
 <li><a class="xref" href="api/Tizen.Messaging.Email.html">Tizen.Messaging.Email</a></li>
 <li><a class="xref" href="api/Tizen.Messaging.Messages.html">Tizen.Messaging.Messages</a></li>
@@ -125,26 +129,28 @@ For the full specification, see the <a href="api/index.html">TizenFX API Referen
 <li><a class="xref" href="api/Tizen.Multimedia.Remoting.html">Tizen.Multimedia.Remoting</a></li>
 <li><a class="xref" href="api/Tizen.Multimedia.Util.html">Tizen.Multimedia.Util</a></li>
 <li><a class="xref" href="api/Tizen.Multimedia.Vision.html">Tizen.Multimedia.Vision</a></li>
-<li><a class="xref" href="api/Tizen.NUI.html">Tizen.NUI</a></li>
-<li><a class="xref" href="api/Tizen.NUI.BaseComponents.html">Tizen.NUI.BaseComponents</a></li>
-<li><a class="xref" href="api/Tizen.NUI.Constants.html">Tizen.NUI.Constants</a></li>
-<li><a href="xref:Tizen.NUI.UIComponents?displayProperty=fullName"></a></li>
 <li><a class="xref" href="api/Tizen.Network.Bluetooth.html">Tizen.Network.Bluetooth</a></li>
 <li><a class="xref" href="api/Tizen.Network.Connection.html">Tizen.Network.Connection</a></li>
 <li><a class="xref" href="api/Tizen.Network.IoTConnectivity.html">Tizen.Network.IoTConnectivity</a></li>
 <li><a class="xref" href="api/Tizen.Network.Nfc.html">Tizen.Network.Nfc</a></li>
 <li><a class="xref" href="api/Tizen.Network.Nsd.html">Tizen.Network.Nsd</a></li>
 <li><a class="xref" href="api/Tizen.Network.Smartcard.html">Tizen.Network.Smartcard</a></li>
+<li><a class="xref" href="api/Tizen.Network.Stc.html">Tizen.Network.Stc</a></li>
 <li><a class="xref" href="api/Tizen.Network.WiFi.html">Tizen.Network.WiFi</a></li>
 <li><a class="xref" href="api/Tizen.Network.WiFiDirect.html">Tizen.Network.WiFiDirect</a></li>
+<li><a class="xref" href="api/Tizen.Nlp.html">Tizen.Nlp</a></li>
+<li><a class="xref" href="api/Tizen.NUI.html">Tizen.NUI</a></li>
+<li><a class="xref" href="api/Tizen.NUI.BaseComponents.html">Tizen.NUI.BaseComponents</a></li>
+<li><a class="xref" href="api/Tizen.NUI.Components.html">Tizen.NUI.Components</a></li>
+<li><a class="xref" href="api/Tizen.NUI.Constants.html">Tizen.NUI.Constants</a></li>
 <li><a class="xref" href="api/Tizen.PhonenumberUtils.html">Tizen.PhonenumberUtils</a></li>
 <li><a class="xref" href="api/Tizen.Pims.Calendar.html">Tizen.Pims.Calendar</a></li>
 <li><a class="xref" href="api/Tizen.Pims.Calendar.CalendarViews.html">Tizen.Pims.Calendar.CalendarViews</a></li>
 <li><a class="xref" href="api/Tizen.Pims.Contacts.html">Tizen.Pims.Contacts</a></li>
 <li><a class="xref" href="api/Tizen.Pims.Contacts.ContactsViews.html">Tizen.Pims.Contacts.ContactsViews</a></li>
 <li><a class="xref" href="api/Tizen.Security.html">Tizen.Security</a></li>
+<li><a class="xref" href="api/Tizen.Security.DevicePolicyManager.html">Tizen.Security.DevicePolicyManager</a></li>
 <li><a class="xref" href="api/Tizen.Security.SecureRepository.html">Tizen.Security.SecureRepository</a></li>
-<li><a class="xref" href="api/Tizen.Security.PrivacyPrivilegeManager.html">Tizen.Security.PrivacyPrivilegeManager</a></li>
 <li><a class="xref" href="api/Tizen.Security.SecureRepository.Crypto.html">Tizen.Security.SecureRepository.Crypto</a></li>
 <li><a class="xref" href="api/Tizen.Security.TEEC.html">Tizen.Security.TEEC</a></li>
 <li><a class="xref" href="api/Tizen.Sensor.html">Tizen.Sensor</a></li>
@@ -158,10 +164,8 @@ For the full specification, see the <a href="api/index.html">TizenFX API Referen
 <li><a class="xref" href="api/Tizen.Uix.Tts.html">Tizen.Uix.Tts</a></li>
 <li><a class="xref" href="api/Tizen.Uix.TtsEngine.html">Tizen.Uix.TtsEngine</a></li>
 <li><a class="xref" href="api/Tizen.Uix.VoiceControl.html">Tizen.Uix.VoiceControl</a></li>
+<li><a class="xref" href="api/Tizen.Uix.VoiceControlManager.html">Tizen.Uix.VoiceControlManager</a></li>
 <li><a class="xref" href="api/Tizen.WebView.html">Tizen.WebView</a></li>
-<li><a class="xref" href="api/ElmSharp.html">ElmSharp</a></li>
-<li><a class="xref" href="api/ElmSharp.Accessible.html">ElmSharp.Accessible</a></li>
-<li><a class="xref" href="api/ElmSharp.Wearable.html">ElmSharp.Wearable</a></li>
 </ul>
 </article>
           </div>
