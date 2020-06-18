@@ -23094,7 +23094,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Security.Privilege.html",
-          "hash": "ixJtEh+G83vvWkY5QSjyHw=="
+          "hash": "q7gZ4fEV64oQ3ZC5Ms51Ng=="
         }
       },
       "is_incremental": false,
@@ -28245,18 +28245,17 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2376,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -28265,10 +28264,11 @@
           "total_file_count": 2,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 2376,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
