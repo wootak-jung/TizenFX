@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,6 +121,7 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Pims.Contacts.html">Tizen.Pims.Contacts</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Pims.Contacts.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Pims_Contacts_ContactsQuery_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ContactsQuery : IDisposable</code></pre>
@@ -129,10 +130,9 @@
   <div class="markdown level0 remarks"><p>A query is used to retrieve a person, group, speed dial, and log data, which satisfies a given criteria, such as an integer property being greater than a given value or a string property containing a given substring. 
 A query needs a filter which can set the conditions for the search.</p>
 </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Pims_Contacts_ContactsQuery__ctor_" data-uid="Tizen.Pims.Contacts.ContactsQuery.#ctor*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery__ctor_System_String_" data-uid="Tizen.Pims.Contacts.ContactsQuery.#ctor(System.String)">ContactsQuery(String)</h4>
   <div class="markdown level1 summary"><p>Creates a query.</p>
@@ -160,13 +160,6 @@ A query needs a filter which can set the conditions for the search.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery__ctor_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/contact">http://tizen.org/feature/contact</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -193,8 +186,13 @@ A query needs a filter which can set the conditions for the search.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/contact</span></span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Pims_Contacts_ContactsQuery_Dispose_" data-uid="Tizen.Pims.Contacts.ContactsQuery.Dispose*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_Dispose" data-uid="Tizen.Pims.Contacts.ContactsQuery.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all the resources used by the ContactsQuery.
@@ -206,8 +204,8 @@ It should be called after it has finished using the object.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Pims_Contacts_ContactsQuery_Dispose_" data-uid="Tizen.Pims.Contacts.ContactsQuery.Dispose*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_Dispose_System_Boolean_" data-uid="Tizen.Pims.Contacts.ContactsQuery.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -237,8 +235,8 @@ It should be called after it has finished using the object.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Pims_Contacts_ContactsQuery_Finalize_" data-uid="Tizen.Pims.Contacts.ContactsQuery.Finalize*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_Finalize" data-uid="Tizen.Pims.Contacts.ContactsQuery.Finalize">Finalize()</h4>
@@ -250,8 +248,8 @@ It should be called after it has finished using the object.</p>
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
   
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_Finalize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Pims_Contacts_ContactsQuery_SetDistinct_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetDistinct*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_SetDistinct_System_Boolean_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetDistinct(System.Boolean)">SetDistinct(Boolean)</h4>
@@ -280,13 +278,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetDistinct_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetDistinct_System_Boolean__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/contact">http://tizen.org/feature/contact</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -303,6 +294,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/contact</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Contacts_ContactsQuery_SetFilter_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetFilter*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_SetFilter_Tizen_Pims_Contacts_ContactsFilter_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetFilter(Tizen.Pims.Contacts.ContactsFilter)">SetFilter(ContactsFilter)</h4>
   <div class="markdown level1 summary"><p>Sets the filter for a query.</p>
@@ -330,13 +326,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetFilter_Tizen_Pims_Contacts_ContactsFilter__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetFilter_Tizen_Pims_Contacts_ContactsFilter__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/contact">http://tizen.org/feature/contact</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -358,6 +347,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/contact</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Contacts_ContactsQuery_SetProjection_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetProjection*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_SetProjection_System_UInt32___" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetProjection(System.UInt32[])">SetProjection(UInt32[])</h4>
   <div class="markdown level1 summary"><p>Adds the property IDs for projection.</p>
@@ -385,13 +379,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetProjection_System_UInt32____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetProjection_System_UInt32____feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/contact">http://tizen.org/feature/contact</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -413,6 +400,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/contact</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Contacts_ContactsQuery_SetSort_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetSort*"></a>
   <h4 id="Tizen_Pims_Contacts_ContactsQuery_SetSort_System_UInt32_System_Boolean_" data-uid="Tizen.Pims.Contacts.ContactsQuery.SetSort(System.UInt32,System.Boolean)">SetSort(UInt32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Sets the sort mode for a query.</p>
@@ -446,13 +438,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetSort_System_UInt32_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Contacts_ContactsQuery_SetSort_System_UInt32_System_Boolean__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/contact">http://tizen.org/feature/contact</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -474,6 +459,10 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/contact</span></span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -483,6 +472,10 @@ It should be called after it has finished using the object.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

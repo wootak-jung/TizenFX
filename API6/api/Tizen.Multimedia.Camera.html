@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -124,17 +124,15 @@ It also notifies you when a significant picture parameter changes, (For example,
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.html">Tizen.Multimedia</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Camera.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
   <h5 id="Tizen_Multimedia_Camera_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Camera : IDisposable</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_feature" class="feature">Feature</h5>
-  <div class="markdown level0 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_Camera__ctor_" data-uid="Tizen.Multimedia.Camera.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Camera__ctor_Tizen_Multimedia_CameraDevice_" data-uid="Tizen.Multimedia.Camera.#ctor(Tizen.Multimedia.CameraDevice)">Camera(CameraDevice)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> class.</p>
@@ -162,13 +160,6 @@ It also notifies you when a significant picture parameter changes, (For example,
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera__ctor_Tizen_Multimedia_CameraDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera__ctor_Tizen_Multimedia_CameraDevice__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -190,8 +181,13 @@ It also notifies you when a significant picture parameter changes, (For example,
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Camera_CameraCount_" data-uid="Tizen.Multimedia.Camera.CameraCount*"></a>
   <h4 id="Tizen_Multimedia_Camera_CameraCount" data-uid="Tizen.Multimedia.Camera.CameraCount">CameraCount</h4>
   <div class="markdown level1 summary"><p>Gets the camera device count.</p>
@@ -218,10 +214,6 @@ Otherwise 1, if the device only supports primary camera.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_CameraCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -238,6 +230,10 @@ Otherwise 1, if the device only supports primary camera.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_Capabilities_" data-uid="Tizen.Multimedia.Camera.Capabilities*"></a>
   <h4 id="Tizen_Multimedia_Camera_Capabilities" data-uid="Tizen.Multimedia.Camera.Capabilities">Capabilities</h4>
   <div class="markdown level1 summary"><p>Gets the various camera capabilities.</p>
@@ -263,8 +259,8 @@ Otherwise 1, if the device only supports primary camera.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Capabilities_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Camera_Direction_" data-uid="Tizen.Multimedia.Camera.Direction*"></a>
   <h4 id="Tizen_Multimedia_Camera_Direction" data-uid="Tizen.Multimedia.Camera.Direction">Direction</h4>
@@ -291,10 +287,6 @@ Otherwise 1, if the device only supports primary camera.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_Direction_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -311,6 +303,10 @@ Otherwise 1, if the device only supports primary camera.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_Display_" data-uid="Tizen.Multimedia.Camera.Display*"></a>
   <h4 id="Tizen_Multimedia_Camera_Display" data-uid="Tizen.Multimedia.Camera.Display">Display</h4>
   <div class="markdown level1 summary"><p>Sets or gets the display type and handle to show preview images.
@@ -340,10 +336,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <div class="markdown level1 remarks"><p>This must be set before the StartPreview() method.
 In custom ROI display mode, DisplayRoiArea property must be set before calling this method.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_Display_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -375,6 +367,10 @@ In custom ROI display mode, DisplayRoiArea property must be set before calling t
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_DisplayReuseHint_" data-uid="Tizen.Multimedia.Camera.DisplayReuseHint*"></a>
   <h4 id="Tizen_Multimedia_Camera_DisplayReuseHint" data-uid="Tizen.Multimedia.Camera.DisplayReuseHint">DisplayReuseHint</h4>
   <div class="markdown level1 summary"><p>The hint for the display reuse.
@@ -401,10 +397,6 @@ the ChangeDevice method.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_DisplayReuseHint_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -431,6 +423,10 @@ the ChangeDevice method.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_DisplaySettings_" data-uid="Tizen.Multimedia.Camera.DisplaySettings*"></a>
   <h4 id="Tizen_Multimedia_Camera_DisplaySettings" data-uid="Tizen.Multimedia.Camera.DisplaySettings">DisplaySettings</h4>
   <div class="markdown level1 summary"><p>Get/set various camera display properties.</p>
@@ -456,8 +452,8 @@ the ChangeDevice method.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_DisplaySettings_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_Camera_Handle_" data-uid="Tizen.Multimedia.Camera.Handle*"></a>
   <h4 id="Tizen_Multimedia_Camera_Handle" data-uid="Tizen.Multimedia.Camera.Handle">Handle</h4>
@@ -484,11 +480,9 @@ the ChangeDevice method.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Handle_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_Handle_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
   
   <a id="Tizen_Multimedia_Camera_Settings_" data-uid="Tizen.Multimedia.Camera.Settings*"></a>
   <h4 id="Tizen_Multimedia_Camera_Settings" data-uid="Tizen.Multimedia.Camera.Settings">Settings</h4>
@@ -515,8 +509,8 @@ the ChangeDevice method.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Settings_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Camera_State_" data-uid="Tizen.Multimedia.Camera.State*"></a>
   <h4 id="Tizen_Multimedia_Camera_State" data-uid="Tizen.Multimedia.Camera.State">State</h4>
@@ -543,10 +537,6 @@ the ChangeDevice method.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_State_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -563,8 +553,12 @@ the ChangeDevice method.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Camera_ChangeDevice_" data-uid="Tizen.Multimedia.Camera.ChangeDevice*"></a>
   <h4 id="Tizen_Multimedia_Camera_ChangeDevice_Tizen_Multimedia_CameraDevice_" data-uid="Tizen.Multimedia.Camera.ChangeDevice(Tizen.Multimedia.CameraDevice)">ChangeDevice(CameraDevice)</h4>
   <div class="markdown level1 summary"><p>Changes the camera device.</p>
@@ -598,13 +592,6 @@ before stopping the preview, the display will be reused and last frame on the di
 can be kept even though camera device is changed.
 The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.html#Tizen_Multimedia_CameraState_Created">Created</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_ChangeDevice_Tizen_Multimedia_CameraDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_ChangeDevice_Tizen_Multimedia_CameraDevice__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -636,6 +623,11 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_Dispose_" data-uid="Tizen.Multimedia.Camera.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Camera_Dispose" data-uid="Tizen.Multimedia.Camera.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all resources used by the camera.</p>
@@ -646,11 +638,9 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_Camera_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_Dispose_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
   
   <a id="Tizen_Multimedia_Camera_Dispose_" data-uid="Tizen.Multimedia.Camera.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Camera_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.Camera.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -680,8 +670,8 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_Camera_Finalize_" data-uid="Tizen.Multimedia.Camera.Finalize*"></a>
   <h4 id="Tizen_Multimedia_Camera_Finalize" data-uid="Tizen.Multimedia.Camera.Finalize">Finalize()</h4>
@@ -692,6 +682,7 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Multimedia_Camera_GetDeviceState_" data-uid="Tizen.Multimedia.Camera.GetDeviceState*"></a>
@@ -737,13 +728,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_GetDeviceState_Tizen_Multimedia_CameraDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_Camera_GetDeviceState_Tizen_Multimedia_CameraDevice__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -770,6 +754,11 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_GetFlashState_" data-uid="Tizen.Multimedia.Camera.GetFlashState*"></a>
   <h4 id="Tizen_Multimedia_Camera_GetFlashState_Tizen_Multimedia_CameraDevice_" data-uid="Tizen.Multimedia.Camera.GetFlashState(Tizen.Multimedia.CameraDevice)">GetFlashState(CameraDevice)</h4>
   <div class="markdown level1 summary"><p>Gets the flash state.</p>
@@ -813,13 +802,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_GetFlashState_Tizen_Multimedia_CameraDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_GetFlashState_Tizen_Multimedia_CameraDevice__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -846,6 +828,11 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StartCapture_" data-uid="Tizen.Multimedia.Camera.StartCapture*"></a>
   <h4 id="Tizen_Multimedia_Camera_StartCapture" data-uid="Tizen.Multimedia.Camera.StartCapture">StartCapture()</h4>
   <div class="markdown level1 summary"><p>Starts capturing of still images.
@@ -863,18 +850,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
 automatically and the corresponding EventHandlers will be invoked.
 The preview should be restarted by calling the <a class="xref" href="Tizen.Multimedia.Camera.html#Tizen_Multimedia_Camera_StartPreview">StartPreview()</a> method after capture is completed.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -906,6 +881,13 @@ The preview should be restarted by calling the <a class="xref" href="Tizen.Multi
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StartCapture_" data-uid="Tizen.Multimedia.Camera.StartCapture*"></a>
   <h4 id="Tizen_Multimedia_Camera_StartCapture_System_Int32_System_Int32_System_Threading_CancellationToken_" data-uid="Tizen.Multimedia.Camera.StartCapture(System.Int32,System.Int32,System.Threading.CancellationToken)">StartCapture(Int32, Int32, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Starts continuously capturing still images.
@@ -955,18 +937,6 @@ from capturing to captured automatically and the corresponding Eventhandlers wil
 Each captured image will be delivered through Eventhandler set using the <a class="xref" href="Tizen.Multimedia.Camera.html#Tizen_Multimedia_Camera_Capturing">Capturing</a> event.
 The preview should be restarted by calling the <a class="xref" href="Tizen.Multimedia.Camera.html#Tizen_Multimedia_Camera_StartPreview">StartPreview()</a> method after capture is completed.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_System_Int32_System_Int32_System_Threading_CancellationToken__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_System_Int32_System_Int32_System_Threading_CancellationToken__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_System_Int32_System_Int32_System_Threading_CancellationToken__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StartCapture_System_Int32_System_Int32_System_Threading_CancellationToken__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1007,6 +977,14 @@ The preview should be restarted by calling the <a class="xref" href="Tizen.Multi
   <div class="seealso">
       <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
+</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StartFaceDetection_" data-uid="Tizen.Multimedia.Camera.StartFaceDetection*"></a>
   <h4 id="Tizen_Multimedia_Camera_StartFaceDetection" data-uid="Tizen.Multimedia.Camera.StartFaceDetection">StartFaceDetection()</h4>
   <div class="markdown level1 summary"><p>Starts face detection.
@@ -1022,18 +1000,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
 The Eventhandler set using <a class="xref" href="Tizen.Multimedia.Camera.html#Tizen_Multimedia_Camera_FaceDetected">FaceDetected</a> is invoked when the face is detected in the preview frame.
 Internally, it starts continuously focus and focusing on the detected face.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StartFaceDetection_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StartFaceDetection_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StartFaceDetection_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StartFaceDetection_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1065,6 +1031,13 @@ Internally, it starts continuously focus and focusing on the detected face.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StartFocusing_" data-uid="Tizen.Multimedia.Camera.StartFocusing*"></a>
   <h4 id="Tizen_Multimedia_Camera_StartFocusing_System_Boolean_" data-uid="Tizen.Multimedia.Camera.StartFocusing(System.Boolean)">StartFocusing(Boolean)</h4>
   <div class="markdown level1 summary"><p>Starts camera auto-focusing, asynchronously.
@@ -1096,18 +1069,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <h5 id="Tizen_Multimedia_Camera_StartFocusing_System_Boolean__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If continuous status is true, the camera continuously tries to focus.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StartFocusing_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StartFocusing_System_Boolean__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StartFocusing_System_Boolean__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StartFocusing_System_Boolean__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1144,6 +1105,13 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StartPreview_" data-uid="Tizen.Multimedia.Camera.StartPreview*"></a>
   <h4 id="Tizen_Multimedia_Camera_StartPreview" data-uid="Tizen.Multimedia.Camera.StartPreview">StartPreview()</h4>
   <div class="markdown level1 summary"><p>Starts capturing and drawing preview frames on the screen.
@@ -1158,18 +1126,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StartPreview()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StartPreview_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StartPreview_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StartPreview_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StartPreview_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1201,6 +1157,13 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StopFaceDetection_" data-uid="Tizen.Multimedia.Camera.StopFaceDetection*"></a>
   <h4 id="Tizen_Multimedia_Camera_StopFaceDetection" data-uid="Tizen.Multimedia.Camera.StopFaceDetection">StopFaceDetection()</h4>
   <div class="markdown level1 summary"><p>Stops face detection.</p>
@@ -1210,18 +1173,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StopFaceDetection()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StopFaceDetection_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StopFaceDetection_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StopFaceDetection_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StopFaceDetection_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1253,6 +1204,13 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StopFocusing_" data-uid="Tizen.Multimedia.Camera.StopFocusing*"></a>
   <h4 id="Tizen_Multimedia_Camera_StopFocusing" data-uid="Tizen.Multimedia.Camera.StopFocusing">StopFocusing()</h4>
   <div class="markdown level1 summary"><p>Stops camera auto focusing.
@@ -1263,18 +1221,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StopFocusing()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StopFocusing_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StopFocusing_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StopFocusing_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StopFocusing_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1306,6 +1252,13 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Camera_StopPreview_" data-uid="Tizen.Multimedia.Camera.StopPreview*"></a>
   <h4 id="Tizen_Multimedia_Camera_StopPreview" data-uid="Tizen.Multimedia.Camera.StopPreview">StopPreview()</h4>
   <div class="markdown level1 summary"><p>Stops capturing and drawing preview frames on the screen.
@@ -1316,18 +1269,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StopPreview()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Camera_StopPreview_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_Camera_StopPreview_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Camera_StopPreview_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/camera">http://tizen.org/privilege/camera</a> </p>
-</div>
-  <h5 id="Tizen_Multimedia_Camera_StopPreview_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/camera">http://tizen.org/feature/camera</a> </p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1359,8 +1300,15 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/camera</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/camera</span></span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Multimedia_Camera_CaptureCompleted" data-uid="Tizen.Multimedia.Camera.CaptureCompleted">CaptureCompleted</h4>
   <div class="markdown level1 summary"><p>An event that occurs after the capture of the image.</p>
 </div>
@@ -1385,8 +1333,8 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_CaptureCompleted_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_Capturing" data-uid="Tizen.Multimedia.Camera.Capturing">Capturing</h4>
   <div class="markdown level1 summary"><p>An event that occurs during capture of an image.</p>
@@ -1412,8 +1360,8 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Capturing_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_DeviceStateChanged" data-uid="Tizen.Multimedia.Camera.DeviceStateChanged">DeviceStateChanged</h4>
   <div class="markdown level1 summary"><p>An event that occurs after the <a class="xref" href="Tizen.Multimedia.CameraDeviceState.html">CameraDeviceState</a> is changed.</p>
@@ -1438,10 +1386,6 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_DeviceStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1468,6 +1412,10 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_Multimedia_Camera_ErrorOccurred" data-uid="Tizen.Multimedia.Camera.ErrorOccurred">ErrorOccurred</h4>
   <div class="markdown level1 summary"><p>An event that occurs when there is an asynchronous error.</p>
 </div>
@@ -1492,8 +1440,8 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_ErrorOccurred_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_FaceDetected" data-uid="Tizen.Multimedia.Camera.FaceDetected">FaceDetected</h4>
   <div class="markdown level1 summary"><p>An event that occurs when a face is detected in the preview frame.</p>
@@ -1519,8 +1467,8 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_FaceDetected_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_FocusStateChanged" data-uid="Tizen.Multimedia.Camera.FocusStateChanged">FocusStateChanged</h4>
   <div class="markdown level1 summary"><p>An event that occurs when the auto focus state is changed.</p>
@@ -1546,8 +1494,8 @@ The camera must be in the <a class="xref" href="Tizen.Multimedia.CameraState.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_FocusStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_HdrCaptureProgress" data-uid="Tizen.Multimedia.Camera.HdrCaptureProgress">HdrCaptureProgress</h4>
   <div class="markdown level1 summary"><p>An event that occurs when there is a change in the HDR capture progress.
@@ -1573,10 +1521,6 @@ Checks whether the <a class="xref" href="Tizen.Multimedia.CameraCapabilities.htm
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Camera_HdrCaptureProgress_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1593,6 +1537,10 @@ Checks whether the <a class="xref" href="Tizen.Multimedia.CameraCapabilities.htm
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_Multimedia_Camera_Interrupted" data-uid="Tizen.Multimedia.Camera.Interrupted">Interrupted</h4>
   <div class="markdown level1 summary"><p>An event that occurs when an camera is interrupted by the policy.</p>
 </div>
@@ -1617,8 +1565,8 @@ Checks whether the <a class="xref" href="Tizen.Multimedia.CameraCapabilities.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Interrupted_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_InterruptStarted" data-uid="Tizen.Multimedia.Camera.InterruptStarted">InterruptStarted</h4>
   <div class="markdown level1 summary"><p>An event that occurs when the camera interrupt is started by the policy.</p>
@@ -1644,8 +1592,8 @@ Checks whether the <a class="xref" href="Tizen.Multimedia.CameraCapabilities.htm
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_InterruptStarted_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_MediaPacketPreview" data-uid="Tizen.Multimedia.Camera.MediaPacketPreview">MediaPacketPreview</h4>
   <div class="markdown level1 summary"><p>An event that occurs once per frame when previewing.
@@ -1672,8 +1620,8 @@ Preview callback is registered when an user adds a callback explicitly to avoid 
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_MediaPacketPreview_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_Preview" data-uid="Tizen.Multimedia.Camera.Preview">Preview</h4>
   <div class="markdown level1 summary"><p>An event that occurs once per frame when previewing.
@@ -1700,8 +1648,8 @@ Preview callback is registered when an user adds a callback explicitly to avoid 
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_Preview_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Camera_StateChanged" data-uid="Tizen.Multimedia.Camera.StateChanged">StateChanged</h4>
   <div class="markdown level1 summary"><p>An event that occurs when the camera state is changed.</p>
@@ -1727,8 +1675,7 @@ Preview callback is registered when an user adds a callback explicitly to avoid 
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Camera_StateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -1739,6 +1686,10 @@ Preview callback is registered when an user adds a callback explicitly to avoid 
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

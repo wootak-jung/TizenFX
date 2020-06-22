@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,17 +121,15 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.Vision.html">Tizen.Multimedia.Vision</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Vision.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/vision.image_recognition</span></span></h6>
   <h5 id="Tizen_Multimedia_Vision_ImageObject_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ImageObject : IDisposable</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_feature" class="feature">Feature</h5>
-  <div class="markdown level0 feature"><p><a href="http://tizen.org/feature/vision.image_recognition">http://tizen.org/feature/vision.image_recognition</a></p>
-</div>
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_ImageObject__ctor_" data-uid="Tizen.Multimedia.Vision.ImageObject.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject__ctor" data-uid="Tizen.Multimedia.Vision.ImageObject.#ctor">ImageObject()</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html">ImageObject</a> class.</p>
@@ -141,10 +139,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ImageObject()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -161,6 +155,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject__ctor_" data-uid="Tizen.Multimedia.Vision.ImageObject.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject__ctor_System_String_" data-uid="Tizen.Multimedia.Vision.ImageObject.#ctor(System.String)">ImageObject(String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html">ImageObject</a> class from the specified file.</p>
@@ -191,10 +189,6 @@
   <h5 id="Tizen_Multimedia_Vision_ImageObject__ctor_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>ImageObject has been saved by <a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html#Tizen_Multimedia_Vision_ImageObject_Save_System_String_">Save(String)</a> can be loaded.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -232,8 +226,12 @@
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html#Tizen_Multimedia_Vision_ImageObject_Save_System_String_">Save(String)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_RecognitionRate_" data-uid="Tizen.Multimedia.Vision.ImageObject.RecognitionRate*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_RecognitionRate" data-uid="Tizen.Multimedia.Vision.ImageObject.RecognitionRate">RecognitionRate</h4>
   <div class="markdown level1 summary"><p>Gets a value that determines how well an image object can be recognized.</p>
@@ -264,10 +262,6 @@ If the recognition rate is 0 object can not be recognized and the bigger it is t
   <div class="markdown level1 remarks"><p>If recognition rate is too low, try to use another image or change some configuration parameters
 and fill the image object again.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_RecognitionRate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -292,8 +286,12 @@ and fill the image object again.</p>
       <div><a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html#Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Rectangle_">Fill(MediaVisionSource, Rectangle)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html#Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Vision_ImageFillConfiguration_Tizen_Multimedia_Rectangle_">Fill(MediaVisionSource, ImageFillConfiguration, Rectangle)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_Dispose_" data-uid="Tizen.Multimedia.Vision.ImageObject.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Dispose" data-uid="Tizen.Multimedia.Vision.ImageObject.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all the resources used by the <a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html">ImageObject</a> object.</p>
@@ -304,8 +302,8 @@ and fill the image object again.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_ImageObject_Dispose_" data-uid="Tizen.Multimedia.Vision.ImageObject.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.Vision.ImageObject.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -335,8 +333,8 @@ and fill the image object again.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_ImageObject_Fill_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill(Tizen.Multimedia.Vision.MediaVisionSource)">Fill(MediaVisionSource)</h4>
@@ -366,10 +364,6 @@ Extracts data from source image which will be needed for recognition of depicted
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -393,6 +387,10 @@ Extracts data from source image which will be needed for recognition of depicted
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_Fill_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Rectangle_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill(Tizen.Multimedia.Vision.MediaVisionSource,Tizen.Multimedia.Rectangle)">Fill(MediaVisionSource, Rectangle)</h4>
   <div class="markdown level1 summary"><p>Fills the image object.<br>
@@ -428,10 +426,6 @@ in location.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Rectangle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -455,6 +449,10 @@ in location.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_Fill_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Vision_ImageFillConfiguration_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill(Tizen.Multimedia.Vision.MediaVisionSource,Tizen.Multimedia.Vision.ImageFillConfiguration)">Fill(MediaVisionSource, ImageFillConfiguration)</h4>
   <div class="markdown level1 summary"><p>Fills the image object.<br>
@@ -489,10 +487,6 @@ Extracts data from source image which will be needed for recognition of depicted
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Vision_ImageFillConfiguration__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -518,6 +512,10 @@ Extracts data from source image which will be needed for recognition of depicted
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_Fill_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Vision_ImageFillConfiguration_Tizen_Multimedia_Rectangle_" data-uid="Tizen.Multimedia.Vision.ImageObject.Fill(Tizen.Multimedia.Vision.MediaVisionSource,Tizen.Multimedia.Vision.ImageFillConfiguration,Tizen.Multimedia.Rectangle)">Fill(MediaVisionSource, ImageFillConfiguration, Rectangle)</h4>
   <div class="markdown level1 summary"><p>Fills the image object.<br>
@@ -559,10 +557,6 @@ in location.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Fill_Tizen_Multimedia_Vision_MediaVisionSource_Tizen_Multimedia_Vision_ImageFillConfiguration_Tizen_Multimedia_Rectangle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -588,6 +582,10 @@ in location.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_Finalize_" data-uid="Tizen.Multimedia.Vision.ImageObject.Finalize*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Finalize" data-uid="Tizen.Multimedia.Vision.ImageObject.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Finalizes an instance of the ImageObject class.</p>
@@ -597,6 +595,7 @@ in location.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Multimedia_Vision_ImageObject_GetLabel_" data-uid="Tizen.Multimedia.Vision.ImageObject.GetLabel*"></a>
@@ -624,10 +623,6 @@ in location.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_GetLabel_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -648,6 +643,10 @@ in location.</p>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html#Tizen_Multimedia_Vision_ImageObject_SetLabel_System_Int32_">SetLabel(Int32)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_Save_" data-uid="Tizen.Multimedia.Vision.ImageObject.Save*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_Save_System_String_" data-uid="Tizen.Multimedia.Vision.ImageObject.Save(System.String)">Save(String)</h4>
   <div class="markdown level1 summary"><p>Saves the image object.</p>
@@ -675,10 +674,6 @@ in location.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_Save_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -710,6 +705,10 @@ in location.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_ImageObject_SetLabel_" data-uid="Tizen.Multimedia.Vision.ImageObject.SetLabel*"></a>
   <h4 id="Tizen_Multimedia_Vision_ImageObject_SetLabel_System_Int32_" data-uid="Tizen.Multimedia.Vision.ImageObject.SetLabel(System.Int32)">SetLabel(Int32)</h4>
   <div class="markdown level1 summary"><p>Sets the label for the <a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html">ImageObject</a>.</p>
@@ -737,14 +736,13 @@ in location.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_ImageObject_SetLabel_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Multimedia_Vision_ImageObject_SetLabel_System_Int32__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Vision.ImageObject.html#Tizen_Multimedia_Vision_ImageObject_GetLabel">GetLabel()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -754,6 +752,10 @@ in location.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

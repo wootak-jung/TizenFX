@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -122,14 +122,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.Nsd.html">Tizen.Network.Nsd</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.Nsd.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Network_Nsd_DnssdService_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class DnssdService : INsdService, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Network_Nsd_DnssdService__ctor_" data-uid="Tizen.Network.Nsd.DnssdService.#ctor*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService__ctor_System_String_" data-uid="Tizen.Network.Nsd.DnssdService.#ctor(System.String)">DnssdService(String)</h4>
   <div class="markdown level1 summary"><p>The constructor to create the DnssdService instance that sets the serviceType to a given value.</p>
@@ -158,13 +158,6 @@ It must begin with an underscore followed by 1-15 characters, which may be lette
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService__ctor_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -186,8 +179,13 @@ It must begin with an underscore followed by 1-15 characters, which may be lette
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_Nsd_DnssdService_IP_" data-uid="Tizen.Network.Nsd.DnssdService.IP*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_IP" data-uid="Tizen.Network.Nsd.DnssdService.IP">IP</h4>
   <div class="markdown level1 summary"><p>IP address of the DNS-SD remote service.</p>
@@ -217,8 +215,8 @@ It must begin with an underscore followed by 1-15 characters, which may be lette
 In case of an error, null object will be returned.</p>
 </div>
   
-  <h5 id="Tizen_Network_Nsd_DnssdService_IP_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Network_Nsd_DnssdService_Name_" data-uid="Tizen.Network.Nsd.DnssdService.Name*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_Name" data-uid="Tizen.Network.Nsd.DnssdService.Name">Name</h4>
@@ -249,13 +247,6 @@ In case of an error, null object will be returned.</p>
 It may be up to 63 bytes.
 In case of an error, null will be returned during get and exception will be thrown during set.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService_Name_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_Name_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -282,6 +273,11 @@ In case of an error, null will be returned during get and exception will be thro
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_DnssdService_Port_" data-uid="Tizen.Network.Nsd.DnssdService.Port*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_Port" data-uid="Tizen.Network.Nsd.DnssdService.Port">Port</h4>
   <div class="markdown level1 summary"><p>Port number of the DNS-SD local or remote service.</p>
@@ -310,13 +306,6 @@ In case of an error, null will be returned during get and exception will be thro
   <div class="markdown level1 remarks"><p>Set the port for only an unregistered service created locally. The default value of the port is 0.
 In case of an error, -1 will be returned during get and exception will be thrown during set.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService_Port_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_Port_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -343,6 +332,11 @@ In case of an error, -1 will be returned during get and exception will be thrown
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_DnssdService_Type_" data-uid="Tizen.Network.Nsd.DnssdService.Type*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_Type" data-uid="Tizen.Network.Nsd.DnssdService.Type">Type</h4>
   <div class="markdown level1 summary"><p>Type of the DNS-SD local or remote service.</p>
@@ -373,11 +367,11 @@ It must begin with an underscore followed by 1-15 characters, which may be lette
 In case of an error, null will be returned.</p>
 </div>
   
-  <h5 id="Tizen_Network_Nsd_DnssdService_Type_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_Nsd_DnssdService_AddTXTRecord_" data-uid="Tizen.Network.Nsd.DnssdService.AddTXTRecord*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_AddTXTRecord_System_String_System_String_" data-uid="Tizen.Network.Nsd.DnssdService.AddTXTRecord(System.String,System.String)">AddTXTRecord(String, String)</h4>
   <div class="markdown level1 summary"><p>Adds the TXT record.</p>
@@ -414,13 +408,6 @@ In case of an error, null will be returned.</p>
   <h5 id="Tizen_Network_Nsd_DnssdService_AddTXTRecord_System_String_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>TXT record should be added after registering the local service using RegisterService().</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService_AddTXTRecord_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_AddTXTRecord_System_String_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -447,6 +434,11 @@ In case of an error, null will be returned.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_DnssdService_DeregisterService_" data-uid="Tizen.Network.Nsd.DnssdService.DeregisterService*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_DeregisterService" data-uid="Tizen.Network.Nsd.DnssdService.DeregisterService">DeregisterService()</h4>
   <div class="markdown level1 summary"><p>Deregisters the DNS-SD local service.</p>
@@ -459,13 +451,6 @@ In case of an error, null will be returned.</p>
   <h5 id="Tizen_Network_Nsd_DnssdService_DeregisterService_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>A local service registered using RegisterService() must be passed.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService_DeregisterService_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_DeregisterService_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -487,6 +472,11 @@ In case of an error, null will be returned.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_DnssdService_Dispose_" data-uid="Tizen.Network.Nsd.DnssdService.Dispose*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_Dispose" data-uid="Tizen.Network.Nsd.DnssdService.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Disposes the memory allocated to unmanaged resources.</p>
@@ -497,8 +487,8 @@ In case of an error, null will be returned.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Network_Nsd_DnssdService_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Network_Nsd_DnssdService_Finalize_" data-uid="Tizen.Network.Nsd.DnssdService.Finalize*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_Finalize" data-uid="Tizen.Network.Nsd.DnssdService.Finalize">Finalize()</h4>
@@ -511,6 +501,7 @@ In case of an error, null will be returned.</p>
   </div>
   
   
+  
   <a id="Tizen_Network_Nsd_DnssdService_RegisterService_" data-uid="Tizen.Network.Nsd.DnssdService.RegisterService*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_RegisterService" data-uid="Tizen.Network.Nsd.DnssdService.RegisterService">RegisterService()</h4>
   <div class="markdown level1 summary"><p>Registers the DNS-SD local service for publishing.</p>
@@ -520,18 +511,6 @@ In case of an error, null will be returned.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RegisterService()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService_RegisterService_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_RegisterService_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_RegisterService_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_Nsd_DnssdService_RegisterService_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -558,6 +537,13 @@ In case of an error, null will be returned.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_DnssdService_RemoveTXTRecord_" data-uid="Tizen.Network.Nsd.DnssdService.RemoveTXTRecord*"></a>
   <h4 id="Tizen_Network_Nsd_DnssdService_RemoveTXTRecord_System_String_" data-uid="Tizen.Network.Nsd.DnssdService.RemoveTXTRecord(System.String)">RemoveTXTRecord(String)</h4>
   <div class="markdown level1 summary"><p>Removes the TXT record.</p>
@@ -585,13 +571,6 @@ In case of an error, null will be returned.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Nsd_DnssdService_RemoveTXTRecord_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_DnssdService_RemoveTXTRecord_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.dnssd">http://tizen.org/feature/network.service_discovery.dnssd</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -618,6 +597,10 @@ In case of an error, null will be returned.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.dnssd</span></span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Tizen.Network.Nsd.INsdService.html">INsdService</a>
@@ -630,6 +613,10 @@ In case of an error, null will be returned.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

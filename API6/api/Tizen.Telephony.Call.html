@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -118,14 +118,14 @@ It provides the list of CallHandle which can be used to get the information abou
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Telephony.html">Tizen.Telephony</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Telephony.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Telephony_Call_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Call</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Telephony_Call__ctor_" data-uid="Tizen.Telephony.Call.#ctor*"></a>
   <h4 id="Tizen_Telephony_Call__ctor_Tizen_Telephony_SlotHandle_" data-uid="Tizen.Telephony.Call.#ctor(Tizen.Telephony.SlotHandle)">Call(SlotHandle)</h4>
   <div class="markdown level1 summary"><p>The public constructor.</p>
@@ -153,13 +153,6 @@ It provides the list of CallHandle which can be used to get the information abou
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Telephony_Call__ctor_Tizen_Telephony_SlotHandle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Telephony_Call__ctor_Tizen_Telephony_SlotHandle__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -181,8 +174,13 @@ It provides the list of CallHandle which can be used to get the information abou
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.telephony</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Telephony_Call_PreferredVoiceSubscription_" data-uid="Tizen.Telephony.Call.PreferredVoiceSubscription*"></a>
   <h4 id="Tizen_Telephony_Call_PreferredVoiceSubscription" data-uid="Tizen.Telephony.Call.PreferredVoiceSubscription">PreferredVoiceSubscription</h4>
   <div class="markdown level1 summary"><p>Gets the current value for the preferred voice call subscription.</p>
@@ -209,16 +207,13 @@ It provides the list of CallHandle which can be used to get the information abou
     </tbody>
   </table>
   
-  <h5 id="Tizen_Telephony_Call_PreferredVoiceSubscription_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Telephony_Call_PreferredVoiceSubscription_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Telephony_Call_PreferredVoiceSubscription_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/telephony">http://tizen.org/privilege/telephony</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/telephony</span></span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Telephony_Call_GetCallHandleList_" data-uid="Tizen.Telephony.Call.GetCallHandleList*"></a>
   <h4 id="Tizen_Telephony_Call_GetCallHandleList" data-uid="Tizen.Telephony.Call.GetCallHandleList">GetCallHandleList()</h4>
   <div class="markdown level1 summary"><p>Gets the list of the current call.</p>
@@ -244,18 +239,6 @@ It provides the list of CallHandle which can be used to get the information abou
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Telephony_Call_GetCallHandleList_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Telephony_Call_GetCallHandleList_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Telephony_Call_GetCallHandleList_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/telephony">http://tizen.org/privilege/telephony</a></p>
-</div>
-  <h5 id="Tizen_Telephony_Call_GetCallHandleList_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -292,11 +275,21 @@ It provides the list of CallHandle which can be used to get the information abou
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/telephony</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.telephony</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

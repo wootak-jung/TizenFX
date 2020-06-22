@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -119,14 +119,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.Notifications.html">Tizen.Applications.Notifications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.Notification.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class ActiveStyle : Notification.StyleBase</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle__ctor_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.#ctor*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle__ctor" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.#ctor">ActiveStyle()</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Applications.Notifications.Notification.ActiveStyle.html">Notification.ActiveStyle</a> class.</p>
@@ -137,11 +137,11 @@
     <pre><code class="lang-csharp hljs">public ActiveStyle()</code></pre>
   </div>
   
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_BackgroundImage_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.BackgroundImage*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_BackgroundImage" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.BackgroundImage">BackgroundImage</h4>
   <div class="markdown level1 summary"><p>Gets or sets an absolute path for an image file to display on the background of active notification.</p>
@@ -167,8 +167,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_BackgroundImage_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_DefaultButton_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.DefaultButton*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_DefaultButton" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.DefaultButton">DefaultButton</h4>
@@ -199,8 +199,8 @@
 If you use this property on other profile, this value has no effect.</p>
 </div>
   
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_DefaultButton_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByExternalAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.HiddenByExternalAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByExternalAction" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.HiddenByExternalAction">HiddenByExternalAction</h4>
@@ -231,14 +231,14 @@ If you use this property on other profile, this value has no effect.</p>
 The property is only reflected on Tizen TV.
 If you use this API on other profile, this action settings have no effect</p>
 </div>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByExternalAction_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByExternalAction_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Applications.AppControl.html">AppControl</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByTimeoutAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.HiddenByTimeoutAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByTimeoutAction" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.HiddenByTimeoutAction">HiddenByTimeoutAction</h4>
   <div class="markdown level1 summary"><p>Gets or sets Action which is invoked when there is no any response by user until hide timeout.</p>
@@ -269,14 +269,14 @@ If you set it to null, the already set AppControl will be removed and nothing wi
 The property is only reflected on Tizen TV.
 If you use this API on other profile, this action settings have no effect</p>
 </div>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByTimeoutAction_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByTimeoutAction_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Applications.AppControl.html">AppControl</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByUserAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.HiddenByUserAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByUserAction" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.HiddenByUserAction">HiddenByUserAction</h4>
   <div class="markdown level1 summary"><p>Gets or sets Action which is invoked when notification is hidden by user.</p>
@@ -306,14 +306,14 @@ If you use this API on other profile, this action settings have no effect</p>
 The property is only reflected on Tizen TV.
 If you use this API on other profile, this action have no effect</p>
 </div>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByUserAction_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_HiddenByUserAction_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Applications.AppControl.html">AppControl</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_IsAutoRemove_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.IsAutoRemove*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_IsAutoRemove" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.IsAutoRemove">IsAutoRemove</h4>
   <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the active notification is removed automatically. Default value is true.</p>
@@ -344,8 +344,8 @@ When &apos;IsAutoRemove&apos; is set as false, the active notification will not 
 it or the application, which posted the active notification.</p>
 </div>
   
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_IsAutoRemove_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_ReplyAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.ReplyAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_ReplyAction" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.ReplyAction">ReplyAction</h4>
@@ -375,10 +375,6 @@ it or the application, which posted the active notification.</p>
   <div class="markdown level1 remarks"><p>When you add a ReplyAction to the ActiveStyle, the notification UI will show a ReplyAction with button.
 If you set null parameter, ReplyAction is not displayed.</p>
 </div>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_ReplyAction_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_ReplyAction_examples">Examples</h5>
   <pre><code>ButtonAction button = new ButtonAction
 {
@@ -409,8 +405,12 @@ ActiveStyle active = new ActiveStyle
 
 active.AddButtonAction(button);</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_AddButtonAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.AddButtonAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_AddButtonAction_Tizen_Applications_Notifications_Notification_ButtonAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.AddButtonAction(Tizen.Applications.Notifications.Notification.ButtonAction)">AddButtonAction(Notification.ButtonAction)</h4>
   <div class="markdown level1 summary"><p>Method to add a button to the active notification style.
@@ -443,10 +443,6 @@ Buttons are displayed on the notification.</p>
   <div class="markdown level1 remarks"><p>If you add button that has same index, the button is replaced to latest adding button.
 If you don&apos;t set an index on ButtonAction, the index is set sequentially from zero.</p>
 </div>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_AddButtonAction_Tizen_Applications_Notifications_Notification_ButtonAction__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_AddButtonAction_Tizen_Applications_Notifications_Notification_ButtonAction__examples">Examples</h5>
   <pre><code>ButtonAction button = new ButtonAction
 {
@@ -479,6 +475,10 @@ active.AddButtonAction(button);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_GetButtonAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.GetButtonAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_GetButtonAction_Tizen_Applications_Notifications_ButtonIndex_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.GetButtonAction(Tizen.Applications.Notifications.ButtonIndex)">GetButtonAction(ButtonIndex)</h4>
   <div class="markdown level1 summary"><p>Gets the ButtonAction of the active notification.</p>
@@ -522,10 +522,6 @@ active.AddButtonAction(button);</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_GetButtonAction_Tizen_Applications_Notifications_ButtonIndex__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -542,6 +538,10 @@ active.AddButtonAction(button);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_GetRemoveTime_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.GetRemoveTime*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_GetRemoveTime_System_Int32__System_Int32__" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.GetRemoveTime(System.Int32@,System.Int32@)">GetRemoveTime(out Int32, out Int32)</h4>
   <div class="markdown level1 summary"><p>Method to get time set to hide or delete notification.</p>
@@ -576,8 +576,8 @@ active.AddButtonAction(button);</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_GetRemoveTime_System_Int32__System_Int32___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_RemoveButtonAction_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.RemoveButtonAction*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_RemoveButtonAction_Tizen_Applications_Notifications_ButtonIndex_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.RemoveButtonAction(Tizen.Applications.Notifications.ButtonIndex)">RemoveButtonAction(ButtonIndex)</h4>
@@ -623,8 +623,8 @@ active.AddButtonAction(button);</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_RemoveButtonAction_Tizen_Applications_Notifications_ButtonIndex__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Notifications_Notification_ActiveStyle_SetRemoveTime_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.SetRemoveTime*"></a>
   <h4 id="Tizen_Applications_Notifications_Notification_ActiveStyle_SetRemoveTime_System_Int32_System_Int32_" data-uid="Tizen.Applications.Notifications.Notification.ActiveStyle.SetRemoveTime(System.Int32,System.Int32)">SetRemoveTime(Int32, Int32)</h4>
@@ -663,10 +663,6 @@ active.AddButtonAction(button);</code></pre>
   <div class="markdown level1 remarks"><p>The time settings for hiding and deleting are only reflected on the Tizen TV.
 If you use this API on other profile, this time settings have no effect.</p>
 </div>
-  
-  <h5 id="Tizen_Applications_Notifications_Notification_ActiveStyle_SetRemoveTime_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -683,11 +679,18 @@ If you use this API on other profile, this time settings have no effect.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

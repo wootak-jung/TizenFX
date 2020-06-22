@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Location.html">Tizen.Location</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Location.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Location_GpsSatellite_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class GpsSatellite</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Location_GpsSatellite__ctor_" data-uid="Tizen.Location.GpsSatellite.#ctor*"></a>
   <h4 id="Tizen_Location_GpsSatellite__ctor_Tizen_Location_Locator_" data-uid="Tizen.Location.GpsSatellite.#ctor(Tizen.Location.Locator)">GpsSatellite(Locator)</h4>
   <div class="markdown level1 summary"><p>The constructor of the GpsSatellite class.</p>
@@ -152,10 +152,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite__ctor_Tizen_Location_Locator__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -172,8 +168,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Location_GpsSatellite_ActiveCount_" data-uid="Tizen.Location.GpsSatellite.ActiveCount*"></a>
   <h4 id="Tizen_Location_GpsSatellite_ActiveCount" data-uid="Tizen.Location.GpsSatellite.ActiveCount">ActiveCount</h4>
   <div class="markdown level1 summary"><p>The count of active satellites.</p>
@@ -198,15 +198,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite_ActiveCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_GpsSatellite_ActiveCount_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_GpsSatellite_ActiveCount_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -238,6 +229,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_GpsSatellite_Interval_" data-uid="Tizen.Location.GpsSatellite.Interval*"></a>
   <h4 id="Tizen_Location_GpsSatellite_Interval" data-uid="Tizen.Location.GpsSatellite.Interval">Interval</h4>
   <div class="markdown level1 summary"><p>The time interval between callback updates.
@@ -263,10 +260,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite_Interval_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -283,6 +276,10 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_GpsSatellite_InViewCount_" data-uid="Tizen.Location.GpsSatellite.InViewCount*"></a>
   <h4 id="Tizen_Location_GpsSatellite_InViewCount" data-uid="Tizen.Location.GpsSatellite.InViewCount">InViewCount</h4>
   <div class="markdown level1 summary"><p>The count of satellites in view.</p>
@@ -307,15 +304,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite_InViewCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_GpsSatellite_InViewCount_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_GpsSatellite_InViewCount_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -347,6 +335,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_GpsSatellite_Nmea_" data-uid="Tizen.Location.GpsSatellite.Nmea*"></a>
   <h4 id="Tizen_Location_GpsSatellite_Nmea" data-uid="Tizen.Location.GpsSatellite.Nmea">Nmea</h4>
   <div class="markdown level1 summary"><p>The NMEA data from the satellite.</p>
@@ -371,10 +365,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite_Nmea_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -406,6 +396,10 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_GpsSatellite_Satellites_" data-uid="Tizen.Location.GpsSatellite.Satellites*"></a>
   <h4 id="Tizen_Location_GpsSatellite_Satellites" data-uid="Tizen.Location.GpsSatellite.Satellites">Satellites</h4>
   <div class="markdown level1 summary"><p>The list of satellites or last recorded satellites in view.</p>
@@ -430,15 +424,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite_Satellites_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_GpsSatellite_Satellites_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_GpsSatellite_Satellites_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -470,8 +455,14 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Location_GpsSatellite_SatelliteStatusUpdated" data-uid="Tizen.Location.GpsSatellite.SatelliteStatusUpdated">SatelliteStatusUpdated</h4>
   <div class="markdown level1 summary"><p>The SatelliteStatusUpdated event is raised whenever the satellite information is updated.
 The callback will be invoked periodically (every Interval seconds).</p>
@@ -496,15 +487,6 @@ The callback will be invoked periodically (every Interval seconds).</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_GpsSatellite_SatelliteStatusUpdated_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_GpsSatellite_SatelliteStatusUpdated_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_GpsSatellite_SatelliteStatusUpdated_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -531,11 +513,20 @@ The callback will be invoked periodically (every Interval seconds).</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

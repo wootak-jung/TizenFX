@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Telephony.html">Tizen.Telephony</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Telephony.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Telephony_SlotHandle_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class SlotHandle</code></pre>
   </div>
-  
-  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Telephony_SlotHandle_RemoveNotificationId_" data-uid="Tizen.Telephony.SlotHandle.RemoveNotificationId*"></a>
   <h4 id="Tizen_Telephony_SlotHandle_RemoveNotificationId_System_Collections_Generic_IEnumerable_Tizen_Telephony_ChangeNotificationEventArgs_Notification__" data-uid="Tizen.Telephony.SlotHandle.RemoveNotificationId(System.Collections.Generic.IEnumerable{Tizen.Telephony.ChangeNotificationEventArgs.Notification})">RemoveNotificationId(IEnumerable&lt;ChangeNotificationEventArgs.Notification&gt;)</h4>
   <div class="markdown level1 summary"><p>The notification IDs for which the ChangeNotification event will not be triggered.</p>
@@ -152,13 +152,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Telephony_SlotHandle_RemoveNotificationId_System_Collections_Generic_IEnumerable_Tizen_Telephony_ChangeNotificationEventArgs_Notification___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Telephony_SlotHandle_RemoveNotificationId_System_Collections_Generic_IEnumerable_Tizen_Telephony_ChangeNotificationEventArgs_Notification___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -184,6 +177,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Telephony_SlotHandle_SetNotificationId_" data-uid="Tizen.Telephony.SlotHandle.SetNotificationId*"></a>
   <h4 id="Tizen_Telephony_SlotHandle_SetNotificationId_System_Collections_Generic_IEnumerable_Tizen_Telephony_ChangeNotificationEventArgs_Notification__" data-uid="Tizen.Telephony.SlotHandle.SetNotificationId(System.Collections.Generic.IEnumerable{Tizen.Telephony.ChangeNotificationEventArgs.Notification})">SetNotificationId(IEnumerable&lt;ChangeNotificationEventArgs.Notification&gt;)</h4>
   <div class="markdown level1 summary"><p>The notification IDs for which the ChangeNotification event will be triggered.</p>
@@ -211,13 +210,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Telephony_SlotHandle_SetNotificationId_System_Collections_Generic_IEnumerable_Tizen_Telephony_ChangeNotificationEventArgs_Notification___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Telephony_SlotHandle_SetNotificationId_System_Collections_Generic_IEnumerable_Tizen_Telephony_ChangeNotificationEventArgs_Notification___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -243,8 +235,14 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
+</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Telephony_SlotHandle_ChangeNotification" data-uid="Tizen.Telephony.SlotHandle.ChangeNotification">ChangeNotification</h4>
   <div class="markdown level1 summary"><p>The event handler for receiving the Telephony state changes.
 This event will be triggered for the NotificationIds given in the SetNotificationId API.</p>
@@ -270,14 +268,17 @@ This event will be triggered for the NotificationIds given in the SetNotificatio
     </tbody>
   </table>
   
-  <h5 id="Tizen_Telephony_SlotHandle_ChangeNotification_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

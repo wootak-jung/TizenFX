@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -166,14 +166,14 @@ It also draws a highlight for the focused view and sends an event when the focus
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.NUI.html">Tizen.NUI</a></h6>
   <h6><strong>Assembly</strong>: Tizen.NUI.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_NUI_FocusManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class FocusManager : BaseHandle, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IElementController, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_NUI_FocusManager_FocusGroupLoop_" data-uid="Tizen.NUI.FocusManager.FocusGroupLoop*"></a>
   <h4 id="Tizen_NUI_FocusManager_FocusGroupLoop" data-uid="Tizen.NUI.FocusManager.FocusGroupLoop">FocusGroupLoop</h4>
   <div class="markdown level1 summary"><p>Gets or sets the status of whether the focus movement should be looped within the same focus group.<br>
@@ -200,8 +200,8 @@ The focus movement is not looped by default.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_FocusGroupLoop_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_FocusIndicator_" data-uid="Tizen.NUI.FocusManager.FocusIndicator*"></a>
   <h4 id="Tizen_NUI_FocusManager_FocusIndicator" data-uid="Tizen.NUI.FocusManager.FocusIndicator">FocusIndicator</h4>
@@ -229,8 +229,8 @@ This will replace the default focus indicator view in the FocusManager and will 
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_FocusIndicator_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_Instance_" data-uid="Tizen.NUI.FocusManager.Instance*"></a>
   <h4 id="Tizen_NUI_FocusManager_Instance" data-uid="Tizen.NUI.FocusManager.Instance">Instance</h4>
@@ -257,11 +257,11 @@ This will replace the default focus indicator view in the FocusManager and will 
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_Instance_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_NUI_FocusManager_ClearFocus_" data-uid="Tizen.NUI.FocusManager.ClearFocus*"></a>
   <h4 id="Tizen_NUI_FocusManager_ClearFocus" data-uid="Tizen.NUI.FocusManager.ClearFocus">ClearFocus()</h4>
   <div class="markdown level1 summary"><p>Clears the focus from the current focused view if any, so that no view is focused in the focus chain.<br>
@@ -273,8 +273,8 @@ It will emit the FocusChanged event without the current focused view.<br></p>
     <pre><code class="lang-csharp hljs">public void ClearFocus()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_FocusManager_ClearFocus_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_GetCurrentFocusView_" data-uid="Tizen.NUI.FocusManager.GetCurrentFocusView*"></a>
   <h4 id="Tizen_NUI_FocusManager_GetCurrentFocusView" data-uid="Tizen.NUI.FocusManager.GetCurrentFocusView">GetCurrentFocusView()</h4>
@@ -302,8 +302,8 @@ It will emit the FocusChanged event without the current focused view.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_GetCurrentFocusView_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_GetFocusGroup_" data-uid="Tizen.NUI.FocusManager.GetFocusGroup*"></a>
   <h4 id="Tizen_NUI_FocusManager_GetFocusGroup_Tizen_NUI_BaseComponents_View_" data-uid="Tizen.NUI.FocusManager.GetFocusGroup(Tizen.NUI.BaseComponents.View)">GetFocusGroup(View)</h4>
@@ -349,8 +349,8 @@ It will emit the FocusChanged event without the current focused view.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_GetFocusGroup_Tizen_NUI_BaseComponents_View__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_IsFocusGroup_" data-uid="Tizen.NUI.FocusManager.IsFocusGroup*"></a>
   <h4 id="Tizen_NUI_FocusManager_IsFocusGroup_Tizen_NUI_BaseComponents_View_" data-uid="Tizen.NUI.FocusManager.IsFocusGroup(Tizen.NUI.BaseComponents.View)">IsFocusGroup(View)</h4>
@@ -396,8 +396,8 @@ It will emit the FocusChanged event without the current focused view.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_IsFocusGroup_Tizen_NUI_BaseComponents_View__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_MoveFocus_" data-uid="Tizen.NUI.FocusManager.MoveFocus*"></a>
   <h4 id="Tizen_NUI_FocusManager_MoveFocus_Tizen_NUI_BaseComponents_View_FocusDirection_" data-uid="Tizen.NUI.FocusManager.MoveFocus(Tizen.NUI.BaseComponents.View.FocusDirection)">MoveFocus(View.FocusDirection)</h4>
@@ -443,8 +443,8 @@ It will emit the FocusChanged event without the current focused view.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_MoveFocus_Tizen_NUI_BaseComponents_View_FocusDirection__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_MoveFocusBackward_" data-uid="Tizen.NUI.FocusManager.MoveFocusBackward*"></a>
   <h4 id="Tizen_NUI_FocusManager_MoveFocusBackward" data-uid="Tizen.NUI.FocusManager.MoveFocusBackward">MoveFocusBackward()</h4>
@@ -456,8 +456,8 @@ It will emit the FocusChanged event without the current focused view.<br></p>
     <pre><code class="lang-csharp hljs">public void MoveFocusBackward()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_FocusManager_MoveFocusBackward_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_SetAsFocusGroup_" data-uid="Tizen.NUI.FocusManager.SetAsFocusGroup*"></a>
   <h4 id="Tizen_NUI_FocusManager_SetAsFocusGroup_Tizen_NUI_BaseComponents_View_System_Boolean_" data-uid="Tizen.NUI.FocusManager.SetAsFocusGroup(Tizen.NUI.BaseComponents.View,System.Boolean)">SetAsFocusGroup(View, Boolean)</h4>
@@ -494,8 +494,8 @@ Layout controls set themselves as focus groups by default.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_SetAsFocusGroup_Tizen_NUI_BaseComponents_View_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_SetCurrentFocusView_" data-uid="Tizen.NUI.FocusManager.SetCurrentFocusView*"></a>
   <h4 id="Tizen_NUI_FocusManager_SetCurrentFocusView_Tizen_NUI_BaseComponents_View_" data-uid="Tizen.NUI.FocusManager.SetCurrentFocusView(Tizen.NUI.BaseComponents.View)">SetCurrentFocusView(View)</h4>
@@ -543,8 +543,8 @@ The view must be in the stage already and keyboard focusable.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_SetCurrentFocusView_Tizen_NUI_BaseComponents_View__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_FocusManager_SetCustomAlgorithm_" data-uid="Tizen.NUI.FocusManager.SetCustomAlgorithm*"></a>
   <h4 id="Tizen_NUI_FocusManager_SetCustomAlgorithm_Tizen_NUI_FocusManager_ICustomFocusAlgorithm_" data-uid="Tizen.NUI.FocusManager.SetCustomAlgorithm(Tizen.NUI.FocusManager.ICustomFocusAlgorithm)">SetCustomAlgorithm(FocusManager.ICustomFocusAlgorithm)</h4>
@@ -574,11 +574,11 @@ The view must be in the stage already and keyboard focusable.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_SetCustomAlgorithm_Tizen_NUI_FocusManager_ICustomFocusAlgorithm__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_NUI_FocusManager_FocusChanged" data-uid="Tizen.NUI.FocusManager.FocusChanged">FocusChanged</h4>
   <div class="markdown level1 summary"><p>The FocusGroupChanged will be triggered after the current focused view has been changed.</p>
 </div>
@@ -603,8 +603,8 @@ The view must be in the stage already and keyboard focusable.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_FocusChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_NUI_FocusManager_FocusedViewActivated" data-uid="Tizen.NUI.FocusManager.FocusedViewActivated">FocusedViewActivated</h4>
   <div class="markdown level1 summary"><p>The FocusedViewActivated will be triggered when the current focused view has the enter key pressed on it.</p>
@@ -630,8 +630,8 @@ The view must be in the stage already and keyboard focusable.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_FocusedViewActivated_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_NUI_FocusManager_FocusGroupChanged" data-uid="Tizen.NUI.FocusManager.FocusGroupChanged">FocusGroupChanged</h4>
   <div class="markdown level1 summary"><p>The FocusGroupChanged will be triggered when the focus group has been changed.<br>
@@ -659,8 +659,8 @@ If not, the application has to set the new focus.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_FocusGroupChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_NUI_FocusManager_PreFocusChange" data-uid="Tizen.NUI.FocusManager.PreFocusChange">PreFocusChange</h4>
   <div class="markdown level1 summary"><p>PreFocusChange will be triggered before the focus is going to be changed.<br>
@@ -690,8 +690,7 @@ It won&apos;t be emitted for focus movement by calling the SetCurrentFocusView d
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_FocusManager_PreFocusChange_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -705,6 +704,10 @@ It won&apos;t be emitted for focus movement by calling the SetCurrentFocusView d
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

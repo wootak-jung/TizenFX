@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.html">Tizen.Multimedia</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Multimedia_AudioStreamPolicy_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class AudioStreamPolicy : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy__ctor_" data-uid="Tizen.Multimedia.AudioStreamPolicy.#ctor*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy__ctor_Tizen_Multimedia_AudioStreamType_" data-uid="Tizen.Multimedia.AudioStreamPolicy.#ctor(Tizen.Multimedia.AudioStreamType)">AudioStreamPolicy(AudioStreamType)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.AudioStreamPolicy.html">AudioStreamPolicy</a> class with <a class="xref" href="Tizen.Multimedia.AudioStreamType.html">AudioStreamType</a>.</p>
@@ -161,10 +161,6 @@
 be passed to other APIs related to playback or recording. (For example., <a class="xref" href="Tizen.Multimedia.Player.html">Player</a>,
 <a class="xref" href="Tizen.Multimedia.WavPlayer.html">WavPlayer</a> , etc.)</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy__ctor_Tizen_Multimedia_AudioStreamType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -181,8 +177,12 @@ be passed to other APIs related to playback or recording. (For example., <a clas
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_FocusReacquisitionEnabled_" data-uid="Tizen.Multimedia.AudioStreamPolicy.FocusReacquisitionEnabled*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_FocusReacquisitionEnabled" data-uid="Tizen.Multimedia.AudioStreamPolicy.FocusReacquisitionEnabled">FocusReacquisitionEnabled</h4>
   <div class="markdown level1 summary"><p>Gets or sets the auto focus reacquisition.</p>
@@ -213,10 +213,6 @@ The default is true.</p>
   <div class="markdown level1 remarks"><p>If you don&apos;t want to reacquire the focus you&apos;ve lost automatically,
 disable the focus reacquisition.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_FocusReacquisitionEnabled_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -233,6 +229,10 @@ disable the focus reacquisition.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_PlaybackFocusState_" data-uid="Tizen.Multimedia.AudioStreamPolicy.PlaybackFocusState*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_PlaybackFocusState" data-uid="Tizen.Multimedia.AudioStreamPolicy.PlaybackFocusState">PlaybackFocusState</h4>
   <div class="markdown level1 summary"><p>Gets the state of focus for the playback.</p>
@@ -258,10 +258,6 @@ disable the focus reacquisition.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_PlaybackFocusState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -278,6 +274,10 @@ disable the focus reacquisition.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_PreferredInputDevice_" data-uid="Tizen.Multimedia.AudioStreamPolicy.PreferredInputDevice*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_PreferredInputDevice" data-uid="Tizen.Multimedia.AudioStreamPolicy.PreferredInputDevice">PreferredInputDevice</h4>
   <div class="markdown level1 summary"><p>Gets or sets the preferred input device.</p>
@@ -308,10 +308,6 @@ The default is null which means any device is not set on this property.</p>
   <div class="markdown level1 remarks"><p>This property is to set a specific built-in device when the system has multiple devices of the same built-in device type.
 When there&apos;s only one device for a built-in device type in the system, nothing will happen even if this property is set successfully.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_PreferredInputDevice_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -347,6 +343,10 @@ When there&apos;s only one device for a built-in device type in the system, noth
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.AudioManager.html#Tizen_Multimedia_AudioManager_GetConnectedDevices">GetConnectedDevices()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_PreferredOutputDevice_" data-uid="Tizen.Multimedia.AudioStreamPolicy.PreferredOutputDevice*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_PreferredOutputDevice" data-uid="Tizen.Multimedia.AudioStreamPolicy.PreferredOutputDevice">PreferredOutputDevice</h4>
   <div class="markdown level1 summary"><p>Gets or sets the preferred output device.</p>
@@ -377,10 +377,6 @@ The default is null which means any device is not set on this property.</p>
   <div class="markdown level1 remarks"><p>This property is to set a specific built-in device when the system has multiple devices of the same built-in device type.
 When there&apos;s only one device for a built-in device type in the system, nothing will happen even if this property is set successfully.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_PreferredOutputDevice_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -416,6 +412,10 @@ When there&apos;s only one device for a built-in device type in the system, noth
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.AudioManager.html#Tizen_Multimedia_AudioManager_GetConnectedDevices">GetConnectedDevices()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_RecordingFocusState_" data-uid="Tizen.Multimedia.AudioStreamPolicy.RecordingFocusState*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_RecordingFocusState" data-uid="Tizen.Multimedia.AudioStreamPolicy.RecordingFocusState">RecordingFocusState</h4>
   <div class="markdown level1 summary"><p>Gets the state of focus for the recording.</p>
@@ -441,10 +441,6 @@ When there&apos;s only one device for a built-in device type in the system, noth
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_RecordingFocusState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -461,6 +457,10 @@ When there&apos;s only one device for a built-in device type in the system, noth
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_VolumeType_" data-uid="Tizen.Multimedia.AudioStreamPolicy.VolumeType*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_VolumeType" data-uid="Tizen.Multimedia.AudioStreamPolicy.VolumeType">VolumeType</h4>
   <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Tizen.Multimedia.AudioVolumeType.html">AudioVolumeType</a>.</p>
@@ -490,10 +490,6 @@ When there&apos;s only one device for a built-in device type in the system, noth
   <div class="markdown level1 remarks"><p>If the <a class="xref" href="Tizen.Multimedia.AudioStreamType.html">AudioStreamType</a> of the current AudioStreamPolicy is <a class="xref" href="Tizen.Multimedia.AudioStreamType.html#Tizen_Multimedia_AudioStreamType_Emergency">Emergency</a>,
 it returns <a class="xref" href="Tizen.Multimedia.AudioVolumeType.html#Tizen_Multimedia_AudioVolumeType_None">None</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_VolumeType_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -510,8 +506,12 @@ it returns <a class="xref" href="Tizen.Multimedia.AudioVolumeType.html#Tizen_Mul
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_AcquireFocus_" data-uid="Tizen.Multimedia.AudioStreamPolicy.AcquireFocus*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_AcquireFocus_Tizen_Multimedia_AudioStreamFocusOptions_Tizen_Multimedia_AudioStreamBehaviors_System_String_" data-uid="Tizen.Multimedia.AudioStreamPolicy.AcquireFocus(Tizen.Multimedia.AudioStreamFocusOptions,Tizen.Multimedia.AudioStreamBehaviors,System.String)">AcquireFocus(AudioStreamFocusOptions, AudioStreamBehaviors, String)</h4>
   <div class="markdown level1 summary"><p>Acquires the stream focus.</p>
@@ -551,10 +551,6 @@ it returns <a class="xref" href="Tizen.Multimedia.AudioVolumeType.html#Tizen_Mul
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_AcquireFocus_Tizen_Multimedia_AudioStreamFocusOptions_Tizen_Multimedia_AudioStreamBehaviors_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -593,6 +589,10 @@ it returns <a class="xref" href="Tizen.Multimedia.AudioVolumeType.html#Tizen_Mul
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_AddDeviceForStreamRouting_" data-uid="Tizen.Multimedia.AudioStreamPolicy.AddDeviceForStreamRouting*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_AddDeviceForStreamRouting_Tizen_Multimedia_AudioDevice_" data-uid="Tizen.Multimedia.AudioStreamPolicy.AddDeviceForStreamRouting(Tizen.Multimedia.AudioDevice)">AddDeviceForStreamRouting(AudioDevice)</h4>
   <div class="markdown level1 summary"><p>Adds a device for the stream routing.</p>
@@ -623,10 +623,6 @@ it returns <a class="xref" href="Tizen.Multimedia.AudioVolumeType.html#Tizen_Mul
   <h5 id="Tizen_Multimedia_AudioStreamPolicy_AddDeviceForStreamRouting_Tizen_Multimedia_AudioDevice__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The available <a class="xref" href="Tizen.Multimedia.AudioStreamType.html">AudioStreamType</a> is <a class="xref" href="Tizen.Multimedia.AudioStreamType.html#Tizen_Multimedia_AudioStreamType_Voip">Voip</a> and <a class="xref" href="Tizen.Multimedia.AudioStreamType.html#Tizen_Multimedia_AudioStreamType_MediaExternalOnly">MediaExternalOnly</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_AddDeviceForStreamRouting_Tizen_Multimedia_AudioDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -665,6 +661,10 @@ An internal error occurs.</p>
       <div><a class="xref" href="Tizen.Multimedia.AudioManager.html#Tizen_Multimedia_AudioManager_GetConnectedDevices">GetConnectedDevices()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.AudioStreamPolicy.html#Tizen_Multimedia_AudioStreamPolicy_ApplyStreamRouting">ApplyStreamRouting()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_ApplyStreamRouting_" data-uid="Tizen.Multimedia.AudioStreamPolicy.ApplyStreamRouting*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_ApplyStreamRouting" data-uid="Tizen.Multimedia.AudioStreamPolicy.ApplyStreamRouting">ApplyStreamRouting()</h4>
   <div class="markdown level1 summary"><p>Applies the stream routing.</p>
@@ -677,10 +677,6 @@ An internal error occurs.</p>
   <h5 id="Tizen_Multimedia_AudioStreamPolicy_ApplyStreamRouting_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If the stream has not been made yet, this will be applied when the stream starts to play.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_ApplyStreamRouting_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -709,6 +705,10 @@ An internal error occurs.</p>
       <div><a class="xref" href="Tizen.Multimedia.AudioStreamPolicy.html#Tizen_Multimedia_AudioStreamPolicy_AddDeviceForStreamRouting_Tizen_Multimedia_AudioDevice_">AddDeviceForStreamRouting(AudioDevice)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.AudioStreamPolicy.html#Tizen_Multimedia_AudioStreamPolicy_RemoveDeviceForStreamRouting_Tizen_Multimedia_AudioDevice_">RemoveDeviceForStreamRouting(AudioDevice)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_Dispose_" data-uid="Tizen.Multimedia.AudioStreamPolicy.Dispose*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_Dispose" data-uid="Tizen.Multimedia.AudioStreamPolicy.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all resources used by the <a class="xref" href="Tizen.Multimedia.AudioStreamPolicy.html">AudioStreamPolicy</a>.</p>
@@ -719,8 +719,8 @@ An internal error occurs.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_AudioStreamPolicy_Dispose_" data-uid="Tizen.Multimedia.AudioStreamPolicy.Dispose*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.AudioStreamPolicy.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -750,8 +750,8 @@ An internal error occurs.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_AudioStreamPolicy_HasStreamOnDevice_" data-uid="Tizen.Multimedia.AudioStreamPolicy.HasStreamOnDevice*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_HasStreamOnDevice_Tizen_Multimedia_AudioDevice_" data-uid="Tizen.Multimedia.AudioStreamPolicy.HasStreamOnDevice(Tizen.Multimedia.AudioDevice)">HasStreamOnDevice(AudioDevice)</h4>
@@ -804,10 +804,6 @@ This method returns true only when the device is used for the stream which meets
 One is that the current AudioStreamPolicy sets a audio route path to the device and the other is that the playback
 or recording stream from other API set should have already started to prepare or to play.(It depends on the API set.)</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_HasStreamOnDevice_Tizen_Multimedia_AudioDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -838,6 +834,10 @@ or recording stream from other API set should have already started to prepare or
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.AudioManager.html#Tizen_Multimedia_AudioManager_GetConnectedDevices">GetConnectedDevices()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_ReleaseFocus_" data-uid="Tizen.Multimedia.AudioStreamPolicy.ReleaseFocus*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_ReleaseFocus_Tizen_Multimedia_AudioStreamFocusOptions_Tizen_Multimedia_AudioStreamBehaviors_System_String_" data-uid="Tizen.Multimedia.AudioStreamPolicy.ReleaseFocus(Tizen.Multimedia.AudioStreamFocusOptions,Tizen.Multimedia.AudioStreamBehaviors,System.String)">ReleaseFocus(AudioStreamFocusOptions, AudioStreamBehaviors, String)</h4>
   <div class="markdown level1 summary"><p>Releases the acquired focus.</p>
@@ -877,10 +877,6 @@ or recording stream from other API set should have already started to prepare or
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_ReleaseFocus_Tizen_Multimedia_AudioStreamFocusOptions_Tizen_Multimedia_AudioStreamBehaviors_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -914,6 +910,10 @@ or recording stream from other API set should have already started to prepare or
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_AudioStreamPolicy_RemoveDeviceForStreamRouting_" data-uid="Tizen.Multimedia.AudioStreamPolicy.RemoveDeviceForStreamRouting*"></a>
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_RemoveDeviceForStreamRouting_Tizen_Multimedia_AudioDevice_" data-uid="Tizen.Multimedia.AudioStreamPolicy.RemoveDeviceForStreamRouting(Tizen.Multimedia.AudioDevice)">RemoveDeviceForStreamRouting(AudioDevice)</h4>
   <div class="markdown level1 summary"><p>Removes the device for the stream routing.</p>
@@ -944,10 +944,6 @@ or recording stream from other API set should have already started to prepare or
   <h5 id="Tizen_Multimedia_AudioStreamPolicy_RemoveDeviceForStreamRouting_Tizen_Multimedia_AudioDevice__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The available <a class="xref" href="Tizen.Multimedia.AudioStreamType.html">AudioStreamType</a> is <a class="xref" href="Tizen.Multimedia.AudioStreamType.html#Tizen_Multimedia_AudioStreamType_Voip">Voip</a> and <a class="xref" href="Tizen.Multimedia.AudioStreamType.html#Tizen_Multimedia_AudioStreamType_MediaExternalOnly">MediaExternalOnly</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_RemoveDeviceForStreamRouting_Tizen_Multimedia_AudioDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -978,8 +974,12 @@ or recording stream from other API set should have already started to prepare or
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.AudioManager.html#Tizen_Multimedia_AudioManager_GetConnectedDevices">GetConnectedDevices()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_FocusStateChanged" data-uid="Tizen.Multimedia.AudioStreamPolicy.FocusStateChanged">FocusStateChanged</h4>
   <div class="markdown level1 summary"><p>Occurs when the state of focus that belongs to the current AudioStreamPolicy is changed.</p>
 </div>
@@ -1007,8 +1007,8 @@ or recording stream from other API set should have already started to prepare or
   <div class="markdown level1 remarks"><p>The event is raised in the internal thread.</p>
 </div>
   
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_FocusStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_AudioStreamPolicy_StreamFocusStateChanged" data-uid="Tizen.Multimedia.AudioStreamPolicy.StreamFocusStateChanged">StreamFocusStateChanged</h4>
   <div class="markdown level1 summary"><p>Occurs when the focus state for stream types is changed regardless of the process.</p>
@@ -1034,8 +1034,7 @@ or recording stream from other API set should have already started to prepare or
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_AudioStreamPolicy_StreamFocusStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -1046,6 +1045,10 @@ or recording stream from other API set should have already started to prepare or
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

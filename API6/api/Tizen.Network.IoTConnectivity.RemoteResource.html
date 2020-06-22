@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -122,14 +122,14 @@ It provides APIs to manage remote resource.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.IoTConnectivity.html">Tizen.Network.IoTConnectivity</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.IoTConnectivity.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class RemoteResource : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource__ctor_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.#ctor*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource__ctor_System_String_System_String_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourceInterfaces_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.#ctor(System.String,System.String,Tizen.Network.IoTConnectivity.ResourcePolicy,Tizen.Network.IoTConnectivity.ResourceTypes,Tizen.Network.IoTConnectivity.ResourceInterfaces)">RemoteResource(String, String, ResourcePolicy, ResourceTypes, ResourceInterfaces)</h4>
   <div class="markdown level1 summary"><p>Creates a remote resource instance.</p>
@@ -187,13 +187,6 @@ observe the object.</p>
 <p>If not, you should discover the resource object manually.</p>
 <p>The <code data-dev-comment-type="paramref" class="paramref">policy</code> can contain multiple policies like <code>ResourcePolicy.Discoverable | ResourcePolicy.Observable</code>.</p>
 </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource__ctor_System_String_System_String_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourceInterfaces__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource__ctor_System_String_System_String_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourceInterfaces__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -220,8 +213,13 @@ observe the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_CacheEnabled_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.CacheEnabled*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_CacheEnabled" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.CacheEnabled">CacheEnabled</h4>
   <div class="markdown level1 summary"><p>Indicates the CacheEnabled status of the remote resource.</p>
@@ -247,10 +245,6 @@ observe the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_CacheEnabled_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -287,6 +281,10 @@ observe the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_DeviceId_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.DeviceId*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_DeviceId" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.DeviceId">DeviceId</h4>
   <div class="markdown level1 summary"><p>The device ID of the resource.</p>
@@ -313,8 +311,8 @@ observe the object.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_DeviceId_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_HostAddress_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.HostAddress*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_HostAddress" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.HostAddress">HostAddress</h4>
@@ -342,8 +340,8 @@ observe the object.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_HostAddress_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Interfaces_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Interfaces*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Interfaces" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Interfaces">Interfaces</h4>
@@ -371,8 +369,8 @@ observe the object.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Interfaces_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Options_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Options*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Options" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Options">Options</h4>
@@ -399,10 +397,6 @@ observe the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Options_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -424,6 +418,10 @@ observe the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Policy_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Policy*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Policy" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Policy">Policy</h4>
   <div class="markdown level1 summary"><p>The policy of the resource.</p>
@@ -450,8 +448,8 @@ observe the object.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Policy_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_TimeInterval_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.TimeInterval*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_TimeInterval" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.TimeInterval">TimeInterval</h4>
@@ -479,10 +477,6 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_TimeInterval_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -504,6 +498,10 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Types_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Types*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Types" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Types">Types</h4>
   <div class="markdown level1 summary"><p>The resource types of the remote resource.</p>
@@ -530,8 +528,8 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Types_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_UriPath_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.UriPath*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_UriPath" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.UriPath">UriPath</h4>
@@ -559,11 +557,11 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_UriPath_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_CachedRepresentation_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.CachedRepresentation*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_CachedRepresentation" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.CachedRepresentation">CachedRepresentation()</h4>
   <div class="markdown level1 summary"><p>Gets cached representation from the remote resource.</p>
@@ -590,11 +588,9 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_CachedRepresentation_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_CachedRepresentation_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_DeleteAsync_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.DeleteAsync*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_DeleteAsync" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.DeleteAsync">DeleteAsync()</h4>
@@ -622,16 +618,11 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_DeleteAsync_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_DeleteAsync_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_DeleteAsync_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_DeleteAsync_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Dispose*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Dispose">Dispose()</h4>
@@ -643,11 +634,9 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Dispose*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_System_Boolean_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -677,11 +666,9 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_Dispose_System_Boolean__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_Finalize_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Finalize*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_Finalize" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.Finalize">Finalize()</h4>
@@ -692,6 +679,7 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_GetAsync_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.GetAsync*"></a>
@@ -738,16 +726,11 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_GetAsync_Tizen_Network_IoTConnectivity_ResourceQuery__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_GetAsync_Tizen_Network_IoTConnectivity_ResourceQuery__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_GetAsync_Tizen_Network_IoTConnectivity_ResourceQuery__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_GetAsync_Tizen_Network_IoTConnectivity_ResourceQuery__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_PostAsync_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.PostAsync*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_PostAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.PostAsync(Tizen.Network.IoTConnectivity.Representation,Tizen.Network.IoTConnectivity.ResourceQuery)">PostAsync(Representation, ResourceQuery)</h4>
@@ -799,16 +782,11 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PostAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PostAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PostAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PostAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_PutAsync_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.PutAsync*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_PutAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.PutAsync(Tizen.Network.IoTConnectivity.Representation,Tizen.Network.IoTConnectivity.ResourceQuery)">PutAsync(Representation, ResourceQuery)</h4>
@@ -860,16 +838,11 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PutAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PutAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PutAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_PutAsync_Tizen_Network_IoTConnectivity_Representation_Tizen_Network_IoTConnectivity_ResourceQuery__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.StartObserving*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_Tizen_Network_IoTConnectivity_ObservePolicy_Tizen_Network_IoTConnectivity_ResourceQuery_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.StartObserving(Tizen.Network.IoTConnectivity.ObservePolicy,Tizen.Network.IoTConnectivity.ResourceQuery)">StartObserving(ObservePolicy, ResourceQuery)</h4>
@@ -907,18 +880,6 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
   <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_Tizen_Network_IoTConnectivity_ObservePolicy_Tizen_Network_IoTConnectivity_ResourceQuery__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>When server sends notification message, <a class="xref" href="Tizen.Network.IoTConnectivity.RemoteResource.html#Tizen_Network_IoTConnectivity_RemoteResource_ObserverNotified">ObserverNotified</a> will be called.</p>
 </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_Tizen_Network_IoTConnectivity_ObservePolicy_Tizen_Network_IoTConnectivity_ResourceQuery__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_Tizen_Network_IoTConnectivity_ObservePolicy_Tizen_Network_IoTConnectivity_ResourceQuery__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_Tizen_Network_IoTConnectivity_ObservePolicy_Tizen_Network_IoTConnectivity_ResourceQuery__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StartObserving_Tizen_Network_IoTConnectivity_ObservePolicy_Tizen_Network_IoTConnectivity_ResourceQuery__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -950,6 +911,13 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_RemoteResource_StopObserving_" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.StopObserving*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_StopObserving" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.StopObserving">StopObserving()</h4>
   <div class="markdown level1 summary"><p>Stops observing on the resource.</p>
@@ -959,18 +927,6 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StopObserving()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StopObserving_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StopObserving_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StopObserving_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StopObserving_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -997,8 +953,15 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_CacheUpdated" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.CacheUpdated">CacheUpdated</h4>
   <div class="markdown level1 summary"><p>The event is invoked with cached resource attributes.</p>
 </div>
@@ -1023,8 +986,8 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_CacheUpdated_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_ObserverNotified" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.ObserverNotified">ObserverNotified</h4>
   <div class="markdown level1 summary"><p>Observe an event on the resource sent by the server.</p>
@@ -1050,8 +1013,8 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_ObserverNotified_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Network_IoTConnectivity_RemoteResource_StateChanged" data-uid="Tizen.Network.IoTConnectivity.RemoteResource.StateChanged">StateChanged</h4>
   <div class="markdown level1 summary"><p>The event is called when remote resource&apos;s state are changed.</p>
@@ -1077,8 +1040,7 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_RemoteResource_StateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -1089,6 +1051,10 @@ Seconds for time interval (must be in range from 1 to 3600).</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

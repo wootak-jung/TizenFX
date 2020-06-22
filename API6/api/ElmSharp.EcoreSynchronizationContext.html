@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -145,14 +145,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ElmSharp.html">ElmSharp</a></h6>
   <h6><strong>Assembly</strong>: ElmSharp.dll</h6>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   <h5 id="ElmSharp_EcoreSynchronizationContext_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class EcoreSynchronizationContext : SynchronizationContext</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="ElmSharp_EcoreSynchronizationContext__ctor_" data-uid="ElmSharp.EcoreSynchronizationContext.#ctor*"></a>
   <h4 id="ElmSharp_EcoreSynchronizationContext__ctor" data-uid="ElmSharp.EcoreSynchronizationContext.#ctor">EcoreSynchronizationContext()</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the EcoreSynchronizationContext class.</p>
@@ -163,11 +163,11 @@
     <pre><code class="lang-csharp hljs">public EcoreSynchronizationContext()</code></pre>
   </div>
   
-  <h5 id="ElmSharp_EcoreSynchronizationContext__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="ElmSharp_EcoreSynchronizationContext_Initialize_" data-uid="ElmSharp.EcoreSynchronizationContext.Initialize*"></a>
   <h4 id="ElmSharp_EcoreSynchronizationContext_Initialize" data-uid="ElmSharp.EcoreSynchronizationContext.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"><p>Initilizes a new EcoreSynchronizationContext and installs into the current thread.</p>
@@ -182,8 +182,8 @@
 <pre><code>SetSynchronizationContext(new EcoreSynchronizationContext());</code></pre>
 </div>
   
-  <h5 id="ElmSharp_EcoreSynchronizationContext_Initialize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
+  
   
   <a id="ElmSharp_EcoreSynchronizationContext_Post_" data-uid="ElmSharp.EcoreSynchronizationContext.Post*"></a>
   <h4 id="ElmSharp_EcoreSynchronizationContext_Post_System_Threading_SendOrPostCallback_System_Object_" data-uid="ElmSharp.EcoreSynchronizationContext.Post(System.Threading.SendOrPostCallback,System.Object)">Post(SendOrPostCallback, Object)</h4>
@@ -224,8 +224,8 @@
   <div class="markdown level1 remarks"><p>The Post method starts an asynchronous request to post a message.</p>
 </div>
   
-  <h5 id="ElmSharp_EcoreSynchronizationContext_Post_System_Threading_SendOrPostCallback_System_Object__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
+  
   
   <a id="ElmSharp_EcoreSynchronizationContext_Send_" data-uid="ElmSharp.EcoreSynchronizationContext.Send*"></a>
   <h4 id="ElmSharp_EcoreSynchronizationContext_Send_System_Threading_SendOrPostCallback_System_Object_" data-uid="ElmSharp.EcoreSynchronizationContext.Send(System.Threading.SendOrPostCallback,System.Object)">Send(SendOrPostCallback, Object)</h4>
@@ -266,14 +266,17 @@
   <div class="markdown level1 remarks"><p>The Send method starts a synchronous request to send a message.</p>
 </div>
   
-  <h5 id="ElmSharp_EcoreSynchronizationContext_Send_System_Threading_SendOrPostCallback_System_Object__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

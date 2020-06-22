@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -163,14 +163,14 @@ This class is accessed by using a constructor to create a new instance of this o
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.IoTConnectivity.html">Tizen.Network.IoTConnectivity</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.IoTConnectivity.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Network_IoTConnectivity_LiteResource_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LiteResource : Resource, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_LiteResource__ctor_" data-uid="Tizen.Network.IoTConnectivity.LiteResource.#ctor*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes_" data-uid="Tizen.Network.IoTConnectivity.LiteResource.#ctor(System.String,Tizen.Network.IoTConnectivity.ResourceTypes,Tizen.Network.IoTConnectivity.ResourcePolicy,Tizen.Network.IoTConnectivity.Attributes)">LiteResource(String, ResourceTypes, ResourcePolicy, Attributes)</h4>
   <div class="markdown level1 summary"><p>The LiteResource constructor.</p>
@@ -221,21 +221,6 @@ This class is accessed by using a constructor to create a new instance of this o
 <p>When client requests some operations, it sends a response to client automatically.</p>
 <p><code data-dev-comment-type="paramref" class="paramref">uri</code> length must be less than 128.</p>
 </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>IoTConnectivityServerManager.Initialize() should be called to initialize.</p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_LiteResource__ctor_System_String_Tizen_Network_IoTConnectivity_ResourceTypes_Tizen_Network_IoTConnectivity_ResourcePolicy_Tizen_Network_IoTConnectivity_Attributes__examples">Examples</h5>
   <pre><code>    List&lt;string> list = new List&lt;string>() { &quot;org.tizen.light&quot; };
     Attributes attributes = new Attributes() {
@@ -248,8 +233,16 @@ This class is accessed by using a constructor to create a new instance of this o
       <div><a class="xref" href="Tizen.Network.IoTConnectivity.ResourcePolicy.html">ResourcePolicy</a></div>
       <div><a class="xref" href="Tizen.Network.IoTConnectivity.LiteResource.html#Tizen_Network_IoTConnectivity_LiteResource_Attributes">Attributes</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>IoTConnectivityServerManager.Initialize() should be called to initialize.</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_LiteResource_Attributes_" data-uid="Tizen.Network.IoTConnectivity.LiteResource.Attributes*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_LiteResource_Attributes" data-uid="Tizen.Network.IoTConnectivity.LiteResource.Attributes">Attributes</h4>
   <div class="markdown level1 summary"><p>Gets or sets the attributes of the lite resource.</p>
@@ -275,10 +268,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource_Attributes_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_LiteResource_Attributes_examples">Examples</h5>
   <pre><code>    List&lt;string> list = new List&lt;string>() { &quot;org.tizen.light&quot; };
     LiteResource res = new LiteResource(&quot;/light/1&quot;, new ResourceTypes(list), ResourcePolicy.Discoverable);
@@ -290,8 +279,12 @@ This class is accessed by using a constructor to create a new instance of this o
     {
         Console.WriteLine(&quot;key : {0}, value : {1}&quot;, pair.Key, pair.Value);
     }</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_LiteResource_OnPost_" data-uid="Tizen.Network.IoTConnectivity.LiteResource.OnPost*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_LiteResource_OnPost_Tizen_Network_IoTConnectivity_Attributes_" data-uid="Tizen.Network.IoTConnectivity.LiteResource.OnPost(Tizen.Network.IoTConnectivity.Attributes)">OnPost(Attributes)</h4>
   <div class="markdown level1 summary"><p>Decides whether to accept or reject a post request.</p>
@@ -338,10 +331,6 @@ This class is accessed by using a constructor to create a new instance of this o
   <h5 id="Tizen_Network_IoTConnectivity_LiteResource_OnPost_Tizen_Network_IoTConnectivity_Attributes__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Child classes of this class can override this method to accept or reject post request.</p>
 </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_LiteResource_OnPost_Tizen_Network_IoTConnectivity_Attributes__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_LiteResource_OnPost_Tizen_Network_IoTConnectivity_Attributes__examples">Examples</h5>
   <pre><code>    public class MyLightResource : LiteResource
     {
@@ -354,6 +343,9 @@ This class is accessed by using a constructor to create a new instance of this o
             return false;
         }
     }</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -363,6 +355,10 @@ This class is accessed by using a constructor to create a new instance of this o
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

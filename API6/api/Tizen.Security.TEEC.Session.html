@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Security.TEEC.html">Tizen.Security.TEEC</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Security.TEEC.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Security_TEEC_Session_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class Session : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Security_TEEC_Session_Close_" data-uid="Tizen.Security.TEEC.Session.Close*"></a>
   <h4 id="Tizen_Security_TEEC_Session_Close" data-uid="Tizen.Security.TEEC.Session.Close">Close()</h4>
   <div class="markdown level1 summary"><p>This function closes a session which has been opened with a trusted application.
@@ -139,18 +139,6 @@ All commands within the session must be completed before this function can be ca
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Close()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Security_TEEC_Session_Close_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_Session_Close_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_Session_Close_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
-  <h5 id="Tizen_Security_TEEC_Session_Close_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/security.tee">http://tizen.org/feature/security.tee</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -177,6 +165,13 @@ All commands within the session must be completed before this function can be ca
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>partner</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/tee.client</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/security.tee</span></span></h6>
+  
+  
   <a id="Tizen_Security_TEEC_Session_Dispose_" data-uid="Tizen.Security.TEEC.Session.Dispose*"></a>
   <h4 id="Tizen_Security_TEEC_Session_Dispose" data-uid="Tizen.Security.TEEC.Session.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Disposable interface implememtation.</p>
@@ -188,6 +183,7 @@ All commands within the session must be completed before this function can be ca
   </div>
   
   
+  
   <a id="Tizen_Security_TEEC_Session_Finalize_" data-uid="Tizen.Security.TEEC.Session.Finalize*"></a>
   <h4 id="Tizen_Security_TEEC_Session_Finalize" data-uid="Tizen.Security.TEEC.Session.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Destructor of the class.</p>
@@ -197,6 +193,7 @@ All commands within the session must be completed before this function can be ca
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Security_TEEC_Session_InvokeCommand_" data-uid="Tizen.Security.TEEC.Session.InvokeCommand*"></a>
@@ -236,18 +233,6 @@ There can be up to four parameter objects given in the <code data-dev-comment-ty
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommand_System_UInt32_Tizen_Security_TEEC_Parameter____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommand_System_UInt32_Tizen_Security_TEEC_Parameter____privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommand_System_UInt32_Tizen_Security_TEEC_Parameter____privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommand_System_UInt32_Tizen_Security_TEEC_Parameter____feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/security.tee">http://tizen.org/feature/security.tee</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -279,6 +264,13 @@ There can be up to four parameter objects given in the <code data-dev-comment-ty
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>partner</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/tee.client</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/security.tee</span></span></h6>
+  
+  
   <a id="Tizen_Security_TEEC_Session_InvokeCommandAsync_" data-uid="Tizen.Security.TEEC.Session.InvokeCommandAsync*"></a>
   <h4 id="Tizen_Security_TEEC_Session_InvokeCommandAsync_System_UInt32_Tizen_Security_TEEC_Parameter___System_Threading_CancellationToken_" data-uid="Tizen.Security.TEEC.Session.InvokeCommandAsync(System.UInt32,Tizen.Security.TEEC.Parameter[],System.Threading.CancellationToken)">InvokeCommandAsync(UInt32, Parameter[], CancellationToken)</h4>
   <div class="markdown level1 summary"><p>The asynchronous version of the InvokeCommand.</p>
@@ -334,18 +326,6 @@ There can be up to four parameter objects given in the <code data-dev-comment-ty
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommandAsync_System_UInt32_Tizen_Security_TEEC_Parameter___System_Threading_CancellationToken__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommandAsync_System_UInt32_Tizen_Security_TEEC_Parameter___System_Threading_CancellationToken__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommandAsync_System_UInt32_Tizen_Security_TEEC_Parameter___System_Threading_CancellationToken__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
-  <h5 id="Tizen_Security_TEEC_Session_InvokeCommandAsync_System_UInt32_Tizen_Security_TEEC_Parameter___System_Threading_CancellationToken__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/security.tee">http://tizen.org/feature/security.tee</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -377,6 +357,14 @@ There can be up to four parameter objects given in the <code data-dev-comment-ty
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: partner</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/security.tee">http://tizen.org/feature/security.tee</a></p>
+</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -386,6 +374,10 @@ There can be up to four parameter objects given in the <code data-dev-comment-ty
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

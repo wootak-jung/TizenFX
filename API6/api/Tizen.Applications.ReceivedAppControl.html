@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -160,12 +160,11 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.html">Tizen.Applications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.Common.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_ReceivedAppControl_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ReceivedAppControl : AppControl</code></pre>
   </div>
-  
-  
   <h5 id="Tizen_Applications_ReceivedAppControl_examples"><strong>Examples</strong></h5>
   <pre><code>public class ReceivedAppControlExample : UIApplication
 {
@@ -188,6 +187,7 @@
 
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_ReceivedAppControl__ctor_" data-uid="Tizen.Applications.ReceivedAppControl.#ctor*"></a>
   <h4 id="Tizen_Applications_ReceivedAppControl__ctor_Tizen_Applications_SafeAppControlHandle_" data-uid="Tizen.Applications.ReceivedAppControl.#ctor(Tizen.Applications.SafeAppControlHandle)">ReceivedAppControl(SafeAppControlHandle)</h4>
   <div class="markdown level1 summary"><p>Initializes a ReceivedAppControl class.</p>
@@ -216,11 +216,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_ReceivedAppControl__ctor_Tizen_Applications_SafeAppControlHandle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_ReceivedAppControl_CallerApplicationId_" data-uid="Tizen.Applications.ReceivedAppControl.CallerApplicationId*"></a>
   <h4 id="Tizen_Applications_ReceivedAppControl_CallerApplicationId" data-uid="Tizen.Applications.ReceivedAppControl.CallerApplicationId">CallerApplicationId</h4>
   <div class="markdown level1 summary"><p>Gets the application ID of the caller from the launch request.</p>
@@ -246,10 +246,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_ReceivedAppControl_CallerApplicationId_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_ReceivedAppControl_CallerApplicationId_examples">Examples</h5>
   <pre><code>    protected override void OnAppControlReceived(AppControlReceivedEventArgs e)
     {
@@ -257,6 +253,10 @@
         string caller = control.CallerApplicationId;
     }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_ReceivedAppControl_IsReplyRequest_" data-uid="Tizen.Applications.ReceivedAppControl.IsReplyRequest*"></a>
   <h4 id="Tizen_Applications_ReceivedAppControl_IsReplyRequest" data-uid="Tizen.Applications.ReceivedAppControl.IsReplyRequest">IsReplyRequest</h4>
   <div class="markdown level1 summary"><p>Checks whether the caller is requesting a reply from the launch request.</p>
@@ -282,10 +282,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_ReceivedAppControl_IsReplyRequest_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_ReceivedAppControl_IsReplyRequest_examples">Examples</h5>
   <pre><code>    protected override void OnAppControlReceived(AppControlReceivedEventArgs e)
     {
@@ -293,8 +289,12 @@
         bool isReply = control.IsReplyRequest;
     }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_ReceivedAppControl_ReplyToLaunchRequest_" data-uid="Tizen.Applications.ReceivedAppControl.ReplyToLaunchRequest*"></a>
   <h4 id="Tizen_Applications_ReceivedAppControl_ReplyToLaunchRequest_Tizen_Applications_AppControl_Tizen_Applications_AppControlReplyResult_" data-uid="Tizen.Applications.ReceivedAppControl.ReplyToLaunchRequest(Tizen.Applications.AppControl,Tizen.Applications.AppControlReplyResult)">ReplyToLaunchRequest(AppControl, AppControlReplyResult)</h4>
   <div class="markdown level1 summary"><p>Replies to the launch request sent by the caller.
@@ -329,10 +329,6 @@ If the caller application sends the launch request to receive the result, the ca
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_ReceivedAppControl_ReplyToLaunchRequest_Tizen_Applications_AppControl_Tizen_Applications_AppControlReplyResult__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_ReceivedAppControl_ReplyToLaunchRequest_Tizen_Applications_AppControl_Tizen_Applications_AppControlReplyResult__examples">Examples</h5>
   <pre><code>    protected override void OnAppControlReceived(AppControlReceivedEventArgs e)
     {
@@ -345,11 +341,18 @@ If the caller application sends the launch request to receive the result, the ca
         }
     }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

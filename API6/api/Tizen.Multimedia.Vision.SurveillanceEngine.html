@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -125,18 +125,15 @@ Media Vision Surveillance provides the functionality which can be utilized for c
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.Vision.html">Tizen.Multimedia.Vision</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Vision.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/vision.face_recognition</span><span>http://tizen.org/feature/vision.image_recognition</span></span></h6>
   <h5 id="Tizen_Multimedia_Vision_SurveillanceEngine_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class SurveillanceEngine : IDisposable</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_SurveillanceEngine_feature" class="feature">Feature</h5>
-  <div class="markdown level0 feature"><p><a href="http://tizen.org/feature/vision.face_recognition">http://tizen.org/feature/vision.face_recognition</a><br>
-<a href="http://tizen.org/feature/vision.image_recognition">http://tizen.org/feature/vision.image_recognition</a></p>
-</div>
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_SurveillanceEngine_Roi_" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Roi*"></a>
   <h4 id="Tizen_Multimedia_Vision_SurveillanceEngine_Roi" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Roi">Roi</h4>
   <div class="markdown level1 summary"><p>Sets and gets the ROI (Region Of Interest).</p>
@@ -161,10 +158,6 @@ Media Vision Surveillance provides the functionality which can be utilized for c
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_SurveillanceEngine_Roi_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -181,8 +174,12 @@ Media Vision Surveillance provides the functionality which can be utilized for c
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_SurveillanceEngine_Dispose_" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_SurveillanceEngine_Dispose" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all the resources used by the <a class="xref" href="Tizen.Multimedia.Vision.SurveillanceEngine.html">SurveillanceEngine</a> object.</p>
@@ -193,8 +190,8 @@ Media Vision Surveillance provides the functionality which can be utilized for c
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_Vision_SurveillanceEngine_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_SurveillanceEngine_Dispose_" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_SurveillanceEngine_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -224,8 +221,8 @@ Media Vision Surveillance provides the functionality which can be utilized for c
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Vision_SurveillanceEngine_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_SurveillanceEngine_Finalize_" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Finalize*"></a>
   <h4 id="Tizen_Multimedia_Vision_SurveillanceEngine_Finalize" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.Finalize">Finalize()</h4>
@@ -236,6 +233,7 @@ Media Vision Surveillance provides the functionality which can be utilized for c
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Multimedia_Vision_SurveillanceEngine_RemoveSource_" data-uid="Tizen.Multimedia.Vision.SurveillanceEngine.RemoveSource*"></a>
@@ -264,10 +262,6 @@ Media Vision Surveillance provides the functionality which can be utilized for c
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_SurveillanceEngine_RemoveSource_Tizen_Multimedia_Vision_SurveillanceSource__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -294,6 +288,9 @@ Media Vision Surveillance provides the functionality which can be utilized for c
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -309,6 +306,10 @@ Media Vision Surveillance provides the functionality which can be utilized for c
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

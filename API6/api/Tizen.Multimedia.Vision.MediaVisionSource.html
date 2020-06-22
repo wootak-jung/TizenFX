@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,20 +121,15 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.Vision.html">Tizen.Multimedia.Vision</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Vision.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/vision.barcode_detection</span><span>http://tizen.org/feature/vision.barcode_generation</span><span>http://tizen.org/feature/vision.face_recognition</span><span>http://tizen.org/feature/vision.image_recognition</span></span></h6>
   <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class MediaVisionSource : IDisposable</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_feature" class="feature">Feature</h5>
-  <div class="markdown level0 feature"><p><a href="http://tizen.org/feature/vision.barcode_detection">http://tizen.org/feature/vision.barcode_detection</a><br>
-<a href="http://tizen.org/feature/vision.barcode_generation">http://tizen.org/feature/vision.barcode_generation</a><br>
-<a href="http://tizen.org/feature/vision.face_recognition">http://tizen.org/feature/vision.face_recognition</a><br>
-<a href="http://tizen.org/feature/vision.image_recognition">http://tizen.org/feature/vision.image_recognition</a></p>
-</div>
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource__ctor_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource__ctor_System_Byte___System_UInt32_System_UInt32_Tizen_Multimedia_ColorSpace_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.#ctor(System.Byte[],System.UInt32,System.UInt32,Tizen.Multimedia.ColorSpace)">MediaVisionSource(Byte[], UInt32, UInt32, ColorSpace)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Vision.MediaVisionSource.html">MediaVisionSource</a> class based on the buffer and <a class="xref" href="Tizen.Multimedia.ColorSpace.html">ColorSpace</a>.</p>
@@ -180,10 +175,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource__ctor_System_Byte___System_UInt32_System_UInt32_Tizen_Multimedia_ColorSpace__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -214,6 +205,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource__ctor_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource__ctor_Tizen_Multimedia_MediaPacket_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.#ctor(Tizen.Multimedia.MediaPacket)">MediaVisionSource(MediaPacket)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Vision.MediaVisionSource.html">MediaVisionSource</a> class based on the <a class="xref" href="Tizen.Multimedia.MediaPacket.html">MediaPacket</a>.</p>
@@ -241,10 +236,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource__ctor_Tizen_Multimedia_MediaPacket__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -271,8 +262,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Buffer_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Buffer*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Buffer" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Buffer">Buffer</h4>
   <div class="markdown level1 summary"><p>Gets the buffer of the media source.</p>
@@ -297,10 +292,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_Buffer_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -317,6 +308,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Colorspace_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Colorspace*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Colorspace" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Colorspace">Colorspace</h4>
   <div class="markdown level1 summary"><p>Gets <a class="xref" href="Tizen.Multimedia.ColorSpace.html">ColorSpace</a> of the media source.</p>
@@ -341,10 +336,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_Colorspace_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -361,6 +352,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Height_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Height*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Height" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Height">Height</h4>
   <div class="markdown level1 summary"><p>Gets the height of the media source.</p>
@@ -385,10 +380,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_Height_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -405,6 +396,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_SupportedColorSpaces_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.SupportedColorSpaces*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_SupportedColorSpaces" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.SupportedColorSpaces">SupportedColorSpaces</h4>
   <div class="markdown level1 summary"><p>Gets the supported colorspaces for <a class="xref" href="Tizen.Multimedia.Vision.MediaVisionSource.html">MediaVisionSource</a>.</p>
@@ -430,8 +425,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_SupportedColorSpaces_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Width_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Width*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Width" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Width">Width</h4>
@@ -457,10 +452,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_Width_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -477,8 +468,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Dispose_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Dispose" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all resources used by the current instance.</p>
@@ -489,8 +484,8 @@
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Dispose_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -520,8 +515,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_Finalize_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Finalize*"></a>
   <h4 id="Tizen_Multimedia_Vision_MediaVisionSource_Finalize" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.Finalize">Finalize()</h4>
@@ -532,6 +527,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Multimedia_Vision_MediaVisionSource_IsSupportedColorSpace_" data-uid="Tizen.Multimedia.Vision.MediaVisionSource.IsSupportedColorSpace*"></a>
@@ -577,8 +573,7 @@ true if supported, otherwise false.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Vision_MediaVisionSource_IsSupportedColorSpace_Tizen_Multimedia_ColorSpace__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -589,6 +584,10 @@ true if supported, otherwise false.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,6 +121,7 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.Messages.html">Tizen.Applications.Messages</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.MessagePort.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_Messages_MessagePort_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class MessagePort : IDisposable</code></pre>
@@ -130,10 +131,9 @@
 If a remote application sends a message, the registered callback function of the local port is called.
 The trusted message-port API allows communications between applications that are signed by the same developer(author) certificate.</p>
 </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_Messages_MessagePort__ctor_" data-uid="Tizen.Applications.Messages.MessagePort.#ctor*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort__ctor_System_String_System_Boolean_" data-uid="Tizen.Applications.Messages.MessagePort.#ctor(System.String,System.Boolean)">MessagePort(String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initializes the instance of the MessagePort class.</p>
@@ -167,10 +167,6 @@ The trusted message-port API allows communications between applications that are
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Messages_MessagePort__ctor_System_String_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Messages_MessagePort__ctor_System_String_System_Boolean__examples">Examples</h5>
   <pre><code>MessagePort messagePort = new MessagePort(&quot;SenderPort&quot;, true);</code></pre>
 
@@ -190,8 +186,12 @@ The trusted message-port API allows communications between applications that are
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_Messages_MessagePort_Listening_" data-uid="Tizen.Applications.Messages.MessagePort.Listening*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Listening" data-uid="Tizen.Applications.Messages.MessagePort.Listening">Listening</h4>
   <div class="markdown level1 summary"><p>If true, the message port is listening, otherwise false.</p>
@@ -217,8 +217,8 @@ The trusted message-port API allows communications between applications that are
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Messages_MessagePort_Listening_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Messages_MessagePort_PortName_" data-uid="Tizen.Applications.Messages.MessagePort.PortName*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_PortName" data-uid="Tizen.Applications.Messages.MessagePort.PortName">PortName</h4>
@@ -245,8 +245,8 @@ The trusted message-port API allows communications between applications that are
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Messages_MessagePort_PortName_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Messages_MessagePort_Trusted_" data-uid="Tizen.Applications.Messages.MessagePort.Trusted*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Trusted" data-uid="Tizen.Applications.Messages.MessagePort.Trusted">Trusted</h4>
@@ -273,11 +273,11 @@ The trusted message-port API allows communications between applications that are
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Messages_MessagePort_Trusted_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_Messages_MessagePort_Dispose_" data-uid="Tizen.Applications.Messages.MessagePort.Dispose*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Dispose" data-uid="Tizen.Applications.Messages.MessagePort.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all resources used by the MessagePort class.</p>
@@ -288,8 +288,8 @@ The trusted message-port API allows communications between applications that are
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Applications_Messages_MessagePort_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Messages_MessagePort_Dispose_" data-uid="Tizen.Applications.Messages.MessagePort.Dispose*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Dispose_System_Boolean_" data-uid="Tizen.Applications.Messages.MessagePort.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -319,8 +319,8 @@ The trusted message-port API allows communications between applications that are
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Messages_MessagePort_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Messages_MessagePort_Finalize_" data-uid="Tizen.Applications.Messages.MessagePort.Finalize*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Finalize" data-uid="Tizen.Applications.Messages.MessagePort.Finalize">Finalize()</h4>
@@ -333,6 +333,7 @@ The trusted message-port API allows communications between applications that are
   </div>
   
   
+  
   <a id="Tizen_Applications_Messages_MessagePort_Listen_" data-uid="Tizen.Applications.Messages.MessagePort.Listen*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Listen" data-uid="Tizen.Applications.Messages.MessagePort.Listen">Listen()</h4>
   <div class="markdown level1 summary"><p>Register the local message port.</p>
@@ -342,10 +343,6 @@ The trusted message-port API allows communications between applications that are
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Listen()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_Messages_MessagePort_Listen_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Messages_MessagePort_Listen_examples">Examples</h5>
   <pre><code>MessagePort messagePort = new MessagePort(&quot;SenderPort&quot;, true);
 messagePort.MessageReceived += MessageReceivedCallback;
@@ -377,6 +374,10 @@ messagePort.Listen();</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Messages_MessagePort_Send_" data-uid="Tizen.Applications.Messages.MessagePort.Send*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Send_Tizen_Applications_Bundle_System_String_System_String_" data-uid="Tizen.Applications.Messages.MessagePort.Send(Tizen.Applications.Bundle,System.String,System.String)">Send(Bundle, String, String)</h4>
   <div class="markdown level1 summary"><p>Sends an untrusted message to the message port of a remote application.</p>
@@ -416,10 +417,6 @@ messagePort.Listen();</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Messages_MessagePort_Send_Tizen_Applications_Bundle_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Messages_MessagePort_Send_Tizen_Applications_Bundle_System_String_System_String__examples">Examples</h5>
   <pre><code>MessagePort messagePort = new MessagePort(&quot;SenderPort&quot;, true);
 messagePort.MessageReceived += MessageReceivedCallback;
@@ -461,6 +458,10 @@ using (var message = new Tizen.Application.Bundle())
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Messages_MessagePort_Send_" data-uid="Tizen.Applications.Messages.MessagePort.Send*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_Send_Tizen_Applications_Bundle_System_String_System_String_System_Boolean_" data-uid="Tizen.Applications.Messages.MessagePort.Send(Tizen.Applications.Bundle,System.String,System.String,System.Boolean)">Send(Bundle, String, String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Sends a message to the message port of a remote application.</p>
@@ -506,10 +507,6 @@ using (var message = new Tizen.Application.Bundle())
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Messages_MessagePort_Send_Tizen_Applications_Bundle_System_String_System_String_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Messages_MessagePort_Send_Tizen_Applications_Bundle_System_String_System_String_System_Boolean__examples">Examples</h5>
   <pre><code>MessagePort messagePort = new MessagePort(&quot;SenderPort&quot;, true);
 messagePort.MessageReceived += MessageReceivedCallback;
@@ -556,6 +553,10 @@ using (var message = new Tizen.Application.Bundle())
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Messages_MessagePort_StopListening_" data-uid="Tizen.Applications.Messages.MessagePort.StopListening*"></a>
   <h4 id="Tizen_Applications_Messages_MessagePort_StopListening" data-uid="Tizen.Applications.Messages.MessagePort.StopListening">StopListening()</h4>
   <div class="markdown level1 summary"><p>Unregisters the local message port.</p>
@@ -565,10 +566,6 @@ using (var message = new Tizen.Application.Bundle())
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StopListening()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_Messages_MessagePort_StopListening_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Messages_MessagePort_StopListening_examples">Examples</h5>
   <pre><code>MessagePort messagePort = new MessagePort(&quot;SenderPort&quot;, true);
 messagePort.MessageReceived += MessageReceivedCallback;
@@ -606,8 +603,12 @@ messagePort.StopListening();</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Applications_Messages_MessagePort_MessageReceived" data-uid="Tizen.Applications.Messages.MessagePort.MessageReceived">MessageReceived</h4>
   <div class="markdown level1 summary"><p>Called when a message is received.</p>
 </div>
@@ -631,10 +632,6 @@ messagePort.StopListening();</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Messages_MessagePort_MessageReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Messages_MessagePort_MessageReceived_examples">Examples</h5>
   <pre><code>MessagePort messagePort = new MessagePort(&quot;SenderPort&quot;, true);
 messagePort.MessageReceived += MessageReceivedCallback;
@@ -646,6 +643,9 @@ static void MessageReceivedCallback(object sender, MessageReceivedEventArgs e)
     }
 }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -655,6 +655,10 @@ static void MessageReceivedCallback(object sender, MessageReceivedEventArgs e)
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

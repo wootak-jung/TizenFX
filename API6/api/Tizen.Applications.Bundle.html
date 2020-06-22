@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -125,14 +125,14 @@ A bundle instance is not guaranteed to be thread safe if the instance is modifie
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.html">Tizen.Applications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.Common.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_Bundle_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Bundle : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_Bundle__ctor_" data-uid="Tizen.Applications.Bundle.#ctor*"></a>
   <h4 id="Tizen_Applications_Bundle__ctor" data-uid="Tizen.Applications.Bundle.#ctor">Bundle()</h4>
   <div class="markdown level1 summary"><p>The bundle constructor.</p>
@@ -142,10 +142,6 @@ A bundle instance is not guaranteed to be thread safe if the instance is modifie
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Bundle()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_Bundle__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle__ctor_examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();</code></pre>
 
@@ -165,6 +161,10 @@ A bundle instance is not guaranteed to be thread safe if the instance is modifie
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle__ctor_" data-uid="Tizen.Applications.Bundle.#ctor*"></a>
   <h4 id="Tizen_Applications_Bundle__ctor_Tizen_Applications_SafeBundleHandle_" data-uid="Tizen.Applications.Bundle.#ctor(Tizen.Applications.SafeBundleHandle)">Bundle(SafeBundleHandle)</h4>
   <div class="markdown level1 summary"><p>The bundle constructor.</p>
@@ -192,10 +192,6 @@ A bundle instance is not guaranteed to be thread safe if the instance is modifie
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle__ctor_Tizen_Applications_SafeBundleHandle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -212,8 +208,12 @@ A bundle instance is not guaranteed to be thread safe if the instance is modifie
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_Bundle_Count_" data-uid="Tizen.Applications.Bundle.Count*"></a>
   <h4 id="Tizen_Applications_Bundle_Count" data-uid="Tizen.Applications.Bundle.Count">Count</h4>
   <div class="markdown level1 summary"><p>The number of items in a bundle object.</p>
@@ -238,15 +238,15 @@ A bundle instance is not guaranteed to be thread safe if the instance is modifie
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_Count_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_Count_examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);
 Console.WriteLine(&quot;There are {0} items in the bundle&quot;, bundle.Count);</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_Keys_" data-uid="Tizen.Applications.Bundle.Keys*"></a>
   <h4 id="Tizen_Applications_Bundle_Keys" data-uid="Tizen.Applications.Bundle.Keys">Keys</h4>
   <div class="markdown level1 summary"><p>The keys in a bundle object.</p>
@@ -271,10 +271,6 @@ Console.WriteLine(&quot;There are {0} items in the bundle&quot;, bundle.Count);<
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_Keys_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_Keys_examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string1&quot;, &quot;a_string1&quot;);
@@ -286,6 +282,10 @@ foreach(string key in bundle.Keys)
     Console.WriteLine(key);
 }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_SafeBundleHandle_" data-uid="Tizen.Applications.Bundle.SafeBundleHandle*"></a>
   <h4 id="Tizen_Applications_Bundle_SafeBundleHandle" data-uid="Tizen.Applications.Bundle.SafeBundleHandle">SafeBundleHandle</h4>
   <div class="markdown level1 summary"><p>Gets the SafeBundleHandle instance.</p>
@@ -311,11 +311,11 @@ foreach(string key in bundle.Keys)
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Bundle_SafeBundleHandle_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_Bundle_AddItem_" data-uid="Tizen.Applications.Bundle.AddItem*"></a>
   <h4 id="Tizen_Applications_Bundle_AddItem_System_String_System_Byte___" data-uid="Tizen.Applications.Bundle.AddItem(System.String,System.Byte[])">AddItem(String, Byte[])</h4>
   <div class="markdown level1 summary"><p>Adds an item into the bundle.</p>
@@ -349,10 +349,6 @@ foreach(string key in bundle.Keys)
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_Byte____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_Byte____examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 byte[] byteArray = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -384,6 +380,10 @@ bundle.AddItem(&quot;byte_array&quot;, byteArray);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_AddItem_" data-uid="Tizen.Applications.Bundle.AddItem*"></a>
   <h4 id="Tizen_Applications_Bundle_AddItem_System_String_System_Byte___System_Int32_System_Int32_" data-uid="Tizen.Applications.Bundle.AddItem(System.String,System.Byte[],System.Int32,System.Int32)">AddItem(String, Byte[], Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Adds an item into the bundle.</p>
@@ -429,10 +429,6 @@ bundle.AddItem(&quot;byte_array&quot;, byteArray);</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_Byte___System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_Byte___System_Int32_System_Int32__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 byte[] byteArray = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -469,6 +465,10 @@ bundle.AddItem(&quot;byte_array&quot;, byteArray, 2, 3);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_AddItem_" data-uid="Tizen.Applications.Bundle.AddItem*"></a>
   <h4 id="Tizen_Applications_Bundle_AddItem_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="Tizen.Applications.Bundle.AddItem(System.String,System.Collections.Generic.IEnumerable{System.String})">AddItem(String, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds an item into the bundle.</p>
@@ -502,10 +502,6 @@ bundle.AddItem(&quot;byte_array&quot;, byteArray, 2, 3);</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_Collections_Generic_IEnumerable_System_String___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_Collections_Generic_IEnumerable_System_String___examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 string[] stringArray = { &quot;a&quot;, &quot;b&quot;, &quot;c&quot; };
@@ -532,6 +528,10 @@ bundle.AddItem(&quot;string_array&quot;, stringArray);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_AddItem_" data-uid="Tizen.Applications.Bundle.AddItem*"></a>
   <h4 id="Tizen_Applications_Bundle_AddItem_System_String_System_String_" data-uid="Tizen.Applications.Bundle.AddItem(System.String,System.String)">AddItem(String, String)</h4>
   <div class="markdown level1 summary"><p>Adds an item into the bundle.</p>
@@ -565,10 +565,6 @@ bundle.AddItem(&quot;string_array&quot;, stringArray);</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_AddItem_System_String_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);</code></pre>
@@ -594,6 +590,10 @@ bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_Contains_" data-uid="Tizen.Applications.Bundle.Contains*"></a>
   <h4 id="Tizen_Applications_Bundle_Contains_System_String_" data-uid="Tizen.Applications.Bundle.Contains(System.String)">Contains(String)</h4>
   <div class="markdown level1 summary"><p>Checks whether the bundle contains an item with a specified key.</p>
@@ -637,10 +637,6 @@ bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_Contains_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_Contains_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);
@@ -650,6 +646,10 @@ if (bundle.Contains(&quot;string&quot;))
     Console.WriteLine(aValue);
 }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_Decode_" data-uid="Tizen.Applications.Bundle.Decode*"></a>
   <h4 id="Tizen_Applications_Bundle_Decode_System_String_" data-uid="Tizen.Applications.Bundle.Decode(System.String)">Decode(String)</h4>
   <div class="markdown level1 summary"><p>Decodes an encoded bundle data.</p>
@@ -693,10 +693,6 @@ if (bundle.Contains(&quot;string&quot;))
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_Decode_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_Decode_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 string bundleRaw = bundle.Encode();
@@ -718,6 +714,10 @@ Bundle data = bundle.Decode(bundleRaw);</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_Dispose_" data-uid="Tizen.Applications.Bundle.Dispose*"></a>
   <h4 id="Tizen_Applications_Bundle_Dispose" data-uid="Tizen.Applications.Bundle.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases any unmanaged resources used by this object.</p>
@@ -728,8 +728,8 @@ Bundle data = bundle.Decode(bundleRaw);</code></pre>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Applications_Bundle_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Bundle_Dispose_" data-uid="Tizen.Applications.Bundle.Dispose*"></a>
   <h4 id="Tizen_Applications_Bundle_Dispose_System_Boolean_" data-uid="Tizen.Applications.Bundle.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -759,8 +759,8 @@ Bundle data = bundle.Decode(bundleRaw);</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Bundle_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Bundle_Encode_" data-uid="Tizen.Applications.Bundle.Encode*"></a>
   <h4 id="Tizen_Applications_Bundle_Encode" data-uid="Tizen.Applications.Bundle.Encode">Encode()</h4>
@@ -787,10 +787,6 @@ Bundle data = bundle.Decode(bundleRaw);</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_Encode_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_Encode_examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 string bundleRaw = bundle.Encode();</code></pre>
@@ -811,6 +807,10 @@ string bundleRaw = bundle.Encode();</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_Finalize_" data-uid="Tizen.Applications.Bundle.Finalize*"></a>
   <h4 id="Tizen_Applications_Bundle_Finalize" data-uid="Tizen.Applications.Bundle.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Destructor of the bundle class.</p>
@@ -820,6 +820,7 @@ string bundleRaw = bundle.Encode();</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Applications_Bundle_GetItem_" data-uid="Tizen.Applications.Bundle.GetItem*"></a>
@@ -865,10 +866,6 @@ string bundleRaw = bundle.Encode();</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_GetItem_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_GetItem_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);
@@ -903,6 +900,10 @@ if (bundle.Contains(&quot;string&quot;))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_GetItem_" data-uid="Tizen.Applications.Bundle.GetItem*"></a>
   <h4 id="Tizen_Applications_Bundle_GetItem__1_System_String_" data-uid="Tizen.Applications.Bundle.GetItem``1(System.String)">GetItem&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Gets the value of a bundle item with a specified key.
@@ -963,10 +964,6 @@ Note that this is a generic method.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_GetItem__1_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_GetItem__1_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 string[] stringArray = { &quot;a&quot;, &quot;b&quot;, &quot;c&quot; };
@@ -1012,6 +1009,10 @@ else if (bundle.Is&lt;string[]>(&quot;string_array&quot;))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_Is_" data-uid="Tizen.Applications.Bundle.Is*"></a>
   <h4 id="Tizen_Applications_Bundle_Is__1_System_String_" data-uid="Tizen.Applications.Bundle.Is``1(System.String)">Is&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Checks whether an item is of a specific type.</p>
@@ -1071,10 +1072,6 @@ else if (bundle.Is&lt;string[]>(&quot;string_array&quot;))
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_Is__1_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_Is__1_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 string[] stringArray = { &quot;a&quot;, &quot;b&quot;, &quot;c&quot; };
@@ -1110,6 +1107,10 @@ if (bundle.Is&lt;string[]>(&quot;string_array&quot;))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_RemoveItem_" data-uid="Tizen.Applications.Bundle.RemoveItem*"></a>
   <h4 id="Tizen_Applications_Bundle_RemoveItem_System_String_" data-uid="Tizen.Applications.Bundle.RemoveItem(System.String)">RemoveItem(String)</h4>
   <div class="markdown level1 summary"><p>Removes a bundle item with a specific key from a Bundle.</p>
@@ -1153,10 +1154,6 @@ if (bundle.Is&lt;string[]>(&quot;string_array&quot;))
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_RemoveItem_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_RemoveItem_System_String__examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);
@@ -1189,6 +1186,10 @@ if (bundle.Contains(&quot;string&quot;))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_TryGetItem_" data-uid="Tizen.Applications.Bundle.TryGetItem*"></a>
   <h4 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_Byte____" data-uid="Tizen.Applications.Bundle.TryGetItem(System.String,System.Byte[]@)">TryGetItem(String, out Byte[])</h4>
   <div class="markdown level1 summary"><p>Gets the value of a bundle item with a specified key.</p>
@@ -1238,10 +1239,6 @@ if (bundle.Contains(&quot;string&quot;))
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_Byte_____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_Byte_____examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 byte[] byteArray = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -1268,6 +1265,10 @@ if (bundle.TryGetItem(&quot;byte_array&quot;, out aByteArray))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_TryGetItem_" data-uid="Tizen.Applications.Bundle.TryGetItem*"></a>
   <h4 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_Collections_Generic_IEnumerable_System_String___" data-uid="Tizen.Applications.Bundle.TryGetItem(System.String,System.Collections.Generic.IEnumerable{System.String}@)">TryGetItem(String, out IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the value of a bundle item with a specified key.</p>
@@ -1317,10 +1318,6 @@ if (bundle.TryGetItem(&quot;byte_array&quot;, out aByteArray))
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_Collections_Generic_IEnumerable_System_String____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_Collections_Generic_IEnumerable_System_String____examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 string[] stringArray = { &quot;a&quot;, &quot;b&quot;, &quot;c&quot; };
@@ -1350,6 +1347,10 @@ if (bundle.TryGetItem(&quot;string&quot;, out aStringEnumerable))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Applications_Bundle_TryGetItem_" data-uid="Tizen.Applications.Bundle.TryGetItem*"></a>
   <h4 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_String__" data-uid="Tizen.Applications.Bundle.TryGetItem(System.String,System.String@)">TryGetItem(String, out String)</h4>
   <div class="markdown level1 summary"><p>Gets the value of a bundle item with a specified key.</p>
@@ -1399,10 +1400,6 @@ if (bundle.TryGetItem(&quot;string&quot;, out aStringEnumerable))
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_String___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Applications_Bundle_TryGetItem_System_String_System_String___examples">Examples</h5>
   <pre><code>Tizen.Applications.Bundle bundle = new Tizen.Applications.Bundle();
 bundle.AddItem(&quot;string&quot;, &quot;a_string&quot;);
@@ -1428,6 +1425,9 @@ if (bundle.TryGetItem(&quot;string&quot;, out aString))
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -1437,6 +1437,10 @@ if (bundle.TryGetItem(&quot;string&quot;, out aString))
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

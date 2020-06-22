@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.html">Tizen.Applications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.WidgetControl.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_WidgetControl_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class WidgetControl : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_WidgetControl__ctor_" data-uid="Tizen.Applications.WidgetControl.#ctor*"></a>
   <h4 id="Tizen_Applications_WidgetControl__ctor_System_String_" data-uid="Tizen.Applications.WidgetControl.#ctor(System.String)">WidgetControl(String)</h4>
   <div class="markdown level1 summary"><p>The constructor of the WidgetControl object.</p>
@@ -157,11 +157,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetControl__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_WidgetControl_Id_" data-uid="Tizen.Applications.WidgetControl.Id*"></a>
   <h4 id="Tizen_Applications_WidgetControl_Id" data-uid="Tizen.Applications.WidgetControl.Id">Id</h4>
   <div class="markdown level1 summary"><p>The widget ID.</p>
@@ -187,8 +187,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetControl_Id_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetControl_IsNoDisplay_" data-uid="Tizen.Applications.WidgetControl.IsNoDisplay*"></a>
   <h4 id="Tizen_Applications_WidgetControl_IsNoDisplay" data-uid="Tizen.Applications.WidgetControl.IsNoDisplay">IsNoDisplay</h4>
@@ -214,18 +214,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_IsNoDisplay_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_IsNoDisplay_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_IsNoDisplay_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_IsNoDisplay_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -247,6 +235,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_MainAppId_" data-uid="Tizen.Applications.WidgetControl.MainAppId*"></a>
   <h4 id="Tizen_Applications_WidgetControl_MainAppId" data-uid="Tizen.Applications.WidgetControl.MainAppId">MainAppId</h4>
   <div class="markdown level1 summary"><p>Gets main appid of the widget.</p>
@@ -271,18 +266,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_MainAppId_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Applications_WidgetControl_MainAppId_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_MainAppId_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_MainAppId_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -304,6 +287,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_PackageId_" data-uid="Tizen.Applications.WidgetControl.PackageId*"></a>
   <h4 id="Tizen_Applications_WidgetControl_PackageId" data-uid="Tizen.Applications.WidgetControl.PackageId">PackageId</h4>
   <div class="markdown level1 summary"><p>Gets package ID of the widget.</p>
@@ -328,18 +318,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_PackageId_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Applications_WidgetControl_PackageId_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_PackageId_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_PackageId_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -361,8 +339,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_WidgetControl_CreateAll_" data-uid="Tizen.Applications.WidgetControl.CreateAll*"></a>
   <h4 id="Tizen_Applications_WidgetControl_CreateAll_System_String_" data-uid="Tizen.Applications.WidgetControl.CreateAll(System.String)">CreateAll(String)</h4>
   <div class="markdown level1 summary"><p>Factory method for the WidgetControl.
@@ -407,18 +392,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_CreateAll_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_CreateAll_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_CreateAll_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_CreateAll_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -450,6 +423,13 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_Dispose_" data-uid="Tizen.Applications.WidgetControl.Dispose*"></a>
   <h4 id="Tizen_Applications_WidgetControl_Dispose" data-uid="Tizen.Applications.WidgetControl.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all the resources used by the WidgetControl class.</p>
@@ -459,13 +439,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_WidgetControl_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_Dispose_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -492,6 +465,11 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_Finalize_" data-uid="Tizen.Applications.WidgetControl.Finalize*"></a>
   <h4 id="Tizen_Applications_WidgetControl_Finalize" data-uid="Tizen.Applications.WidgetControl.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Finalizer of the WidgetControl class.</p>
@@ -501,6 +479,7 @@ It will create all the objects of WidgetControl based on the package ID.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Applications_WidgetControl_GetIconPath_" data-uid="Tizen.Applications.WidgetControl.GetIconPath*"></a>
@@ -546,18 +525,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_GetIconPath_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_GetIconPath_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_GetIconPath_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_GetIconPath_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -584,6 +551,13 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_GetInstances_" data-uid="Tizen.Applications.WidgetControl.GetInstances*"></a>
   <h4 id="Tizen_Applications_WidgetControl_GetInstances" data-uid="Tizen.Applications.WidgetControl.GetInstances">GetInstances()</h4>
   <div class="markdown level1 summary"><p>Gets the objects for widget instance information.</p>
@@ -609,13 +583,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_GetInstances_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_GetInstances_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -642,6 +609,11 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_GetName_" data-uid="Tizen.Applications.WidgetControl.GetName*"></a>
   <h4 id="Tizen_Applications_WidgetControl_GetName_System_String_" data-uid="Tizen.Applications.WidgetControl.GetName(System.String)">GetName(String)</h4>
   <div class="markdown level1 summary"><p>Gets the widget name.</p>
@@ -685,18 +657,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_GetName_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_GetName_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_GetName_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_GetName_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -723,6 +683,13 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_GetScales_" data-uid="Tizen.Applications.WidgetControl.GetScales*"></a>
   <h4 id="Tizen_Applications_WidgetControl_GetScales" data-uid="Tizen.Applications.WidgetControl.GetScales">GetScales()</h4>
   <div class="markdown level1 summary"><p>Gets the objects for widget scale information.</p>
@@ -748,18 +715,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_GetScales_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_GetScales_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_GetScales_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_GetScales_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -786,6 +741,13 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetControl_GetWidgetIds_" data-uid="Tizen.Applications.WidgetControl.GetWidgetIds*"></a>
   <h4 id="Tizen_Applications_WidgetControl_GetWidgetIds_System_String_" data-uid="Tizen.Applications.WidgetControl.GetWidgetIds(System.String)">GetWidgetIds(String)</h4>
   <div class="markdown level1 summary"><p>Gets all the widget IDs by the package ID.</p>
@@ -829,18 +791,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_GetWidgetIds_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_GetWidgetIds_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_WidgetControl_GetWidgetIds_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/widget.viewer">http://tizen.org/privilege/widget.viewer</a></p>
-</div>
-  <h5 id="Tizen_Applications_WidgetControl_GetWidgetIds_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -872,8 +822,15 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/widget.viewer</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Applications_WidgetControl_Created" data-uid="Tizen.Applications.WidgetControl.Created">Created</h4>
   <div class="markdown level1 summary"><p>The event handler for a created widget instance.</p>
 </div>
@@ -897,13 +854,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_Created_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_Created_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -930,6 +880,11 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <h4 id="Tizen_Applications_WidgetControl_Destroyed" data-uid="Tizen.Applications.WidgetControl.Destroyed">Destroyed</h4>
   <div class="markdown level1 summary"><p>The event handler for a destroyed widget instance.</p>
 </div>
@@ -953,13 +908,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_Destroyed_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_Destroyed_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -986,6 +934,11 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <h4 id="Tizen_Applications_WidgetControl_Paused" data-uid="Tizen.Applications.WidgetControl.Paused">Paused</h4>
   <div class="markdown level1 summary"><p>The event handler for a paused widget instance.</p>
 </div>
@@ -1009,13 +962,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_Paused_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_Paused_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1042,6 +988,11 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <h4 id="Tizen_Applications_WidgetControl_Resumed" data-uid="Tizen.Applications.WidgetControl.Resumed">Resumed</h4>
   <div class="markdown level1 summary"><p>The event handler for a resumed widget instance.</p>
 </div>
@@ -1065,13 +1016,6 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetControl_Resumed_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetControl_Resumed_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1098,6 +1042,10 @@ It will create all the objects of WidgetControl based on the package ID.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -1107,6 +1055,10 @@ It will create all the objects of WidgetControl based on the package ID.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

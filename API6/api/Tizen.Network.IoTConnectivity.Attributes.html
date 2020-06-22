@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -127,14 +127,14 @@ This class is accessed by using a constructor to create a new instance of this o
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.IoTConnectivity.html">Tizen.Network.IoTConnectivity</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.IoTConnectivity.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Attributes : IDictionary&lt;string, object&gt;, ICollection&lt;KeyValuePair&lt;string, object&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt;, IEnumerable, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes__ctor_" data-uid="Tizen.Network.IoTConnectivity.Attributes.#ctor*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes__ctor" data-uid="Tizen.Network.IoTConnectivity.Attributes.#ctor">Attributes()</h4>
   <div class="markdown level1 summary"><p>The Attributes constructor.</p>
@@ -144,13 +144,6 @@ This class is accessed by using a constructor to create a new instance of this o
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Attributes()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes__ctor_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes__ctor_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes();</code></pre>
   <h5 class="exceptions">Exceptions</h5>
@@ -174,8 +167,13 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Count_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Count*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Count" data-uid="Tizen.Network.IoTConnectivity.Attributes.Count">Count</h4>
   <div class="markdown level1 summary"><p>Gets the number of keys.</p>
@@ -201,15 +199,15 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Count_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Count_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
     attributes.Add(&quot;brightness&quot;, 50);
     var count = attributes.Count;
     Console.WriteLine(&quot;There are {0} keys in the attribute object&quot;, count);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_IsReadOnly_" data-uid="Tizen.Network.IoTConnectivity.Attributes.IsReadOnly*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_IsReadOnly" data-uid="Tizen.Network.IoTConnectivity.Attributes.IsReadOnly">IsReadOnly</h4>
   <div class="markdown level1 summary"><p>Represents whether an attribute is readonly.</p>
@@ -235,10 +233,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_IsReadOnly_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_IsReadOnly_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -246,6 +240,10 @@ This class is accessed by using a constructor to create a new instance of this o
     };
     if (attributes.IsReadOnly)
         Console.WriteLine(&quot;Read only attribute&quot;);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Item_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Item*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Item_System_String_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Item(System.String)">Item[String]</h4>
   <div class="markdown level1 summary"><p>Gets or sets the attribute with the specified key.</p>
@@ -289,14 +287,14 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Item_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Item_System_String__examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes();
     attributes[&quot;state&quot;] = &quot;ON&quot;;
     Console.WriteLine(&quot;Attribute value for key &apos;state&apos; : {0}&quot;, attributes[&quot;state&quot;]);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Keys_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Keys*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Keys" data-uid="Tizen.Network.IoTConnectivity.Attributes.Keys">Keys</h4>
   <div class="markdown level1 summary"><p>Contains all the attribute keys.</p>
@@ -322,10 +320,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Keys_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Keys_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -333,6 +327,10 @@ This class is accessed by using a constructor to create a new instance of this o
     };
     var keys = attributes.Keys;
     Console.WriteLine(&quot;Attribute contains keys {0} and {1}&quot;, keys.ElementAt(0), keys.ElementAt(1));</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Values_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Values*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Values" data-uid="Tizen.Network.IoTConnectivity.Attributes.Values">Values</h4>
   <div class="markdown level1 summary"><p>Contains all the attribute values.</p>
@@ -358,10 +356,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Values_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Values_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -369,8 +363,12 @@ This class is accessed by using a constructor to create a new instance of this o
     };
     var values = attributes.Values;
     Console.WriteLine(&quot;Attribute contains values {0} and {1}&quot;, values.ElementAt(0), values.ElementAt(1));</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Add_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Add*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Tizen.Network.IoTConnectivity.Attributes.Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Add(KeyValuePair&lt;String, Object&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds the attribute key and a value as a key value pair.</p>
@@ -398,16 +396,15 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object___examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes();
     attributes.Add(new KeyValuePair&lt;string, object> (&quot;state&quot;, &quot;ON&quot;));</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Add_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Add*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_String_System_Object_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Add(System.String,System.Object)">Add(String, Object)</h4>
   <div class="markdown level1 summary"><p>Adds an attribute.</p>
@@ -441,16 +438,14 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_String_System_Object__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_String_System_Object__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Add_System_String_System_Object__examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes();
     attributes.Add(&quot;brightness&quot;, 50);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Clear_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Clear*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Clear" data-uid="Tizen.Network.IoTConnectivity.Attributes.Clear">Clear()</h4>
   <div class="markdown level1 summary"><p>Clears attributes collection.</p>
@@ -460,13 +455,6 @@ This class is accessed by using a constructor to create a new instance of this o
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Clear_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Clear_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Clear_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes();
     attributes.Add(&quot;brightness&quot;, 50);
@@ -492,6 +480,11 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Contains_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Contains*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Tizen.Network.IoTConnectivity.Attributes.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Contains(KeyValuePair&lt;String, Object&gt;)</h4>
   <div class="markdown level1 summary"><p>Checks whether the given key value pair exists in attributes collection.</p>
@@ -535,10 +528,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object___examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -546,6 +535,10 @@ This class is accessed by using a constructor to create a new instance of this o
     };
     if (attributes.Contains(new KeyValuePair&lt;string, object> (&quot;dim&quot;, 10))
         Console.WriteLine(&quot;Attribute conatins pair (&apos;dim&apos;, 10)&quot;);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_ContainsKey_" data-uid="Tizen.Network.IoTConnectivity.Attributes.ContainsKey*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_ContainsKey_System_String_" data-uid="Tizen.Network.IoTConnectivity.Attributes.ContainsKey(System.String)">ContainsKey(String)</h4>
   <div class="markdown level1 summary"><p>Checks whether the given key exists in attributes collection.</p>
@@ -589,10 +582,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_ContainsKey_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_ContainsKey_System_String__examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -600,6 +589,10 @@ This class is accessed by using a constructor to create a new instance of this o
     };
     if (attributes.ContainsKey(&quot;dim&quot;))
         Console.WriteLine(&quot;Attribute conatins key : dim&quot;);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_CopyTo_" data-uid="Tizen.Network.IoTConnectivity.Attributes.CopyTo*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32_" data-uid="Tizen.Network.IoTConnectivity.Attributes.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">CopyTo(KeyValuePair&lt;String, Object&gt;[], Int32)</h4>
   <div class="markdown level1 summary"><p>Copies the elements of the attributes to an array, starting at a particular index.</p>
@@ -633,10 +626,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32__examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -646,6 +635,10 @@ This class is accessed by using a constructor to create a new instance of this o
     int index = 0;
     attributes.CopyTo(dest, index);
     Console.WriteLine(&quot;Dest conatins ({0}, {1})&quot;, dest[0].Key, dest[0].Value);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Dispose_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Dispose*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Dispose" data-uid="Tizen.Network.IoTConnectivity.Attributes.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases any unmanaged resources used by this object.</p>
@@ -656,11 +649,9 @@ This class is accessed by using a constructor to create a new instance of this o
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Dispose_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_Attributes_Dispose_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Dispose*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Dispose_System_Boolean_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -690,11 +681,9 @@ This class is accessed by using a constructor to create a new instance of this o
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Dispose_System_Boolean__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
   
   <a id="Tizen_Network_IoTConnectivity_Attributes_Finalize_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Finalize*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Finalize" data-uid="Tizen.Network.IoTConnectivity.Attributes.Finalize">Finalize()</h4>
@@ -705,6 +694,7 @@ This class is accessed by using a constructor to create a new instance of this o
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Network_IoTConnectivity_Attributes_GetEnumerator_" data-uid="Tizen.Network.IoTConnectivity.Attributes.GetEnumerator*"></a>
@@ -732,10 +722,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_GetEnumerator_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_GetEnumerator_examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -745,6 +731,10 @@ This class is accessed by using a constructor to create a new instance of this o
     {
         Console.WriteLine(&quot;key : {0}, value : {1}&quot;, pair.Key, pair.Value);
     }</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Remove_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Remove*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Tizen.Network.IoTConnectivity.Attributes.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Remove(KeyValuePair&lt;String, Object&gt;)</h4>
   <div class="markdown level1 summary"><p>Removes an attribute from collection.</p>
@@ -788,13 +778,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object___examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -828,6 +811,12 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_Remove_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Remove*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_String_" data-uid="Tizen.Network.IoTConnectivity.Attributes.Remove(System.String)">Remove(String)</h4>
   <div class="markdown level1 summary"><p>Removes an attribute from collection using a key.</p>
@@ -871,13 +860,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/iot.ocf">http://tizen.org/feature/iot.ocf</a></p>
-</div>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_Remove_System_String__examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; },
@@ -911,6 +893,11 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/iot.ocf</span></span></h6>
+  
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_TryGetValue_" data-uid="Tizen.Network.IoTConnectivity.Attributes.TryGetValue*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_TryGetValue_System_String_System_Object__" data-uid="Tizen.Network.IoTConnectivity.Attributes.TryGetValue(System.String,System.Object@)">TryGetValue(String, out Object)</h4>
   <div class="markdown level1 summary"><p>Gets the value associated with the specified key.</p>
@@ -960,10 +947,6 @@ This class is accessed by using a constructor to create a new instance of this o
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_TryGetValue_System_String_System_Object___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Network_IoTConnectivity_Attributes_TryGetValue_System_String_System_Object___examples">Examples</h5>
   <pre><code>    Tizen.Network.IoTConnectivity.Attributes attributes = new Tizen.Network.IoTConnectivity.Attributes() {
         { &quot;state&quot;, &quot;ON&quot; }
@@ -972,8 +955,12 @@ This class is accessed by using a constructor to create a new instance of this o
     var isPresent = attributes.TryGetValue(&quot;state&quot;, out value);
     if (isPresent)
         Console.WriteLine(&quot;value : {0}&quot;, value);</code></pre>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="eii">Explicit Interface Implementations
   </h3>
+  
   <a id="Tizen_Network_IoTConnectivity_Attributes_System_Collections_IEnumerable_GetEnumerator_" data-uid="Tizen.Network.IoTConnectivity.Attributes.System#Collections#IEnumerable#GetEnumerator*"></a>
   <h4 id="Tizen_Network_IoTConnectivity_Attributes_System_Collections_IEnumerable_GetEnumerator" data-uid="Tizen.Network.IoTConnectivity.Attributes.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
   <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the collection.</p>
@@ -999,8 +986,7 @@ This class is accessed by using a constructor to create a new instance of this o
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_IoTConnectivity_Attributes_System_Collections_IEnumerable_GetEnumerator_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -1023,6 +1009,10 @@ This class is accessed by using a constructor to create a new instance of this o
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -122,14 +122,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.Nsd.html">Tizen.Network.Nsd</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.Nsd.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Network_Nsd_SsdpService_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class SsdpService : INsdService, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Network_Nsd_SsdpService__ctor_" data-uid="Tizen.Network.Nsd.SsdpService.#ctor*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService__ctor_System_String_" data-uid="Tizen.Network.Nsd.SsdpService.#ctor(System.String)">SsdpService(String)</h4>
   <div class="markdown level1 summary"><p>The constructor to create the SsdpService instance that sets the target to a given value.</p>
@@ -157,13 +157,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Nsd_SsdpService__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_SsdpService__ctor_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.ssdp">http://tizen.org/feature/network.service_discovery.ssdp</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -185,8 +178,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.ssdp</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_Nsd_SsdpService_Target_" data-uid="Tizen.Network.Nsd.SsdpService.Target*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService_Target" data-uid="Tizen.Network.Nsd.SsdpService.Target">Target</h4>
   <div class="markdown level1 summary"><p>Target of the SSDP service.</p>
@@ -216,8 +214,8 @@
 In case of an error, null will be returned.</p>
 </div>
   
-  <h5 id="Tizen_Network_Nsd_SsdpService_Target_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Network_Nsd_SsdpService_Url_" data-uid="Tizen.Network.Nsd.SsdpService.Url*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService_Url" data-uid="Tizen.Network.Nsd.SsdpService.Url">Url</h4>
@@ -247,13 +245,6 @@ In case of an error, null will be returned.</p>
   <div class="markdown level1 remarks"><p>Set the URL for only an unregistered service created locally. If the service is already registered, the URL will not be set.
 In case of an error, null will be returned during get and exception will be thrown during set.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_SsdpService_Url_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_SsdpService_Url_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.ssdp">http://tizen.org/feature/network.service_discovery.ssdp</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -280,6 +271,11 @@ In case of an error, null will be returned during get and exception will be thro
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.ssdp</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_SsdpService_Usn_" data-uid="Tizen.Network.Nsd.SsdpService.Usn*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService_Usn" data-uid="Tizen.Network.Nsd.SsdpService.Usn">Usn</h4>
   <div class="markdown level1 summary"><p>Unique Service Name of the SSDP service.</p>
@@ -308,13 +304,6 @@ In case of an error, null will be returned during get and exception will be thro
   <div class="markdown level1 remarks"><p>Set the USN for only an unregistered service created locally. If the service is already registered, the USN will not be set.
 In case of an error, null will be returned during get and exception will be thrown during set.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_SsdpService_Usn_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_SsdpService_Usn_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.ssdp">http://tizen.org/feature/network.service_discovery.ssdp</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -341,8 +330,13 @@ In case of an error, null will be returned during get and exception will be thro
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.ssdp</span></span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_Nsd_SsdpService_DeregisterService_" data-uid="Tizen.Network.Nsd.SsdpService.DeregisterService*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService_DeregisterService" data-uid="Tizen.Network.Nsd.SsdpService.DeregisterService">DeregisterService()</h4>
   <div class="markdown level1 summary"><p>Deregisters the SSDP local service.</p>
@@ -355,13 +349,6 @@ In case of an error, null will be returned during get and exception will be thro
   <h5 id="Tizen_Network_Nsd_SsdpService_DeregisterService_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>A local service registered using RegisterService() must be passed.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_SsdpService_DeregisterService_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_SsdpService_DeregisterService_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.ssdp">http://tizen.org/feature/network.service_discovery.ssdp</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -383,6 +370,11 @@ In case of an error, null will be returned during get and exception will be thro
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.ssdp</span></span></h6>
+  
+  
   <a id="Tizen_Network_Nsd_SsdpService_Dispose_" data-uid="Tizen.Network.Nsd.SsdpService.Dispose*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService_Dispose" data-uid="Tizen.Network.Nsd.SsdpService.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Disposes the memory allocated to unmanaged resources.</p>
@@ -393,8 +385,8 @@ In case of an error, null will be returned during get and exception will be thro
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Network_Nsd_SsdpService_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Network_Nsd_SsdpService_Finalize_" data-uid="Tizen.Network.Nsd.SsdpService.Finalize*"></a>
   <h4 id="Tizen_Network_Nsd_SsdpService_Finalize" data-uid="Tizen.Network.Nsd.SsdpService.Finalize">Finalize()</h4>
@@ -405,6 +397,7 @@ In case of an error, null will be returned during get and exception will be thro
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Network_Nsd_SsdpService_RegisterService_" data-uid="Tizen.Network.Nsd.SsdpService.RegisterService*"></a>
@@ -420,18 +413,6 @@ In case of an error, null will be returned during get and exception will be thro
   <div class="markdown level1 remarks"><p>A service created locally must be passed.
 URL and USN of the service must be set before the RegisterService is called.</p>
 </div>
-  
-  <h5 id="Tizen_Network_Nsd_SsdpService_RegisterService_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Nsd_SsdpService_RegisterService_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Nsd_SsdpService_RegisterService_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/internet">http://tizen.org/privilege/internet</a></p>
-</div>
-  <h5 id="Tizen_Network_Nsd_SsdpService_RegisterService_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.service_discovery.ssdp">http://tizen.org/feature/network.service_discovery.ssdp</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -458,6 +439,12 @@ URL and USN of the service must be set before the RegisterService is called.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/internet</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.service_discovery.ssdp</span></span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Tizen.Network.Nsd.INsdService.html">INsdService</a>
@@ -470,6 +457,10 @@ URL and USN of the service must be set before the RegisterService is called.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

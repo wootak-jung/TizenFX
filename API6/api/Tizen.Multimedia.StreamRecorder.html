@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.html">Tizen.Multimedia</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.StreamRecorder.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Multimedia_StreamRecorder_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class StreamRecorder : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_StreamRecorder__ctor_" data-uid="Tizen.Multimedia.StreamRecorder.#ctor*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder__ctor" data-uid="Tizen.Multimedia.StreamRecorder.#ctor">StreamRecorder()</h4>
   <div class="markdown level1 summary"><p>Initialize a new instance of the <a class="xref" href="Tizen.Multimedia.StreamRecorder.html">StreamRecorder</a> class.</p>
@@ -138,10 +138,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public StreamRecorder()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -158,8 +154,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_StreamRecorder_State_" data-uid="Tizen.Multimedia.StreamRecorder.State*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_State" data-uid="Tizen.Multimedia.StreamRecorder.State">State</h4>
   <div class="markdown level1 summary"><p>Gets the current state of the stream recorder.</p>
@@ -184,10 +184,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_State_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -204,8 +200,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_StreamRecorder_Cancel_" data-uid="Tizen.Multimedia.StreamRecorder.Cancel*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Cancel" data-uid="Tizen.Multimedia.StreamRecorder.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"><p>Cancels recording.
@@ -220,10 +220,6 @@ The recording data is discarded and not written.</p>
   <div class="markdown level1 remarks"><p>The recorder state must be <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> state by <a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Start">Start()</a> or
 <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a> state by <a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Pause">Pause()</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_Cancel_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -250,6 +246,10 @@ The recording data is discarded and not written.</p>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Start">Start()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Pause">Pause()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_StreamRecorder_Commit_" data-uid="Tizen.Multimedia.StreamRecorder.Commit*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Commit" data-uid="Tizen.Multimedia.StreamRecorder.Commit">Commit()</h4>
   <div class="markdown level1 summary"><p>Stops recording and saves the result.</p>
@@ -269,16 +269,6 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
 <a href="http://tizen.org/privilege/externalstorage">http://tizen.org/privilege/externalstorage</a> is needed if the save path are relevant to external storage.
 </p></p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_Commit_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Multimedia_StreamRecorder_Commit_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_StreamRecorder_Commit_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/mediastorage">http://tizen.org/privilege/mediastorage</a><br>
-<a href="http://tizen.org/privilege/externalstorage">http://tizen.org/privilege/externalstorage</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -310,6 +300,12 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Start">Start()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Pause">Pause()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/mediastorage</span><span>http://tizen.org/privilege/externalstorage</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_StreamRecorder_Dispose_" data-uid="Tizen.Multimedia.StreamRecorder.Dispose*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Dispose" data-uid="Tizen.Multimedia.StreamRecorder.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Release any unmanaged resources used by this object.</p>
@@ -320,8 +316,8 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_StreamRecorder_Dispose_" data-uid="Tizen.Multimedia.StreamRecorder.Dispose*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.StreamRecorder.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -351,8 +347,8 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_StreamRecorder_GetSupportedAudioCodecs_" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedAudioCodecs*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_GetSupportedAudioCodecs" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedAudioCodecs">GetSupportedAudioCodecs()</h4>
@@ -380,8 +376,8 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_GetSupportedAudioCodecs_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_StreamRecorder_GetSupportedFileFormats_" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedFileFormats*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_GetSupportedFileFormats" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedFileFormats">GetSupportedFileFormats()</h4>
@@ -409,8 +405,8 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_GetSupportedFileFormats_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_StreamRecorder_GetSupportedVideoCodecs_" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedVideoCodecs*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_GetSupportedVideoCodecs" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedVideoCodecs">GetSupportedVideoCodecs()</h4>
@@ -438,8 +434,8 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_GetSupportedVideoCodecs_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_StreamRecorder_GetSupportedVideoResolutions_" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedVideoResolutions*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_GetSupportedVideoResolutions" data-uid="Tizen.Multimedia.StreamRecorder.GetSupportedVideoResolutions">GetSupportedVideoResolutions()</h4>
@@ -467,8 +463,8 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_GetSupportedVideoResolutions_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_StreamRecorder_Pause_" data-uid="Tizen.Multimedia.StreamRecorder.Pause*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Pause" data-uid="Tizen.Multimedia.StreamRecorder.Pause">Pause()</h4>
@@ -486,10 +482,6 @@ The recorder state must be <a class="xref" href="Tizen.Multimedia.RecorderState.
 <br>
 It has no effect if the recorder is already in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_Pause_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -517,6 +509,10 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Commit">Commit()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Cancel">Cancel()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_StreamRecorder_Prepare_" data-uid="Tizen.Multimedia.StreamRecorder.Prepare*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Prepare_Tizen_Multimedia_StreamRecorderOptions_" data-uid="Tizen.Multimedia.StreamRecorder.Prepare(Tizen.Multimedia.StreamRecorderOptions)">Prepare(StreamRecorderOptions)</h4>
   <div class="markdown level1 summary"><p>Prepares the stream recorder with the specified options.</p>
@@ -547,10 +543,6 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
   <h5 id="Tizen_Multimedia_StreamRecorder_Prepare_Tizen_Multimedia_StreamRecorderOptions__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The recorder must be <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_Prepare_Tizen_Multimedia_StreamRecorderOptions__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -591,6 +583,10 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorderAudioOptions.html">StreamRecorderAudioOptions</a></div>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorderVideoOptions.html">StreamRecorderVideoOptions</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_StreamRecorder_PushBuffer_" data-uid="Tizen.Multimedia.StreamRecorder.PushBuffer*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_PushBuffer_Tizen_Multimedia_MediaPacket_" data-uid="Tizen.Multimedia.StreamRecorder.PushBuffer(Tizen.Multimedia.MediaPacket)">PushBuffer(MediaPacket)</h4>
   <div class="markdown level1 summary"><p>Pushes a packet as recording raw data.</p>
@@ -621,10 +617,6 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
   <h5 id="Tizen_Multimedia_StreamRecorder_PushBuffer_Tizen_Multimedia_MediaPacket__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The recorder state must be <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> state by <a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Start">Start()</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_PushBuffer_Tizen_Multimedia_MediaPacket__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -660,6 +652,10 @@ An internal error occurs.</p>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorderOptions.html#Tizen_Multimedia_StreamRecorderOptions_Video">Video</a></div>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorderVideoOptions.html#Tizen_Multimedia_StreamRecorderVideoOptions_SourceFormat">SourceFormat</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_StreamRecorder_Start_" data-uid="Tizen.Multimedia.StreamRecorder.Start*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Start" data-uid="Tizen.Multimedia.StreamRecorder.Start">Start()</h4>
   <div class="markdown level1 summary"><p>Starts recording.</p>
@@ -676,10 +672,6 @@ An internal error occurs.</p>
 <br>
 It has no effect if the recorder is already in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_Start_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -712,6 +704,10 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Commit">Commit()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Cancel">Cancel()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_StreamRecorder_Unprepare_" data-uid="Tizen.Multimedia.StreamRecorder.Unprepare*"></a>
   <h4 id="Tizen_Multimedia_StreamRecorder_Unprepare" data-uid="Tizen.Multimedia.StreamRecorder.Unprepare">Unprepare()</h4>
   <div class="markdown level1 summary"><p>Unprepares the stream recorder.</p>
@@ -728,10 +724,6 @@ The recorder state will be <a class="xref" href="Tizen.Multimedia.RecorderState.
 <br>
 It has no effect if the recorder is already in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_StreamRecorder_Unprepare_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -757,8 +749,12 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.StreamRecorder.html#Tizen_Multimedia_StreamRecorder_Prepare_Tizen_Multimedia_StreamRecorderOptions_">Prepare(StreamRecorderOptions)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Multimedia_StreamRecorder_BufferConsumed" data-uid="Tizen.Multimedia.StreamRecorder.BufferConsumed">BufferConsumed</h4>
   <div class="markdown level1 summary"><p>Occurs when a buffer had consumed completely.</p>
 </div>
@@ -783,8 +779,8 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_BufferConsumed_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_StreamRecorder_ErrorOccurred" data-uid="Tizen.Multimedia.StreamRecorder.ErrorOccurred">ErrorOccurred</h4>
   <div class="markdown level1 summary"><p>Occurs when an error occurred during a recorder operation.</p>
@@ -810,8 +806,8 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_ErrorOccurred_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_StreamRecorder_RecordingLimitReached" data-uid="Tizen.Multimedia.StreamRecorder.RecordingLimitReached">RecordingLimitReached</h4>
   <div class="markdown level1 summary"><p>Occurs when recording limit is reached.</p>
@@ -837,8 +833,8 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_RecordingLimitReached_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_StreamRecorder_RecordingStatusChanged" data-uid="Tizen.Multimedia.StreamRecorder.RecordingStatusChanged">RecordingStatusChanged</h4>
   <div class="markdown level1 summary"><p>Occurs when recording status is changed.</p>
@@ -864,8 +860,8 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_RecordingStatusChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_StreamRecorder_StateChanged" data-uid="Tizen.Multimedia.StreamRecorder.StateChanged">StateChanged</h4>
   <div class="markdown level1 summary"><p>Occurs when <a class="xref" href="Tizen.Multimedia.StreamRecorder.html">StreamRecorder</a> state is changed.</p>
@@ -891,8 +887,7 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_StreamRecorder_StateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -907,6 +902,10 @@ It has no effect if the recorder is already in the <a class="xref" href="Tizen.M
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>

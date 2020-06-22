@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,19 +121,16 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.Smartcard.html">Tizen.Network.Smartcard</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.Smartcard.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/secureelement</span></span></h6>
   <h5 id="Tizen_Network_Smartcard_SmartcardSession_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class SmartcardSession : IDisposable</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_privlevel" class="privlevel">Privilege Level</h5>
-  <div class="markdown level0 privlevel">public</div>
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level0 privilege"><p><a href="http://tizen.org/privilege/secureelement">http://tizen.org/privilege/secureelement</a></p>
-</div>
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_Smartcard_SmartcardSession_Atr_" data-uid="Tizen.Network.Smartcard.SmartcardSession.Atr*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_Atr" data-uid="Tizen.Network.Smartcard.SmartcardSession.Atr">Atr</h4>
   <div class="markdown level1 summary"><p>The Answer to Reset (ATR) of this secure element.</p>
@@ -159,8 +156,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_Atr_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_Smartcard_SmartcardSession_IsClosed_" data-uid="Tizen.Network.Smartcard.SmartcardSession.IsClosed*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_IsClosed" data-uid="Tizen.Network.Smartcard.SmartcardSession.IsClosed">IsClosed</h4>
@@ -187,8 +184,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_IsClosed_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_Smartcard_SmartcardSession_Reader_" data-uid="Tizen.Network.Smartcard.SmartcardSession.Reader*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_Reader" data-uid="Tizen.Network.Smartcard.SmartcardSession.Reader">Reader</h4>
@@ -215,11 +212,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_Reader_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_Smartcard_SmartcardSession_Close_" data-uid="Tizen.Network.Smartcard.SmartcardSession.Close*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_Close" data-uid="Tizen.Network.Smartcard.SmartcardSession.Close">Close()</h4>
   <div class="markdown level1 summary"><p>Closes the connection with the secure element.</p>
@@ -229,10 +226,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Close()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_Close_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -254,6 +247,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_Smartcard_SmartcardSession_CloseChannels_" data-uid="Tizen.Network.Smartcard.SmartcardSession.CloseChannels*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_CloseChannels" data-uid="Tizen.Network.Smartcard.SmartcardSession.CloseChannels">CloseChannels()</h4>
   <div class="markdown level1 summary"><p>Closes any channel opened on the given session.</p>
@@ -263,10 +260,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void CloseChannels()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_CloseChannels_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -288,6 +281,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_Smartcard_SmartcardSession_Dispose_" data-uid="Tizen.Network.Smartcard.SmartcardSession.Dispose*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_Dispose" data-uid="Tizen.Network.Smartcard.SmartcardSession.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Dispose</p>
@@ -298,8 +295,8 @@
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_Smartcard_SmartcardSession_Finalize_" data-uid="Tizen.Network.Smartcard.SmartcardSession.Finalize*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_Finalize" data-uid="Tizen.Network.Smartcard.SmartcardSession.Finalize">Finalize()</h4>
@@ -310,6 +307,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Network_Smartcard_SmartcardSession_OpenBasicChannel_" data-uid="Tizen.Network.Smartcard.SmartcardSession.OpenBasicChannel*"></a>
@@ -361,10 +359,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_OpenBasicChannel_System_Byte___System_Byte__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -386,6 +380,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_Smartcard_SmartcardSession_OpenLogicalChannel_" data-uid="Tizen.Network.Smartcard.SmartcardSession.OpenLogicalChannel*"></a>
   <h4 id="Tizen_Network_Smartcard_SmartcardSession_OpenLogicalChannel_System_Byte___System_Byte_" data-uid="Tizen.Network.Smartcard.SmartcardSession.OpenLogicalChannel(System.Byte[],System.Byte)">OpenLogicalChannel(Byte[], Byte)</h4>
   <div class="markdown level1 summary"><p>Open a logical channel with the secure element, selecting the Applet represented by the given application ID (AID).</p>
@@ -435,10 +433,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Smartcard_SmartcardSession_OpenLogicalChannel_System_Byte___System_Byte__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -460,6 +454,9 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -469,6 +466,10 @@
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
