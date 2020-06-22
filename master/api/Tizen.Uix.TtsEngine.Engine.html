@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Uix.TtsEngine.html">Tizen.Uix.TtsEngine</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Uix.TtsEngine.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Uix_TtsEngine_Engine_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class Engine</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Uix_TtsEngine_Engine__ctor_" data-uid="Tizen.Uix.TtsEngine.Engine.#ctor*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine__ctor" data-uid="Tizen.Uix.TtsEngine.Engine.#ctor">Engine()</h4>
   <div class="markdown level1 summary"><p>Public constructor.</p>
@@ -135,14 +135,12 @@
     <pre><code class="lang-csharp hljs">public Engine()</code></pre>
   </div>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine__ctor_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Uix_TtsEngine_Engine_CancelSynthesis_" data-uid="Tizen.Uix.TtsEngine.Engine.CancelSynthesis*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_CancelSynthesis" data-uid="Tizen.Uix.TtsEngine.Engine.CancelSynthesis">CancelSynthesis()</h4>
   <div class="markdown level1 summary"><p>Called when the engine service user cancels to synthesize a voice.</p>
@@ -173,11 +171,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_CancelSynthesis_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_CancelSynthesis_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>StartSynthesis should be performed.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_CheckAppAgreed_" data-uid="Tizen.Uix.TtsEngine.Engine.CheckAppAgreed*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_CheckAppAgreed_System_String_System_Boolean__" data-uid="Tizen.Uix.TtsEngine.Engine.CheckAppAgreed(System.String,System.Boolean@)">CheckAppAgreed(String, out Boolean)</h4>
@@ -243,8 +238,8 @@ NOTE that, however, there may be any legal issue unless the developer checks the
 Therefore, we suggest that the engine developers should provide a function to check the agreement.</p>
 </div>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_CheckAppAgreed_System_String_System_Boolean___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_Deinitialize_" data-uid="Tizen.Uix.TtsEngine.Engine.Deinitialize*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_Deinitialize" data-uid="Tizen.Uix.TtsEngine.Engine.Deinitialize">Deinitialize()</h4>
@@ -279,8 +274,8 @@ Therefore, we suggest that the engine developers should provide a function to ch
   <div class="markdown level1 remarks"><p>NOTE that the engine may be terminated automatically. When this callback function is invoked, the release of the resources is necessary.</p>
 </div>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_Deinitialize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_EngineMain_" data-uid="Tizen.Uix.TtsEngine.Engine.EngineMain*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_EngineMain_System_Int32_System_String___" data-uid="Tizen.Uix.TtsEngine.Engine.EngineMain(System.Int32,System.String[])">EngineMain(Int32, String[])</h4>
@@ -319,13 +314,6 @@ This function is the main function for operating the TTS engine.</p>
   <h5 id="Tizen_Uix_TtsEngine_Engine_EngineMain_System_Int32_System_String____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>ServiceAppMain should be used for working the engine after this function.</p>
 </div>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_EngineMain_System_Int32_System_String____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_EngineMain_System_Int32_System_String____feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -347,6 +335,11 @@ This function is the main function for operating the TTS engine.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_ForEachSupportedVoices_" data-uid="Tizen.Uix.TtsEngine.Engine.ForEachSupportedVoices*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_ForEachSupportedVoices_Tizen_Uix_TtsEngine_Engine_SupportedVoice_System_IntPtr_" data-uid="Tizen.Uix.TtsEngine.Engine.ForEachSupportedVoices(Tizen.Uix.TtsEngine.Engine.SupportedVoice,System.IntPtr)">ForEachSupportedVoices(Engine.SupportedVoice, IntPtr)</h4>
   <div class="markdown level1 summary"><p>Called when the engine service user gets the whole supported voice list.</p>
@@ -405,11 +398,8 @@ This function is the main function for operating the TTS engine.</p>
 and userData must be transferred to &apos;SupportedVoice()&apos;. If &apos;SupportedVoice()&apos; returns false, it should be stopped to call &apos;SupportedVoice()&apos;.</p>
 </div>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_ForEachSupportedVoices_Tizen_Uix_TtsEngine_Engine_SupportedVoice_System_IntPtr__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_ForEachSupportedVoices_Tizen_Uix_TtsEngine_Engine_SupportedVoice_System_IntPtr__post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>This callback function invokes SupportedVoice() repeatedly for getting all the supported voices.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_GetInformation_" data-uid="Tizen.Uix.TtsEngine.Engine.GetInformation*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_GetInformation_System_String__System_String__System_String__System_Boolean__" data-uid="Tizen.Uix.TtsEngine.Engine.GetInformation(System.String@,System.String@,System.String@,System.Boolean@)">GetInformation(out String, out String, out String, out Boolean)</h4>
@@ -482,8 +472,8 @@ In order to upload the engine at Tizen Appstore, both a service application and 
 Therefore, engineSetting must be transferred to the engine service user.</p>
 </div>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_GetInformation_System_String__System_String__System_String__System_Boolean___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_GetPitchRange_" data-uid="Tizen.Uix.TtsEngine.Engine.GetPitchRange*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_GetPitchRange_System_Int32__System_Int32__System_Int32__" data-uid="Tizen.Uix.TtsEngine.Engine.GetPitchRange(System.Int32@,System.Int32@,System.Int32@)">GetPitchRange(out Int32, out Int32, out Int32)</h4>
@@ -527,13 +517,6 @@ Therefore, engineSetting must be transferred to the engine service user.</p>
   <h5 id="Tizen_Uix_TtsEngine_Engine_GetPitchRange_System_Int32__System_Int32__System_Int32___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This API is used when the TTS engine wants to get the pitch range from the Tizen platform.</p>
 </div>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_GetPitchRange_System_Int32__System_Int32__System_Int32___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_GetPitchRange_System_Int32__System_Int32__System_Int32___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -555,6 +538,11 @@ Therefore, engineSetting must be transferred to the engine service user.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_GetSpeedRange_" data-uid="Tizen.Uix.TtsEngine.Engine.GetSpeedRange*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_GetSpeedRange_System_Int32__System_Int32__System_Int32__" data-uid="Tizen.Uix.TtsEngine.Engine.GetSpeedRange(System.Int32@,System.Int32@,System.Int32@)">GetSpeedRange(out Int32, out Int32, out Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the speed range from the Tizen platform.</p>
@@ -597,13 +585,6 @@ Therefore, engineSetting must be transferred to the engine service user.</p>
   <h5 id="Tizen_Uix_TtsEngine_Engine_GetSpeedRange_System_Int32__System_Int32__System_Int32___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This API is used when the TTS engine wants to get the speed range from the Tizen platform.</p>
 </div>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_GetSpeedRange_System_Int32__System_Int32__System_Int32___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_GetSpeedRange_System_Int32__System_Int32__System_Int32___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -625,6 +606,11 @@ Therefore, engineSetting must be transferred to the engine service user.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_Initialize_" data-uid="Tizen.Uix.TtsEngine.Engine.Initialize*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_Initialize" data-uid="Tizen.Uix.TtsEngine.Engine.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"><p>Called when the engine service user initializes the TTS engine.</p>
@@ -657,8 +643,8 @@ Therefore, engineSetting must be transferred to the engine service user.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_Initialize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_IsValidVoice_" data-uid="Tizen.Uix.TtsEngine.Engine.IsValidVoice*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_IsValidVoice_System_String_System_Int32_System_Boolean__" data-uid="Tizen.Uix.TtsEngine.Engine.IsValidVoice(System.String,System.Int32,System.Boolean@)">IsValidVoice(String, Int32, out Boolean)</h4>
@@ -721,8 +707,8 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_IsValidVoice_System_String_System_Int32_System_Boolean___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_LoadVoice_" data-uid="Tizen.Uix.TtsEngine.Engine.LoadVoice*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_LoadVoice_System_String_System_Int32_" data-uid="Tizen.Uix.TtsEngine.Engine.LoadVoice(System.String,System.Int32)">LoadVoice(String, Int32)</h4>
@@ -783,8 +769,8 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_LoadVoice_System_String_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_NeedAppCredential_" data-uid="Tizen.Uix.TtsEngine.Engine.NeedAppCredential*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_NeedAppCredential" data-uid="Tizen.Uix.TtsEngine.Engine.NeedAppCredential">NeedAppCredential()</h4>
@@ -812,8 +798,8 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_NeedAppCredential_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_SendError_" data-uid="Tizen.Uix.TtsEngine.Engine.SendError*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_SendError_Tizen_Uix_TtsEngine_Error_System_String_" data-uid="Tizen.Uix.TtsEngine.Engine.SendError(Tizen.Uix.TtsEngine.Error,System.String)">SendError(Error, String)</h4>
@@ -848,16 +834,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SendError_Tizen_Uix_TtsEngine_Error_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SendError_Tizen_Uix_TtsEngine_Error_System_String__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>EngineMain function should be invoked before this function is called.</p>
-</div>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SendError_Tizen_Uix_TtsEngine_Error_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -879,6 +855,11 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_SendResult_" data-uid="Tizen.Uix.TtsEngine.Engine.SendResult*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_SendResult_Tizen_Uix_TtsEngine_ResultEvent_System_IntPtr_System_Int32_Tizen_Uix_TtsEngine_AudioType_System_Int32_" data-uid="Tizen.Uix.TtsEngine.Engine.SendResult(Tizen.Uix.TtsEngine.ResultEvent,System.IntPtr,System.Int32,Tizen.Uix.TtsEngine.AudioType,System.Int32)">SendResult(ResultEvent, IntPtr, Int32, AudioType, Int32)</h4>
   <div class="markdown level1 summary"><p>Sends the synthesized result to the engine service user.</p>
@@ -934,16 +915,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="markdown level1 remarks"><p>This API is used in StartSynthesis(), when the TTS engine sends the synthesized result to the engine service user.
 The synthesized result must be transferred to the engine service user through this function.</p>
 </div>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SendResult_Tizen_Uix_TtsEngine_ResultEvent_System_IntPtr_System_Int32_Tizen_Uix_TtsEngine_AudioType_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SendResult_Tizen_Uix_TtsEngine_ResultEvent_System_IntPtr_System_Int32_Tizen_Uix_TtsEngine_AudioType_System_Int32__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>EngineMain function should be invoked before this function is called. StartSynthesis() will invoke this function.</p>
-</div>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SendResult_Tizen_Uix_TtsEngine_ResultEvent_System_IntPtr_System_Int32_Tizen_Uix_TtsEngine_AudioType_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -970,6 +941,12 @@ The synthesized result must be transferred to the engine service user through th
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_SetPitch_" data-uid="Tizen.Uix.TtsEngine.Engine.SetPitch*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_SetPitch_System_Int32_" data-uid="Tizen.Uix.TtsEngine.Engine.SetPitch(System.Int32)">SetPitch(Int32)</h4>
   <div class="markdown level1 summary"><p>Called when the engine service user sets the default pitch of the TTS engine.</p>
@@ -1020,8 +997,8 @@ The synthesized result must be transferred to the engine service user through th
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPitch_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataRequestedDelegate_" data-uid="Tizen.Uix.TtsEngine.Engine.SetPrivateDataRequestedDelegate*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataRequestedDelegate_Tizen_Uix_TtsEngine_Engine_OutAction_System_String__" data-uid="Tizen.Uix.TtsEngine.Engine.SetPrivateDataRequestedDelegate(Tizen.Uix.TtsEngine.Engine.OutAction{System.String})">SetPrivateDataRequestedDelegate(Engine.OutAction&lt;String&gt;)</h4>
@@ -1062,16 +1039,6 @@ The following error codes can be returned:</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataRequestedDelegate_Tizen_Uix_TtsEngine_Engine_OutAction_System_String___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataRequestedDelegate_Tizen_Uix_TtsEngine_Engine_OutAction_System_String___pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>Main function should be invoked before this function is called.</p>
-</div>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataRequestedDelegate_Tizen_Uix_TtsEngine_Engine_OutAction_System_String___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1098,6 +1065,11 @@ The following error codes can be returned:</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataSetDelegate_" data-uid="Tizen.Uix.TtsEngine.Engine.SetPrivateDataSetDelegate*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataSetDelegate_Tizen_Uix_TtsEngine_Engine_Action_System_String__" data-uid="Tizen.Uix.TtsEngine.Engine.SetPrivateDataSetDelegate(Tizen.Uix.TtsEngine.Engine.Action{System.String})">SetPrivateDataSetDelegate(Engine.Action&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Sets a callback function for setting the private data.</p>
@@ -1135,16 +1107,6 @@ The following error codes can be returned:</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataSetDelegate_Tizen_Uix_TtsEngine_Engine_Action_System_String___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataSetDelegate_Tizen_Uix_TtsEngine_Engine_Action_System_String___pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>Main function should be invoked before this function is called.</p>
-</div>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_SetPrivateDataSetDelegate_Tizen_Uix_TtsEngine_Engine_Action_System_String___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.synthesis">http://tizen.org/feature/speech.synthesis</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1171,6 +1133,11 @@ The following error codes can be returned:</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.synthesis</span></span></h6>
+  
+  
   <a id="Tizen_Uix_TtsEngine_Engine_StartSynthesis_" data-uid="Tizen.Uix.TtsEngine.Engine.StartSynthesis*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_StartSynthesis_System_String_System_Int32_System_String_System_Int32_System_String_System_String_System_IntPtr_" data-uid="Tizen.Uix.TtsEngine.Engine.StartSynthesis(System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.IntPtr)">StartSynthesis(String, Int32, String, Int32, String, String, IntPtr)</h4>
   <div class="markdown level1 summary"><p>Called when the engine service user starts to synthesize a voice, asynchronously.</p>
@@ -1265,11 +1232,8 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
 Also, if the TTS engine needs the application&apos;s credential, it can set the credential granted to the application.</p>
 </div>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_StartSynthesis_System_String_System_Int32_System_String_System_Int32_System_String_System_String_System_IntPtr__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Uix_TtsEngine_Engine_StartSynthesis_System_String_System_Int32_System_String_System_Int32_System_String_System_String_System_IntPtr__post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>This function invokes SendResult().</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Uix_TtsEngine_Engine_UnloadVoice_" data-uid="Tizen.Uix.TtsEngine.Engine.UnloadVoice*"></a>
   <h4 id="Tizen_Uix_TtsEngine_Engine_UnloadVoice_System_String_System_Int32_" data-uid="Tizen.Uix.TtsEngine.Engine.UnloadVoice(System.String,System.Int32)">UnloadVoice(String, Int32)</h4>
@@ -1329,14 +1293,17 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_TtsEngine_Engine_UnloadVoice_System_String_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1352,7 +1319,7 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

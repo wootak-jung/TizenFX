@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,22 +117,17 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.System.html">Tizen.System</a></h6>
   <h6><strong>Assembly</strong>: Tizen.System.PowerUsage.dll</h6>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/systemmonitor</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/battery</span></span></h6>
   <h5 id="Tizen_System_PowerUsage_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class PowerUsage</code></pre>
   </div>
-  
-  <h5 id="Tizen_System_PowerUsage_privlevel" class="privlevel">Privilege Level</h5>
-  <div class="markdown level0 privlevel">public</div>
-  <h5 id="Tizen_System_PowerUsage_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level0 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  <h5 id="Tizen_System_PowerUsage_feature" class="feature">Feature</h5>
-  <div class="markdown level0 feature"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
-</div>
-  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_System_PowerUsage_GetPowerUsage_" data-uid="Tizen.System.PowerUsage.GetPowerUsage*"></a>
   <h4 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_Collections_Generic_IList_Tizen_System_PowerUsageResourceType__System_DateTime_System_DateTime_" data-uid="Tizen.System.PowerUsage.GetPowerUsage(System.String,System.Collections.Generic.IList{Tizen.System.PowerUsageResourceType},System.DateTime,System.DateTime)">GetPowerUsage(String, IList&lt;PowerUsageResourceType&gt;, DateTime, DateTime)</h4>
   <div class="markdown level1 summary"><p>Gets the battery consumption in mAh(milli-Ampere hour) for the resources specified by the application in custom interval.</p>
@@ -194,18 +189,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_Collections_Generic_IList_Tizen_System_PowerUsageResourceType__System_DateTime_System_DateTime__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_Collections_Generic_IList_Tizen_System_PowerUsageResourceType__System_DateTime_System_DateTime__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_Collections_Generic_IList_Tizen_System_PowerUsageResourceType__System_DateTime_System_DateTime__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_Collections_Generic_IList_Tizen_System_PowerUsageResourceType__System_DateTime_System_DateTime__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -237,6 +220,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_System_PowerUsage_GetPowerUsage_" data-uid="Tizen.System.PowerUsage.GetPowerUsage*"></a>
   <h4 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_DateTime_System_DateTime_" data-uid="Tizen.System.PowerUsage.GetPowerUsage(System.String,System.DateTime,System.DateTime)">GetPowerUsage(String, DateTime, DateTime)</h4>
   <div class="markdown level1 summary"><p>Gets the total battery usage in mAh(milli-Ampere hour) by an application for certain time interval.</p>
@@ -292,18 +284,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_DateTime_System_DateTime__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_DateTime_System_DateTime__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_DateTime_System_DateTime__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_System_DateTime_System_DateTime__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -335,6 +315,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_System_PowerUsage_GetPowerUsage_" data-uid="Tizen.System.PowerUsage.GetPowerUsage*"></a>
   <h4 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime_" data-uid="Tizen.System.PowerUsage.GetPowerUsage(System.String,Tizen.System.PowerUsageResourceType,System.DateTime,System.DateTime)">GetPowerUsage(String, PowerUsageResourceType, DateTime, DateTime)</h4>
   <div class="markdown level1 summary"><p>Gets the battery consumption in mAh(milli-Ampere hour) for the specific resource for the given application in custom interval.</p>
@@ -396,18 +385,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_System_String_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -439,6 +416,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_System_PowerUsage_GetPowerUsage_" data-uid="Tizen.System.PowerUsage.GetPowerUsage*"></a>
   <h4 id="Tizen_System_PowerUsage_GetPowerUsage_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime_" data-uid="Tizen.System.PowerUsage.GetPowerUsage(Tizen.System.PowerUsageResourceType,System.DateTime,System.DateTime)">GetPowerUsage(PowerUsageResourceType, DateTime, DateTime)</h4>
   <div class="markdown level1 summary"><p>Gets the battery usage in mAh(milli-Ampere hour) by a resource for certain time interval.</p>
@@ -494,18 +480,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  <h5 id="Tizen_System_PowerUsage_GetPowerUsage_Tizen_System_PowerUsageResourceType_System_DateTime_System_DateTime__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -537,11 +511,23 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/battery">http://tizen.org/feature/battery</a></p>
+</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -557,7 +543,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

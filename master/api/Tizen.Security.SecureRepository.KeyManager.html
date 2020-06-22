@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -130,14 +130,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Security.SecureRepository.html">Tizen.Security.SecureRepository</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Security.SecureRepository.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Security_SecureRepository_KeyManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class KeyManager : Manager</code></pre>
   </div>
-  
-  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_CreateAesKey_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateAesKey*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_CreateAesKey_System_Int32_System_String_Tizen_Security_SecureRepository_Policy_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateAesKey(System.Int32,System.String,Tizen.Security.SecureRepository.Policy)">CreateAesKey(Int32, String, Policy)</h4>
   <div class="markdown level1 summary"><p>Creates the AES key and stores it inside the secure repository based on each policy.</p>
@@ -181,10 +181,6 @@
   <div class="markdown level1 remarks"><p>If the password in policy is provided, the key is additionally encrypted with
 the password in policy.</p>
 </div>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_CreateAesKey_System_Int32_System_String_Tizen_Security_SecureRepository_Policy__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -211,6 +207,10 @@ the password in policy.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_CreateDsaKeyPair_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateDsaKeyPair*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_CreateDsaKeyPair_System_Int32_System_String_System_String_Tizen_Security_SecureRepository_Policy_Tizen_Security_SecureRepository_Policy_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateDsaKeyPair(System.Int32,System.String,System.String,Tizen.Security.SecureRepository.Policy,Tizen.Security.SecureRepository.Policy)">CreateDsaKeyPair(Int32, String, String, Policy, Policy)</h4>
   <div class="markdown level1 summary"><p>Creates the DSA private/public key pair and stores them inside the secure repository
@@ -268,10 +268,6 @@ supported.</p>
   <div class="markdown level1 remarks"><p>If the password in policy is provided, the key is additionally encrypted with
 the password in policy.</p>
 </div>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_CreateDsaKeyPair_System_Int32_System_String_System_String_Tizen_Security_SecureRepository_Policy_Tizen_Security_SecureRepository_Policy__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -298,6 +294,10 @@ the password in policy.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_CreateEcdsaKeyPair_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateEcdsaKeyPair*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_CreateEcdsaKeyPair_Tizen_Security_SecureRepository_EllipticCurveType_System_String_System_String_Tizen_Security_SecureRepository_Policy_Tizen_Security_SecureRepository_Policy_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateEcdsaKeyPair(Tizen.Security.SecureRepository.EllipticCurveType,System.String,System.String,Tizen.Security.SecureRepository.Policy,Tizen.Security.SecureRepository.Policy)">CreateEcdsaKeyPair(EllipticCurveType, String, String, Policy, Policy)</h4>
   <div class="markdown level1 summary"><p>Creates the ECDSA private/public key pair and stores them inside secure repository
@@ -354,10 +354,6 @@ based on each policy.</p>
   <div class="markdown level1 remarks"><p>If the password in policy is provided, the key is additionally encrypted with
 the password in policy.</p>
 </div>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_CreateEcdsaKeyPair_Tizen_Security_SecureRepository_EllipticCurveType_System_String_System_String_Tizen_Security_SecureRepository_Policy_Tizen_Security_SecureRepository_Policy__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -385,6 +381,10 @@ invalid format.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_CreateRsaKeyPair_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateRsaKeyPair*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_CreateRsaKeyPair_System_Int32_System_String_System_String_Tizen_Security_SecureRepository_Policy_Tizen_Security_SecureRepository_Policy_" data-uid="Tizen.Security.SecureRepository.KeyManager.CreateRsaKeyPair(System.Int32,System.String,System.String,Tizen.Security.SecureRepository.Policy,Tizen.Security.SecureRepository.Policy)">CreateRsaKeyPair(Int32, String, String, Policy, Policy)</h4>
   <div class="markdown level1 summary"><p>Creates the RSA private/public key pair and stores them inside the secure repository
@@ -441,10 +441,6 @@ based on each policy.</p>
   <div class="markdown level1 remarks"><p>If the password in policy is provided, the key is additionally encrypted with the
 password in policy.</p>
 </div>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_CreateRsaKeyPair_System_Int32_System_String_System_String_Tizen_Security_SecureRepository_Policy_Tizen_Security_SecureRepository_Policy__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -471,6 +467,10 @@ password in policy.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_Get_" data-uid="Tizen.Security.SecureRepository.KeyManager.Get*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_Get_System_String_System_String_" data-uid="Tizen.Security.SecureRepository.KeyManager.Get(System.String,System.String)">Get(String, String)</h4>
   <div class="markdown level1 summary"><p>Gets a key from the secure repository.</p>
@@ -522,10 +522,6 @@ be provided.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_Get_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -552,6 +548,10 @@ be provided.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_GetAliases_" data-uid="Tizen.Security.SecureRepository.KeyManager.GetAliases*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_GetAliases" data-uid="Tizen.Security.SecureRepository.KeyManager.GetAliases">GetAliases()</h4>
   <div class="markdown level1 summary"><p>Gets all aliases of keys, which the client can access.</p>
@@ -577,10 +577,6 @@ be provided.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_GetAliases_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -597,6 +593,10 @@ be provided.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Security_SecureRepository_KeyManager_Save_" data-uid="Tizen.Security.SecureRepository.KeyManager.Save*"></a>
   <h4 id="Tizen_Security_SecureRepository_KeyManager_Save_System_String_Tizen_Security_SecureRepository_Key_Tizen_Security_SecureRepository_Policy_" data-uid="Tizen.Security.SecureRepository.KeyManager.Save(System.String,Tizen.Security.SecureRepository.Key,Tizen.Security.SecureRepository.Policy)">Save(String, Key, Policy)</h4>
   <div class="markdown level1 summary"><p>Stores a key inside the secure repository based on the provided policy.</p>
@@ -640,10 +640,6 @@ be provided.</p>
   <div class="markdown level1 remarks"><p>The type in key may be set to KeyType.None as an input.
 The type is determined inside the secure reposioty during storing keys.</p>
 </div>
-  
-  <h5 id="Tizen_Security_SecureRepository_KeyManager_Save_System_String_Tizen_Security_SecureRepository_Key_Tizen_Security_SecureRepository_Policy__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -670,11 +666,18 @@ The type is determined inside the secure reposioty during storing keys.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -690,7 +693,7 @@ The type is determined inside the secure reposioty during storing keys.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

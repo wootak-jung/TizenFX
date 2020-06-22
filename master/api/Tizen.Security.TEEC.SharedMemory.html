@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -122,14 +122,14 @@ with the implementation or allocated by it.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Security.TEEC.html">Tizen.Security.TEEC</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Security.TEEC.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Security_TEEC_SharedMemory_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class SharedMemory : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Security_TEEC_SharedMemory_Address_" data-uid="Tizen.Security.TEEC.SharedMemory.Address*"></a>
   <h4 id="Tizen_Security_TEEC_SharedMemory_Address" data-uid="Tizen.Security.TEEC.SharedMemory.Address">Address</h4>
   <div class="markdown level1 summary"><p>This property represents the start address of the shared memory block.</p>
@@ -155,13 +155,10 @@ with the implementation or allocated by it.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Security_TEEC_SharedMemory_Address_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_Address_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_Address_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>partner</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/tee.client</span></span></h6>
+  
   
   <a id="Tizen_Security_TEEC_SharedMemory_Size_" data-uid="Tizen.Security.TEEC.SharedMemory.Size*"></a>
   <h4 id="Tizen_Security_TEEC_SharedMemory_Size" data-uid="Tizen.Security.TEEC.SharedMemory.Size">Size</h4>
@@ -188,16 +185,13 @@ with the implementation or allocated by it.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Security_TEEC_SharedMemory_Size_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_Size_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_Size_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>partner</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/tee.client</span></span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Security_TEEC_SharedMemory_Dispose_" data-uid="Tizen.Security.TEEC.SharedMemory.Dispose*"></a>
   <h4 id="Tizen_Security_TEEC_SharedMemory_Dispose" data-uid="Tizen.Security.TEEC.SharedMemory.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Disposable interface implememtation.</p>
@@ -209,6 +203,7 @@ with the implementation or allocated by it.</p>
   </div>
   
   
+  
   <a id="Tizen_Security_TEEC_SharedMemory_Finalize_" data-uid="Tizen.Security.TEEC.SharedMemory.Finalize*"></a>
   <h4 id="Tizen_Security_TEEC_SharedMemory_Finalize" data-uid="Tizen.Security.TEEC.SharedMemory.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Destructor of the class.</p>
@@ -218,6 +213,7 @@ with the implementation or allocated by it.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Security_TEEC_SharedMemory_GetData_" data-uid="Tizen.Security.TEEC.SharedMemory.GetData*"></a>
@@ -254,15 +250,6 @@ For large buffers, the direct address should be used.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Security_TEEC_SharedMemory_GetData_System_Byte___System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_GetData_System_Byte___System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_GetData_System_Byte___System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -279,6 +266,12 @@ For large buffers, the direct address should be used.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>partner</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/tee.client</span></span></h6>
+  
+  
   <a id="Tizen_Security_TEEC_SharedMemory_SetData_" data-uid="Tizen.Security.TEEC.SharedMemory.SetData*"></a>
   <h4 id="Tizen_Security_TEEC_SharedMemory_SetData_System_Byte___System_Int32_" data-uid="Tizen.Security.TEEC.SharedMemory.SetData(System.Byte[],System.Int32)">SetData(Byte[], Int32)</h4>
   <div class="markdown level1 summary"><p>This function makes a copy and is designed for convenient operations on small buffers.
@@ -313,15 +306,6 @@ For large buffers, the direct address should be used.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Security_TEEC_SharedMemory_SetData_System_Byte___System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_SetData_System_Byte___System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">partner</span>
-  <h5 id="Tizen_Security_TEEC_SharedMemory_SetData_System_Byte___System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/tee.client">http://tizen.org/privilege/tee.client</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -338,6 +322,11 @@ For large buffers, the direct address should be used.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>partner</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/tee.client</span></span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -347,6 +336,10 @@ For large buffers, the direct address should be used.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -362,7 +355,7 @@ For large buffers, the direct address should be used.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

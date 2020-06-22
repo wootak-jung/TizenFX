@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -166,14 +166,14 @@ touched or the points where a touch has stopped.<br></p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.NUI.html">Tizen.NUI</a></h6>
   <h6><strong>Assembly</strong>: Tizen.NUI.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_NUI_Touch_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Touch : BaseHandle, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IElementController, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_NUI_Touch__ctor_" data-uid="Tizen.NUI.Touch.#ctor*"></a>
   <h4 id="Tizen_NUI_Touch__ctor" data-uid="Tizen.NUI.Touch.#ctor">Touch()</h4>
   <div class="markdown level1 summary"><p>An uninitialized touch instance.<br>
@@ -185,11 +185,11 @@ Calling member functions with an uninitialized touch handle is not allowed.<br><
     <pre><code class="lang-csharp hljs">public Touch()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_Touch__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_NUI_Touch_GetDeviceId_" data-uid="Tizen.NUI.Touch.GetDeviceId*"></a>
   <h4 id="Tizen_NUI_Touch_GetDeviceId_System_UInt32_" data-uid="Tizen.NUI.Touch.GetDeviceId(System.UInt32)">GetDeviceId(UInt32)</h4>
   <div class="markdown level1 summary"><p>Returns the ID of the device used for the point specified.<br>
@@ -237,8 +237,8 @@ If a point is greater than GetPointCount(), then this method will return -1.<br>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetDeviceId_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetEllipseRadius_" data-uid="Tizen.NUI.Touch.GetEllipseRadius*"></a>
   <h4 id="Tizen_NUI_Touch_GetEllipseRadius_System_UInt32_" data-uid="Tizen.NUI.Touch.GetEllipseRadius(System.UInt32)">GetEllipseRadius(UInt32)</h4>
@@ -285,8 +285,8 @@ If a point is greater than GetPointCount(), then this method will return Vector2
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetEllipseRadius_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetHitView_" data-uid="Tizen.NUI.Touch.GetHitView*"></a>
   <h4 id="Tizen_NUI_Touch_GetHitView_System_UInt32_" data-uid="Tizen.NUI.Touch.GetHitView(System.UInt32)">GetHitView(UInt32)</h4>
@@ -333,8 +333,8 @@ If a point is greater than GetPointCount(), then this method will return an empt
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetHitView_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetLocalPosition_" data-uid="Tizen.NUI.Touch.GetLocalPosition*"></a>
   <h4 id="Tizen_NUI_Touch_GetLocalPosition_System_UInt32_" data-uid="Tizen.NUI.Touch.GetLocalPosition(System.UInt32)">GetLocalPosition(UInt32)</h4>
@@ -384,8 +384,8 @@ If a point is greater than GetPointCount(), then this method will return Vector2
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetLocalPosition_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetPointCount_" data-uid="Tizen.NUI.Touch.GetPointCount*"></a>
   <h4 id="Tizen_NUI_Touch_GetPointCount" data-uid="Tizen.NUI.Touch.GetPointCount">GetPointCount()</h4>
@@ -413,8 +413,8 @@ If a point is greater than GetPointCount(), then this method will return Vector2
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetPointCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetPressure_" data-uid="Tizen.NUI.Touch.GetPressure*"></a>
   <h4 id="Tizen_NUI_Touch_GetPressure_System_UInt32_" data-uid="Tizen.NUI.Touch.GetPressure(System.UInt32)">GetPressure(UInt32)</h4>
@@ -465,8 +465,8 @@ If point is greater than GetPointCount(), then this method will return 1.0f.<br>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetPressure_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetRadius_" data-uid="Tizen.NUI.Touch.GetRadius*"></a>
   <h4 id="Tizen_NUI_Touch_GetRadius_System_UInt32_" data-uid="Tizen.NUI.Touch.GetRadius(System.UInt32)">GetRadius(UInt32)</h4>
@@ -514,8 +514,8 @@ If point is greater than GetPointCount(), then this method will return 0.0f.<br>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetRadius_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetScreenPosition_" data-uid="Tizen.NUI.Touch.GetScreenPosition*"></a>
   <h4 id="Tizen_NUI_Touch_GetScreenPosition_System_UInt32_" data-uid="Tizen.NUI.Touch.GetScreenPosition(System.UInt32)">GetScreenPosition(UInt32)</h4>
@@ -562,8 +562,8 @@ If a point is greater than GetPointCount(), then this method will return Vector2
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetScreenPosition_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetState_" data-uid="Tizen.NUI.Touch.GetState*"></a>
   <h4 id="Tizen_NUI_Touch_GetState_System_UInt32_" data-uid="Tizen.NUI.Touch.GetState(System.UInt32)">GetState(UInt32)</h4>
@@ -610,8 +610,8 @@ If a point is greater than GetPointCount(), then this method will return PointSt
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetState_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_NUI_Touch_GetTime_" data-uid="Tizen.NUI.Touch.GetTime*"></a>
   <h4 id="Tizen_NUI_Touch_GetTime" data-uid="Tizen.NUI.Touch.GetTime">GetTime()</h4>
@@ -639,8 +639,7 @@ If a point is greater than GetPointCount(), then this method will return PointSt
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Touch_GetTime_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -654,6 +653,10 @@ If a point is greater than GetPointCount(), then this method will return PointSt
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -669,7 +672,7 @@ If a point is greater than GetPointCount(), then this method will return PointSt
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

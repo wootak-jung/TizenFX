@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -175,10 +175,9 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LayoutGroup : LayoutItem, ILayoutParent</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_NUI_LayoutGroup__ctor_" data-uid="Tizen.NUI.LayoutGroup.#ctor*"></a>
   <h4 id="Tizen_NUI_LayoutGroup__ctor" data-uid="Tizen.NUI.LayoutGroup.#ctor">LayoutGroup()</h4>
   <div class="markdown level1 summary"><p>[Draft] Constructor</p>
@@ -189,11 +188,11 @@
     <pre><code class="lang-csharp hljs">public LayoutGroup()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_LayoutGroup__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_NUI_LayoutGroup_LayoutChildren_" data-uid="Tizen.NUI.LayoutGroup.LayoutChildren*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_LayoutChildren" data-uid="Tizen.NUI.LayoutGroup.LayoutChildren">LayoutChildren</h4>
   <div class="markdown level1 summary"><p>[Draft] List of child layouts in this container.</p>
@@ -219,11 +218,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_LayoutChildren_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_NUI_LayoutGroup_Add_" data-uid="Tizen.NUI.LayoutGroup.Add*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_Add_Tizen_NUI_LayoutItem_" data-uid="Tizen.NUI.LayoutGroup.Add(Tizen.NUI.LayoutItem)">Add(LayoutItem)</h4>
   <div class="markdown level1 summary"><p>From ILayoutParent.<br></p>
@@ -252,8 +251,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_Add_Tizen_NUI_LayoutItem__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_GetChildMeasureSpecification_" data-uid="Tizen.NUI.LayoutGroup.GetChildMeasureSpecification*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_GetChildMeasureSpecification_Tizen_NUI_MeasureSpecification_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_" data-uid="Tizen.NUI.LayoutGroup.GetChildMeasureSpecification(Tizen.NUI.MeasureSpecification,Tizen.NUI.LayoutLength,Tizen.NUI.LayoutLength)">GetChildMeasureSpecification(MeasureSpecification, LayoutLength, LayoutLength)</h4>
@@ -315,6 +314,7 @@ for one dimension (height or width) of one child view.<br></p>
   </table>
   
   
+  
   <a id="Tizen_NUI_LayoutGroup_MeasureChild_" data-uid="Tizen.NUI.LayoutGroup.MeasureChild*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_MeasureChild_Tizen_NUI_LayoutItem_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification_" data-uid="Tizen.NUI.LayoutGroup.MeasureChild(Tizen.NUI.LayoutItem,Tizen.NUI.MeasureSpecification,Tizen.NUI.MeasureSpecification)">MeasureChild(LayoutItem, MeasureSpecification, MeasureSpecification)</h4>
   <div class="markdown level1 summary"><p>Ask one of the children of this view to measure itself, taking into
@@ -357,8 +357,8 @@ The heavy lifting is done in GetChildMeasureSpecification.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_MeasureChild_Tizen_NUI_LayoutItem_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_MeasureChildren_" data-uid="Tizen.NUI.LayoutGroup.MeasureChildren*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_MeasureChildren_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification_" data-uid="Tizen.NUI.LayoutGroup.MeasureChildren(Tizen.NUI.MeasureSpecification,Tizen.NUI.MeasureSpecification)">MeasureChildren(MeasureSpecification, MeasureSpecification)</h4>
@@ -396,8 +396,8 @@ The heavy lifting is done in GetChildMeasureSpec.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_MeasureChildren_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_MeasureChildWithMargins_" data-uid="Tizen.NUI.LayoutGroup.MeasureChildWithMargins*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_MeasureChildWithMargins_Tizen_NUI_LayoutItem_Tizen_NUI_MeasureSpecification_Tizen_NUI_LayoutLength_Tizen_NUI_MeasureSpecification_Tizen_NUI_LayoutLength_" data-uid="Tizen.NUI.LayoutGroup.MeasureChildWithMargins(Tizen.NUI.LayoutItem,Tizen.NUI.MeasureSpecification,Tizen.NUI.LayoutLength,Tizen.NUI.MeasureSpecification,Tizen.NUI.LayoutLength)">MeasureChildWithMargins(LayoutItem, MeasureSpecification, LayoutLength, MeasureSpecification, LayoutLength)</h4>
@@ -453,8 +453,8 @@ and margins. The heavy lifting is done in GetChildMeasureSpecification.<br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_MeasureChildWithMargins_Tizen_NUI_LayoutItem_Tizen_NUI_MeasureSpecification_Tizen_NUI_LayoutLength_Tizen_NUI_MeasureSpecification_Tizen_NUI_LayoutLength__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_OnAttachedToOwner_" data-uid="Tizen.NUI.LayoutGroup.OnAttachedToOwner*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_OnAttachedToOwner" data-uid="Tizen.NUI.LayoutGroup.OnAttachedToOwner">OnAttachedToOwner()</h4>
@@ -468,8 +468,8 @@ and margins. The heavy lifting is done in GetChildMeasureSpecification.<br></p>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Tizen.NUI.LayoutItem.html#Tizen_NUI_LayoutItem_OnAttachedToOwner">LayoutItem.OnAttachedToOwner()</a></div>
   
-  <h5 id="Tizen_NUI_LayoutGroup_OnAttachedToOwner_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_OnChildAdd_" data-uid="Tizen.NUI.LayoutGroup.OnChildAdd*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_OnChildAdd_Tizen_NUI_LayoutItem_" data-uid="Tizen.NUI.LayoutGroup.OnChildAdd(Tizen.NUI.LayoutItem)">OnChildAdd(LayoutItem)</h4>
@@ -500,8 +500,8 @@ Derived classes can use this to set their own child properties on the child layo
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_OnChildAdd_Tizen_NUI_LayoutItem__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_OnChildRemove_" data-uid="Tizen.NUI.LayoutGroup.OnChildRemove*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_OnChildRemove_Tizen_NUI_LayoutItem_" data-uid="Tizen.NUI.LayoutGroup.OnChildRemove(Tizen.NUI.LayoutItem)">OnChildRemove(LayoutItem)</h4>
@@ -531,8 +531,8 @@ Derived classes can use this to set their own child properties on the child layo
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_OnChildRemove_Tizen_NUI_LayoutItem__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_OnLayout_" data-uid="Tizen.NUI.LayoutGroup.OnLayout*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_OnLayout_System_Boolean_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_" data-uid="Tizen.NUI.LayoutGroup.OnLayout(System.Boolean,Tizen.NUI.LayoutLength,Tizen.NUI.LayoutLength,Tizen.NUI.LayoutLength,Tizen.NUI.LayoutLength)">OnLayout(Boolean, LayoutLength, LayoutLength, LayoutLength, LayoutLength)</h4>
@@ -589,8 +589,8 @@ Derived classes with children should override this method and call Layout() on e
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Tizen.NUI.LayoutItem.html#Tizen_NUI_LayoutItem_OnLayout_System_Boolean_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_">LayoutItem.OnLayout(Boolean, LayoutLength, LayoutLength, LayoutLength, LayoutLength)</a></div>
   
-  <h5 id="Tizen_NUI_LayoutGroup_OnLayout_System_Boolean_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength_Tizen_NUI_LayoutLength__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_OnMeasure_" data-uid="Tizen.NUI.LayoutGroup.OnMeasure*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_OnMeasure_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification_" data-uid="Tizen.NUI.LayoutGroup.OnMeasure(Tizen.NUI.MeasureSpecification,Tizen.NUI.MeasureSpecification)">OnMeasure(MeasureSpecification, MeasureSpecification)</h4>
@@ -631,8 +631,8 @@ and width. <br></p>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Tizen.NUI.LayoutItem.html#Tizen_NUI_LayoutItem_OnMeasure_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification_">LayoutItem.OnMeasure(MeasureSpecification, MeasureSpecification)</a></div>
   
-  <h5 id="Tizen_NUI_LayoutGroup_OnMeasure_Tizen_NUI_MeasureSpecification_Tizen_NUI_MeasureSpecification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_Remove_" data-uid="Tizen.NUI.LayoutGroup.Remove*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_Remove_Tizen_NUI_LayoutItem_" data-uid="Tizen.NUI.LayoutGroup.Remove(Tizen.NUI.LayoutItem)">Remove(LayoutItem)</h4>
@@ -662,8 +662,8 @@ and width. <br></p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_LayoutGroup_Remove_Tizen_NUI_LayoutItem__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_NUI_LayoutGroup_RemoveAll_" data-uid="Tizen.NUI.LayoutGroup.RemoveAll*"></a>
   <h4 id="Tizen_NUI_LayoutGroup_RemoveAll" data-uid="Tizen.NUI.LayoutGroup.RemoveAll">RemoveAll()</h4>
@@ -675,8 +675,7 @@ and width. <br></p>
     <pre><code class="lang-csharp hljs">public void RemoveAll()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_LayoutGroup_RemoveAll_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -687,6 +686,10 @@ and width. <br></p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -702,7 +705,7 @@ and width. <br></p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

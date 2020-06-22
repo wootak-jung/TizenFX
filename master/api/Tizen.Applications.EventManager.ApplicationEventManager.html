@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,12 +117,11 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.EventManager.html">Tizen.Applications.EventManager</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.EventManager.dll</h6>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   <h5 id="Tizen_Applications_EventManager_ApplicationEventManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ApplicationEventManager</code></pre>
   </div>
-  
-  
   <h5 id="Tizen_Applications_EventManager_ApplicationEventManager_examples"><strong>Examples</strong></h5>
   <pre><code>public class EventManagerSample
 {
@@ -134,6 +133,7 @@
 
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_EventManager_ApplicationEventManager_KeepLastEvent_" data-uid="Tizen.Applications.EventManager.ApplicationEventManager.KeepLastEvent*"></a>
   <h4 id="Tizen_Applications_EventManager_ApplicationEventManager_KeepLastEvent_System_String_" data-uid="Tizen.Applications.EventManager.ApplicationEventManager.KeepLastEvent(System.String)">KeepLastEvent(String)</h4>
   <div class="markdown level1 summary"><p>Keeps last User-Event data for receiver applications.</p>
@@ -167,10 +167,6 @@ If a sender application sends same event via trusted method and non-trusted meth
 but non-trusted receiver will get the last data only from non-trusted method. The effect of this API continues during runtime.
 That means when the sender application process restarts, the sender application needs to call this api again to make the event to keep the last event.</p>
 </div>
-  
-  <h5 id="Tizen_Applications_EventManager_ApplicationEventManager_KeepLastEvent_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -192,6 +188,10 @@ That means when the sender application process restarts, the sender application 
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Applications_EventManager_ApplicationEventManager_Publish_" data-uid="Tizen.Applications.EventManager.ApplicationEventManager.Publish*"></a>
   <h4 id="Tizen_Applications_EventManager_ApplicationEventManager_Publish_System_String_Tizen_Applications_Bundle_" data-uid="Tizen.Applications.EventManager.ApplicationEventManager.Publish(System.String,Tizen.Applications.Bundle)">Publish(String, Bundle)</h4>
   <div class="markdown level1 summary"><p>Sends the User-Event to receiver applications.</p>
@@ -229,10 +229,6 @@ That means when the sender application process restarts, the sender application 
   <div class="markdown level1 remarks"><p>The format of User-Event&apos;s name MUST be &quot;event.{sender&apos;s appid}.{user-defined name}&quot;, refer to &apos;The name-format of User-Event&apos; section,
 If the event_name is invalid, throw InvalidOperationException</p>
 </div>
-  
-  <h5 id="Tizen_Applications_EventManager_ApplicationEventManager_Publish_System_String_Tizen_Applications_Bundle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -254,6 +250,10 @@ If the event_name is invalid, throw InvalidOperationException</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Applications_EventManager_ApplicationEventManager_Publish_" data-uid="Tizen.Applications.EventManager.ApplicationEventManager.Publish*"></a>
   <h4 id="Tizen_Applications_EventManager_ApplicationEventManager_Publish_System_String_Tizen_Applications_Bundle_System_Boolean_" data-uid="Tizen.Applications.EventManager.ApplicationEventManager.Publish(System.String,Tizen.Applications.Bundle,System.Boolean)">Publish(String, Bundle, Boolean)</h4>
   <div class="markdown level1 summary"><p>Sends the User-Event to trusted receiver-applications.</p>
@@ -298,10 +298,6 @@ If the event_name is invalid, throw InvalidOperationException</p>
 The format of User-Event&apos;s name MUST be &quot;event.{sender&apos;s appid}.{user-defined name}&quot;, refer to &apos;The name-format of User-Event&apos; section,
 If the event_name is invalid, throw InvalidOperationException</p>
 </div>
-  
-  <h5 id="Tizen_Applications_EventManager_ApplicationEventManager_Publish_System_String_Tizen_Applications_Bundle_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -323,11 +319,18 @@ If the event_name is invalid, throw InvalidOperationException</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -343,7 +346,7 @@ If the event_name is invalid, throw InvalidOperationException</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

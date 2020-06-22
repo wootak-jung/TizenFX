@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.MachineLearning.Inference.html">Tizen.MachineLearning.Inference</a></h6>
   <h6><strong>Assembly</strong>: Tizen.MachineLearning.Inference.dll</h6>
+  <h6><strong>API Level</strong>: <span>8</span></h6>
   <h5 id="Tizen_MachineLearning_Inference_Pipeline_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Pipeline : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline__ctor_" data-uid="Tizen.MachineLearning.Inference.Pipeline.#ctor*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline__ctor_System_String_" data-uid="Tizen.MachineLearning.Inference.Pipeline.#ctor(System.String)">Pipeline(String)</h4>
   <div class="markdown level1 summary"><p>Creates a new Pipeline instance with the given pipeline description</p>
@@ -159,13 +159,6 @@
   <h5 id="Tizen_MachineLearning_Inference_Pipeline__ctor_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p><a href="http://tizen.org/privilege/mediastorage">http://tizen.org/privilege/mediastorage</a> is needed if pipeline description is relevant to media storage.</p>
 </div>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline__ctor_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -197,8 +190,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_State_" data-uid="Tizen.MachineLearning.Inference.Pipeline.State*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_State" data-uid="Tizen.MachineLearning.Inference.Pipeline.State">State</h4>
   <div class="markdown level1 summary"><p>The state of pipeline.</p>
@@ -223,10 +221,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_State_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -248,8 +242,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_Dispose_" data-uid="Tizen.MachineLearning.Inference.Pipeline.Dispose*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_Dispose" data-uid="Tizen.MachineLearning.Inference.Pipeline.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases any unmanaged resources used by this object.</p>
@@ -260,8 +258,8 @@
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  
   
   <a id="Tizen_MachineLearning_Inference_Pipeline_Dispose_" data-uid="Tizen.MachineLearning.Inference.Pipeline.Dispose*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_Dispose_System_Boolean_" data-uid="Tizen.MachineLearning.Inference.Pipeline.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -291,8 +289,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  
   
   <a id="Tizen_MachineLearning_Inference_Pipeline_Finalize_" data-uid="Tizen.MachineLearning.Inference.Pipeline.Finalize*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_Finalize" data-uid="Tizen.MachineLearning.Inference.Pipeline.Finalize">Finalize()</h4>
@@ -304,8 +302,8 @@
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
   
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Finalize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  
   
   <a id="Tizen_MachineLearning_Inference_Pipeline_GetSink_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetSink*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_GetSink_System_String_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetSink(System.String)">GetSink(String)</h4>
@@ -350,13 +348,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetSink_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetSink_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -378,6 +369,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_GetSource_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetSource*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_GetSource_System_String_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetSource(System.String)">GetSource(String)</h4>
   <div class="markdown level1 summary"><p>Gets the source node instance with given node name.</p>
@@ -421,13 +417,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetSource_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetSource_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -449,6 +438,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_GetSwitch_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetSwitch*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_GetSwitch_System_String_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetSwitch(System.String)">GetSwitch(String)</h4>
   <div class="markdown level1 summary"><p>Gets the switch node instance with given node name.</p>
@@ -492,13 +486,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetSwitch_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetSwitch_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -520,6 +507,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_GetValve_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetValve*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_GetValve_System_String_" data-uid="Tizen.MachineLearning.Inference.Pipeline.GetValve(System.String)">GetValve(String)</h4>
   <div class="markdown level1 summary"><p>Gets the valve node instance with given node name.</p>
@@ -563,13 +555,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetValve_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_GetValve_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -591,6 +576,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_Start_" data-uid="Tizen.MachineLearning.Inference.Pipeline.Start*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_Start" data-uid="Tizen.MachineLearning.Inference.Pipeline.Start">Start()</h4>
   <div class="markdown level1 summary"><p>Starts the pipeline, asynchronously. (The state would be changed to PipelineState.Playing)</p>
@@ -600,13 +590,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Start()</code></pre>
   </div>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Start_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Start_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -628,6 +611,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
+  
   <a id="Tizen_MachineLearning_Inference_Pipeline_Stop_" data-uid="Tizen.MachineLearning.Inference.Pipeline.Stop*"></a>
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_Stop" data-uid="Tizen.MachineLearning.Inference.Pipeline.Stop">Stop()</h4>
   <div class="markdown level1 summary"><p>Stops the pipeline, asynchronously. (The state would be changed to PipelineState.Paused)</p>
@@ -637,13 +625,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
   </div>
-  
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Stop_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_Stop_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/machine_learning.inference">http://tizen.org/feature/machine_learning.inference</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -665,8 +646,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/machine_learning.inference</span></span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_MachineLearning_Inference_Pipeline_StateChanged" data-uid="Tizen.MachineLearning.Inference.Pipeline.StateChanged">StateChanged</h4>
   <div class="markdown level1 summary"><p>Event to be invoked when the pipeline state is changed.</p>
 </div>
@@ -691,8 +677,7 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_MachineLearning_Inference_Pipeline_StateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">8 </span>
+  <h6><strong>API Level</strong>: <span>8</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -703,6 +688,10 @@
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -718,7 +707,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

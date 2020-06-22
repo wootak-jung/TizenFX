@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -126,14 +126,14 @@ Simple audio and audio/video are supported.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.html">Tizen.Multimedia</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Recorder.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Multimedia_Recorder_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class Recorder : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Recorder_AudioBitRate_" data-uid="Tizen.Multimedia.Recorder.AudioBitRate*"></a>
   <h4 id="Tizen_Multimedia_Recorder_AudioBitRate" data-uid="Tizen.Multimedia.Recorder.AudioBitRate">AudioBitRate</h4>
   <div class="markdown level1 summary"><p>Gets or sets the bitrate of an audio encoder in bits per second.</p>
@@ -161,10 +161,6 @@ Simple audio and audio/video are supported.</p>
   <h5 id="Tizen_Multimedia_Recorder_AudioBitRate_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_AudioBitRate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -191,6 +187,10 @@ Simple audio and audio/video are supported.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_AudioChannels_" data-uid="Tizen.Multimedia.Recorder.AudioChannels*"></a>
   <h4 id="Tizen_Multimedia_Recorder_AudioChannels" data-uid="Tizen.Multimedia.Recorder.AudioChannels">AudioChannels</h4>
   <div class="markdown level1 summary"><p>Gets or sets the number of the audio channel.</p>
@@ -220,10 +220,6 @@ For stereo recording, set the channel to 2.</p>
   <h5 id="Tizen_Multimedia_Recorder_AudioChannels_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_AudioChannels_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -250,6 +246,10 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_AudioCodec_" data-uid="Tizen.Multimedia.Recorder.AudioCodec*"></a>
   <h4 id="Tizen_Multimedia_Recorder_AudioCodec" data-uid="Tizen.Multimedia.Recorder.AudioCodec">AudioCodec</h4>
   <div class="markdown level1 summary"><p>Gets the audio codec for encoding an audio stream.</p>
@@ -274,14 +274,14 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_AudioCodec_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Multimedia_Recorder_AudioCodec_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_GetSupportedAudioCodecs">GetSupportedAudioCodecs()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_AudioDevice_" data-uid="Tizen.Multimedia.Recorder.AudioDevice*"></a>
   <h4 id="Tizen_Multimedia_Recorder_AudioDevice" data-uid="Tizen.Multimedia.Recorder.AudioDevice">AudioDevice</h4>
   <div class="markdown level1 summary"><p>Gets or sets the audio device for recording.</p>
@@ -310,10 +310,6 @@ For stereo recording, set the channel to 2.</p>
   <h5 id="Tizen_Multimedia_Recorder_AudioDevice_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_AudioDevice_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -340,6 +336,10 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_AudioSampleRate_" data-uid="Tizen.Multimedia.Recorder.AudioSampleRate*"></a>
   <h4 id="Tizen_Multimedia_Recorder_AudioSampleRate" data-uid="Tizen.Multimedia.Recorder.AudioSampleRate">AudioSampleRate</h4>
   <div class="markdown level1 summary"><p>Gets or sets the sampling rate of an audio stream in hertz.</p>
@@ -367,10 +367,6 @@ For stereo recording, set the channel to 2.</p>
   <h5 id="Tizen_Multimedia_Recorder_AudioSampleRate_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_AudioSampleRate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -397,6 +393,10 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_FileFormat_" data-uid="Tizen.Multimedia.Recorder.FileFormat*"></a>
   <h4 id="Tizen_Multimedia_Recorder_FileFormat" data-uid="Tizen.Multimedia.Recorder.FileFormat">FileFormat</h4>
   <div class="markdown level1 summary"><p>Gets the file format of the recording result.</p>
@@ -421,14 +421,14 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_FileFormat_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Multimedia_Recorder_FileFormat_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_GetSupportedFileFormats">GetSupportedFileFormats()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Muted_" data-uid="Tizen.Multimedia.Recorder.Muted*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Muted" data-uid="Tizen.Multimedia.Recorder.Muted">Muted</h4>
   <div class="markdown level1 summary"><p>Gets or sets the mute state of a recorder.</p>
@@ -453,10 +453,6 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Muted_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -473,6 +469,10 @@ For stereo recording, set the channel to 2.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_SizeLimit_" data-uid="Tizen.Multimedia.Recorder.SizeLimit*"></a>
   <h4 id="Tizen_Multimedia_Recorder_SizeLimit" data-uid="Tizen.Multimedia.Recorder.SizeLimit">SizeLimit</h4>
   <div class="markdown level1 summary"><p>Gets or sets the maximum size of a recording file.</p>
@@ -504,10 +504,6 @@ be discarded and will not be written to the file.<br>
 <br>
 To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_SizeLimit_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -534,6 +530,10 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_State_" data-uid="Tizen.Multimedia.Recorder.State*"></a>
   <h4 id="Tizen_Multimedia_Recorder_State" data-uid="Tizen.Multimedia.Recorder.State">State</h4>
   <div class="markdown level1 summary"><p>Gets the current state of the recorder.</p>
@@ -559,10 +559,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_State_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -579,6 +575,10 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_TimeLimit_" data-uid="Tizen.Multimedia.Recorder.TimeLimit*"></a>
   <h4 id="Tizen_Multimedia_Recorder_TimeLimit" data-uid="Tizen.Multimedia.Recorder.TimeLimit">TimeLimit</h4>
   <div class="markdown level1 summary"><p>Gets or sets the time limit of recording.</p>
@@ -610,10 +610,6 @@ be discarded and will not be written to the file.<br>
 <br>
 To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_TimeLimit_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -640,8 +636,12 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Recorder_ApplyAudioStreamPolicy_" data-uid="Tizen.Multimedia.Recorder.ApplyAudioStreamPolicy*"></a>
   <h4 id="Tizen_Multimedia_Recorder_ApplyAudioStreamPolicy_Tizen_Multimedia_AudioStreamPolicy_" data-uid="Tizen.Multimedia.Recorder.ApplyAudioStreamPolicy(Tizen.Multimedia.AudioStreamPolicy)">ApplyAudioStreamPolicy(AudioStreamPolicy)</h4>
   <div class="markdown level1 summary"><p>Apply the audio stream policy.</p>
@@ -672,10 +672,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
   <h5 id="Tizen_Multimedia_Recorder_ApplyAudioStreamPolicy_Tizen_Multimedia_AudioStreamPolicy__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_ApplyAudioStreamPolicy_Tizen_Multimedia_AudioStreamPolicy__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -708,6 +704,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Cancel_" data-uid="Tizen.Multimedia.Recorder.Cancel*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Cancel" data-uid="Tizen.Multimedia.Recorder.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"><p>Cancels the recording.<br>
@@ -722,10 +722,6 @@ The recording data is discarded and not written in the recording file.</p>
   <div class="markdown level1 remarks"><p>The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a> state.
 The state of the recorder will be the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> after the operation.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Cancel_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -751,6 +747,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Commit_" data-uid="Tizen.Multimedia.Recorder.Commit*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Commit" data-uid="Tizen.Multimedia.Recorder.Commit">Commit()</h4>
   <div class="markdown level1 summary"><p>Stops recording and saves the result.</p>
@@ -764,10 +764,6 @@ An internal error occurred.</p>
   <div class="markdown level1 remarks"><p>The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a> state.
 The state of the recorder will be the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> after the operation.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Commit_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -793,6 +789,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Dispose_" data-uid="Tizen.Multimedia.Recorder.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Dispose" data-uid="Tizen.Multimedia.Recorder.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases the unmanaged resources used by the Recorder.</p>
@@ -803,8 +803,8 @@ An internal error occurred.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_Recorder_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_Recorder_Dispose_" data-uid="Tizen.Multimedia.Recorder.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.Recorder.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -834,8 +834,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Multimedia_Recorder_GetDeviceState_" data-uid="Tizen.Multimedia.Recorder.GetDeviceState*"></a>
   <h4 id="Tizen_Multimedia_Recorder_GetDeviceState_Tizen_Multimedia_RecorderType_" data-uid="Tizen.Multimedia.Recorder.GetDeviceState(Tizen.Multimedia.RecorderType)">GetDeviceState(RecorderType)</h4>
@@ -878,10 +878,6 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_GetDeviceState_Tizen_Multimedia_RecorderType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -898,6 +894,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_GetPeakAudioLevel_" data-uid="Tizen.Multimedia.Recorder.GetPeakAudioLevel*"></a>
   <h4 id="Tizen_Multimedia_Recorder_GetPeakAudioLevel" data-uid="Tizen.Multimedia.Recorder.GetPeakAudioLevel">GetPeakAudioLevel()</h4>
   <div class="markdown level1 summary"><p>Returns the peak audio input level in dB since the last call to this method.</p>
@@ -927,10 +927,6 @@ An internal error occurred.</p>
 <br>
 The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_GetPeakAudioLevel_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -947,6 +943,10 @@ The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_GetSupportedAudioCodecs_" data-uid="Tizen.Multimedia.Recorder.GetSupportedAudioCodecs*"></a>
   <h4 id="Tizen_Multimedia_Recorder_GetSupportedAudioCodecs" data-uid="Tizen.Multimedia.Recorder.GetSupportedAudioCodecs">GetSupportedAudioCodecs()</h4>
   <div class="markdown level1 summary"><p>Gets the audio encoders that the current device supports.</p>
@@ -971,13 +971,6 @@ The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_GetSupportedAudioCodecs_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_Recorder_GetSupportedAudioCodecs_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/media.audio_recording">http://tizen.org/feature/media.audio_recording</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -994,6 +987,11 @@ The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/media.audio_recording</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_GetSupportedFileFormats_" data-uid="Tizen.Multimedia.Recorder.GetSupportedFileFormats*"></a>
   <h4 id="Tizen_Multimedia_Recorder_GetSupportedFileFormats" data-uid="Tizen.Multimedia.Recorder.GetSupportedFileFormats">GetSupportedFileFormats()</h4>
   <div class="markdown level1 summary"><p>Gets the file formats that the current device supports.</p>
@@ -1018,13 +1016,6 @@ The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Recorder_GetSupportedFileFormats_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_Recorder_GetSupportedFileFormats_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/media.audio_recording">http://tizen.org/feature/media.audio_recording</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1041,6 +1032,11 @@ The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/media.audio_recording</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Pause_" data-uid="Tizen.Multimedia.Recorder.Pause*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Pause" data-uid="Tizen.Multimedia.Recorder.Pause">Pause()</h4>
   <div class="markdown level1 summary"><p>Pauses the recording.</p>
@@ -1055,10 +1051,6 @@ The recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState
 The state of the recorder will be the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a> after this.
 It has no effect if the current state is the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Paused">Paused</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Pause_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1082,6 +1074,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Prepare_" data-uid="Tizen.Multimedia.Recorder.Prepare*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Prepare" data-uid="Tizen.Multimedia.Recorder.Prepare">Prepare()</h4>
   <div class="markdown level1 summary"><p>Prepares the media recorder for recording.</p>
@@ -1096,10 +1092,6 @@ An internal error occurred.</p>
 The state of the recorder will be the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> after this.
 It has no effect if the current state is the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Prepare_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1123,6 +1115,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Resume_" data-uid="Tizen.Multimedia.Recorder.Resume*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Resume" data-uid="Tizen.Multimedia.Recorder.Resume">Resume()</h4>
   <div class="markdown level1 summary"><p>Resumes the recording.</p>
@@ -1137,10 +1133,6 @@ An internal error occurred.</p>
 The state of recorder will be the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a> after this.
 It has no effect if the current state is the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Recording">Recording</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Resume_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1164,6 +1156,10 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Start_" data-uid="Tizen.Multimedia.Recorder.Start*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Start_System_String_" data-uid="Tizen.Multimedia.Recorder.Start(System.String)">Start(String)</h4>
   <div class="markdown level1 summary"><p>Starts the recording.</p>
@@ -1202,15 +1198,6 @@ The externalstorage privilege(<a href="http://tizen.org/privilege/externalstorag
 In the video recorder, some preview format does not support record mode.
 You should use the default preview format or the <a class="xref" href="Tizen.Multimedia.CameraPixelFormat.html#Tizen_Multimedia_CameraPixelFormat_Nv12">Nv12</a> in the record mode.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Start_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_Recorder_Start_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Recorder_Start_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1256,6 +1243,12 @@ An internal error occurred.</p>
       <div><a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_Commit">Commit()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_Cancel">Cancel()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Recorder_Unprepare_" data-uid="Tizen.Multimedia.Recorder.Unprepare*"></a>
   <h4 id="Tizen_Multimedia_Recorder_Unprepare" data-uid="Tizen.Multimedia.Recorder.Unprepare">Unprepare()</h4>
   <div class="markdown level1 summary"><p>Resets the media recorder.</p>
@@ -1270,10 +1263,6 @@ An internal error occurred.</p>
 The state of recorder will be the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> after this.
 It has no effect if the current state is the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Recorder_Unprepare_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1297,8 +1286,12 @@ An internal error occurred.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Multimedia_Recorder_AudioStreamStoring" data-uid="Tizen.Multimedia.Recorder.AudioStreamStoring">AudioStreamStoring</h4>
   <div class="markdown level1 summary"><p>Occurs when the audio stream data is being delivered.</p>
 </div>
@@ -1326,8 +1319,8 @@ An internal error occurred.</p>
   <div class="markdown level1 remarks"><p>Do not call <a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_Commit">Commit()</a> and <a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_Cancel">Cancel()</a> in this event.</p>
 </div>
   
-  <h5 id="Tizen_Multimedia_Recorder_AudioStreamStoring_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_DeviceStateChanged" data-uid="Tizen.Multimedia.Recorder.DeviceStateChanged">DeviceStateChanged</h4>
   <div class="markdown level1 summary"><p>Occurs when a recorder device state changes.</p>
@@ -1353,8 +1346,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_DeviceStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_ErrorOccurred" data-uid="Tizen.Multimedia.Recorder.ErrorOccurred">ErrorOccurred</h4>
   <div class="markdown level1 summary"><p>Occurs when an error occurs during the recorder operation.</p>
@@ -1380,8 +1373,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_ErrorOccurred_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_Interrupted" data-uid="Tizen.Multimedia.Recorder.Interrupted">Interrupted</h4>
   <div class="markdown level1 summary"><p>Occurs after interrupt handling is completed.</p>
@@ -1407,8 +1400,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_Interrupted_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_Interrupting" data-uid="Tizen.Multimedia.Recorder.Interrupting">Interrupting</h4>
   <div class="markdown level1 summary"><p>Occurs before interrupt handling is started.</p>
@@ -1434,8 +1427,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_Interrupting_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_MuxedStreamDelivered" data-uid="Tizen.Multimedia.Recorder.MuxedStreamDelivered">MuxedStreamDelivered</h4>
   <div class="markdown level1 summary"><p>Occurs when the muxed stream data is being delivered.</p>
@@ -1461,8 +1454,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_MuxedStreamDelivered_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_RecordingLimitReached" data-uid="Tizen.Multimedia.Recorder.RecordingLimitReached">RecordingLimitReached</h4>
   <div class="markdown level1 summary"><p>Occurs when recording limit is reached.</p>
@@ -1491,8 +1484,8 @@ An internal error occurred.</p>
   <div class="markdown level1 remarks"><p>After this event is raised, the recording data is discarded and not written in the recording file.</p>
 </div>
   
-  <h5 id="Tizen_Multimedia_Recorder_RecordingLimitReached_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_RecordingStatusChanged" data-uid="Tizen.Multimedia.Recorder.RecordingStatusChanged">RecordingStatusChanged</h4>
   <div class="markdown level1 summary"><p>Occurs when the recording information changes.</p>
@@ -1518,8 +1511,8 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_RecordingStatusChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Recorder_StateChanged" data-uid="Tizen.Multimedia.Recorder.StateChanged">StateChanged</h4>
   <div class="markdown level1 summary"><p>This event occurs when the recorder state is changed.</p>
@@ -1545,8 +1538,7 @@ An internal error occurred.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Recorder_StateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -1557,6 +1549,10 @@ An internal error occurred.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1572,7 +1568,7 @@ An internal error occurred.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

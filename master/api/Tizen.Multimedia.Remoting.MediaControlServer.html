@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.Remoting.html">Tizen.Multimedia.Remoting</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Remoting.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class MediaControlServer</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_IsRunning_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.IsRunning*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_IsRunning" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.IsRunning">IsRunning</h4>
   <div class="markdown level1 summary"><p>Gets a value indicating whether the server is running.</p>
@@ -150,17 +150,17 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_IsRunning_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_IsRunning_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Remoting.MediaControlServer.html#Tizen_Multimedia_Remoting_MediaControlServer_Start">Start()</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Remoting.MediaControlServer.html#Tizen_Multimedia_Remoting_MediaControlServer_Stop">Stop()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_GetActivatedClients_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.GetActivatedClients*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_GetActivatedClients" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.GetActivatedClients">GetActivatedClients()</h4>
   <div class="markdown level1 summary"><p>Gets the active clients.</p>
@@ -186,10 +186,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_GetActivatedClients_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -208,6 +204,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_RemovePlaylist_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.RemovePlaylist*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_RemovePlaylist_Tizen_Multimedia_Remoting_MediaControlPlaylist_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.RemovePlaylist(Tizen.Multimedia.Remoting.MediaControlPlaylist)">RemovePlaylist(MediaControlPlaylist)</h4>
   <div class="markdown level1 summary"><p>Delete playlist.</p>
@@ -238,10 +238,6 @@ An internal error occurs.</p>
   <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_RemovePlaylist_Tizen_Multimedia_Remoting_MediaControlPlaylist__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Currently, only server can remove the playlist.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_RemovePlaylist_Tizen_Multimedia_Remoting_MediaControlPlaylist__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -265,6 +261,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_RequestAsync_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.RequestAsync*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_RequestAsync_Tizen_Multimedia_Remoting_Command_System_String_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.RequestAsync(Tizen.Multimedia.Remoting.Command,System.String)">RequestAsync(Command, String)</h4>
   <div class="markdown level1 summary"><p>Requests commands to the client.</p>
@@ -318,10 +318,6 @@ An internal error occurs.</p>
   <div class="markdown level1 remarks"><p>The client can request the command to execute <a class="xref" href="Tizen.Multimedia.Remoting.Command.html">Command</a>, <br>
 and then, the server receive the result of each request(command).</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_RequestAsync_Tizen_Multimedia_Remoting_Command_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -345,6 +341,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_Response_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Response*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_Response_Tizen_Multimedia_Remoting_Command_System_Int32_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Response(Tizen.Multimedia.Remoting.Command,System.Int32)">Response(Command, Int32)</h4>
   <div class="markdown level1 summary"><p>Sends the result of each command.</p>
@@ -378,10 +378,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Response_Tizen_Multimedia_Remoting_Command_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -405,6 +401,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_Response_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Response*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_Response_Tizen_Multimedia_Remoting_Command_System_Int32_Tizen_Applications_Bundle_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Response(Tizen.Multimedia.Remoting.Command,System.Int32,Tizen.Applications.Bundle)">Response(Command, Int32, Bundle)</h4>
   <div class="markdown level1 summary"><p>Sends the result of each command.</p>
@@ -444,10 +444,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Response_Tizen_Multimedia_Remoting_Command_System_Int32_Tizen_Applications_Bundle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -471,6 +467,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetAgeRating_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetAgeRating*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetAgeRating_System_Int32_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetAgeRating(System.Int32)">SetAgeRating(Int32)</h4>
   <div class="markdown level1 summary"><p>Sets the age rating of latest played media.</p>
@@ -499,10 +499,6 @@ Especially, 0 means that media is suitable for all ages.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetAgeRating_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -526,6 +522,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayMode_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayMode*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayMode_Tizen_Multimedia_Remoting_MediaControlDisplayMode_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayMode(Tizen.Multimedia.Remoting.MediaControlDisplayMode)">SetDisplayMode(MediaControlDisplayMode)</h4>
   <div class="markdown level1 summary"><p>Sets the display mode.</p>
@@ -553,10 +553,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayMode_Tizen_Multimedia_Remoting_MediaControlDisplayMode__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -575,6 +571,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayModeCapabilities_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayModeCapabilities*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayModeCapabilities_System_Collections_Generic_IDictionary_Tizen_Multimedia_Remoting_MediaControlDisplayMode_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayModeCapabilities(System.Collections.Generic.IDictionary{Tizen.Multimedia.Remoting.MediaControlDisplayMode,Tizen.Multimedia.Remoting.MediaControlCapabilitySupport})">SetDisplayModeCapabilities(IDictionary&lt;MediaControlDisplayMode, MediaControlCapabilitySupport&gt;)</h4>
   <div class="markdown level1 summary"><p>Sets the supported list of <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlDisplayMode.html">MediaControlDisplayMode</a>.</p>
@@ -606,10 +606,6 @@ An internal error occurs.</p>
   <div class="markdown level1 remarks"><p><a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html#Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_NotDecided">NotDecided</a> is not allowed in display mode capability.
 The default value of each <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlDisplayMode.html">MediaControlDisplayMode</a> is not supported.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayModeCapabilities_System_Collections_Generic_IDictionary_Tizen_Multimedia_Remoting_MediaControlDisplayMode_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -633,6 +629,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayModeCapability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayModeCapability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayModeCapability_Tizen_Multimedia_Remoting_MediaControlDisplayMode_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayModeCapability(Tizen.Multimedia.Remoting.MediaControlDisplayMode,Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetDisplayModeCapability(MediaControlDisplayMode, MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the <code data-dev-comment-type="paramref" class="paramref">mode</code> is supported or not.</p>
@@ -670,10 +670,6 @@ An internal error occurs.</p>
   <div class="markdown level1 remarks"><p><a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html#Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_NotDecided">NotDecided</a> is not allowed in display mode capability.<br>
 The default value of each <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlDisplayMode.html">MediaControlDisplayMode</a> is not supported.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayModeCapability_Tizen_Multimedia_Remoting_MediaControlDisplayMode_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -697,6 +693,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotation_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayRotation*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotation_Tizen_Multimedia_Rotation_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayRotation(Tizen.Multimedia.Rotation)">SetDisplayRotation(Rotation)</h4>
   <div class="markdown level1 summary"><p>Sets the display rotation.</p>
@@ -724,10 +724,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotation_Tizen_Multimedia_Rotation__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -746,6 +742,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotationCapabilities_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayRotationCapabilities*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotationCapabilities_System_Collections_Generic_IDictionary_Tizen_Multimedia_Rotation_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayRotationCapabilities(System.Collections.Generic.IDictionary{Tizen.Multimedia.Rotation,Tizen.Multimedia.Remoting.MediaControlCapabilitySupport})">SetDisplayRotationCapabilities(IDictionary&lt;Rotation, MediaControlCapabilitySupport&gt;)</h4>
   <div class="markdown level1 summary"><p>Sets the supported list of <a class="xref" href="Tizen.Multimedia.Rotation.html">Rotation</a>.</p>
@@ -777,10 +777,6 @@ An internal error occurs.</p>
   <div class="markdown level1 remarks"><p><a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html#Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_NotDecided">NotDecided</a> is not allowed in display rotation capability.<br>
 The default value of each <a class="xref" href="Tizen.Multimedia.Rotation.html">Rotation</a> is not supported.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotationCapabilities_System_Collections_Generic_IDictionary_Tizen_Multimedia_Rotation_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -804,6 +800,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotationCapability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayRotationCapability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotationCapability_Tizen_Multimedia_Rotation_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetDisplayRotationCapability(Tizen.Multimedia.Rotation,Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetDisplayRotationCapability(Rotation, MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the <code data-dev-comment-type="paramref" class="paramref">rotation</code> is supported or not.</p>
@@ -841,10 +841,6 @@ An internal error occurs.</p>
   <div class="markdown level1 remarks"><p><a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html#Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_NotDecided">NotDecided</a> is not allowed in display rotation capability.<br>
 The default value of each <a class="xref" href="Tizen.Multimedia.Rotation.html">Rotation</a> is not supported.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetDisplayRotationCapability_Tizen_Multimedia_Rotation_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -868,6 +864,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetIconPath_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetIconPath*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetIconPath_System_String_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetIconPath(System.String)">SetIconPath(String)</h4>
   <div class="markdown level1 summary"><p>Sets the path of icon.</p>
@@ -895,10 +895,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetIconPath_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -922,6 +918,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetIndexOfCurrentPlayingMedia_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetIndexOfCurrentPlayingMedia*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetIndexOfCurrentPlayingMedia_System_String_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetIndexOfCurrentPlayingMedia(System.String)">SetIndexOfCurrentPlayingMedia(String)</h4>
   <div class="markdown level1 summary"><p>Sets the index of current playing media.</p>
@@ -950,10 +950,6 @@ public static void SetIndexOfCurrentPlayingMedia(string index)</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetIndexOfCurrentPlayingMedia_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -977,6 +973,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetInfoOfCurrentPlayingMedia_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetInfoOfCurrentPlayingMedia*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetInfoOfCurrentPlayingMedia_System_String_System_String_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetInfoOfCurrentPlayingMedia(System.String,System.String)">SetInfoOfCurrentPlayingMedia(String, String)</h4>
   <div class="markdown level1 summary"><p>Sets the playlist name and index of current playing media.</p>
@@ -1010,10 +1010,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetInfoOfCurrentPlayingMedia_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1037,6 +1033,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetMetadata_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetMetadata*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetMetadata_Tizen_Multimedia_Remoting_MediaControlMetadata_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetMetadata(Tizen.Multimedia.Remoting.MediaControlMetadata)">SetMetadata(MediaControlMetadata)</h4>
   <div class="markdown level1 summary"><p>Updates metadata information.</p>
@@ -1064,10 +1064,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetMetadata_Tizen_Multimedia_Remoting_MediaControlMetadata__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1091,6 +1087,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetMode360_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetMode360*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetMode360_System_Boolean_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetMode360(System.Boolean)">SetMode360(Boolean)</h4>
   <div class="markdown level1 summary"><p>Sets the 360 mode.</p>
@@ -1118,10 +1118,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetMode360_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1140,6 +1136,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetMode360Capability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetMode360Capability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetMode360Capability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetMode360Capability(Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetMode360Capability(MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html">MediaControlCapabilitySupport</a> indicating whether 360 mode is supported or not.</p>
@@ -1167,10 +1167,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetMode360Capability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1194,6 +1190,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackCapabilities_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackCapabilities*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackCapabilities_System_Collections_Generic_Dictionary_Tizen_Multimedia_Remoting_MediaControlPlaybackCommand_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackCapabilities(System.Collections.Generic.Dictionary{Tizen.Multimedia.Remoting.MediaControlPlaybackCommand,Tizen.Multimedia.Remoting.MediaControlCapabilitySupport})">SetPlaybackCapabilities(Dictionary&lt;MediaControlPlaybackCommand, MediaControlCapabilitySupport&gt;)</h4>
   <div class="markdown level1 summary"><p>Sets the capabilities by <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlPlaybackCommand.html">MediaControlPlaybackCommand</a>.</p>
@@ -1221,10 +1221,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackCapabilities_System_Collections_Generic_Dictionary_Tizen_Multimedia_Remoting_MediaControlPlaybackCommand_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1248,6 +1244,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackCapability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackCapability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackCapability_Tizen_Multimedia_Remoting_MediaControlPlaybackCommand_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackCapability(Tizen.Multimedia.Remoting.MediaControlPlaybackCommand,Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetPlaybackCapability(MediaControlPlaybackCommand, MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the capabilities by <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlPlaybackCommand.html">MediaControlPlaybackCommand</a>.</p>
@@ -1281,10 +1281,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackCapability_Tizen_Multimedia_Remoting_MediaControlPlaybackCommand_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1308,6 +1304,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackContentType_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackContentType*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackContentType_Tizen_Multimedia_Remoting_MediaControlContentType_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackContentType(Tizen.Multimedia.Remoting.MediaControlContentType)">SetPlaybackContentType(MediaControlContentType)</h4>
   <div class="markdown level1 summary"><p>Sets the content type of latest played media.</p>
@@ -1335,10 +1335,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackContentType_Tizen_Multimedia_Remoting_MediaControlContentType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1362,6 +1358,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackState_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackState*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackState_Tizen_Multimedia_Remoting_MediaControlPlaybackState_System_Int64_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetPlaybackState(Tizen.Multimedia.Remoting.MediaControlPlaybackState,System.Int64)">SetPlaybackState(MediaControlPlaybackState, Int64)</h4>
   <div class="markdown level1 summary"><p>Updates playback state and playback position.</p>
@@ -1395,10 +1395,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetPlaybackState_Tizen_Multimedia_Remoting_MediaControlPlaybackState_System_Int64__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1427,6 +1423,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetRepeatMode_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetRepeatMode*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetRepeatMode_Tizen_Multimedia_Remoting_MediaControlRepeatMode_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetRepeatMode(Tizen.Multimedia.Remoting.MediaControlRepeatMode)">SetRepeatMode(MediaControlRepeatMode)</h4>
   <div class="markdown level1 summary"><p>Updates the repeat mode.</p>
@@ -1454,10 +1454,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetRepeatMode_Tizen_Multimedia_Remoting_MediaControlRepeatMode__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1481,6 +1477,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetRepeatModeCapability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetRepeatModeCapability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetRepeatModeCapability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetRepeatModeCapability(Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetRepeatModeCapability(MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html">MediaControlCapabilitySupport</a> indicating repeat mode is supported or not.</p>
@@ -1508,10 +1508,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetRepeatModeCapability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1535,6 +1531,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetShuffleModeCapability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetShuffleModeCapability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetShuffleModeCapability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetShuffleModeCapability(Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetShuffleModeCapability(MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html">MediaControlCapabilitySupport</a> indicating shuffle mode is supported or not.</p>
@@ -1562,10 +1562,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetShuffleModeCapability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1589,6 +1585,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetShuffleModeEnabled_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetShuffleModeEnabled*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetShuffleModeEnabled_System_Boolean_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetShuffleModeEnabled(System.Boolean)">SetShuffleModeEnabled(Boolean)</h4>
   <div class="markdown level1 summary"><p>Updates the shuffle mode.</p>
@@ -1616,10 +1616,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetShuffleModeEnabled_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1638,6 +1634,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetSubtitleMode_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetSubtitleMode*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetSubtitleMode_System_Boolean_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetSubtitleMode(System.Boolean)">SetSubtitleMode(Boolean)</h4>
   <div class="markdown level1 summary"><p>Sets the subtitle mode.</p>
@@ -1665,10 +1665,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetSubtitleMode_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1687,6 +1683,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_SetSubtitleModeCapability_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetSubtitleModeCapability*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SetSubtitleModeCapability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SetSubtitleModeCapability(Tizen.Multimedia.Remoting.MediaControlCapabilitySupport)">SetSubtitleModeCapability(MediaControlCapabilitySupport)</h4>
   <div class="markdown level1 summary"><p>Sets the <a class="xref" href="Tizen.Multimedia.Remoting.MediaControlCapabilitySupport.html">MediaControlCapabilitySupport</a> indicating whether subtitle mode is supported or not.</p>
@@ -1714,10 +1714,6 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SetSubtitleModeCapability_Tizen_Multimedia_Remoting_MediaControlCapabilitySupport__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1741,6 +1737,10 @@ An internal error occurs.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_Start_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Start*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_Start" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Start">Start()</h4>
   <div class="markdown level1 summary"><p>Starts the media control server.</p>
@@ -1753,15 +1753,6 @@ An internal error occurs.</p>
   <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Start_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>When the server starts, <a class="xref" href="Tizen.Multimedia.Remoting.MediaControllerManager.html#Tizen_Multimedia_Remoting_MediaControllerManager_ServerStarted">ServerStarted</a> will be raised.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Start_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Start_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Start_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/mediacontroller.server">http://tizen.org/privilege/mediacontroller.server</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1787,6 +1778,12 @@ An internal error occurs.</p>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Remoting.MediaControllerManager.html#Tizen_Multimedia_Remoting_MediaControllerManager_ServerStarted">ServerStarted</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/mediacontroller.server</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_Remoting_MediaControlServer_Stop_" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Stop*"></a>
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_Stop" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Stop">Stop()</h4>
   <div class="markdown level1 summary"><p>Stops the media control server.</p>
@@ -1799,10 +1796,6 @@ An internal error occurs.</p>
   <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Stop_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>When the server stops, <a class="xref" href="Tizen.Multimedia.Remoting.MediaControllerManager.html#Tizen_Multimedia_Remoting_MediaControllerManager_ServerStopped">ServerStopped</a> will be raised.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Stop_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1825,8 +1818,12 @@ An internal error occurs.</p>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Remoting.MediaControllerManager.html#Tizen_Multimedia_Remoting_MediaControllerManager_ServerStopped">ServerStopped</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_CustomCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.CustomCommandReceived">CustomCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends custom command.</p>
 </div>
@@ -1851,8 +1848,8 @@ An internal error occurs.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_CustomCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_DisplayModeCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.DisplayModeCommandReceived">DisplayModeCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends display mode command.</p>
@@ -1878,8 +1875,8 @@ An internal error occurs.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_DisplayModeCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_DisplayRotationCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.DisplayRotationCommandReceived">DisplayRotationCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends display rotation command.</p>
@@ -1905,8 +1902,8 @@ An internal error occurs.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_DisplayRotationCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_Mode360CommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.Mode360CommandReceived">Mode360CommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends mode 360 command.</p>
@@ -1932,8 +1929,8 @@ An internal error occurs.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_Mode360CommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaybackActionCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.PlaybackActionCommandReceived">PlaybackActionCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends playback command.</p>
@@ -1959,8 +1956,8 @@ An internal error occurs.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaybackActionCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaybackCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.PlaybackCommandReceived">PlaybackCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends playback command.</p>
@@ -1987,8 +1984,8 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaybackCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaybackPositionCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.PlaybackPositionCommandReceived">PlaybackPositionCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends playback position command.</p>
@@ -2014,8 +2011,8 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaybackPositionCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaylistCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.PlaylistCommandReceived">PlaylistCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends playlist command.</p>
@@ -2041,8 +2038,8 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_PlaylistCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_RepeatModeCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.RepeatModeCommandReceived">RepeatModeCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends repeat mode command.</p>
@@ -2068,8 +2065,8 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_RepeatModeCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SearchCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SearchCommandReceived">SearchCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends search command.</p>
@@ -2095,8 +2092,8 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SearchCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_ShuffleModeCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.ShuffleModeCommandReceived">ShuffleModeCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends shuffle mode command.</p>
@@ -2122,8 +2119,8 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_ShuffleModeCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">5 </span>
+  <h6><strong>API Level</strong>: <span>5</span></h6>
+  
   
   <h4 id="Tizen_Multimedia_Remoting_MediaControlServer_SubtitleModeCommandReceived" data-uid="Tizen.Multimedia.Remoting.MediaControlServer.SubtitleModeCommandReceived">SubtitleModeCommandReceived</h4>
   <div class="markdown level1 summary"><p>Occurs when a client sends subtitle mode command.</p>
@@ -2149,8 +2146,7 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Remoting_MediaControlServer_SubtitleModeCommandReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
@@ -2162,6 +2158,10 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -2177,7 +2177,7 @@ public static event EventHandler&lt;PlaybackCommandReceivedEventArgs&gt; Playbac
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

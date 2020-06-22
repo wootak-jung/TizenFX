@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -204,14 +204,14 @@ added to them.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.NUI.html">Tizen.NUI</a></h6>
   <h6><strong>Assembly</strong>: Tizen.NUI.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_NUI_Container_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class Container : Animatable, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IElementController, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_NUI_Container_ChildCount_" data-uid="Tizen.NUI.Container.ChildCount*"></a>
   <h4 id="Tizen_NUI_Container_ChildCount" data-uid="Tizen.NUI.Container.ChildCount">ChildCount</h4>
   <div class="markdown level1 summary"><p>Gets the number of children for this container.
@@ -239,11 +239,9 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_ChildCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_ChildCount_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The container has been initialized.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>The container has been initialized.</span></h6>
+  
   
   <a id="Tizen_NUI_Container_Children_" data-uid="Tizen.NUI.Container.Children*"></a>
   <h4 id="Tizen_NUI_Container_Children" data-uid="Tizen.NUI.Container.Children">Children</h4>
@@ -270,8 +268,8 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_Children_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_NUI_Container_Parent_" data-uid="Tizen.NUI.Container.Parent*"></a>
   <h4 id="Tizen_NUI_Container_Parent" data-uid="Tizen.NUI.Container.Parent">Parent</h4>
@@ -300,14 +298,12 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_Parent_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_Parent_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The child container has been initialized.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>The child container has been initialized.</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_NUI_Container_Add_" data-uid="Tizen.NUI.Container.Add*"></a>
   <h4 id="Tizen_NUI_Container_Add_Tizen_NUI_BaseComponents_View_" data-uid="Tizen.NUI.Container.Add(Tizen.NUI.BaseComponents.View)">Add(View)</h4>
   <div class="markdown level1 summary"><p>Adds a child view to this Container.</p>
@@ -339,14 +335,10 @@ Read only</p>
   <div class="markdown level1 remarks"><p>If the child already has a parent, it will be removed from the old parent and reparented to this view. This may change child&apos;s position, color, scale, etc. as it now inherits them from this view.</p>
 </div>
   
-  <h5 id="Tizen_NUI_Container_Add_Tizen_NUI_BaseComponents_View__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_Add_Tizen_NUI_BaseComponents_View__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>This Container (the parent) has been initialized. The child view has been initialized. The child view is not the same as the parent view.</p>
-</div>
-  <h5 id="Tizen_NUI_Container_Add_Tizen_NUI_BaseComponents_View__post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The child will be referenced by its parent. This means that the child will be kept alive, even if the handle passed into this method is reset or destroyed.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>This Container (the parent) has been initialized. The child view has been initialized. The child view is not the same as the parent view.</span></h6>
+  <h6><strong>Postcondition</strong>: <span>The child will be referenced by its parent. This means that the child will be kept alive, even if the handle passed into this method is reset or destroyed.</span></h6>
+  
   
   <a id="Tizen_NUI_Container_GetChildAt_" data-uid="Tizen.NUI.Container.GetChildAt*"></a>
   <h4 id="Tizen_NUI_Container_GetChildAt_System_UInt32_" data-uid="Tizen.NUI.Container.GetChildAt(System.UInt32)">GetChildAt(UInt32)</h4>
@@ -392,11 +384,9 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_GetChildAt_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_GetChildAt_System_UInt32__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The view has been initialized.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>The view has been initialized.</span></h6>
+  
   
   <a id="Tizen_NUI_Container_GetChildCount_" data-uid="Tizen.NUI.Container.GetChildCount*"></a>
   <h4 id="Tizen_NUI_Container_GetChildCount" data-uid="Tizen.NUI.Container.GetChildCount">GetChildCount()</h4>
@@ -424,11 +414,9 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_GetChildCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_GetChildCount_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The container has been initialized.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>The container has been initialized.</span></h6>
+  
   
   <a id="Tizen_NUI_Container_GetParent_" data-uid="Tizen.NUI.Container.GetParent*"></a>
   <h4 id="Tizen_NUI_Container_GetParent" data-uid="Tizen.NUI.Container.GetParent">GetParent()</h4>
@@ -456,11 +444,9 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_GetParent_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_GetParent_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The child container has been initialized.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>The child container has been initialized.</span></h6>
+  
   
   <a id="Tizen_NUI_Container_Remove_" data-uid="Tizen.NUI.Container.Remove*"></a>
   <h4 id="Tizen_NUI_Container_Remove_Tizen_NUI_BaseComponents_View_" data-uid="Tizen.NUI.Container.Remove(Tizen.NUI.BaseComponents.View)">Remove(View)</h4>
@@ -490,11 +476,8 @@ Read only</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_Container_Remove_Tizen_NUI_BaseComponents_View__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_NUI_Container_Remove_Tizen_NUI_BaseComponents_View__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>This View(the parent) has been initialized. The child view is not the same as the parent view.</p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Precondition</strong>: <span>This View(the parent) has been initialized. The child view is not the same as the parent view.</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -508,6 +491,10 @@ Read only</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -523,7 +510,7 @@ Read only</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.WiFi.html">Tizen.Network.WiFi</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.WiFi.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Network_WiFi_WiFiConfiguration_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class WiFiConfiguration : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Network_WiFi_WiFiConfiguration__ctor_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.#ctor*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration__ctor_System_String_System_String_Tizen_Network_Connection_WiFiSecurityType_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.#ctor(System.String,System.String,Tizen.Network.Connection.WiFiSecurityType)">WiFiConfiguration(String, String, WiFiSecurityType)</h4>
   <div class="markdown level1 summary"><p>Creates a WiFiConfiguration object with the given name, passphrase, and securetype.</p>
@@ -168,18 +168,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration__ctor_System_String_System_String_Tizen_Network_Connection_WiFiSecurityType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration__ctor_System_String_System_String_Tizen_Network_Connection_WiFiSecurityType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration__ctor_System_String_System_String_Tizen_Network_Connection_WiFiSecurityType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration__ctor_System_String_System_String_Tizen_Network_Connection_WiFiSecurityType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -221,8 +209,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_WiFi_WiFiConfiguration_EapConfiguration_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.EapConfiguration*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_EapConfiguration" data-uid="Tizen.Network.WiFi.WiFiConfiguration.EapConfiguration">EapConfiguration</h4>
   <div class="markdown level1 summary"><p>EAP configuration.</p>
@@ -249,8 +244,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration_EapConfiguration_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_WiFi_WiFiConfiguration_IsHidden_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.IsHidden*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_IsHidden" data-uid="Tizen.Network.WiFi.WiFiConfiguration.IsHidden">IsHidden</h4>
@@ -277,10 +272,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration_IsHidden_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -307,6 +298,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_WiFi_WiFiConfiguration_Name_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.Name*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_Name" data-uid="Tizen.Network.WiFi.WiFiConfiguration.Name">Name</h4>
   <div class="markdown level1 summary"><p>The name of the access point (AP).</p>
@@ -333,8 +328,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration_Name_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_WiFi_WiFiConfiguration_ProxyAddress_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.ProxyAddress*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_ProxyAddress" data-uid="Tizen.Network.WiFi.WiFiConfiguration.ProxyAddress">ProxyAddress</h4>
@@ -361,10 +356,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration_ProxyAddress_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -391,6 +382,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Network_WiFi_WiFiConfiguration_SecurityType_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.SecurityType*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_SecurityType" data-uid="Tizen.Network.WiFi.WiFiConfiguration.SecurityType">SecurityType</h4>
   <div class="markdown level1 summary"><p>The security type of the access point (AP).</p>
@@ -417,11 +412,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration_SecurityType_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_WiFi_WiFiConfiguration_Dispose_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.Dispose*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_Dispose" data-uid="Tizen.Network.WiFi.WiFiConfiguration.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>A method to destroy the managed objects in the WiFiConfiguration.</p>
@@ -432,8 +427,8 @@
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Network_WiFi_WiFiConfiguration_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_WiFi_WiFiConfiguration_Finalize_" data-uid="Tizen.Network.WiFi.WiFiConfiguration.Finalize*"></a>
   <h4 id="Tizen_Network_WiFi_WiFiConfiguration_Finalize" data-uid="Tizen.Network.WiFi.WiFiConfiguration.Finalize">Finalize()</h4>
@@ -455,6 +450,10 @@
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -470,7 +469,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

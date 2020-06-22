@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Pims.Calendar.html">Tizen.Pims.Calendar</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Pims.Calendar.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Pims_Calendar_CalendarList_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class CalendarList : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Pims_Calendar_CalendarList__ctor_" data-uid="Tizen.Pims.Calendar.CalendarList.#ctor*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList__ctor" data-uid="Tizen.Pims.Calendar.CalendarList.#ctor">CalendarList()</h4>
   <div class="markdown level1 summary"><p>Creates a calendar list.</p>
@@ -138,13 +138,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CalendarList()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList__ctor_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -166,8 +159,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Pims_Calendar_CalendarList_Count_" data-uid="Tizen.Pims.Calendar.CalendarList.Count*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_Count" data-uid="Tizen.Pims.Calendar.CalendarList.Count">Count</h4>
   <div class="markdown level1 summary"><p>The count of the calendar entity.</p>
@@ -194,11 +192,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Pims_Calendar_CalendarList_Count_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Pims_Calendar_CalendarList_AddRecord_" data-uid="Tizen.Pims.Calendar.CalendarList.AddRecord*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_AddRecord_Tizen_Pims_Calendar_CalendarRecord_" data-uid="Tizen.Pims.Calendar.CalendarList.AddRecord(Tizen.Pims.Calendar.CalendarRecord)">AddRecord(CalendarRecord)</h4>
   <div class="markdown level1 summary"><p>Adds a record to the calendar list.</p>
@@ -226,13 +224,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_AddRecord_Tizen_Pims_Calendar_CalendarRecord__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_AddRecord_Tizen_Pims_Calendar_CalendarRecord__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -249,6 +240,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarList_Dispose_" data-uid="Tizen.Pims.Calendar.CalendarList.Dispose*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_Dispose" data-uid="Tizen.Pims.Calendar.CalendarList.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all resources used by the CalendarList.
@@ -260,8 +256,8 @@ It should be called after it has finished using the object.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Pims_Calendar_CalendarList_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Pims_Calendar_CalendarList_Dispose_" data-uid="Tizen.Pims.Calendar.CalendarList.Dispose*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_Dispose_System_Boolean_" data-uid="Tizen.Pims.Calendar.CalendarList.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -291,8 +287,8 @@ It should be called after it has finished using the object.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Pims_Calendar_CalendarList_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Pims_Calendar_CalendarList_Finalize_" data-uid="Tizen.Pims.Calendar.CalendarList.Finalize*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_Finalize" data-uid="Tizen.Pims.Calendar.CalendarList.Finalize">Finalize()</h4>
@@ -303,6 +299,7 @@ It should be called after it has finished using the object.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Pims_Calendar_CalendarList_GetCurrentRecord_" data-uid="Tizen.Pims.Calendar.CalendarList.GetCurrentRecord*"></a>
@@ -330,13 +327,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_GetCurrentRecord_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_GetCurrentRecord_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -353,6 +343,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarList_MoveFirst_" data-uid="Tizen.Pims.Calendar.CalendarList.MoveFirst*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_MoveFirst" data-uid="Tizen.Pims.Calendar.CalendarList.MoveFirst">MoveFirst()</h4>
   <div class="markdown level1 summary"><p>Moves a calendar list to the first position.</p>
@@ -362,13 +357,6 @@ It should be called after it has finished using the object.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void MoveFirst()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MoveFirst_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MoveFirst_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -385,6 +373,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarList_MoveLast_" data-uid="Tizen.Pims.Calendar.CalendarList.MoveLast*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_MoveLast" data-uid="Tizen.Pims.Calendar.CalendarList.MoveLast">MoveLast()</h4>
   <div class="markdown level1 summary"><p>Moves a calendar list to the last position.</p>
@@ -394,13 +387,6 @@ It should be called after it has finished using the object.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void MoveLast()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MoveLast_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MoveLast_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -417,6 +403,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarList_MoveNext_" data-uid="Tizen.Pims.Calendar.CalendarList.MoveNext*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_MoveNext" data-uid="Tizen.Pims.Calendar.CalendarList.MoveNext">MoveNext()</h4>
   <div class="markdown level1 summary"><p>Moves a calendar list to the next position.</p>
@@ -442,13 +433,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MoveNext_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MoveNext_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -465,6 +449,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarList_MovePrevious_" data-uid="Tizen.Pims.Calendar.CalendarList.MovePrevious*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_MovePrevious" data-uid="Tizen.Pims.Calendar.CalendarList.MovePrevious">MovePrevious()</h4>
   <div class="markdown level1 summary"><p>Moves a calendar list to the previous position.</p>
@@ -490,13 +479,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MovePrevious_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_MovePrevious_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -513,6 +495,11 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarList_RemoveRecord_" data-uid="Tizen.Pims.Calendar.CalendarList.RemoveRecord*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarList_RemoveRecord_Tizen_Pims_Calendar_CalendarRecord_" data-uid="Tizen.Pims.Calendar.CalendarList.RemoveRecord(Tizen.Pims.Calendar.CalendarRecord)">RemoveRecord(CalendarRecord)</h4>
   <div class="markdown level1 summary"><p>Removes a record from the calendar list.</p>
@@ -540,13 +527,6 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarList_RemoveRecord_Tizen_Pims_Calendar_CalendarRecord__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarList_RemoveRecord_Tizen_Pims_Calendar_CalendarRecord__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -563,6 +543,10 @@ It should be called after it has finished using the object.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -572,6 +556,10 @@ It should be called after it has finished using the object.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -587,7 +575,7 @@ It should be called after it has finished using the object.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

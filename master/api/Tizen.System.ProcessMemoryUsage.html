@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.System.html">Tizen.System</a></h6>
   <h6><strong>Assembly</strong>: Tizen.System.Information.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_System_ProcessMemoryUsage_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ProcessMemoryUsage</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_System_ProcessMemoryUsage__ctor_" data-uid="Tizen.System.ProcessMemoryUsage.#ctor*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage__ctor_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Tizen.System.ProcessMemoryUsage.#ctor(System.Collections.Generic.IEnumerable{System.Int32})">ProcessMemoryUsage(IEnumerable&lt;Int32&gt;)</h4>
   <div class="markdown level1 summary"><p>The constructor of ProcessMemoryInformation class.</p>
@@ -152,15 +152,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage__ctor_System_Collections_Generic_IEnumerable_System_Int32___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_System_ProcessMemoryUsage__ctor_System_Collections_Generic_IEnumerable_System_Int32___privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_System_ProcessMemoryUsage__ctor_System_Collections_Generic_IEnumerable_System_Int32___privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -192,8 +183,14 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
+</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_System_ProcessMemoryUsage_Count_" data-uid="Tizen.System.ProcessMemoryUsage.Count*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_Count" data-uid="Tizen.System.ProcessMemoryUsage.Count">Count</h4>
   <div class="markdown level1 summary"><p>The number of usage entries.</p>
@@ -219,11 +216,11 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_System_ProcessMemoryUsage_Count_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetPrivateClean_" data-uid="Tizen.System.ProcessMemoryUsage.GetPrivateClean*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetPrivateClean_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetPrivateClean(System.Int32)">GetPrivateClean(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the size not modified and available only to that process of a process.</p>
@@ -267,10 +264,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetPrivateClean_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -287,6 +280,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetPrivateDirty_" data-uid="Tizen.System.ProcessMemoryUsage.GetPrivateDirty*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetPrivateDirty_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetPrivateDirty(System.Int32)">GetPrivateDirty(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the size modified and available only to that process of a process.</p>
@@ -330,10 +327,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetPrivateDirty_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -350,6 +343,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetPss_" data-uid="Tizen.System.ProcessMemoryUsage.GetPss*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetPss_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetPss(System.Int32)">GetPss(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the proportional set size of a process.</p>
@@ -393,10 +390,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetPss_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -413,6 +406,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetRss_" data-uid="Tizen.System.ProcessMemoryUsage.GetRss*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetRss_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetRss(System.Int32)">GetRss(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the resident set size of a process.</p>
@@ -456,10 +453,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetRss_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -476,6 +469,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetSharedClean_" data-uid="Tizen.System.ProcessMemoryUsage.GetSharedClean*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetSharedClean_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetSharedClean(System.Int32)">GetSharedClean(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the size not modified and mapped by other processes of a process.</p>
@@ -519,10 +516,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetSharedClean_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -539,6 +532,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetSharedDirty_" data-uid="Tizen.System.ProcessMemoryUsage.GetSharedDirty*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetSharedDirty_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetSharedDirty(System.Int32)">GetSharedDirty(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the size modified and mapped by other processes of a process.</p>
@@ -582,10 +579,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetSharedDirty_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -602,6 +595,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_GetVsz_" data-uid="Tizen.System.ProcessMemoryUsage.GetVsz*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_GetVsz_System_Int32_" data-uid="Tizen.System.ProcessMemoryUsage.GetVsz(System.Int32)">GetVsz(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the virtual memory size of a process.</p>
@@ -645,10 +642,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_GetVsz_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -665,6 +658,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_System_ProcessMemoryUsage_Update_" data-uid="Tizen.System.ProcessMemoryUsage.Update*"></a>
   <h4 id="Tizen_System_ProcessMemoryUsage_Update_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Tizen.System.ProcessMemoryUsage.Update(System.Collections.Generic.IEnumerable{System.Int32})">Update(IEnumerable&lt;Int32&gt;)</h4>
   <div class="markdown level1 summary"><p>Update the process memory information to the latest.</p>
@@ -692,15 +689,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_ProcessMemoryUsage_Update_System_Collections_Generic_IEnumerable_System_Int32___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_System_ProcessMemoryUsage_Update_System_Collections_Generic_IEnumerable_System_Int32___privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_System_ProcessMemoryUsage_Update_System_Collections_Generic_IEnumerable_System_Int32___privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -732,11 +720,20 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/systemmonitor">http://tizen.org/privilege/systemmonitor</a></p>
+</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -752,7 +749,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

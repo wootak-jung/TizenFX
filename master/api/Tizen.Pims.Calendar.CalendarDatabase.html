@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,6 +117,7 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Pims.Calendar.html">Tizen.Pims.Calendar</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Pims.Calendar.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Pims_Calendar_CalendarDatabase_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class CalendarDatabase</code></pre>
@@ -125,10 +126,9 @@
   <div class="markdown level0 remarks"><p>This class allows user to access/create/update/delete database operations for the calendar information.
 The CalendarDatabase is created by the CalendarManager.</p>
 </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_LastChangeVersion_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.LastChangeVersion*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_LastChangeVersion" data-uid="Tizen.Pims.Calendar.CalendarDatabase.LastChangeVersion">LastChangeVersion</h4>
   <div class="markdown level1 summary"><p>Gets the last successful changed calendar database version on the current connection.</p>
@@ -154,15 +154,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LastChangeVersion_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LastChangeVersion_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LastChangeVersion_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -189,6 +180,12 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Version_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Version*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Version" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Version">Version</h4>
   <div class="markdown level1 summary"><p>The calendar database version.</p>
@@ -215,11 +212,11 @@ The CalendarDatabase is created by the CalendarManager.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Version_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_AddDBChangedDelegate_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.AddDBChangedDelegate*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_AddDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs__" data-uid="Tizen.Pims.Calendar.CalendarDatabase.AddDBChangedDelegate(System.String,System.EventHandler{Tizen.Pims.Calendar.DBChangedEventArgs})">AddDBChangedDelegate(String, EventHandler&lt;DBChangedEventArgs&gt;)</h4>
   <div class="markdown level1 summary"><p>Registers a callback function to be invoked when a record changes.</p>
@@ -253,18 +250,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_AddDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_AddDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_AddDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_AddDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -301,6 +286,14 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Delete_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Delete*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Delete(System.String,System.Int32)">Delete(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Deletes a record from the calendar database with related child records.</p>
@@ -334,18 +327,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -382,6 +363,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Delete_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Delete*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32___" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Delete(System.String,System.Int32[])">Delete(String, Int32[])</h4>
   <div class="markdown level1 summary"><p>Deletes multiple records with the related child records from the calendar database as a batch operation.</p>
@@ -415,18 +403,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32____privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32____privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_System_String_System_Int32____feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -463,6 +439,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Delete_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Delete*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_Tizen_Pims_Calendar_CalendarList_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Delete(Tizen.Pims.Calendar.CalendarList)">Delete(CalendarList)</h4>
   <div class="markdown level1 summary"><p>Deletes multiple records with the related child records from the calendar database as a batch operation.</p>
@@ -490,18 +473,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_Tizen_Pims_Calendar_CalendarList__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_Tizen_Pims_Calendar_CalendarList__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_Tizen_Pims_Calendar_CalendarList__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Delete_Tizen_Pims_Calendar_CalendarList__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -533,6 +504,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Get_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Get*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Get_System_String_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Get(System.String,System.Int32)">Get(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Gets a record from the calendar database.</p>
@@ -582,18 +560,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Get_System_String_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Get_System_String_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Get_System_String_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Get_System_String_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -630,6 +596,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_GetAll_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetAll*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_GetAll_System_String_System_Int32_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetAll(System.String,System.Int32,System.Int32)">GetAll(String, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Retrieves all the records as a list.</p>
@@ -685,18 +658,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetAll_System_String_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetAll_System_String_System_Int32_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetAll_System_String_System_Int32_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetAll_System_String_System_Int32_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -733,6 +694,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_GetChangesByVersion_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetChangesByVersion*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_GetChangesByVersion_System_String_System_Int32_System_Int32_System_Int32__" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetChangesByVersion(System.String,System.Int32,System.Int32,System.Int32@)">GetChangesByVersion(String, Int32, Int32, out Int32)</h4>
   <div class="markdown level1 summary"><p>Retrieves the records with the given calendar database version.</p>
@@ -794,18 +762,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetChangesByVersion_System_String_System_Int32_System_Int32_System_Int32___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetChangesByVersion_System_String_System_Int32_System_Int32_System_Int32___privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetChangesByVersion_System_String_System_Int32_System_Int32_System_Int32___privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetChangesByVersion_System_String_System_Int32_System_Int32_System_Int32___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -842,6 +798,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetCount*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_System_String_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetCount(System.String)">GetCount(String)</h4>
   <div class="markdown level1 summary"><p>Gets the record count of a specific view.</p>
@@ -886,13 +849,10 @@ The CalendarDatabase is created by the CalendarManager.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  
   
   <a id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetCount*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_Tizen_Pims_Calendar_CalendarQuery_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetCount(Tizen.Pims.Calendar.CalendarQuery)">GetCount(CalendarQuery)</h4>
@@ -938,13 +898,10 @@ The CalendarDatabase is created by the CalendarManager.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_Tizen_Pims_Calendar_CalendarQuery__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_Tizen_Pims_Calendar_CalendarQuery__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetCount_Tizen_Pims_Calendar_CalendarQuery__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  
   
   <a id="Tizen_Pims_Calendar_CalendarDatabase_GetRecordsWithQuery_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetRecordsWithQuery*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_GetRecordsWithQuery_Tizen_Pims_Calendar_CalendarQuery_System_Int32_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.GetRecordsWithQuery(Tizen.Pims.Calendar.CalendarQuery,System.Int32,System.Int32)">GetRecordsWithQuery(CalendarQuery, Int32, Int32)</h4>
@@ -1001,18 +958,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetRecordsWithQuery_Tizen_Pims_Calendar_CalendarQuery_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetRecordsWithQuery_Tizen_Pims_Calendar_CalendarQuery_System_Int32_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetRecordsWithQuery_Tizen_Pims_Calendar_CalendarQuery_System_Int32_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_GetRecordsWithQuery_Tizen_Pims_Calendar_CalendarQuery_System_Int32_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1044,6 +989,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.read</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Insert_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Insert*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarList_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Insert(Tizen.Pims.Calendar.CalendarList)">Insert(CalendarList)</h4>
   <div class="markdown level1 summary"><p>Inserts multiple records into the calendar database as a batch operation.</p>
@@ -1087,18 +1039,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarList__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarList__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarList__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarList__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1135,6 +1075,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Insert_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Insert*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarRecord_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Insert(Tizen.Pims.Calendar.CalendarRecord)">Insert(CalendarRecord)</h4>
   <div class="markdown level1 summary"><p>Inserts a record into the calendar database.</p>
@@ -1178,18 +1125,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarRecord__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarRecord__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarRecord__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Insert_Tizen_Pims_Calendar_CalendarRecord__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1226,6 +1161,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_LinkRecord_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.LinkRecord*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_LinkRecord_System_Int32_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.LinkRecord(System.Int32,System.Int32)">LinkRecord(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Links a record to another record.</p>
@@ -1259,18 +1201,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LinkRecord_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LinkRecord_System_Int32_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LinkRecord_System_Int32_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_LinkRecord_System_Int32_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1307,6 +1237,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_RemoveDBChangedDelegate_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.RemoveDBChangedDelegate*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_RemoveDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs__" data-uid="Tizen.Pims.Calendar.CalendarDatabase.RemoveDBChangedDelegate(System.String,System.EventHandler{Tizen.Pims.Calendar.DBChangedEventArgs})">RemoveDBChangedDelegate(String, EventHandler&lt;DBChangedEventArgs&gt;)</h4>
   <div class="markdown level1 summary"><p>Deregisters a callback function.</p>
@@ -1340,18 +1277,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_RemoveDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_RemoveDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_RemoveDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_RemoveDBChangedDelegate_System_String_System_EventHandler_Tizen_Pims_Calendar_DBChangedEventArgs___feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1383,6 +1308,14 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/calendar.read">http://tizen.org/privilege/calendar.read</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Replace_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Replace*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarList_System_Int32___" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Replace(Tizen.Pims.Calendar.CalendarList,System.Int32[])">Replace(CalendarList, Int32[])</h4>
   <div class="markdown level1 summary"><p>Replaces multiple records in the calendar database as a batch operation.</p>
@@ -1416,18 +1349,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarList_System_Int32____sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarList_System_Int32____privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarList_System_Int32____privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarList_System_Int32____feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1464,6 +1385,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Replace_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Replace*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarRecord_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Replace(Tizen.Pims.Calendar.CalendarRecord,System.Int32)">Replace(CalendarRecord, Int32)</h4>
   <div class="markdown level1 summary"><p>Replaces a record in the calendar database.</p>
@@ -1497,18 +1425,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarRecord_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarRecord_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarRecord_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Replace_Tizen_Pims_Calendar_CalendarRecord_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1545,6 +1461,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_UnlinkRecord_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.UnlinkRecord*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_UnlinkRecord_System_Int32_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.UnlinkRecord(System.Int32)">UnlinkRecord(Int32)</h4>
   <div class="markdown level1 summary"><p>Unlinks a record from the base record.</p>
@@ -1572,18 +1495,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_UnlinkRecord_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_UnlinkRecord_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_UnlinkRecord_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_UnlinkRecord_System_Int32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1620,6 +1531,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Update_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Update*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarList_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Update(Tizen.Pims.Calendar.CalendarList)">Update(CalendarList)</h4>
   <div class="markdown level1 summary"><p>Updates multiple records into the calendar database as a batch operation.</p>
@@ -1647,18 +1565,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarList__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarList__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarList__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarList__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1695,6 +1601,13 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
+  
   <a id="Tizen_Pims_Calendar_CalendarDatabase_Update_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Update*"></a>
   <h4 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarRecord_" data-uid="Tizen.Pims.Calendar.CalendarDatabase.Update(Tizen.Pims.Calendar.CalendarRecord)">Update(CalendarRecord)</h4>
   <div class="markdown level1 summary"><p>Updates a record in the calendar database.</p>
@@ -1722,18 +1635,6 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarRecord__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarRecord__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarRecord__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/calendar.write">http://tizen.org/privilege/calendar.write</a></p>
-</div>
-  <h5 id="Tizen_Pims_Calendar_CalendarDatabase_Update_Tizen_Pims_Calendar_CalendarRecord__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/calendar">http://tizen.org/feature/calendar</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1770,11 +1671,21 @@ The CalendarDatabase is created by the CalendarManager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/calendar.write</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/calendar</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1790,7 +1701,7 @@ The CalendarDatabase is created by the CalendarManager.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

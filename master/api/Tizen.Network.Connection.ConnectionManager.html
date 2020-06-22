@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Network.Connection.html">Tizen.Network.Connection</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Network.Connection.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Network_Connection_ConnectionManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ConnectionManager</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Network_Connection_ConnectionManager_BluetoothState_" data-uid="Tizen.Network.Connection.ConnectionManager.BluetoothState*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_BluetoothState" data-uid="Tizen.Network.Connection.ConnectionManager.BluetoothState">BluetoothState</h4>
   <div class="markdown level1 summary"><p>The state of the Bluetooth connection.</p>
@@ -150,18 +150,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_BluetoothState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_BluetoothState_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_BluetoothState_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_BluetoothState_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -183,6 +171,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.tethering.bluetooth</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_CellularState_" data-uid="Tizen.Network.Connection.ConnectionManager.CellularState*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_CellularState" data-uid="Tizen.Network.Connection.ConnectionManager.CellularState">CellularState</h4>
   <div class="markdown level1 summary"><p>The state of the cellular connection.</p>
@@ -208,13 +203,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CellularState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CellularState_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -231,6 +219,11 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.telephony</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_CurrentConnection_" data-uid="Tizen.Network.Connection.ConnectionManager.CurrentConnection*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_CurrentConnection" data-uid="Tizen.Network.Connection.ConnectionManager.CurrentConnection">CurrentConnection</h4>
   <div class="markdown level1 summary"><p>The type and state of the current profile for data connection.</p>
@@ -257,8 +250,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CurrentConnection_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Network_Connection_ConnectionManager_EthernetCableState_" data-uid="Tizen.Network.Connection.ConnectionManager.EthernetCableState*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_EthernetCableState" data-uid="Tizen.Network.Connection.ConnectionManager.EthernetCableState">EthernetCableState</h4>
@@ -285,18 +278,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableState_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableState_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableState_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -318,6 +299,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_EthernetState_" data-uid="Tizen.Network.Connection.ConnectionManager.EthernetState*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_EthernetState" data-uid="Tizen.Network.Connection.ConnectionManager.EthernetState">EthernetState</h4>
   <div class="markdown level1 summary"><p>The Ethernet connection state.</p>
@@ -343,18 +331,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetState_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetState_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetState_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -376,6 +352,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_WiFiState_" data-uid="Tizen.Network.Connection.ConnectionManager.WiFiState*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_WiFiState" data-uid="Tizen.Network.Connection.ConnectionManager.WiFiState">WiFiState</h4>
   <div class="markdown level1 summary"><p>The state of the Wi-Fi connection.</p>
@@ -401,18 +384,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_WiFiState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_WiFiState_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_WiFiState_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_WiFiState_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -434,8 +405,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Network_Connection_ConnectionManager_AddRoute_" data-uid="Tizen.Network.Connection.ConnectionManager.AddRoute*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_AddRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress_" data-uid="Tizen.Network.Connection.ConnectionManager.AddRoute(Tizen.Network.Connection.AddressFamily,System.String,System.Net.IPAddress,System.Net.IPAddress)">AddRoute(AddressFamily, String, IPAddress, IPAddress)</h4>
   <div class="markdown level1 summary"><p>Adds a route to the routing table.</p>
@@ -481,22 +459,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_AddRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_AddRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_AddRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a><br>
-<a href="http://tizen.org/privilege/network.set">http://tizen.org/privilege/network.set</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_AddRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -538,6 +500,18 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a><br>
+<a href="http://tizen.org/privilege/network.set">http://tizen.org/privilege/network.set</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
+<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a><br>
+<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
+<a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_CreateCellularProfile_" data-uid="Tizen.Network.Connection.ConnectionManager.CreateCellularProfile*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_CreateCellularProfile_Tizen_Network_Connection_ConnectionProfileType_System_String_" data-uid="Tizen.Network.Connection.ConnectionManager.CreateCellularProfile(Tizen.Network.Connection.ConnectionProfileType,System.String)">CreateCellularProfile(ConnectionProfileType, String)</h4>
   <div class="markdown level1 summary"><p>Creates a cellular profile handle.</p>
@@ -587,19 +561,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CreateCellularProfile_Tizen_Network_Connection_ConnectionProfileType_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CreateCellularProfile_Tizen_Network_Connection_ConnectionProfileType_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CreateCellularProfile_Tizen_Network_Connection_ConnectionProfileType_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_CreateCellularProfile_Tizen_Network_Connection_ConnectionProfileType_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -636,6 +597,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_GetAllIPv6Addresses_" data-uid="Tizen.Network.Connection.ConnectionManager.GetAllIPv6Addresses*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_GetAllIPv6Addresses_Tizen_Network_Connection_ConnectionType_" data-uid="Tizen.Network.Connection.ConnectionManager.GetAllIPv6Addresses(Tizen.Network.Connection.ConnectionType)">GetAllIPv6Addresses(ConnectionType)</h4>
   <div class="markdown level1 summary"><p>Gets all the IPv6 addresses of the current connection.</p>
@@ -679,21 +647,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetAllIPv6Addresses_Tizen_Network_Connection_ConnectionType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetAllIPv6Addresses_Tizen_Network_Connection_ConnectionType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetAllIPv6Addresses_Tizen_Network_Connection_ConnectionType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetAllIPv6Addresses_Tizen_Network_Connection_ConnectionType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -730,6 +683,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_GetIPAddress_" data-uid="Tizen.Network.Connection.ConnectionManager.GetIPAddress*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_GetIPAddress_Tizen_Network_Connection_AddressFamily_" data-uid="Tizen.Network.Connection.ConnectionManager.GetIPAddress(Tizen.Network.Connection.AddressFamily)">GetIPAddress(AddressFamily)</h4>
   <div class="markdown level1 summary"><p>Gets the IP address of the current connection.</p>
@@ -773,21 +733,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetIPAddress_Tizen_Network_Connection_AddressFamily__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetIPAddress_Tizen_Network_Connection_AddressFamily__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetIPAddress_Tizen_Network_Connection_AddressFamily__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetIPAddress_Tizen_Network_Connection_AddressFamily__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -824,6 +769,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_GetMacAddress_" data-uid="Tizen.Network.Connection.ConnectionManager.GetMacAddress*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_GetMacAddress_Tizen_Network_Connection_ConnectionType_" data-uid="Tizen.Network.Connection.ConnectionManager.GetMacAddress(Tizen.Network.Connection.ConnectionType)">GetMacAddress(ConnectionType)</h4>
   <div class="markdown level1 summary"><p>Gets the MAC address of the Wi-Fi or ethernet.</p>
@@ -867,21 +819,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetMacAddress_Tizen_Network_Connection_ConnectionType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetMacAddress_Tizen_Network_Connection_ConnectionType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetMacAddress_Tizen_Network_Connection_ConnectionType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetMacAddress_Tizen_Network_Connection_ConnectionType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -918,6 +855,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_GetProxy_" data-uid="Tizen.Network.Connection.ConnectionManager.GetProxy*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_GetProxy_Tizen_Network_Connection_AddressFamily_" data-uid="Tizen.Network.Connection.ConnectionManager.GetProxy(Tizen.Network.Connection.AddressFamily)">GetProxy(AddressFamily)</h4>
   <div class="markdown level1 summary"><p>Gets the proxy address of the current connection.</p>
@@ -961,21 +905,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetProxy_Tizen_Network_Connection_AddressFamily__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetProxy_Tizen_Network_Connection_AddressFamily__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetProxy_Tizen_Network_Connection_AddressFamily__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetProxy_Tizen_Network_Connection_AddressFamily__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1012,6 +941,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_GetStatistics_" data-uid="Tizen.Network.Connection.ConnectionManager.GetStatistics*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_GetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType_" data-uid="Tizen.Network.Connection.ConnectionManager.GetStatistics(Tizen.Network.Connection.ConnectionType,Tizen.Network.Connection.StatisticsType)">GetStatistics(ConnectionType, StatisticsType)</h4>
   <div class="markdown level1 summary"><p>Gets the statistics information.</p>
@@ -1061,21 +997,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_GetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1112,6 +1033,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_RemoveRoute_" data-uid="Tizen.Network.Connection.ConnectionManager.RemoveRoute*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_RemoveRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress_" data-uid="Tizen.Network.Connection.ConnectionManager.RemoveRoute(Tizen.Network.Connection.AddressFamily,System.String,System.Net.IPAddress,System.Net.IPAddress)">RemoveRoute(AddressFamily, String, IPAddress, IPAddress)</h4>
   <div class="markdown level1 summary"><p>Removes a route from the routing table.</p>
@@ -1157,22 +1085,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_RemoveRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_RemoveRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_RemoveRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a><br>
-<a href="http://tizen.org/privilege/network.set">http://tizen.org/privilege/network.set</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_RemoveRoute_Tizen_Network_Connection_AddressFamily_System_String_System_Net_IPAddress_System_Net_IPAddress__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1214,6 +1126,18 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a><br>
+<a href="http://tizen.org/privilege/network.set">http://tizen.org/privilege/network.set</a></p>
+</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
+<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a><br>
+<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
+<a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Network_Connection_ConnectionManager_ResetStatistics_" data-uid="Tizen.Network.Connection.ConnectionManager.ResetStatistics*"></a>
   <h4 id="Tizen_Network_Connection_ConnectionManager_ResetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType_" data-uid="Tizen.Network.Connection.ConnectionManager.ResetStatistics(Tizen.Network.Connection.ConnectionType,Tizen.Network.Connection.StatisticsType)">ResetStatistics(ConnectionType, StatisticsType)</h4>
   <div class="markdown level1 summary"><p>Resets the statistics information.</p>
@@ -1247,22 +1171,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ResetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ResetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ResetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a><br>
-<a href="http://tizen.org/privilege/network.set">http://tizen.org/privilege/network.set</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ResetStatistics_Tizen_Network_Connection_ConnectionType_Tizen_Network_Connection_StatisticsType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1299,8 +1207,15 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span><span>http://tizen.org/privilege/network.set</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Network_Connection_ConnectionManager_ConnectionTypeChanged" data-uid="Tizen.Network.Connection.ConnectionManager.ConnectionTypeChanged">ConnectionTypeChanged</h4>
   <div class="markdown level1 summary"><p>An event is called when the type of the current connection is changed.</p>
 </div>
@@ -1324,21 +1239,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ConnectionTypeChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ConnectionTypeChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ConnectionTypeChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ConnectionTypeChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1360,6 +1260,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <h4 id="Tizen_Network_Connection_ConnectionManager_EthernetCableStateChanged" data-uid="Tizen.Network.Connection.ConnectionManager.EthernetCableStateChanged">EthernetCableStateChanged</h4>
   <div class="markdown level1 summary"><p>An event for the ethernet cable is plugged [in/out] event.</p>
 </div>
@@ -1383,18 +1290,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableStateChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableStateChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_EthernetCableStateChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1416,6 +1311,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span></span></h6>
+  
+  
   <h4 id="Tizen_Network_Connection_ConnectionManager_IPAddressChanged" data-uid="Tizen.Network.Connection.ConnectionManager.IPAddressChanged">IPAddressChanged</h4>
   <div class="markdown level1 summary"><p>An event is called when the IP address is changed.</p>
 </div>
@@ -1439,21 +1341,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_IPAddressChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_IPAddressChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_IPAddressChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_IPAddressChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1475,6 +1362,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
+  
   <h4 id="Tizen_Network_Connection_ConnectionManager_ProxyAddressChanged" data-uid="Tizen.Network.Connection.ConnectionManager.ProxyAddressChanged">ProxyAddressChanged</h4>
   <div class="markdown level1 summary"><p>An event is called when the proxy address is changed.</p>
 </div>
@@ -1498,21 +1392,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ProxyAddressChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ProxyAddressChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ProxyAddressChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/network.get">http://tizen.org/privilege/network.get</a></p>
-</div>
-  <h5 id="Tizen_Network_Connection_ConnectionManager_ProxyAddressChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/network.ethernet">http://tizen.org/feature/network.ethernet</a><br>
-<a href="http://tizen.org/feature/network.telephony">http://tizen.org/feature/network.telephony</a><br>
-<a href="http://tizen.org/feature/network.tethering.bluetooth">http://tizen.org/feature/network.tethering.bluetooth</a><br>
-<a href="http://tizen.org/feature/network.wifi">http://tizen.org/feature/network.wifi</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1534,11 +1413,21 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/network.get</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/network.ethernet</span><span>http://tizen.org/feature/network.telephony</span><span>http://tizen.org/feature/network.tethering.bluetooth</span><span>http://tizen.org/feature/network.wifi</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1554,7 +1443,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

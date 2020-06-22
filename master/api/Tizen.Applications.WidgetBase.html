@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.html">Tizen.Applications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.WidgetApplication.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_WidgetBase_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class WidgetBase</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_WidgetBase__ctor_" data-uid="Tizen.Applications.WidgetBase.#ctor*"></a>
   <h4 id="Tizen_Applications_WidgetBase__ctor" data-uid="Tizen.Applications.WidgetBase.#ctor">WidgetBase()</h4>
   <div class="markdown level1 summary"><p>Constructor.</p>
@@ -135,11 +135,11 @@
     <pre><code class="lang-csharp hljs">public WidgetBase()</code></pre>
   </div>
   
-  <h5 id="Tizen_Applications_WidgetBase__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="fields">Fields
   </h3>
+  
   <h4 id="Tizen_Applications_WidgetBase_Window" data-uid="Tizen.Applications.WidgetBase.Window">Window</h4>
   <div class="markdown level1 summary"><p>Window object for this widget instance.
 It will be created after OnCreate method is invoked.</p>
@@ -165,11 +165,11 @@ It will be created after OnCreate method is invoked.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetBase_Window_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_WidgetBase_Id_" data-uid="Tizen.Applications.WidgetBase.Id*"></a>
   <h4 id="Tizen_Applications_WidgetBase_Id" data-uid="Tizen.Applications.WidgetBase.Id">Id</h4>
   <div class="markdown level1 summary"><p>ID for this widget instance.
@@ -196,11 +196,11 @@ It will be created after OnCreate method is invoked.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetBase_Id_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_WidgetBase_Exit_" data-uid="Tizen.Applications.WidgetBase.Exit*"></a>
   <h4 id="Tizen_Applications_WidgetBase_Exit" data-uid="Tizen.Applications.WidgetBase.Exit">Exit()</h4>
   <div class="markdown level1 summary"><p>Finishes the context for the widget instance.</p>
@@ -210,13 +210,6 @@ It will be created after OnCreate method is invoked.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Exit()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_WidgetBase_Exit_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetBase_Exit_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -238,6 +231,11 @@ It will be created after OnCreate method is invoked.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetBase_OnCreate_" data-uid="Tizen.Applications.WidgetBase.OnCreate*"></a>
   <h4 id="Tizen_Applications_WidgetBase_OnCreate_Tizen_Applications_Bundle_System_Int32_System_Int32_" data-uid="Tizen.Applications.WidgetBase.OnCreate(Tizen.Applications.Bundle,System.Int32,System.Int32)">OnCreate(Bundle, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Overrides this method if want to handle the behavior when the widget instance is started.</p>
@@ -278,8 +276,8 @@ It will be created after OnCreate method is invoked.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetBase_OnCreate_Tizen_Applications_Bundle_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetBase_OnDestroy_" data-uid="Tizen.Applications.WidgetBase.OnDestroy*"></a>
   <h4 id="Tizen_Applications_WidgetBase_OnDestroy_Tizen_Applications_WidgetBase_WidgetDestroyType_Tizen_Applications_Bundle_" data-uid="Tizen.Applications.WidgetBase.OnDestroy(Tizen.Applications.WidgetBase.WidgetDestroyType,Tizen.Applications.Bundle)">OnDestroy(WidgetBase.WidgetDestroyType, Bundle)</h4>
@@ -315,8 +313,8 @@ It will be created after OnCreate method is invoked.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetBase_OnDestroy_Tizen_Applications_WidgetBase_WidgetDestroyType_Tizen_Applications_Bundle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetBase_OnPause_" data-uid="Tizen.Applications.WidgetBase.OnPause*"></a>
   <h4 id="Tizen_Applications_WidgetBase_OnPause" data-uid="Tizen.Applications.WidgetBase.OnPause">OnPause()</h4>
@@ -328,8 +326,8 @@ It will be created after OnCreate method is invoked.</p>
     <pre><code class="lang-csharp hljs">public virtual void OnPause()</code></pre>
   </div>
   
-  <h5 id="Tizen_Applications_WidgetBase_OnPause_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetBase_OnResize_" data-uid="Tizen.Applications.WidgetBase.OnResize*"></a>
   <h4 id="Tizen_Applications_WidgetBase_OnResize_System_Int32_System_Int32_" data-uid="Tizen.Applications.WidgetBase.OnResize(System.Int32,System.Int32)">OnResize(Int32, Int32)</h4>
@@ -365,8 +363,8 @@ It will be created after OnCreate method is invoked.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetBase_OnResize_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetBase_OnResume_" data-uid="Tizen.Applications.WidgetBase.OnResume*"></a>
   <h4 id="Tizen_Applications_WidgetBase_OnResume" data-uid="Tizen.Applications.WidgetBase.OnResume">OnResume()</h4>
@@ -378,8 +376,8 @@ It will be created after OnCreate method is invoked.</p>
     <pre><code class="lang-csharp hljs">public virtual void OnResume()</code></pre>
   </div>
   
-  <h5 id="Tizen_Applications_WidgetBase_OnResume_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetBase_OnUpdate_" data-uid="Tizen.Applications.WidgetBase.OnUpdate*"></a>
   <h4 id="Tizen_Applications_WidgetBase_OnUpdate_Tizen_Applications_Bundle_System_Boolean_" data-uid="Tizen.Applications.WidgetBase.OnUpdate(Tizen.Applications.Bundle,System.Boolean)">OnUpdate(Bundle, Boolean)</h4>
@@ -415,8 +413,8 @@ It will be created after OnCreate method is invoked.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WidgetBase_OnUpdate_Tizen_Applications_Bundle_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_WidgetBase_SetContent_" data-uid="Tizen.Applications.WidgetBase.SetContent*"></a>
   <h4 id="Tizen_Applications_WidgetBase_SetContent_Tizen_Applications_Bundle_" data-uid="Tizen.Applications.WidgetBase.SetContent(Tizen.Applications.Bundle)">SetContent(Bundle)</h4>
@@ -445,13 +443,6 @@ It will be created after OnCreate method is invoked.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetBase_SetContent_Tizen_Applications_Bundle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetBase_SetContent_Tizen_Applications_Bundle__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -478,6 +469,11 @@ It will be created after OnCreate method is invoked.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
+  
   <a id="Tizen_Applications_WidgetBase_SetTitle_" data-uid="Tizen.Applications.WidgetBase.SetTitle*"></a>
   <h4 id="Tizen_Applications_WidgetBase_SetTitle_System_String_" data-uid="Tizen.Applications.WidgetBase.SetTitle(System.String)">SetTitle(String)</h4>
   <div class="markdown level1 summary"><p>Sends the title to the widget.</p>
@@ -505,13 +501,6 @@ It will be created after OnCreate method is invoked.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WidgetBase_SetTitle_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_WidgetBase_SetTitle_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/shell.appwidget">http://tizen.org/feature/shell.appwidget</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -538,11 +527,19 @@ It will be created after OnCreate method is invoked.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/shell.appwidget</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -558,7 +555,7 @@ It will be created after OnCreate method is invoked.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>
