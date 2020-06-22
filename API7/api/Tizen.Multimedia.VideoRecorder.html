@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -221,14 +221,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.html">Tizen.Multimedia</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Recorder.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_Multimedia_VideoRecorder_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class VideoRecorder : Recorder, IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_VideoRecorder__ctor_" data-uid="Tizen.Multimedia.VideoRecorder.#ctor*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder__ctor_Tizen_Multimedia_Camera_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat_" data-uid="Tizen.Multimedia.VideoRecorder.#ctor(Tizen.Multimedia.Camera,Tizen.Multimedia.RecorderVideoCodec,Tizen.Multimedia.RecorderAudioCodec,Tizen.Multimedia.RecorderFileFormat)">VideoRecorder(Camera, RecorderVideoCodec, RecorderAudioCodec, RecorderFileFormat)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.VideoRecorder.html">VideoRecorder</a> class with the specified
@@ -282,13 +282,6 @@ the <a class="xref" href="Tizen.Multimedia.CameraSettings.html#Tizen_Multimedia_
 The initial state of the Recorder will be <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a>
 if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> is <a class="xref" href="Tizen.Multimedia.CameraState.html#Tizen_Multimedia_CameraState_Preview">Preview</a> or <a class="xref" href="Tizen.Multimedia.CameraState.html#Tizen_Multimedia_CameraState_Captured">Captured</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder__ctor_Tizen_Multimedia_Camera_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_VideoRecorder__ctor_Tizen_Multimedia_Camera_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/media.video_recording">http://tizen.org/feature/media.video_recording</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -347,6 +340,11 @@ if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> i
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat_">SetFormatAndCodec(RecorderVideoCodec, RecorderFileFormat)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat_">SetFormatAndCodec(RecorderVideoCodec, RecorderAudioCodec, RecorderFileFormat)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/media.video_recording</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder__ctor_" data-uid="Tizen.Multimedia.VideoRecorder.#ctor*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder__ctor_Tizen_Multimedia_Camera_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat_" data-uid="Tizen.Multimedia.VideoRecorder.#ctor(Tizen.Multimedia.Camera,Tizen.Multimedia.RecorderVideoCodec,Tizen.Multimedia.RecorderFileFormat)">VideoRecorder(Camera, RecorderVideoCodec, RecorderFileFormat)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.VideoRecorder.html">VideoRecorder</a> class with the specified
@@ -394,13 +392,6 @@ the <a class="xref" href="Tizen.Multimedia.CameraSettings.html#Tizen_Multimedia_
 The initial state of the Recorder will be <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a>
 if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> is <a class="xref" href="Tizen.Multimedia.CameraState.html#Tizen_Multimedia_CameraState_Preview">Preview</a> or <a class="xref" href="Tizen.Multimedia.CameraState.html#Tizen_Multimedia_CameraState_Captured">Captured</a>.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder__ctor_Tizen_Multimedia_Camera_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_VideoRecorder__ctor_Tizen_Multimedia_Camera_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/media.video_recording">http://tizen.org/feature/media.video_recording</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -453,8 +444,13 @@ if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> i
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat_">SetFormatAndCodec(RecorderVideoCodec, RecorderFileFormat)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat_">SetFormatAndCodec(RecorderVideoCodec, RecorderAudioCodec, RecorderFileFormat)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/media.video_recording</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_VideoRecorder_VideoBitRate_" data-uid="Tizen.Multimedia.VideoRecorder.VideoBitRate*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_VideoBitRate" data-uid="Tizen.Multimedia.VideoRecorder.VideoBitRate">VideoBitRate</h4>
   <div class="markdown level1 summary"><p>Gets or sets the bitrate of the video encoder in bits per second.</p>
@@ -482,10 +478,6 @@ if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> i
   <h5 id="Tizen_Multimedia_VideoRecorder_VideoBitRate_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_VideoBitRate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -512,6 +504,10 @@ if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> i
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder_VideoCodec_" data-uid="Tizen.Multimedia.VideoRecorder.VideoCodec*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_VideoCodec" data-uid="Tizen.Multimedia.VideoRecorder.VideoCodec">VideoCodec</h4>
   <div class="markdown level1 summary"><p>Gets the audio codec for encoding an audio stream.</p>
@@ -537,8 +533,8 @@ if the state of <a class="xref" href="Tizen.Multimedia.Camera.html">Camera</a> i
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_VideoRecorder_VideoCodec_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_VideoRecorder_VideoMotionRate_" data-uid="Tizen.Multimedia.VideoRecorder.VideoMotionRate*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_VideoMotionRate" data-uid="Tizen.Multimedia.VideoRecorder.VideoMotionRate">VideoMotionRate</h4>
@@ -571,10 +567,6 @@ If the rate is greater than 1, the video is recorded in a fast motion mode.<br>
 <br>
 To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_VideoMotionRate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -601,6 +593,10 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder_VideoOrientationTag_" data-uid="Tizen.Multimedia.VideoRecorder.VideoOrientationTag*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_VideoOrientationTag" data-uid="Tizen.Multimedia.VideoRecorder.VideoOrientationTag">VideoOrientationTag</h4>
   <div class="markdown level1 summary"><p>Gets or sets the orientation in the video metadata tag.</p>
@@ -626,10 +622,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_VideoOrientationTag_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -651,6 +643,10 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder_VideoResolution_" data-uid="Tizen.Multimedia.VideoRecorder.VideoResolution*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_VideoResolution" data-uid="Tizen.Multimedia.VideoRecorder.VideoResolution">VideoResolution</h4>
   <div class="markdown level1 summary"><p>Gets or sets the resolution of the video recording.</p>
@@ -678,10 +674,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
   <h5 id="Tizen_Multimedia_VideoRecorder_VideoResolution_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Idle">Idle</a> or the <a class="xref" href="Tizen.Multimedia.RecorderState.html#Tizen_Multimedia_RecorderState_Ready">Ready</a> state.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_VideoResolution_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -717,8 +709,12 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_GetSupportedVideoResolutions_Tizen_Multimedia_CameraDevice_">GetSupportedVideoResolutions(CameraDevice)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoCodecs_" data-uid="Tizen.Multimedia.VideoRecorder.GetSupportedVideoCodecs*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoCodecs" data-uid="Tizen.Multimedia.VideoRecorder.GetSupportedVideoCodecs">GetSupportedVideoCodecs()</h4>
   <div class="markdown level1 summary"><p>Gets the video encoders that the current device supports.</p>
@@ -743,13 +739,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoCodecs_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoCodecs_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/media.video_recording">http://tizen.org/feature/media.video_recording</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -766,6 +755,11 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/media.video_recording</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoResolutions_" data-uid="Tizen.Multimedia.VideoRecorder.GetSupportedVideoResolutions*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoResolutions_Tizen_Multimedia_CameraDevice_" data-uid="Tizen.Multimedia.VideoRecorder.GetSupportedVideoResolutions(Tizen.Multimedia.CameraDevice)">GetSupportedVideoResolutions(CameraDevice)</h4>
   <div class="markdown level1 summary"><p>Gets the video resolutions that the current device supports.</p>
@@ -808,13 +802,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoResolutions_Tizen_Multimedia_CameraDevice__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Multimedia_VideoRecorder_GetSupportedVideoResolutions_Tizen_Multimedia_CameraDevice__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/media.video_recording">http://tizen.org/feature/media.video_recording</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -836,6 +823,11 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/media.video_recording</span></span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_" data-uid="Tizen.Multimedia.VideoRecorder.SetFormatAndCodec*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat_" data-uid="Tizen.Multimedia.VideoRecorder.SetFormatAndCodec(Tizen.Multimedia.RecorderVideoCodec,Tizen.Multimedia.RecorderAudioCodec,Tizen.Multimedia.RecorderFileFormat)">SetFormatAndCodec(RecorderVideoCodec, RecorderAudioCodec, RecorderFileFormat)</h4>
   <div class="markdown level1 summary"><p>Sets the video codec, audio codec, and the file format for recording.</p>
@@ -875,10 +867,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -920,6 +908,10 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat_">SetFormatAndCodec(RecorderVideoCodec, RecorderFileFormat)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_Start_System_String_">Start</a>(<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>)</div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_" data-uid="Tizen.Multimedia.VideoRecorder.SetFormatAndCodec*"></a>
   <h4 id="Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat_" data-uid="Tizen.Multimedia.VideoRecorder.SetFormatAndCodec(Tizen.Multimedia.RecorderVideoCodec,Tizen.Multimedia.RecorderFileFormat)">SetFormatAndCodec(RecorderVideoCodec, RecorderFileFormat)</h4>
   <div class="markdown level1 summary"><p>Sets the video codec and the file format for recording. Audio will not be recorded.</p>
@@ -953,10 +945,6 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderFileFormat__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -990,6 +978,9 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
       <div><a class="xref" href="Tizen.Multimedia.VideoRecorder.html#Tizen_Multimedia_VideoRecorder_SetFormatAndCodec_Tizen_Multimedia_RecorderVideoCodec_Tizen_Multimedia_RecorderAudioCodec_Tizen_Multimedia_RecorderFileFormat_">SetFormatAndCodec(RecorderVideoCodec, RecorderAudioCodec, RecorderFileFormat)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Recorder.html#Tizen_Multimedia_Recorder_Start_System_String_">Start</a>(<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>)</div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -999,6 +990,10 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1014,7 +1009,7 @@ To set, the recorder must be in the <a class="xref" href="Tizen.Multimedia.Recor
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

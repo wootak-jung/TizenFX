@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -123,14 +123,14 @@ and others can also be acquired.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Location.html">Tizen.Location</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Location.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Location_Locator_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Locator : IDisposable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Location_Locator__ctor_" data-uid="Tizen.Location.Locator.#ctor*"></a>
   <h4 id="Tizen_Location_Locator__ctor_Tizen_Location_LocationType_" data-uid="Tizen.Location.Locator.#ctor(Tizen.Location.LocationType)">Locator(LocationType)</h4>
   <div class="markdown level1 summary"><p>The constructor of the Locator class.</p>
@@ -158,14 +158,6 @@ and others can also be acquired.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator__ctor_Tizen_Location_LocationType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator__ctor_Tizen_Location_LocationType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/location.gps">http://tizen.org/feature/location.gps</a><br>
-<a href="http://tizen.org/feature/location.wps">http://tizen.org/feature/location.wps</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -192,8 +184,13 @@ and others can also be acquired.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/location.gps</span><span>http://tizen.org/feature/location.wps</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Location_Locator_BatchInterval_" data-uid="Tizen.Location.Locator.BatchInterval*"></a>
   <h4 id="Tizen_Location_Locator_BatchInterval" data-uid="Tizen.Location.Locator.BatchInterval">BatchInterval</h4>
   <div class="markdown level1 summary"><p>The time interval between the position collection in batch mode.
@@ -219,10 +216,6 @@ Should be in the range of 1~255 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_BatchInterval_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -239,6 +232,10 @@ Should be in the range of 1~255 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_BatchPeriod_" data-uid="Tizen.Location.Locator.BatchPeriod*"></a>
   <h4 id="Tizen_Location_Locator_BatchPeriod" data-uid="Tizen.Location.Locator.BatchPeriod">BatchPeriod</h4>
   <div class="markdown level1 summary"><p>The time interval between batch callback updates. The BatchPeriod should be greater than or equal to the BatchInterval. If the BatchPeriod is zero or smaller than the BatchInterval, then the batch mode will not work. In addition, sometimes the period may not work as you intended, the maximum permissible value for the batch period is device specific.
@@ -264,10 +261,6 @@ Should be in the range of 0~60000 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_BatchPeriod_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -284,6 +277,10 @@ Should be in the range of 0~60000 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Distance_" data-uid="Tizen.Location.Locator.Distance*"></a>
   <h4 id="Tizen_Location_Locator_Distance" data-uid="Tizen.Location.Locator.Distance">Distance</h4>
   <div class="markdown level1 summary"><p>The distance between callback updates.
@@ -309,10 +306,6 @@ Should be in the range of 1-120 meters.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_Distance_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -329,6 +322,10 @@ Should be in the range of 1-120 meters.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_EnableMock_" data-uid="Tizen.Location.Locator.EnableMock*"></a>
   <h4 id="Tizen_Location_Locator_EnableMock" data-uid="Tizen.Location.Locator.EnableMock">EnableMock</h4>
   <div class="markdown level1 summary"><p>Gets the status whether the mock location is enabled or not.</p>
@@ -353,15 +350,6 @@ Should be in the range of 1-120 meters.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_EnableMock_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator_EnableMock_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Locator_EnableMock_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -383,6 +371,12 @@ Should be in the range of 1-120 meters.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Interval_" data-uid="Tizen.Location.Locator.Interval*"></a>
   <h4 id="Tizen_Location_Locator_Interval" data-uid="Tizen.Location.Locator.Interval">Interval</h4>
   <div class="markdown level1 summary"><p>The time interval between callback updates.
@@ -408,10 +402,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_Interval_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -428,6 +418,10 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Location_" data-uid="Tizen.Location.Locator.Location*"></a>
   <h4 id="Tizen_Location_Locator_Location" data-uid="Tizen.Location.Locator.Location">Location</h4>
   <div class="markdown level1 summary"><p>Gets the location object.</p>
@@ -453,8 +447,8 @@ Should be in the range of 1~120 seconds.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Location_Locator_Location_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Location_Locator_LocationType_" data-uid="Tizen.Location.Locator.LocationType*"></a>
   <h4 id="Tizen_Location_Locator_LocationType" data-uid="Tizen.Location.Locator.LocationType">LocationType</h4>
@@ -481,8 +475,8 @@ Should be in the range of 1~120 seconds.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Location_Locator_LocationType_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Location_Locator_StayInterval_" data-uid="Tizen.Location.Locator.StayInterval*"></a>
   <h4 id="Tizen_Location_Locator_StayInterval" data-uid="Tizen.Location.Locator.StayInterval">StayInterval</h4>
@@ -509,10 +503,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_StayInterval_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -529,8 +519,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Location_Locator_AddBoundary_" data-uid="Tizen.Location.Locator.AddBoundary*"></a>
   <h4 id="Tizen_Location_Locator_AddBoundary_Tizen_Location_LocationBoundary_" data-uid="Tizen.Location.Locator.AddBoundary(Tizen.Location.LocationBoundary)">AddBoundary(LocationBoundary)</h4>
   <div class="markdown level1 summary"><p>Adds a bound for a given locator.</p>
@@ -558,10 +552,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_AddBoundary_Tizen_Location_LocationBoundary__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -588,6 +578,10 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_ClearMock_" data-uid="Tizen.Location.Locator.ClearMock*"></a>
   <h4 id="Tizen_Location_Locator_ClearMock" data-uid="Tizen.Location.Locator.ClearMock">ClearMock()</h4>
   <div class="markdown level1 summary"><p>Clears a mock location for the given location method.</p>
@@ -597,15 +591,6 @@ Should be in the range of 1~120 seconds.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ClearMock()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Location_Locator_ClearMock_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator_ClearMock_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Locator_ClearMock_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -637,6 +622,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Dispose_" data-uid="Tizen.Location.Locator.Dispose*"></a>
   <h4 id="Tizen_Location_Locator_Dispose" data-uid="Tizen.Location.Locator.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>The overidden Dispose method of the IDisposable class.</p>
@@ -646,10 +637,6 @@ Should be in the range of 1~120 seconds.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Location_Locator_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -666,6 +653,10 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Dispose_" data-uid="Tizen.Location.Locator.Dispose*"></a>
   <h4 id="Tizen_Location_Locator_Dispose_System_Boolean_" data-uid="Tizen.Location.Locator.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>Dispose.</p>
@@ -693,8 +684,8 @@ Should be in the range of 1~120 seconds.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Location_Locator_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Location_Locator_Finalize_" data-uid="Tizen.Location.Locator.Finalize*"></a>
   <h4 id="Tizen_Location_Locator_Finalize" data-uid="Tizen.Location.Locator.Finalize">Finalize()</h4>
@@ -706,8 +697,8 @@ Should be in the range of 1~120 seconds.</p>
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
   
-  <h5 id="Tizen_Location_Locator_Finalize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Location_Locator_GetLocation_" data-uid="Tizen.Location.Locator.GetLocation*"></a>
   <h4 id="Tizen_Location_Locator_GetLocation" data-uid="Tizen.Location.Locator.GetLocation">GetLocation()</h4>
@@ -734,15 +725,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_GetLocation_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator_GetLocation_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Locator_GetLocation_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -774,6 +756,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Locator_GetLocationAsync_" data-uid="Tizen.Location.Locator.GetLocationAsync*"></a>
   <h4 id="Tizen_Location_Locator_GetLocationAsync_System_Int32_" data-uid="Tizen.Location.Locator.GetLocationAsync(System.Int32)">GetLocationAsync(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the details of the location asynchronously.</p>
@@ -817,15 +805,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_GetLocationAsync_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator_GetLocationAsync_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Locator_GetLocationAsync_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -857,6 +836,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Locator_RemoveBoundary_" data-uid="Tizen.Location.Locator.RemoveBoundary*"></a>
   <h4 id="Tizen_Location_Locator_RemoveBoundary_Tizen_Location_LocationBoundary_" data-uid="Tizen.Location.Locator.RemoveBoundary(Tizen.Location.LocationBoundary)">RemoveBoundary(LocationBoundary)</h4>
   <div class="markdown level1 summary"><p>Deletes a bound for a given locator.</p>
@@ -884,10 +869,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_RemoveBoundary_Tizen_Location_LocationBoundary__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -914,6 +895,10 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Location_Locator_SetMockLocation_" data-uid="Tizen.Location.Locator.SetMockLocation*"></a>
   <h4 id="Tizen_Location_Locator_SetMockLocation_Tizen_Location_Location_" data-uid="Tizen.Location.Locator.SetMockLocation(Tizen.Location.Location)">SetMockLocation(Location)</h4>
   <div class="markdown level1 summary"><p>Sets a mock location for the given location method.</p>
@@ -941,15 +926,6 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_SetMockLocation_Tizen_Location_Location__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator_SetMockLocation_Tizen_Location_Location__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Locator_SetMockLocation_Tizen_Location_Location__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -981,6 +957,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Start_" data-uid="Tizen.Location.Locator.Start*"></a>
   <h4 id="Tizen_Location_Locator_Start" data-uid="Tizen.Location.Locator.Start">Start()</h4>
   <div class="markdown level1 summary"><p>Starts the Location Manager which has been created using the specified method.</p>
@@ -990,15 +972,6 @@ Should be in the range of 1~120 seconds.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Start()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Location_Locator_Start_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Locator_Start_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Locator_Start_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1030,6 +1003,12 @@ Should be in the range of 1~120 seconds.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Locator_Stop_" data-uid="Tizen.Location.Locator.Stop*"></a>
   <h4 id="Tizen_Location_Locator_Stop" data-uid="Tizen.Location.Locator.Stop">Stop()</h4>
   <div class="markdown level1 summary"><p>Stops the Location Manager which has been activated using the specified method.
@@ -1040,10 +1019,6 @@ Does not destroy the manager.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Location_Locator_Stop_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1070,8 +1045,12 @@ Does not destroy the manager.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Location_Locator_DistanceBasedLocationChanged" data-uid="Tizen.Location.Locator.DistanceBasedLocationChanged">DistanceBasedLocationChanged</h4>
   <div class="markdown level1 summary"><p>The DistanceBasedLocationChanged event is raised with the updated location information.
 The callback will be invoked at a minimum interval or minimum distance with the updated position information.</p>
@@ -1096,10 +1075,6 @@ The callback will be invoked at a minimum interval or minimum distance with the 
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_DistanceBasedLocationChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1121,6 +1096,10 @@ The callback will be invoked at a minimum interval or minimum distance with the 
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_Location_Locator_LocationChanged" data-uid="Tizen.Location.Locator.LocationChanged">LocationChanged</h4>
   <div class="markdown level1 summary"><p>The LocationUpdated event is raised at defined intervals of time with the updated location information.
 The callback will be invoked periodically.</p>
@@ -1145,10 +1124,6 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_LocationChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1170,6 +1145,10 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_Location_Locator_ServiceStateChanged" data-uid="Tizen.Location.Locator.ServiceStateChanged">ServiceStateChanged</h4>
   <div class="markdown level1 summary"><p>The ServiceStateChanged event is invoked when the location service state is changed.</p>
 </div>
@@ -1193,10 +1172,6 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_ServiceStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1218,6 +1193,10 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_Location_Locator_SettingChanged" data-uid="Tizen.Location.Locator.SettingChanged">SettingChanged</h4>
   <div class="markdown level1 summary"><p>The SetttingChanged event is raised when the location setting is changed.</p>
 </div>
@@ -1241,10 +1220,6 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_SettingChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1271,6 +1246,10 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_Location_Locator_ZoneChanged" data-uid="Tizen.Location.Locator.ZoneChanged">ZoneChanged</h4>
   <div class="markdown level1 summary"><p>The ZoneChanged event is invoked when the previously set boundary area is entered or left.</p>
 </div>
@@ -1294,10 +1273,6 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Locator_ZoneChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1319,6 +1294,9 @@ The callback will be invoked periodically.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -1328,6 +1306,10 @@ The callback will be invoked periodically.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1343,7 +1325,7 @@ The callback will be invoked periodically.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -118,14 +118,14 @@ A user can manage all the geofence or place related data and events.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Location.Geofence.html">Tizen.Location.Geofence</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Location.Geofence.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Location_Geofence_VirtualPerimeter_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class VirtualPerimeter</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter__ctor_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.#ctor*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter__ctor_Tizen_Location_Geofence_GeofenceManager_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.#ctor(Tizen.Location.Geofence.GeofenceManager)">VirtualPerimeter(GeofenceManager)</h4>
   <div class="markdown level1 summary"><p>Creates a VirtualPerimeter which can be used to create a virtual fence.</p>
@@ -153,10 +153,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter__ctor_Tizen_Location_Geofence_GeofenceManager__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -173,8 +169,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_AddGeofence_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.AddGeofence*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_AddGeofence_Tizen_Location_Geofence_Fence_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.AddGeofence(Tizen.Location.Geofence.Fence)">AddGeofence(Fence)</h4>
   <div class="markdown level1 summary"><p>Adds the geofence for a given Geofence manager.</p>
@@ -221,15 +221,6 @@ A user can manage all the geofence or place related data and events.</p>
   <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddGeofence_Tizen_Location_Geofence_Fence__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The return value will always be a number greater than zero.</p>
 </div>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddGeofence_Tizen_Location_Geofence_Fence__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddGeofence_Tizen_Location_Geofence_Fence__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddGeofence_Tizen_Location_Geofence_Fence__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -261,6 +252,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_AddPlaceName_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.AddPlaceName*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_AddPlaceName_System_String_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.AddPlaceName(System.String)">AddPlaceName(String)</h4>
   <div class="markdown level1 summary"><p>Creates a new place for the geofencing service.</p>
@@ -304,15 +301,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddPlaceName_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddPlaceName_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_AddPlaceName_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -344,6 +332,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_GetFenceDataList_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetFenceDataList*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_GetFenceDataList" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetFenceDataList">GetFenceDataList()</h4>
   <div class="markdown level1 summary"><p>Retrieves a list of fences registered in the specified Geofence manager.</p>
@@ -369,15 +363,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetFenceDataList_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetFenceDataList_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetFenceDataList_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -404,6 +389,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_GetGeofenceDataListByPlaceId_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetGeofenceDataListByPlaceId*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_GetGeofenceDataListByPlaceId_System_Int32_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetGeofenceDataListByPlaceId(System.Int32)">GetGeofenceDataListByPlaceId(Int32)</h4>
   <div class="markdown level1 summary"><p>Retrieves a list of fences registered in the specified place.</p>
@@ -447,15 +438,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetGeofenceDataListByPlaceId_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetGeofenceDataListByPlaceId_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetGeofenceDataListByPlaceId_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -487,6 +469,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceDataList_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetPlaceDataList*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceDataList" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetPlaceDataList">GetPlaceDataList()</h4>
   <div class="markdown level1 summary"><p>Retrieves a list of places registered in the specified Geofence manager.</p>
@@ -512,15 +500,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceDataList_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceDataList_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceDataList_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -547,6 +526,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceName_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetPlaceName*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceName_System_Int32_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.GetPlaceName(System.Int32)">GetPlaceName(Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the name of place.</p>
@@ -590,15 +575,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceName_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceName_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_GetPlaceName_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -630,6 +606,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_RemoveGeofence_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.RemoveGeofence*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_RemoveGeofence_System_Int32_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.RemoveGeofence(System.Int32)">RemoveGeofence(Int32)</h4>
   <div class="markdown level1 summary"><p>Removes the geofence with a given geofence ID.</p>
@@ -657,15 +639,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_RemoveGeofence_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_RemoveGeofence_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_RemoveGeofence_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -697,6 +670,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_RemovePlace_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.RemovePlace*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_RemovePlace_System_Int32_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.RemovePlace(System.Int32)">RemovePlace(Int32)</h4>
   <div class="markdown level1 summary"><p>Removes the specific place for the geofencing service.</p>
@@ -724,15 +703,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_RemovePlace_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_RemovePlace_System_Int32__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_RemovePlace_System_Int32__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -764,6 +734,12 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
+  
   <a id="Tizen_Location_Geofence_VirtualPerimeter_UpdatePlace_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.UpdatePlace*"></a>
   <h4 id="Tizen_Location_Geofence_VirtualPerimeter_UpdatePlace_System_Int32_System_String_" data-uid="Tizen.Location.Geofence.VirtualPerimeter.UpdatePlace(System.Int32,System.String)">UpdatePlace(Int32, String)</h4>
   <div class="markdown level1 summary"><p>Updates the place name of a given place ID.</p>
@@ -797,15 +773,6 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_UpdatePlace_System_Int32_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_UpdatePlace_System_Int32_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Location_Geofence_VirtualPerimeter_UpdatePlace_System_Int32_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/location">http://tizen.org/privilege/location</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -837,11 +804,20 @@ A user can manage all the geofence or place related data and events.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/location</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -857,7 +833,7 @@ A user can manage all the geofence or place related data and events.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

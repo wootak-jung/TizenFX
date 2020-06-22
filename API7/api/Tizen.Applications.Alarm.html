@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,12 +117,11 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.html">Tizen.Applications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.Alarm.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_Alarm_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Alarm</code></pre>
   </div>
-  
-  
   <h5 id="Tizen_Applications_Alarm_examples"><strong>Examples</strong></h5>
   <pre><code>public class AlarmExample
 {
@@ -133,6 +132,7 @@
 
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_Alarm_AlarmAppControl_" data-uid="Tizen.Applications.Alarm.AlarmAppControl*"></a>
   <h4 id="Tizen_Applications_Alarm_AlarmAppControl" data-uid="Tizen.Applications.Alarm.AlarmAppControl">AlarmAppControl</h4>
   <div class="markdown level1 summary"><p>Gets the AppControl to be invoked when the the alarm is triggered.</p>
@@ -158,13 +158,10 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Alarm_AlarmAppControl_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_Alarm_AlarmAppControl_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_Alarm_AlarmAppControl_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.get">http://tizen.org/privilege/alarm.get</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.get</span></span></h6>
+  
   
   <a id="Tizen_Applications_Alarm_AlarmId_" data-uid="Tizen.Applications.Alarm.AlarmId*"></a>
   <h4 id="Tizen_Applications_Alarm_AlarmId" data-uid="Tizen.Applications.Alarm.AlarmId">AlarmId</h4>
@@ -191,8 +188,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Alarm_AlarmId_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_Applications_Alarm_Global_" data-uid="Tizen.Applications.Alarm.Global*"></a>
   <h4 id="Tizen_Applications_Alarm_Global" data-uid="Tizen.Applications.Alarm.Global">Global</h4>
@@ -219,14 +216,10 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_Alarm_Global_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_Alarm_Global_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_Alarm_Global_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/alarm.get">http://tizen.org/privilege/alarm.get</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span><span>http://tizen.org/privilege/alarm.get</span></span></h6>
+  
   
   <a id="Tizen_Applications_Alarm_Period_" data-uid="Tizen.Applications.Alarm.Period*"></a>
   <h4 id="Tizen_Applications_Alarm_Period" data-uid="Tizen.Applications.Alarm.Period">Period</h4>
@@ -262,14 +255,10 @@ If the @a period argument is 0 and the period was not set,
 or the week recurrence flag was set, the alarm will be unchanged.</p>
 </div>
   
-  <h5 id="Tizen_Applications_Alarm_Period_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_Alarm_Period_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_Alarm_Period_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/alarm.get">http://tizen.org/privilege/alarm.get</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span><span>http://tizen.org/privilege/alarm.get</span></span></h6>
+  
   
   <a id="Tizen_Applications_Alarm_ScheduledDate_" data-uid="Tizen.Applications.Alarm.ScheduledDate*"></a>
   <h4 id="Tizen_Applications_Alarm_ScheduledDate" data-uid="Tizen.Applications.Alarm.ScheduledDate">ScheduledDate</h4>
@@ -299,14 +288,10 @@ or the week recurrence flag was set, the alarm will be unchanged.</p>
   <div class="markdown level1 remarks"><p>The <code>SchduleDate</code> property setter is available since API Level 6.</p>
 </div>
   
-  <h5 id="Tizen_Applications_Alarm_ScheduledDate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_Alarm_ScheduledDate_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_Alarm_ScheduledDate_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/alarm.get">http://tizen.org/privilege/alarm.get</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span><span>http://tizen.org/privilege/alarm.get</span></span></h6>
+  
   
   <a id="Tizen_Applications_Alarm_WeekFlag_" data-uid="Tizen.Applications.Alarm.WeekFlag*"></a>
   <h4 id="Tizen_Applications_Alarm_WeekFlag" data-uid="Tizen.Applications.Alarm.WeekFlag">WeekFlag</h4>
@@ -343,17 +328,13 @@ If the Weekflag argument is 0 and the flag was not set,
 or the period was set, the alarm will be unchanged.</p>
 </div>
   
-  <h5 id="Tizen_Applications_Alarm_WeekFlag_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_Alarm_WeekFlag_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_Alarm_WeekFlag_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/alarm.get">http://tizen.org/privilege/alarm.get</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span><span>http://tizen.org/privilege/alarm.get</span></span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_Alarm_Cancel_" data-uid="Tizen.Applications.Alarm.Cancel*"></a>
   <h4 id="Tizen_Applications_Alarm_Cancel" data-uid="Tizen.Applications.Alarm.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"><p>Cancels the specific alarm.</p>
@@ -363,15 +344,6 @@ or the period was set, the alarm will be unchanged.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_Alarm_Cancel_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_Alarm_Cancel_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_Alarm_Cancel_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -398,11 +370,20 @@ or the period was set, the alarm will be unchanged.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -418,7 +399,7 @@ or the period was set, the alarm will be unchanged.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

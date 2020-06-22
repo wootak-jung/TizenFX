@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -126,6 +126,7 @@ They are defined by an event string, which identifies them uniquely.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ElmSharp.html">ElmSharp</a></h6>
   <h6><strong>Assembly</strong>: ElmSharp.dll</h6>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   <h5 id="ElmSharp_SmartEvent_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class SmartEvent&lt;TEventArgs&gt; : IInvalidatable, IDisposable where TEventArgs : EventArgs</code></pre>
@@ -146,10 +147,9 @@ They are defined by an event string, which identifies them uniquely.</p>
       </tr>
     </tbody>
   </table>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="ElmSharp_SmartEvent_1__ctor_" data-uid="ElmSharp.SmartEvent`1.#ctor*"></a>
   <h4 id="ElmSharp_SmartEvent_1__ctor_ElmSharp_EvasObject_System_String_" data-uid="ElmSharp.SmartEvent`1.#ctor(ElmSharp.EvasObject,System.String)">SmartEvent(EvasObject, String)</h4>
   <div class="markdown level1 summary"><p>Creates and initializes a new instance of the SmartEvent class.</p>
@@ -184,8 +184,8 @@ They are defined by an event string, which identifies them uniquely.</p>
     </tbody>
   </table>
   
-  <h5 id="ElmSharp_SmartEvent_1__ctor_ElmSharp_EvasObject_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
+  
   
   <a id="ElmSharp_SmartEvent_1__ctor_" data-uid="ElmSharp.SmartEvent`1.#ctor*"></a>
   <h4 id="ElmSharp_SmartEvent_1__ctor_ElmSharp_EvasObject_System_String_ElmSharp_SmartEvent__0__SmartEventInfoParser_" data-uid="ElmSharp.SmartEvent`1.#ctor(ElmSharp.EvasObject,System.String,ElmSharp.SmartEvent{`0}.SmartEventInfoParser)">SmartEvent(EvasObject, String, SmartEvent&lt;TEventArgs&gt;.SmartEventInfoParser)</h4>
@@ -227,11 +227,11 @@ They are defined by an event string, which identifies them uniquely.</p>
     </tbody>
   </table>
   
-  <h5 id="ElmSharp_SmartEvent_1__ctor_ElmSharp_EvasObject_System_String_ElmSharp_SmartEvent__0__SmartEventInfoParser__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="ElmSharp_SmartEvent_1_Dispose_" data-uid="ElmSharp.SmartEvent`1.Dispose*"></a>
   <h4 id="ElmSharp_SmartEvent_1_Dispose" data-uid="ElmSharp.SmartEvent`1.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Destroys the current object.</p>
@@ -242,8 +242,8 @@ They are defined by an event string, which identifies them uniquely.</p>
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="ElmSharp_SmartEvent_1_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
+  
   
   <a id="ElmSharp_SmartEvent_1_Dispose_" data-uid="ElmSharp.SmartEvent`1.Dispose*"></a>
   <h4 id="ElmSharp_SmartEvent_1_Dispose_System_Boolean_" data-uid="ElmSharp.SmartEvent`1.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -274,8 +274,8 @@ otherwise false.</p>
     </tbody>
   </table>
   
-  <h5 id="ElmSharp_SmartEvent_1_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
+  
   
   <a id="ElmSharp_SmartEvent_1_Finalize_" data-uid="ElmSharp.SmartEvent`1.Finalize*"></a>
   <h4 id="ElmSharp_SmartEvent_1_Finalize" data-uid="ElmSharp.SmartEvent`1.Finalize">Finalize()</h4>
@@ -288,6 +288,7 @@ otherwise false.</p>
   </div>
   
   
+  
   <a id="ElmSharp_SmartEvent_1_MakeInvalidate_" data-uid="ElmSharp.SmartEvent`1.MakeInvalidate*"></a>
   <h4 id="ElmSharp_SmartEvent_1_MakeInvalidate" data-uid="ElmSharp.SmartEvent`1.MakeInvalidate">MakeInvalidate()</h4>
   <div class="markdown level1 summary"><p>Makes the current instance invalidate.</p>
@@ -298,11 +299,11 @@ otherwise false.</p>
     <pre><code class="lang-csharp hljs">public void MakeInvalidate()</code></pre>
   </div>
   
-  <h5 id="ElmSharp_SmartEvent_1_MakeInvalidate_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   
   <h3 id="events">Events
   </h3>
+  
   <h4 id="ElmSharp_SmartEvent_1_On" data-uid="ElmSharp.SmartEvent`1.On">On</h4>
   <div class="markdown level1 summary"><p>Adds or removes a delegate for the event.</p>
 </div>
@@ -327,8 +328,7 @@ otherwise false.</p>
     </tbody>
   </table>
   
-  <h5 id="ElmSharp_SmartEvent_1_On_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">preview </span>
+  <h6><strong>API Level</strong>: <span>preview</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -342,6 +342,10 @@ otherwise false.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -357,7 +361,7 @@ otherwise false.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

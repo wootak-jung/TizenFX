@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Uix.VoiceControl.html">Tizen.Uix.VoiceControl</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Uix.VoiceControl.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class VoiceCommandList</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList__ctor_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.#ctor*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList__ctor" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.#ctor">VoiceCommandList()</h4>
   <div class="markdown level1 summary"><p>The public constructor.</p>
@@ -134,21 +134,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public VoiceCommandList()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList__ctor_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList__ctor_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList__ctor_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -180,8 +165,16 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Count_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Count*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Count" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Count">Count</h4>
   <div class="markdown level1 summary"><p>Gets a command count of the list.
@@ -209,15 +202,10 @@ public
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Count_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Count_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Count_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  
   
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Current_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Current*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Current" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Current">Current</h4>
@@ -246,18 +234,13 @@ Null will be returned in case of an empty list.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Current_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Current_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Current_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Add_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Add*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Add_Tizen_Uix_VoiceControl_VoiceCommand_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Add(Tizen.Uix.VoiceControl.VoiceCommand)">Add(VoiceCommand)</h4>
   <div class="markdown level1 summary"><p>Adds a command to the command list.</p>
@@ -285,21 +268,6 @@ public
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Add_Tizen_Uix_VoiceControl_VoiceCommand__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Add_Tizen_Uix_VoiceControl_VoiceCommand__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Add_Tizen_Uix_VoiceControl_VoiceCommand__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Add_Tizen_Uix_VoiceControl_VoiceCommand__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -326,6 +294,14 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_First_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.First*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_First" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.First">First()</h4>
   <div class="markdown level1 summary"><p>Moves an index to the first command.</p>
@@ -335,21 +311,6 @@ public
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void First()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_First_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_First_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_First_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_First_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -376,6 +337,14 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_GetAllCommands_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.GetAllCommands*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_GetAllCommands" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.GetAllCommands">GetAllCommands()</h4>
   <div class="markdown level1 summary"><p>Retrieves all commands from the command list.</p>
@@ -400,21 +369,6 @@ public
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_GetAllCommands_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_GetAllCommands_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_GetAllCommands_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_GetAllCommands_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -436,6 +390,14 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Last_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Last*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Last" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Last">Last()</h4>
   <div class="markdown level1 summary"><p>Moves an index to the last command.</p>
@@ -445,21 +407,6 @@ public
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Last()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Last_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Last_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Last_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Last_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -486,6 +433,14 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Next_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Next*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Next" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Next">Next()</h4>
   <div class="markdown level1 summary"><p>Moves an index to the next command.</p>
@@ -495,21 +450,6 @@ public
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Next()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Next_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Next_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Next_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Next_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -540,6 +480,14 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Previous_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Previous*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Previous" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Previous">Previous()</h4>
   <div class="markdown level1 summary"><p>Moves an index to the previous command.</p>
@@ -549,21 +497,6 @@ public
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Previous()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Previous_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Previous_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Previous_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Previous_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -594,6 +527,14 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControl_VoiceCommandList_Remove_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Remove*"></a>
   <h4 id="Tizen_Uix_VoiceControl_VoiceCommandList_Remove_Tizen_Uix_VoiceControl_VoiceCommand_" data-uid="Tizen.Uix.VoiceControl.VoiceCommandList.Remove(Tizen.Uix.VoiceControl.VoiceCommand)">Remove(VoiceCommand)</h4>
   <div class="markdown level1 summary"><p>Removes a command from the command list.</p>
@@ -621,21 +562,6 @@ public
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Remove_Tizen_Uix_VoiceControl_VoiceCommand__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Remove_Tizen_Uix_VoiceControl_VoiceCommand__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">
-public
-</span>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Remove_Tizen_Uix_VoiceControl_VoiceCommand__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControl_VoiceCommandList_Remove_Tizen_Uix_VoiceControl_VoiceCommand__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control">http://tizen.org/feature/speech.control</a>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -662,11 +588,22 @@ public
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>public</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control
+    http://tizen.org/feature/microphone</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -682,7 +619,7 @@ public
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

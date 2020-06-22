@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,12 +121,11 @@ If an application is installed after setting the alarm, your alarm is canceled a
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.html">Tizen.Applications</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.Alarm.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Applications_AlarmManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class AlarmManager</code></pre>
   </div>
-  
-  
   <h5 id="Tizen_Applications_AlarmManager_examples"><strong>Examples</strong></h5>
   <pre><code>public class AlarmManagerExample
 {
@@ -137,6 +136,7 @@ If an application is installed after setting the alarm, your alarm is canceled a
 
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_AlarmManager_CancelAll_" data-uid="Tizen.Applications.AlarmManager.CancelAll*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CancelAll" data-uid="Tizen.Applications.AlarmManager.CancelAll">CancelAll()</h4>
   <div class="markdown level1 summary"><p>Cancels all scheduled alarms that are registered by the application that calls this API.</p>
@@ -146,15 +146,6 @@ If an application is installed after setting the alarm, your alarm is canceled a
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void CancelAll()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CancelAll_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CancelAll_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CancelAll_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -176,6 +167,12 @@ If an application is installed after setting the alarm, your alarm is canceled a
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span></span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_AppControl_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.DateTime,Tizen.Applications.AlarmWeekFlag,Tizen.Applications.AppControl)">CreateAlarm(DateTime, AlarmWeekFlag, AppControl)</h4>
   <div class="markdown level1 summary"><p>Sets an alarm to be triggered periodically, starting at a specific time.
@@ -237,15 +234,6 @@ If the weekFlag is AlarmWeekFlag.Tuesday, the alarm will repeat every Tuesday at
   <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_AppControl__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This operation is permitted with UI application appcontrol only.</p>
 </div>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_AppControl__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_AppControl__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_AppControl__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -272,6 +260,12 @@ If the weekFlag is AlarmWeekFlag.Tuesday, the alarm will repeat every Tuesday at
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_Notifications_Notification_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.DateTime,Tizen.Applications.AlarmWeekFlag,Tizen.Applications.Notifications.Notification)">CreateAlarm(DateTime, AlarmWeekFlag, Notification)</h4>
   <div class="markdown level1 summary"><p>Sets a notification alarm to be triggered periodically, starting at a specific time.
@@ -331,16 +325,6 @@ If the weekFlag is AlarmWeekFlag.Tuesday, the alarm will repeat every Tuesday at
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_Notifications_Notification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_Notifications_Notification__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AlarmWeekFlag_Tizen_Applications_Notifications_Notification__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -367,6 +351,13 @@ If the weekFlag is AlarmWeekFlag.Tuesday, the alarm will repeat every Tuesday at
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
+<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AppControl_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.DateTime,Tizen.Applications.AppControl)">CreateAlarm(DateTime, AppControl)</h4>
   <div class="markdown level1 summary"><p>Sets an alarm to be triggered at a specific time.
@@ -420,15 +411,6 @@ The date describes the time of the first occurrence.</p>
   <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AppControl__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This operation is permitted with the UI application appcontrol only.</p>
 </div>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AppControl__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AppControl__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_AppControl__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -455,6 +437,12 @@ The date describes the time of the first occurrence.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_Notifications_Notification_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.DateTime,Tizen.Applications.Notifications.Notification)">CreateAlarm(DateTime, Notification)</h4>
   <div class="markdown level1 summary"><p>Sets a notification alarm to be triggered at a specific time.
@@ -505,16 +493,6 @@ The date describes the time of the first occurrence.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_Notifications_Notification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_Notifications_Notification__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_DateTime_Tizen_Applications_Notifications_Notification__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -541,6 +519,13 @@ The date describes the time of the first occurrence.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
+<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
+</span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_AppControl_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,System.Int32,Tizen.Applications.AppControl)">CreateAlarm(Int32, Int32, AppControl)</h4>
   <div class="markdown level1 summary"><p>Sets an alarm to be triggered after a specific time.
@@ -598,15 +583,6 @@ The actual interval is calculated by the OS. The minimum value is 600sec.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_AppControl__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_AppControl__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_AppControl__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -633,6 +609,12 @@ The actual interval is calculated by the OS. The minimum value is 600sec.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span></span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_Notifications_Notification_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,System.Int32,Tizen.Applications.Notifications.Notification)">CreateAlarm(Int32, Int32, Notification)</h4>
   <div class="markdown level1 summary"><p>Sets a notification alarm to be triggered after a specific time.
@@ -689,16 +671,6 @@ The alarm will first go off delay seconds later and then will go off every certa
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_Notifications_Notification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_Notifications_Notification__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_System_Int32_Tizen_Applications_Notifications_Notification__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -725,6 +697,12 @@ The alarm will first go off delay seconds later and then will go off every certa
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span><span>http://tizen.org/privilege/notification</span></span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AppControl_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,Tizen.Applications.AppControl)">CreateAlarm(Int32, AppControl)</h4>
   <div class="markdown level1 summary"><p>Sets an alarm to be triggered after a specific time.
@@ -775,15 +753,6 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AppControl__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AppControl__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_AppControl__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -810,6 +779,12 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span></span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_CreateAlarm_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm*"></a>
   <h4 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_Notifications_Notification_" data-uid="Tizen.Applications.AlarmManager.CreateAlarm(System.Int32,Tizen.Applications.Notifications.Notification)">CreateAlarm(Int32, Notification)</h4>
   <div class="markdown level1 summary"><p>Sets a notification alarm to be triggered after a specific time.
@@ -860,16 +835,6 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_Notifications_Notification__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_Notifications_Notification__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_CreateAlarm_System_Int32_Tizen_Applications_Notifications_Notification__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.set">http://tizen.org/privilege/alarm.set</a><br>
-<a href="http://tizen.org/privilege/notification">http://tizen.org/privilege/notification</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -896,6 +861,12 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.set</span><span>http://tizen.org/privilege/notification</span></span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_GetAllScheduledAlarms_" data-uid="Tizen.Applications.AlarmManager.GetAllScheduledAlarms*"></a>
   <h4 id="Tizen_Applications_AlarmManager_GetAllScheduledAlarms" data-uid="Tizen.Applications.AlarmManager.GetAllScheduledAlarms">GetAllScheduledAlarms()</h4>
   <div class="markdown level1 summary"><p>Retrieves all registered alarms.</p>
@@ -921,15 +892,6 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_GetAllScheduledAlarms_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_Applications_AlarmManager_GetAllScheduledAlarms_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">public</span>
-  <h5 id="Tizen_Applications_AlarmManager_GetAllScheduledAlarms_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/alarm.get">http://tizen.org/privilege/alarm.get</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -951,6 +913,12 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Privilege Level</strong>: public</h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/alarm.get</span></span></h6>
+  
+  
   <a id="Tizen_Applications_AlarmManager_GetCurrentTime_" data-uid="Tizen.Applications.AlarmManager.GetCurrentTime*"></a>
   <h4 id="Tizen_Applications_AlarmManager_GetCurrentTime" data-uid="Tizen.Applications.AlarmManager.GetCurrentTime">GetCurrentTime()</h4>
   <div class="markdown level1 summary"><p>Gets the current system time.</p>
@@ -976,10 +944,6 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_AlarmManager_GetCurrentTime_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -996,11 +960,18 @@ The alarm will go off delay seconds later.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1016,7 +987,7 @@ The alarm will go off delay seconds later.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

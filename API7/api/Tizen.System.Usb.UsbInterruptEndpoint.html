@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -127,14 +127,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.System.Usb.html">Tizen.System.Usb</a></h6>
   <h6><strong>Assembly</strong>: Tizen.System.Usb.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
   <h5 id="Tizen_System_Usb_UsbInterruptEndpoint_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class UsbInterruptEndpoint : UsbEndpoint</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_System_Usb_UsbInterruptEndpoint_PollingInterval_" data-uid="Tizen.System.Usb.UsbInterruptEndpoint.PollingInterval*"></a>
   <h4 id="Tizen_System_Usb_UsbInterruptEndpoint_PollingInterval" data-uid="Tizen.System.Usb.UsbInterruptEndpoint.PollingInterval">PollingInterval</h4>
   <div class="markdown level1 summary"><p>Gets an interval for polling the endpoint for data transfers, in frame counts (refer to the USB protocol specification).</p>
@@ -159,13 +159,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_Usb_UsbInterruptEndpoint_PollingInterval_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_System_Usb_UsbInterruptEndpoint_PollingInterval_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/usb.host">http://tizen.org/feature/usb.host</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -182,8 +175,13 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/usb.host</span></span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_System_Usb_UsbInterruptEndpoint_Transfer_" data-uid="Tizen.System.Usb.UsbInterruptEndpoint.Transfer*"></a>
   <h4 id="Tizen_System_Usb_UsbInterruptEndpoint_Transfer_System_Byte___System_Int32_System_UInt32_" data-uid="Tizen.System.Usb.UsbInterruptEndpoint.Transfer(System.Byte[],System.Int32,System.UInt32)">Transfer(Byte[], Int32, UInt32)</h4>
   <div class="markdown level1 summary"><p>Performs a USB transfer on a given endpoint. The direction of transfer is determined by the endpoint.</p>
@@ -241,13 +239,6 @@ received (for an unlimited timeout, 0 value should be used).</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_Usb_UsbInterruptEndpoint_Transfer_System_Byte___System_Int32_System_UInt32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  <h5 id="Tizen_System_Usb_UsbInterruptEndpoint_Transfer_System_Byte___System_Int32_System_UInt32__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/usb.host">http://tizen.org/feature/usb.host</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -274,11 +265,19 @@ received (for an unlimited timeout, 0 value should be used).</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/usb.host</span></span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -294,7 +293,7 @@ received (for an unlimited timeout, 0 value should be used).</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

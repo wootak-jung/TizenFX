@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,14 +121,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Applications.WatchfaceComplication.html">Tizen.Applications.WatchfaceComplication</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Applications.WatchfaceComplication.dll</h6>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class DesignElement : IEditable</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement__ctor_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.#ctor*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement__ctor_System_Collections_Generic_IEnumerable_Tizen_Applications_Bundle__System_Int32_System_String_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.#ctor(System.Collections.Generic.IEnumerable{Tizen.Applications.Bundle},System.Int32,System.String)">DesignElement(IEnumerable&lt;Bundle&gt;, Int32, String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the DesignElement class.</p>
@@ -168,10 +168,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement__ctor_System_Collections_Generic_IEnumerable_Tizen_Applications_Bundle__System_Int32_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  
   <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement__ctor_System_Collections_Generic_IEnumerable_Tizen_Applications_Bundle__System_Int32_System_String__examples">Examples</h5>
   <pre><code>public class ColorDesign : DesignElement
 {
@@ -235,8 +231,12 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Candidates_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Candidates*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Candidates" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Candidates">Candidates</h4>
   <div class="markdown level1 summary"><p>The information of Editable candidates.</p>
@@ -262,8 +262,8 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Candidates_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Highlight_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Highlight*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Highlight" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Highlight">Highlight</h4>
@@ -290,11 +290,11 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Highlight_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_OnDesignUpdated_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.OnDesignUpdated*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_OnDesignUpdated_System_Int32_Tizen_Applications_WatchfaceComplication_State_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.OnDesignUpdated(System.Int32,Tizen.Applications.WatchfaceComplication.State)">OnDesignUpdated(Int32, State)</h4>
   <div class="markdown level1 summary"><p>Overrides this method to handle the behavior when the design element is updated.</p>
@@ -329,11 +329,11 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_OnDesignUpdated_System_Int32_Tizen_Applications_WatchfaceComplication_State__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="eii">Explicit Interface Implementations
   </h3>
+  
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_EditableId_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#EditableId*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_EditableId" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#EditableId">IEditable.EditableId</h4>
   <div class="markdown level1 summary"><p>The information of Editable ID.</p>
@@ -359,8 +359,8 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_EditableId_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_GetCurrentData_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#GetCurrentData*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_GetCurrentData" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#GetCurrentData">IEditable.GetCurrentData()</h4>
@@ -388,8 +388,8 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_GetCurrentData_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_GetCurrentDataIndex_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#GetCurrentDataIndex*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_GetCurrentDataIndex" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#GetCurrentDataIndex">IEditable.GetCurrentDataIndex()</h4>
@@ -417,8 +417,8 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_GetCurrentDataIndex_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_Highlight_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#Highlight*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_Highlight" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#Highlight">IEditable.Highlight</h4>
@@ -445,8 +445,8 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_Highlight_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  
   
   <a id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_Name_" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#Name*"></a>
   <h4 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_Name" data-uid="Tizen.Applications.WatchfaceComplication.DesignElement.Tizen#Applications#WatchfaceComplication#IEditable#Name">IEditable.Name</h4>
@@ -473,8 +473,7 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
     </tbody>
   </table>
   
-  <h5 id="Tizen_Applications_WatchfaceComplication_DesignElement_Tizen_Applications_WatchfaceComplication_IEditable_Name_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -485,6 +484,10 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -500,7 +503,7 @@ ColorDesign colorEdit = new ColorDesign(candidatesList, curIdx, &quot;COLOR&quot
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

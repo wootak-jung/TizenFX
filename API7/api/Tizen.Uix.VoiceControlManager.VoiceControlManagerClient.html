@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Uix.VoiceControlManager.html">Tizen.Uix.VoiceControlManager</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Uix.VoiceControlManager.dll</h6>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
   <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class VoiceControlManagerClient</code></pre>
   </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.AudioType*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.AudioType">AudioType</h4>
   <div class="markdown level1 summary"><p>Sets or Gets the Audio In Type.
@@ -150,23 +150,6 @@ The Values of the strings can be &quot;VC_AUDIO_ID_BLUETOOTH&quot; or &quot;VC_A
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AudioType_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -198,6 +181,14 @@ The Values of the strings can be &quot;VC_AUDIO_ID_BLUETOOTH&quot; or &quot;VC_A
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.CurrentLanguage*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.CurrentLanguage">CurrentLanguage</h4>
   <div class="markdown level1 summary"><p>Gets the current language.
@@ -227,23 +218,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized or ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguage_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -270,6 +244,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized or ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.RecognitionMode*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.RecognitionMode">RecognitionMode</h4>
   <div class="markdown level1 summary"><p>Sets or Gets the recognition mode.</p>
@@ -294,23 +276,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionMode_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -342,6 +307,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.RecordingVolume*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.RecordingVolume">RecordingVolume</h4>
   <div class="markdown level1 summary"><p>Gets the microphone volume during recording.</p>
@@ -366,23 +339,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The Service State must be Recording.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecordingVolume_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -409,6 +365,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The Service State must be Recording.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ServiceState*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ServiceState">ServiceState</h4>
   <div class="markdown level1 summary"><p>Gets the current state of the voice control service.</p>
@@ -434,23 +398,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceState_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -479,6 +426,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.State*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.State">State</h4>
   <div class="markdown level1 summary"><p>Gets the current state of the voice control client.</p>
@@ -504,23 +459,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized or ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_State_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -547,8 +485,16 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized or ready.</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Cancel*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"><p>Cancels recognition.</p>
@@ -558,26 +504,6 @@ An empty string is returned in case of some internal error.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Cancel()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Recording or Processing.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The Service State will become Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Cancel_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -614,6 +540,15 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Recording or Processing.</span></h6>
+  <h6><strong>Postcondition</strong>: <span>The Service State will become Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ClearCommands*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ClearCommands">ClearCommands()</h4>
   <div class="markdown level1 summary"><p>Clears commands.</p>
@@ -623,23 +558,6 @@ An empty string is returned in case of some internal error.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ClearCommands()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ClearCommands_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -666,6 +584,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Deinitialize*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Deinitialize">Deinitialize()</h4>
   <div class="markdown level1 summary"><p>Deinitialize the voice control manager.</p>
@@ -675,23 +601,6 @@ An empty string is returned in case of some internal error.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Deinitialize()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize_post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The State will be None.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Deinitialize_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -718,6 +627,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Postcondition</strong>: <span>The State will be None.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.DisableCommandType*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_Tizen_Uix_VoiceControlManager_CommandType_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.DisableCommandType(Tizen.Uix.VoiceControlManager.CommandType)">DisableCommandType(CommandType)</h4>
   <div class="markdown level1 summary"><p>Disable command type as candidate command.</p>
@@ -745,23 +662,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_Tizen_Uix_VoiceControlManager_CommandType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_Tizen_Uix_VoiceControlManager_CommandType__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_Tizen_Uix_VoiceControlManager_CommandType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_Tizen_Uix_VoiceControlManager_CommandType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DisableCommandType_Tizen_Uix_VoiceControlManager_CommandType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -800,6 +700,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.DoAction*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_Tizen_Uix_VoiceControlManager_SendEventType_System_String_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.DoAction(Tizen.Uix.VoiceControlManager.SendEventType,System.String)">DoAction(SendEventType, String)</h4>
   <div class="markdown level1 summary"><p>Request to do action as if utterence is spoken.</p>
@@ -833,23 +741,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_Tizen_Uix_VoiceControlManager_SendEventType_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_Tizen_Uix_VoiceControlManager_SendEventType_System_String__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_Tizen_Uix_VoiceControlManager_SendEventType_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_Tizen_Uix_VoiceControlManager_SendEventType_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_DoAction_Tizen_Uix_VoiceControlManager_SendEventType_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -883,6 +774,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.EnableCommandType*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_Tizen_Uix_VoiceControlManager_CommandType_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.EnableCommandType(Tizen.Uix.VoiceControlManager.CommandType)">EnableCommandType(CommandType)</h4>
   <div class="markdown level1 summary"><p>Enable command type as candidate command.</p>
@@ -910,23 +809,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_Tizen_Uix_VoiceControlManager_CommandType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_Tizen_Uix_VoiceControlManager_CommandType__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_Tizen_Uix_VoiceControlManager_CommandType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_Tizen_Uix_VoiceControlManager_CommandType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_EnableCommandType_Tizen_Uix_VoiceControlManager_CommandType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -960,6 +842,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.GetCurrentCommands*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.GetCurrentCommands">GetCurrentCommands()</h4>
   <div class="markdown level1 summary"><p>Retrieves all available commands.</p>
@@ -985,23 +875,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetCurrentCommands_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1030,6 +903,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.GetPrivateData*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_System_String_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.GetPrivateData(System.String)">GetPrivateData(String)</h4>
   <div class="markdown level1 summary"><p>Gets private data between app and engine.</p>
@@ -1073,23 +954,6 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_System_String__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetPrivateData_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1121,6 +985,14 @@ An empty string is returned in case of some internal error.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.GetSupportedLanguages*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.GetSupportedLanguages">GetSupportedLanguages()</h4>
   <div class="markdown level1 summary"><p>Retrieves all the supported languages.
@@ -1149,23 +1021,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be ready or initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_GetSupportedLanguages_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1192,6 +1047,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be ready or initialized.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Initialize*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"><p>Initialize voice control manager.</p>
@@ -1201,23 +1064,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Initialize()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize_post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The State will be Initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Initialize_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1246,6 +1092,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Postcondition</strong>: <span>The State will be Initialized.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.IsSupportedCommandFormat*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_Tizen_Uix_VoiceControlManager_CommandFormat_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.IsSupportedCommandFormat(Tizen.Uix.VoiceControlManager.CommandFormat)">IsSupportedCommandFormat(CommandFormat)</h4>
   <div class="markdown level1 summary"><p>Checks whether the command format is supported.</p>
@@ -1289,23 +1143,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_Tizen_Uix_VoiceControlManager_CommandFormat__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_Tizen_Uix_VoiceControlManager_CommandFormat__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_Tizen_Uix_VoiceControlManager_CommandFormat__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_Tizen_Uix_VoiceControlManager_CommandFormat__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_IsSupportedCommandFormat_Tizen_Uix_VoiceControlManager_CommandFormat__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1337,6 +1174,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Prepare*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Prepare">Prepare()</h4>
   <div class="markdown level1 summary"><p>Connects the voice control service.</p>
@@ -1346,26 +1191,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Prepare()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The state must be ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Prepare_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1392,6 +1217,15 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized.</span></h6>
+  <h6><strong>Postcondition</strong>: <span>The state must be ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SendSpecificEngineRequest_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SendSpecificEngineRequest*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SendSpecificEngineRequest_System_String_System_String_System_String_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SendSpecificEngineRequest(System.String,System.String,System.String)">SendSpecificEngineRequest(String, String, String)</h4>
   <div class="markdown level1 summary"><p>Sends the specific engine request to the vc-service.</p>
@@ -1431,20 +1265,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SendSpecificEngineRequest_System_String_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SendSpecificEngineRequest_System_String_System_String_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SendSpecificEngineRequest_System_String_System_String_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SendSpecificEngineRequest_System_String_System_String_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1478,6 +1298,13 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetCommands*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_Tizen_Uix_VoiceControlManager_VoiceCommandsGroup_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetCommands(Tizen.Uix.VoiceControlManager.VoiceCommandsGroup)">SetCommands(VoiceCommandsGroup)</h4>
   <div class="markdown level1 summary"><p>Sets system or exclusive commands.</p>
@@ -1505,23 +1332,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_Tizen_Uix_VoiceControlManager_VoiceCommandsGroup__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_Tizen_Uix_VoiceControlManager_VoiceCommandsGroup__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_Tizen_Uix_VoiceControlManager_VoiceCommandsGroup__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_Tizen_Uix_VoiceControlManager_VoiceCommandsGroup__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommands_Tizen_Uix_VoiceControlManager_VoiceCommandsGroup__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1553,6 +1363,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetCommandsFromFile*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_System_String_Tizen_Uix_VoiceControlManager_CommandType_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetCommandsFromFile(System.String,Tizen.Uix.VoiceControlManager.CommandType)">SetCommandsFromFile(String, CommandType)</h4>
   <div class="markdown level1 summary"><p>Sets commands from file.</p>
@@ -1586,23 +1404,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_System_String_Tizen_Uix_VoiceControlManager_CommandType__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_System_String_Tizen_Uix_VoiceControlManager_CommandType__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_System_String_Tizen_Uix_VoiceControlManager_CommandType__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_System_String_Tizen_Uix_VoiceControlManager_CommandType__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetCommandsFromFile_System_String_Tizen_Uix_VoiceControlManager_CommandType__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1634,6 +1435,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetPrivateData*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_System_String_System_String_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetPrivateData(System.String,System.String)">SetPrivateData(String, String)</h4>
   <div class="markdown level1 summary"><p>Sets private data between app and engine.</p>
@@ -1667,23 +1476,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_System_String_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_System_String_System_String__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_System_String_System_String__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_System_String_System_String__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateData_System_String_System_String__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1717,6 +1509,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateDataProviderDelegate_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetPrivateDataProviderDelegate*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateDataProviderDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataProvider_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetPrivateDataProviderDelegate(Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.PrivateDataProvider)">SetPrivateDataProviderDelegate(VoiceControlManagerClient.PrivateDataProvider)</h4>
   <div class="markdown level1 summary"><p>Sets the delegate for setting private data.</p>
@@ -1744,20 +1544,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateDataProviderDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataProvider__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateDataProviderDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataProvider__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateDataProviderDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataProvider__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetPrivateDataProviderDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataProvider__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1789,6 +1575,13 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetRecognizedCommandsSelectionDelegate_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetRecognizedCommandsSelectionDelegate*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetRecognizedCommandsSelectionDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SelectRecognizedCommandsDelegate_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SetRecognizedCommandsSelectionDelegate(Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SelectRecognizedCommandsDelegate)">SetRecognizedCommandsSelectionDelegate(VoiceControlManagerClient.SelectRecognizedCommandsDelegate)</h4>
   <div class="markdown level1 summary"><p>Sets the delegate for setting valid commands.</p>
@@ -1816,20 +1609,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetRecognizedCommandsSelectionDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SelectRecognizedCommandsDelegate__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetRecognizedCommandsSelectionDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SelectRecognizedCommandsDelegate__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetRecognizedCommandsSelectionDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SelectRecognizedCommandsDelegate__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SetRecognizedCommandsSelectionDelegate_Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SelectRecognizedCommandsDelegate__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1861,6 +1640,13 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Start*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Start(System.Boolean)">Start(Boolean)</h4>
   <div class="markdown level1 summary"><p>Starts recognition.</p>
@@ -1888,26 +1674,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean__pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean__post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The Service State will become Recording.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean__privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean__privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Start_System_Boolean__feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1942,6 +1708,15 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Ready.</span></h6>
+  <h6><strong>Postcondition</strong>: <span>The Service State will become Recording.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.StartFeedback*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.StartFeedback">StartFeedback()</h4>
   <div class="markdown level1 summary"><p>Starts getting TTS feedback streaming data from the buffer.</p>
@@ -1951,23 +1726,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void StartFeedback()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StartFeedback_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1994,6 +1752,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Stop*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Stop">Stop()</h4>
   <div class="markdown level1 summary"><p>Stop recognition.</p>
@@ -2003,26 +1769,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Stop()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State must be Recording.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The Service State will become Processing.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Stop_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2059,6 +1805,15 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State must be Recording.</span></h6>
+  <h6><strong>Postcondition</strong>: <span>The Service State will become Processing.</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.StopFeedback*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.StopFeedback">StopFeedback()</h4>
   <div class="markdown level1 summary"><p>Stops getting and removes TTS feedback streaming data from the buffer.</p>
@@ -2068,23 +1823,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void StopFeedback()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Ready</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StopFeedback_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2111,6 +1849,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Ready</span></h6>
+  
+  
   <a id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Unprepare*"></a>
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.Unprepare">Unprepare()</h4>
   <div class="markdown level1 summary"><p>Disconnects the voice control service.</p>
@@ -2120,26 +1866,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Unprepare()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be ready.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_post" class="postconditions">Postcondition</h5>
-  <div class="markdown level1 postconditions"><p>The state must be initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_Unprepare_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2166,8 +1892,17 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be ready.</span></h6>
+  <h6><strong>Postcondition</strong>: <span>The state must be initialized.</span></h6>
+  
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AllRecognitionResultReceived" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.AllRecognitionResultReceived">AllRecognitionResultReceived</h4>
   <div class="markdown level1 summary"><p>Called when client gets the all recognition results from vc-daemon.</p>
 </div>
@@ -2191,23 +1926,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AllRecognitionResultReceived_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AllRecognitionResultReceived_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AllRecognitionResultReceived_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AllRecognitionResultReceived_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_AllRecognitionResultReceived_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2229,6 +1947,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ConversationRequested" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ConversationRequested">ConversationRequested</h4>
   <div class="markdown level1 summary"><p>Event to be called when conversation requests.</p>
 </div>
@@ -2252,21 +1978,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ConversationRequested_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ConversationRequested_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ConversationRequested_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ConversationRequested_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2288,6 +1999,13 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguageChanged" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.CurrentLanguageChanged">CurrentLanguageChanged</h4>
   <div class="markdown level1 summary"><p>Event to be invoked when the default language changes.</p>
 </div>
@@ -2311,23 +2029,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguageChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguageChanged_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguageChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguageChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_CurrentLanguageChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2349,6 +2050,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized.</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ErrorOccurred" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ErrorOccurred">ErrorOccurred</h4>
   <div class="markdown level1 summary"><p>Event to be invoked when an error occurs.</p>
 </div>
@@ -2372,23 +2081,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ErrorOccurred_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ErrorOccurred_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ErrorOccurred_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ErrorOccurred_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ErrorOccurred_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2410,6 +2102,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized.</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackAudioFormatChanged" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.FeedbackAudioFormatChanged">FeedbackAudioFormatChanged</h4>
   <div class="markdown level1 summary"><p>Called when engine sends audio formats necessary for playing TTS feedback.</p>
 </div>
@@ -2433,23 +2133,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackAudioFormatChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackAudioFormatChanged_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackAudioFormatChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackAudioFormatChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackAudioFormatChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2471,6 +2154,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackStreaming" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.FeedbackStreaming">FeedbackStreaming</h4>
   <div class="markdown level1 summary"><p>Called when engine sends audio streaming for TTS feedback.</p>
 </div>
@@ -2494,23 +2185,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackStreaming_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackStreaming_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackStreaming_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackStreaming_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_FeedbackStreaming_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2532,6 +2206,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PreRecognitionResultUpdated" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.PreRecognitionResultUpdated">PreRecognitionResultUpdated</h4>
   <div class="markdown level1 summary"><p>Called when client gets the pre recognition results(partial ASR) from vc-daemon.</p>
 </div>
@@ -2555,23 +2237,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PreRecognitionResultUpdated_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PreRecognitionResultUpdated_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PreRecognitionResultUpdated_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PreRecognitionResultUpdated_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PreRecognitionResultUpdated_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2593,6 +2258,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataUpdated" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.PrivateDataUpdated">PrivateDataUpdated</h4>
   <div class="markdown level1 summary"><p>Called when engine sets private data to manager client.</p>
 </div>
@@ -2616,23 +2289,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataUpdated_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataUpdated_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataUpdated_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataUpdated_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_PrivateDataUpdated_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2654,6 +2310,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionResultUpdated" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.RecognitionResultUpdated">RecognitionResultUpdated</h4>
   <div class="markdown level1 summary"><p>Event to be invoked when the recognition is done.</p>
 </div>
@@ -2677,23 +2341,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionResultUpdated_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionResultUpdated_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionResultUpdated_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionResultUpdated_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_RecognitionResultUpdated_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2715,6 +2362,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceStateChanged" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.ServiceStateChanged">ServiceStateChanged</h4>
   <div class="markdown level1 summary"><p>Event to be invoked when the VoiceControl service state changes.</p>
 </div>
@@ -2738,23 +2393,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceStateChanged_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceStateChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceStateChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_ServiceStateChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2776,6 +2414,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized.</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpecificEngineResult" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SpecificEngineResult">SpecificEngineResult</h4>
   <div class="markdown level1 summary"><p>Called when client gets the specific engine&apos;s result from vc-service.</p>
 </div>
@@ -2799,23 +2445,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpecificEngineResult_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpecificEngineResult_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpecificEngineResult_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpecificEngineResult_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpecificEngineResult_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2837,6 +2466,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpeechDetected" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.SpeechDetected">SpeechDetected</h4>
   <div class="markdown level1 summary"><p>Called when user speaking is detected.</p>
 </div>
@@ -2860,23 +2497,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpeechDetected_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpeechDetected_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpeechDetected_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpeechDetected_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_SpeechDetected_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2898,6 +2518,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StateChanged" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.StateChanged">StateChanged</h4>
   <div class="markdown level1 summary"><p>Event to be invoked when the VoiceControl client state changes.</p>
 </div>
@@ -2921,23 +2549,6 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StateChanged_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The state must be initialized.</p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StateChanged_privlevel" class="privlevel">Privilege Level</h5>
-  <span class="markdown level1 privlevel">platform</span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StateChanged_privilege" class="privilege">Privilege</h5>
-  <div class="markdown level1 privilege"><p><a href="http://tizen.org/privilege/voicecontrol.manager">http://tizen.org/privilege/voicecontrol.manager</a><br>
-<a href="http://tizen.org/privilege/recorder">http://tizen.org/privilege/recorder</a></p>
-</div>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_StateChanged_feature" class="feature">Feature</h5>
-  <div class="markdown level1 feature"><p><a href="http://tizen.org/feature/speech.control_manager">http://tizen.org/feature/speech.control_manager</a><br>
-<a href="http://tizen.org/feature/microphone">http://tizen.org/feature/microphone</a></p>
-</div>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2959,6 +2570,14 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Privilege Level</strong>: <span>platform</span></h6>
+  <h6><strong>Privilege</strong>: <span class="tz_multiple_items"><span>http://tizen.org/privilege/voicecontrol.manager</span><span>http://tizen.org/privilege/recorder</span></span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/speech.control_manager</span><span>http://tizen.org/feature/microphone</span></span></h6>
+  <h6><strong>Precondition</strong>: <span>The state must be initialized.</span></h6>
+  
+  
   <h4 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_VcTtsStreaming" data-uid="Tizen.Uix.VoiceControlManager.VoiceControlManagerClient.VcTtsStreaming">VcTtsStreaming</h4>
   <div class="markdown level1 summary"><p>Called when the vc client sends audio streaming for TTS feedback.</p>
 </div>
@@ -2983,17 +2602,18 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
     </tbody>
   </table>
   
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_VcTtsStreaming_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">6 </span>
-  <h5 id="Tizen_Uix_VoiceControlManager_VoiceControlManagerClient_VcTtsStreaming_pre" class="preconditions">Precondition</h5>
-  <div class="markdown level1 preconditions"><p>The State should be Initialized</p>
-</div>
+  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>Precondition</strong>: <span>The State should be Initialized</span></h6>
   
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -3009,7 +2629,7 @@ For example, &quot;ko_KR&quot; for Korean, &quot;en_US&quot; for American Englis
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

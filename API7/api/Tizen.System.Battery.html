@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,6 +117,7 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.System.html">Tizen.System</a></h6>
   <h6><strong>Assembly</strong>: Tizen.System.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_System_Battery_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Battery</code></pre>
@@ -127,10 +128,9 @@ the battery state, and the charging state. It also provides the events for an ap
 to receive the battery status change events from the device.
 To receive the battery event, the application should register with the respective EventHandler.</p>
 </div>
-  
-  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_System_Battery_IsCharging_" data-uid="Tizen.System.Battery.IsCharging*"></a>
   <h4 id="Tizen_System_Battery_IsCharging" data-uid="Tizen.System.Battery.IsCharging">IsCharging</h4>
   <div class="markdown level1 summary"><p>Gets the current charging state.</p>
@@ -156,8 +156,8 @@ To receive the battery event, the application should register with the respectiv
     </tbody>
   </table>
   
-  <h5 id="Tizen_System_Battery_IsCharging_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_System_Battery_Level_" data-uid="Tizen.System.Battery.Level*"></a>
   <h4 id="Tizen_System_Battery_Level" data-uid="Tizen.System.Battery.Level">Level</h4>
@@ -184,8 +184,8 @@ To receive the battery event, the application should register with the respectiv
     </tbody>
   </table>
   
-  <h5 id="Tizen_System_Battery_Level_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
   
   <a id="Tizen_System_Battery_Percent_" data-uid="Tizen.System.Battery.Percent*"></a>
   <h4 id="Tizen_System_Battery_Percent" data-uid="Tizen.System.Battery.Percent">Percent</h4>
@@ -214,11 +214,11 @@ battery charge as a percentage of the maximum level.</p>
     </tbody>
   </table>
   
-  <h5 id="Tizen_System_Battery_Percent_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_System_Battery_ChargingStateChanged" data-uid="Tizen.System.Battery.ChargingStateChanged">ChargingStateChanged</h4>
   <div class="markdown level1 summary"><p>ChargingStatusChanged is triggered when the battery charging status is changed.
 This event is triggered when the charger is connected/disconnected.</p>
@@ -243,10 +243,6 @@ This event is triggered when the charger is connected/disconnected.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_Battery_ChargingStateChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_System_Battery_ChargingStateChanged_examples">Examples</h5>
   <pre><code>public static async Task BatteryEventHandler()
 {
@@ -259,6 +255,10 @@ This event is triggered when the charger is connected/disconnected.</p>
     await Task.Delay(20000);
 }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_System_Battery_LevelChanged" data-uid="Tizen.System.Battery.LevelChanged">LevelChanged</h4>
   <div class="markdown level1 summary"><p>LevelChanged is triggered when the battery level is changed.</p>
 </div>
@@ -282,10 +282,6 @@ This event is triggered when the charger is connected/disconnected.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_Battery_LevelChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_System_Battery_LevelChanged_examples">Examples</h5>
   <pre><code>public static async Task BatteryEventHandler()
 {
@@ -298,6 +294,10 @@ This event is triggered when the charger is connected/disconnected.</p>
     await Task.Delay(20000);
 }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <h4 id="Tizen_System_Battery_PercentChanged" data-uid="Tizen.System.Battery.PercentChanged">PercentChanged</h4>
   <div class="markdown level1 summary"><p>CapacityChanged is triggered when the battery charge percentage is changed.</p>
 </div>
@@ -321,10 +321,6 @@ This event is triggered when the charger is connected/disconnected.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_System_Battery_PercentChanged_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_System_Battery_PercentChanged_examples">Examples</h5>
   <pre><code>public static async Task BatteryEventHandler()
 {
@@ -337,11 +333,18 @@ This event is triggered when the charger is connected/disconnected.</p>
     await Task.Delay(20000);
 }</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -357,7 +360,7 @@ This event is triggered when the charger is connected/disconnected.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

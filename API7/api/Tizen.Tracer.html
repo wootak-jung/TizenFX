@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -117,14 +117,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.html">Tizen</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Tracer.dll</h6>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   <h5 id="Tizen_Tracer_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Tracer</code></pre>
   </div>
-  
-  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Tracer_AsyncBegin_" data-uid="Tizen.Tracer.AsyncBegin*"></a>
   <h4 id="Tizen_Tracer_AsyncBegin_System_Int32_System_String_" data-uid="Tizen.Tracer.AsyncBegin(System.Int32,System.String)">AsyncBegin(Int32, String)</h4>
   <div class="markdown level1 summary"><p>Writes a trace event to indicate that an asynchronous event has begun.</p>
@@ -161,14 +161,14 @@
   <h5 id="Tizen_Tracer_AsyncBegin_System_Int32_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFacts.GetLastResult() method.</p>
 </div>
-  
-  <h5 id="Tizen_Tracer_AsyncBegin_System_Int32_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Tracer_AsyncBegin_System_Int32_System_String__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Tracer.html#Tizen_Tracer_AsyncEnd_System_Int32_System_String_">AsyncEnd(Int32, String)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Tracer_AsyncEnd_" data-uid="Tizen.Tracer.AsyncEnd*"></a>
   <h4 id="Tizen_Tracer_AsyncEnd_System_Int32_System_String_" data-uid="Tizen.Tracer.AsyncEnd(System.Int32,System.String)">AsyncEnd(Int32, String)</h4>
   <div class="markdown level1 summary"><p>Writes a trace event to indicate that an asynchronous event has ended.</p>
@@ -206,14 +206,14 @@
   <div class="markdown level1 remarks"><p>Tizen.Tracer.AsyncEnd() ends matched Tizen.Tracer.AsyncBegin() which has the same cookie and name.
 The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFacts.GetLastResult() method.</p>
 </div>
-  
-  <h5 id="Tizen_Tracer_AsyncEnd_System_Int32_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Tracer_AsyncEnd_System_Int32_System_String__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Tracer.html#Tizen_Tracer_AsyncBegin_System_Int32_System_String_">AsyncBegin(Int32, String)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Tracer_Begin_" data-uid="Tizen.Tracer.Begin*"></a>
   <h4 id="Tizen_Tracer_Begin_System_String_" data-uid="Tizen.Tracer.Begin(System.String)">Begin(String)</h4>
   <div class="markdown level1 summary"><p>Writes a trace event to indicate that a synchronous event has begun.</p>
@@ -244,14 +244,14 @@ The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFa
   <h5 id="Tizen_Tracer_Begin_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFacts.GetLastResult() method.</p>
 </div>
-  
-  <h5 id="Tizen_Tracer_Begin_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Tracer_Begin_System_String__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Tracer.html#Tizen_Tracer_End">End()</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Tracer_End_" data-uid="Tizen.Tracer.End*"></a>
   <h4 id="Tizen_Tracer_End" data-uid="Tizen.Tracer.End">End()</h4>
   <div class="markdown level1 summary"><p>Writes a trace event to indicate that a synchronous event has ended.</p>
@@ -265,14 +265,14 @@ The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFa
   <div class="markdown level1 remarks"><p>Tizen.Tracer.End() ends the most recently called Tizen.Tracer.Begin().
 The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFacts.GetLastResult() method.</p>
 </div>
-  
-  <h5 id="Tizen_Tracer_End_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
-  
   <h5 id="Tizen_Tracer_End_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="Tizen.Tracer.html#Tizen_Tracer_Begin_System_String_">Begin(String)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>3</span></h6>
+  
+  
   <a id="Tizen_Tracer_TraceValue_" data-uid="Tizen.Tracer.TraceValue*"></a>
   <h4 id="Tizen_Tracer_TraceValue_System_Int32_System_String_" data-uid="Tizen.Tracer.TraceValue(System.Int32,System.String)">TraceValue(Int32, String)</h4>
   <div class="markdown level1 summary"><p>Writes a trace event to track change of an integer value.</p>
@@ -310,14 +310,17 @@ The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFa
   <div class="markdown level1 remarks"><p>The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFacts.GetLastResult() method.</p>
 </div>
   
-  <h5 id="Tizen_Tracer_TraceValue_System_Int32_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">3 </span>
+  <h6><strong>API Level</strong>: <span>3</span></h6>
   
 </article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -333,7 +336,7 @@ The specific error code can be obtained using the Tizen.Internals.Errors.ErrorFa
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

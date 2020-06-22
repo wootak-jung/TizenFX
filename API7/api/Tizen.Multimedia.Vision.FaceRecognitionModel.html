@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -121,17 +121,15 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.Multimedia.Vision.html">Tizen.Multimedia.Vision</a></h6>
   <h6><strong>Assembly</strong>: Tizen.Multimedia.Vision.dll</h6>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  <h6><strong>Feature</strong>: <span class="tz_multiple_items"><span>http://tizen.org/feature/vision.face_recognition</span></span></h6>
   <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class FaceRecognitionModel : IDisposable</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_feature" class="feature">Feature</h5>
-  <div class="markdown level0 feature"><p><a href="http://tizen.org/feature/vision.face_recognition">http://tizen.org/feature/vision.face_recognition</a></p>
-</div>
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.#ctor">FaceRecognitionModel()</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html">FaceRecognitionModel</a> class.</p>
@@ -141,10 +139,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public FaceRecognitionModel()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -161,6 +155,10 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.#ctor*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor_System_String_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.#ctor(System.String)">FaceRecognitionModel(String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html">FaceRecognitionModel</a> class with the specified path.</p>
@@ -191,10 +189,6 @@
   <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Models saved by <a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Save_System_String_">Save(String)</a> can be loaded.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel__ctor_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -232,8 +226,12 @@
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Save_System_String_">Save(String)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Labels_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Labels*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Labels" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Labels">Labels</h4>
   <div class="markdown level1 summary"><p>Gets labels that had been learned by the model.</p>
@@ -258,10 +256,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Labels_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4</span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -278,8 +272,12 @@
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Add_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Add*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Add(Tizen.Multimedia.Vision.MediaVisionSource,System.Int32)">Add(MediaVisionSource, Int32)</h4>
   <div class="markdown level1 summary"><p>Adds the face image example to be used for face recognition model learning.</p>
@@ -315,10 +313,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -346,6 +340,10 @@
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_Tizen_Multimedia_Vision_FaceRecognitionConfiguration_">Learn(FaceRecognitionConfiguration)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Add_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Add*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_Tizen_Multimedia_Rectangle_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Add(Tizen.Multimedia.Vision.MediaVisionSource,System.Int32,Tizen.Multimedia.Rectangle)">Add(MediaVisionSource, Int32, Rectangle)</h4>
   <div class="markdown level1 summary"><p>Adds the face image example to be used for face recognition model learning.</p>
@@ -387,10 +385,6 @@
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_Tizen_Multimedia_Rectangle__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -418,6 +412,10 @@
   <div class="seealso">
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_Tizen_Multimedia_Vision_FaceRecognitionConfiguration_">Learn(FaceRecognitionConfiguration)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Dispose_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Dispose" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Releases all the resources used by the <a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html">FaceRecognitionModel</a> object.</p>
@@ -428,8 +426,8 @@
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
   
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Dispose_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Dispose_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Dispose*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Dispose_System_Boolean_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -459,8 +457,8 @@
     </tbody>
   </table>
   
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Dispose_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Finalize_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Finalize*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Finalize" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Finalize">Finalize()</h4>
@@ -471,6 +469,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
+  
   
   
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Learn*"></a>
@@ -488,10 +487,6 @@ These examples have to be provided by <a class="xref" href="Tizen.Multimedia.Vis
 Recognition accuracy is usually increased when the different examples of the identical faces are added more and more.
 But it depends on the used learning algorithm.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -518,6 +513,10 @@ But it depends on the used learning algorithm.</p>
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_">Add(MediaVisionSource, Int32)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_Tizen_Multimedia_Rectangle_">Add(MediaVisionSource, Int32, Rectangle)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Learn*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_Tizen_Multimedia_Vision_FaceRecognitionConfiguration_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Learn(Tizen.Multimedia.Vision.FaceRecognitionConfiguration)">Learn(FaceRecognitionConfiguration)</h4>
   <div class="markdown level1 summary"><p>Learns the face recognition model with <a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionConfiguration.html">FaceRecognitionConfiguration</a>.</p>
@@ -551,10 +550,6 @@ These examples have to be provided by <a class="xref" href="Tizen.Multimedia.Vis
 Recognition accuracy is usually increased when the different examples of the identical faces are added more and more.
 But it depends on the used learning algorithm.</p>
 </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Learn_Tizen_Multimedia_Vision_FaceRecognitionConfiguration__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -583,6 +578,10 @@ But it depends on the used learning algorithm.</p>
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_">Add(MediaVisionSource, Int32)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_Tizen_Multimedia_Rectangle_">Add(MediaVisionSource, Int32, Rectangle)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Remove_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Remove*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Remove_System_Int32_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Remove(System.Int32)">Remove(Int32)</h4>
   <div class="markdown level1 summary"><p>Removes all face examples added with the specified label.</p>
@@ -626,10 +625,6 @@ But it depends on the used learning algorithm.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Remove_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -651,6 +646,10 @@ But it depends on the used learning algorithm.</p>
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_">Add(MediaVisionSource, Int32)</a></div>
       <div><a class="xref" href="Tizen.Multimedia.Vision.FaceRecognitionModel.html#Tizen_Multimedia_Vision_FaceRecognitionModel_Add_Tizen_Multimedia_Vision_MediaVisionSource_System_Int32_Tizen_Multimedia_Rectangle_">Add(MediaVisionSource, Int32, Rectangle)</a></div>
   </div>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Reset_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Reset*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Reset" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Reset">Reset()</h4>
   <div class="markdown level1 summary"><p>Removes all face examples.</p>
@@ -660,10 +659,6 @@ But it depends on the used learning algorithm.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
   </div>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Reset_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -680,6 +675,10 @@ But it depends on the used learning algorithm.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
+  
   <a id="Tizen_Multimedia_Vision_FaceRecognitionModel_Save_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Save*"></a>
   <h4 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Save_System_String_" data-uid="Tizen.Multimedia.Vision.FaceRecognitionModel.Save(System.String)">Save(String)</h4>
   <div class="markdown level1 summary"><p>Saves the recognition model to the file.</p>
@@ -707,10 +706,6 @@ But it depends on the used learning algorithm.</p>
       </tr>
     </tbody>
   </table>
-  
-  <h5 id="Tizen_Multimedia_Vision_FaceRecognitionModel_Save_System_String__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">4 </span>
-  
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -742,6 +737,9 @@ But it depends on the used learning algorithm.</p>
       </tr>
     </tbody>
   </table>
+  
+  <h6><strong>API Level</strong>: <span>4</span></h6>
+  
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
@@ -751,6 +749,10 @@ But it depends on the used learning algorithm.</p>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -766,7 +768,7 @@ But it depends on the used learning algorithm.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>

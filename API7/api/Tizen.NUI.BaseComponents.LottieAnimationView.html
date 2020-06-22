@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +15,14 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/tizen.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -627,14 +627,14 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Tizen.NUI.BaseComponents.html">Tizen.NUI.BaseComponents</a></h6>
   <h6><strong>Assembly</strong>: Tizen.NUI.dll</h6>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LottieAnimationView : ImageView, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IElementController, IDisposable, IResourcesProvider</code></pre>
   </div>
-  
-  
   <h3 id="constructors">Constructors
   </h3>
+  
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView__ctor_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.#ctor*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView__ctor_System_Single_System_Boolean_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.#ctor(System.Single,System.Boolean)">LottieAnimationView(Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>LottieAnimationView constructor</p>
@@ -671,17 +671,17 @@
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView__ctor_System_Single_System_Boolean__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If shown parameter is false, it is not visible even the LottieAnimationView instance is created.</p>
 </div>
-  
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView__ctor_System_Single_System_Boolean__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView__ctor_System_Single_System_Boolean__examples">Examples</h5>
   <pre><code>LottieAnimationView myLottie = new LottieAnimationView();
 LottieAnimationView myLottie2 = new LottieAnimationView(2.0f);
 LottieAnimationView myLottie3 = new LottieAnimationView(1.0f, false);</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   <h3 id="properties">Properties
   </h3>
+  
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_CurrentFrame_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.CurrentFrame*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_CurrentFrame" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.CurrentFrame">CurrentFrame</h4>
   <div class="markdown level1 summary"><p>Set or Get current frame. When setting a specific frame, it is displayed as a still image.</p>
@@ -709,10 +709,6 @@ LottieAnimationView myLottie3 = new LottieAnimationView(1.0f, false);</code></pr
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_CurrentFrame_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Giving user set value when getting. If the out ranged frame is set, it is reset as minimum frame or maximum frame.</p>
 </div>
-  
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_CurrentFrame_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_CurrentFrame_examples">Examples</h5>
   <p>Let&apos;s say myLottie.json file has 100 frames originally, then it will have 0 ~ 99 range of frame index.</p>
 <pre><code>LottieAnimationView myLottie = new LottieAnimationView();
@@ -723,6 +719,10 @@ myLottie.SetMinMaxFrame(10, 20);
 myLottie.CurrentFrame = 15; //display 15 frame
 myLottie.CurrentFrame = 50; //display 20 frame, because the MinMax is set (10,20) above</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
+  
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopCount_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.LoopCount*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopCount" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.LoopCount">LoopCount</h4>
   <div class="markdown level1 summary"><p>Set or Get loop count. </p>
@@ -750,10 +750,6 @@ myLottie.CurrentFrame = 50; //display 20 frame, because the MinMax is set (10,20
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopCount_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Minus value means infinite loop count.</p>
 </div>
-  
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopCount_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
-  
   <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopCount_examples">Examples</h5>
   <pre><code>LottieAnimationView myLottie = new LottieAnimationView();
 myLottie.URL = Tizen.Applications.Application.Current.DirectoryInfo.Resource + &quot;myLottie.json&quot;; //myLottie.json&apos;s total frame is 100 (frame: 0~99)
@@ -764,6 +760,10 @@ myLottie.Stop(); //it plays continuously unless Stop() is called
 myLottie.LoopCount = 2;
 myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
 
+  
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
+  
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopingMode_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.LoopingMode*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopingMode" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.LoopingMode">LoopingMode</h4>
   <div class="markdown level1 summary"><p>Set or Get looping mode of Lottie animation.</p>
@@ -789,8 +789,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_LoopingMode_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_PlayState_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.PlayState*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_PlayState" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.PlayState">PlayState</h4>
@@ -817,8 +817,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_PlayState_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_StopBehavior_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.StopBehavior*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_StopBehavior" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.StopBehavior">StopBehavior</h4>
@@ -845,8 +845,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_StopBehavior_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_TotalFrame_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.TotalFrame*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_TotalFrame" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.TotalFrame">TotalFrame</h4>
@@ -873,8 +873,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_TotalFrame_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_URL_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.URL*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_URL" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.URL">URL</h4>
@@ -901,11 +901,11 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_URL_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
   
   <h3 id="methods">Methods
   </h3>
+  
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_GetContentInfo_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.GetContentInfo*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_GetContentInfo" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.GetContentInfo">GetContentInfo()</h4>
   <div class="markdown level1 summary"><p>Get the list of layers&apos; information (start frame, end frame) in Lottie file.</p>
@@ -932,8 +932,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_GetContentInfo_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_Pause_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Pause*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_Pause" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Pause">Pause()</h4>
@@ -945,8 +945,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_Pause_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_Play_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Play*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_Play" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Play">Play()</h4>
@@ -958,8 +958,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     <pre><code class="lang-csharp hljs">public void Play()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_Play_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_SetMinMaxFrame_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.SetMinMaxFrame*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_SetMinMaxFrame_System_Int32_System_Int32_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.SetMinMaxFrame(System.Int32,System.Int32)">SetMinMaxFrame(Int32, Int32)</h4>
@@ -995,8 +995,8 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_SetMinMaxFrame_System_Int32_System_Int32__sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
+  
   
   <a id="Tizen_NUI_BaseComponents_LottieAnimationView_Stop_" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Stop*"></a>
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_Stop" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Stop">Stop()</h4>
@@ -1008,11 +1008,11 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
   </div>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_Stop_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
   
   <h3 id="events">Events
   </h3>
+  
   <h4 id="Tizen_NUI_BaseComponents_LottieAnimationView_Finished" data-uid="Tizen.NUI.BaseComponents.LottieAnimationView.Finished">Finished</h4>
   <div class="markdown level1 summary"><p>Animation finished event.</p>
 </div>
@@ -1037,8 +1037,7 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
     </tbody>
   </table>
   
-  <h5 id="Tizen_NUI_BaseComponents_LottieAnimationView_Finished_sinceTizen" class="sinceTizen">API Version</h5>
-  <span class="level1 sinceTizen">7 </span>
+  <h6><strong>API Level</strong>: <span>7</span></h6>
   
   <h3 id="implements">Implements</h3>
   <div>
@@ -1052,6 +1051,10 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -1067,7 +1070,7 @@ myLottie.Play(); //it plays only 2 times and stops automatically</code></pre>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright &copy; 2016-2018 Samsung <br> Generated by <strong>DocFX</strong></span>
+            <span>Copyright &copy; 2016-2020 Samsung <br> Generated by <strong>DocFX</strong></span>
             
           </div>
         </div>
