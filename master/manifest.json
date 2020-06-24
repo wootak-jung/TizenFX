@@ -14226,7 +14226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.BaseComponents.LottieAnimationView.html",
-          "hash": "sftKZVGgYumR2eUz4wZBcg=="
+          "hash": "u0ap/a8eeWfCMdrVxDvm/g=="
         }
       },
       "is_incremental": false,
@@ -14394,7 +14394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.NUI.BaseComponents.TextLabel.html",
-          "hash": "tYeeJD7u7ot2n82tQV6NPw=="
+          "hash": "EwMkcy6WLaRfu8gUwHE4oQ=="
         }
       },
       "is_incremental": false,
@@ -28252,6 +28252,13 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ManagedReferenceDocumentProcessor cannot support incremental build because the following steps don't implement ISupportIncrementalBuildStep interface: AppendTizenMetadata.",
@@ -28263,13 +28270,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
