@@ -3546,7 +3546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Account.SyncManager.SyncAdapter.html",
-          "hash": "L1TlR7iMggy4zn4OJQ+5VQ=="
+          "hash": "bF3zrmqjCUNZ4LUlT9H9Ww=="
         }
       },
       "is_incremental": false,
@@ -24186,7 +24186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tizen.Uix.InputMethodManager.Manager.html",
-          "hash": "KkH7CEOBBmnbTOMEFYsD3w=="
+          "hash": "FiE5/UsN4CVdLsVMYm8YDg=="
         }
       },
       "is_incremental": false,
