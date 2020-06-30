@@ -214,12 +214,6 @@
       <a class="xref" href="Tizen.NUI.BaseComponents.CustomView.html#Tizen_NUI_BaseComponents_CustomView_OnStyleChange_Tizen_NUI_StyleManager_Tizen_NUI_StyleChangeType_">CustomView.OnStyleChange(StyleManager, StyleChangeType)</a>
     </div>
     <div>
-      <a class="xref" href="Tizen.NUI.BaseComponents.CustomView.html#Tizen_NUI_BaseComponents_CustomView_OnFocusGained">CustomView.OnFocusGained()</a>
-    </div>
-    <div>
-      <a class="xref" href="Tizen.NUI.BaseComponents.CustomView.html#Tizen_NUI_BaseComponents_CustomView_OnFocusLost">CustomView.OnFocusLost()</a>
-    </div>
-    <div>
       <a class="xref" href="Tizen.NUI.BaseComponents.CustomView.html#Tizen_NUI_BaseComponents_CustomView_GetNextFocusableView_Tizen_NUI_BaseComponents_View_Tizen_NUI_BaseComponents_View_FocusDirection_System_Boolean_">CustomView.GetNextFocusableView(View, View.FocusDirection, Boolean)</a>
     </div>
     <div>
@@ -1466,43 +1460,34 @@
   <h6><strong>API Level</strong>: <span>6</span></h6>
   
   
-  <a id="Tizen_NUI_Components_Slider_OnThemeChangedEvent_" data-uid="Tizen.NUI.Components.Slider.OnThemeChangedEvent*"></a>
-  <h4 id="Tizen_NUI_Components_Slider_OnThemeChangedEvent_System_Object_Tizen_NUI_Components_StyleManager_ThemeChangeEventArgs_" data-uid="Tizen.NUI.Components.Slider.OnThemeChangedEvent(System.Object,Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs)">OnThemeChangedEvent(Object, StyleManager.ThemeChangeEventArgs)</h4>
-  <div class="markdown level1 summary"><p>Theme change callback when theme is changed, this callback will be trigger.</p>
+  <a id="Tizen_NUI_Components_Slider_OnFocusGained_" data-uid="Tizen.NUI.Components.Slider.OnFocusGained*"></a>
+  <h4 id="Tizen_NUI_Components_Slider_OnFocusGained" data-uid="Tizen.NUI.Components.Slider.OnFocusGained">OnFocusGained()</h4>
+  <div class="markdown level1 summary"><p>Focus gained callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnThemeChangedEvent(object sender, StyleManager.ThemeChangeEventArgs e)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnFocusGained()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">sender</span></td>
-        <td><p>The sender</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>The event data</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Tizen.NUI.Components.Control.OnThemeChangedEvent(System.Object, Tizen.NUI.Components.StyleManager.ThemeChangeEventArgs)</span></div>
+  <div><span class="xref">Tizen.NUI.Components.Control.OnFocusGained()</span></div>
   
-  <h6><strong>API Level</strong>: <span>6</span></h6>
+  <h6><strong>API Level</strong>: <span>8</span></h6>
+  
+  
+  <a id="Tizen_NUI_Components_Slider_OnFocusLost_" data-uid="Tizen.NUI.Components.Slider.OnFocusLost*"></a>
+  <h4 id="Tizen_NUI_Components_Slider_OnFocusLost" data-uid="Tizen.NUI.Components.Slider.OnFocusLost">OnFocusLost()</h4>
+  <div class="markdown level1 summary"><p>Focus Lost callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnFocusLost()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Tizen.NUI.Components.Control.OnFocusLost()</span></div>
+  
+  <h6><strong>API Level</strong>: <span>8</span></h6>
   
   <h3 id="events">Events
   </h3>
