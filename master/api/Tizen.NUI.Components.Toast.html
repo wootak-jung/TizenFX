@@ -755,7 +755,8 @@ A toast will automatically disappear after a certain time.</p>
   <h6><strong>API Level</strong>: <span>6</span></h6>
   <h5 id="Tizen_NUI_Components_Toast_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Toast : Control, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IElementController, IDisposable, IResourcesProvider</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public class Toast : Control, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IElementController, IDisposable, IResourcesProvider</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -767,72 +768,11 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Toast()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public Toast()</code></pre>
   </div>
   
   <h6><strong>API Level</strong>: <span>6</span></h6>
-  
-  
-  <a id="Tizen_NUI_Components_Toast__ctor_" data-uid="Tizen.NUI.Components.Toast.#ctor*"></a>
-  <h4 id="Tizen_NUI_Components_Toast__ctor_System_String_" data-uid="Tizen.NUI.Components.Toast.#ctor(System.String)">Toast(String)</h4>
-  <div class="markdown level1 summary"><p>Constructor of the Toast class with special style.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Toast(string style)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">style</span></td>
-        <td><p>style name </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <h6><strong>API Level</strong>: <span>8</span></h6>
-  
-  
-  <a id="Tizen_NUI_Components_Toast__ctor_" data-uid="Tizen.NUI.Components.Toast.#ctor*"></a>
-  <h4 id="Tizen_NUI_Components_Toast__ctor_Tizen_NUI_Components_ToastStyle_" data-uid="Tizen.NUI.Components.Toast.#ctor(Tizen.NUI.Components.ToastStyle)">Toast(ToastStyle)</h4>
-  <div class="markdown level1 summary"><p>The constructor of the Toast class with specific Style.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Toast(ToastStyle toastStyle)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Tizen.NUI.Components.ToastStyle.html">ToastStyle</a></td>
-        <td><span class="parametername">toastStyle</span></td>
-        <td><p>Construct Style</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <h6><strong>API Level</strong>: <span>8</span></h6>
   
   <h3 id="fields">Fields
   </h3>
@@ -872,7 +812,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint Duration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public uint Duration { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -900,7 +841,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FontFamily { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public string FontFamily { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -928,7 +870,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float PointSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public float PointSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -949,34 +892,6 @@ A toast will automatically disappear after a certain time.</p>
   <h6><strong>API Level</strong>: <span>6</span></h6>
   
   
-  <a id="Tizen_NUI_Components_Toast_Style_" data-uid="Tizen.NUI.Components.Toast.Style*"></a>
-  <h4 id="Tizen_NUI_Components_Toast_Style" data-uid="Tizen.NUI.Components.Toast.Style">Style</h4>
-  <div class="markdown level1 summary"><p>Get style of toast.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ToastStyle Style { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Tizen.NUI.Components.ToastStyle.html">ToastStyle</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <h6><strong>API Level</strong>: <span>8</span></h6>
-  
-  
   <a id="Tizen_NUI_Components_Toast_TextAlignment_" data-uid="Tizen.NUI.Components.Toast.TextAlignment*"></a>
   <h4 id="Tizen_NUI_Components_Toast_TextAlignment" data-uid="Tizen.NUI.Components.Toast.TextAlignment">TextAlignment</h4>
   <div class="markdown level1 summary"><p>Gets or sets text horizontal alignment in toast.</p>
@@ -984,7 +899,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HorizontalAlignment TextAlignment { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public HorizontalAlignment TextAlignment { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1012,7 +928,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] TextArray { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public string[] TextArray { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1040,7 +957,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color TextColor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public Color TextColor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1068,7 +986,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint TextLineHeight { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public uint TextLineHeight { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1096,7 +1015,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint TextLineSpace { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public uint TextLineSpace { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1124,7 +1044,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Extents TextPadding { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+public Extents TextPadding { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1147,70 +1068,6 @@ A toast will automatically disappear after a certain time.</p>
   <h3 id="methods">Methods
   </h3>
   
-  <a id="Tizen_NUI_Components_Toast_ApplyStyle_" data-uid="Tizen.NUI.Components.Toast.ApplyStyle*"></a>
-  <h4 id="Tizen_NUI_Components_Toast_ApplyStyle_Tizen_NUI_BaseComponents_ViewStyle_" data-uid="Tizen.NUI.Components.Toast.ApplyStyle(Tizen.NUI.BaseComponents.ViewStyle)">ApplyStyle(ViewStyle)</h4>
-  <div class="markdown level1 summary"><p>Apply style to toast.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void ApplyStyle(ViewStyle viewStyle)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Tizen.NUI.BaseComponents.ViewStyle</span></td>
-        <td><span class="parametername">viewStyle</span></td>
-        <td><p>The style to apply.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Tizen.NUI.BaseComponents.View.ApplyStyle(Tizen.NUI.BaseComponents.ViewStyle)</span></div>
-  
-  <h6><strong>API Level</strong>: <span>6</span></h6>
-  
-  
-  <a id="Tizen_NUI_Components_Toast_CreateViewStyle_" data-uid="Tizen.NUI.Components.Toast.CreateViewStyle*"></a>
-  <h4 id="Tizen_NUI_Components_Toast_CreateViewStyle" data-uid="Tizen.NUI.Components.Toast.CreateViewStyle">CreateViewStyle()</h4>
-  <div class="markdown level1 summary"><p>Get Toast style.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override ViewStyle CreateViewStyle()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Tizen.NUI.BaseComponents.ViewStyle</span></td>
-        <td><p>The default toast style.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Tizen.NUI.Components.Control.CreateViewStyle()</span></div>
-  
-  <h6><strong>API Level</strong>: <span>8</span></h6>
-  
-  
   <a id="Tizen_NUI_Components_Toast_Dispose_" data-uid="Tizen.NUI.Components.Toast.Dispose*"></a>
   <h4 id="Tizen_NUI_Components_Toast_Dispose_Tizen_NUI_DisposeTypes_" data-uid="Tizen.NUI.Components.Toast.Dispose(Tizen.NUI.DisposeTypes)">Dispose(DisposeTypes)</h4>
   <div class="markdown level1 summary"><p>Dispose ToastPopup.</p>
@@ -1218,7 +1075,8 @@ A toast will automatically disappear after a certain time.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(DisposeTypes type)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in API8; Will be removed in API10&quot;)]
+protected override void Dispose(DisposeTypes type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
