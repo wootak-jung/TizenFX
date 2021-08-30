@@ -41,11 +41,17 @@ namespace Tizen.Network.Bluetooth
                 NotificationSent?.Invoke(this, e);
             };
             _impl.AttMtuChanged += OnAttMtuChanged;
+            _impl.ConnectionStateChanged += OnConnectionStateChanged;
         }
 
         private void OnAttMtuChanged(object s, AttMtuChangedEventArgs e)
         {
             AttMtuChanged?.Invoke(this, e);
+        }
+
+        private void OnConnectionStateChanged(object s, GattConnectionStateChangedEventArgs e)
+        {
+            ConnectionStateChanged?.Invoke(this, e);
         }
 
         /// <summary>
@@ -236,6 +242,11 @@ namespace Tizen.Network.Bluetooth
         /// <since_tizen> 9 </since_tizen>
         [EditorBrowsable(EditorBrowsableState.Never)]
         public event EventHandler<AttMtuChangedEventArgs> AttMtuChanged;
+
+        /// The ConnectionStateChanged event is raised when the gatt connection state is changed.
+        /// </summary>
+        /// <since_tizen> 9 </since_tizen>
+        public event EventHandler<GattConnectionStateChangedEventArgs> ConnectionStateChanged;
 
         internal bool IsValid()
         {

@@ -33,6 +33,8 @@ namespace Tizen.Network.Bluetooth
         private Interop.Bluetooth.BtGattForeachCallback _serviceForeachCallback;
         private Interop.Bluetooth.BtGattServerAttMtuChangedCallback _attMtuChangedCallback;
         private event EventHandler<AttMtuChangedEventArgs> _attMtuChanged;
+        private Interop.Bluetooth.GattConnectionStateChangedCallBack _connectionStateChangedCallback;
+        private event EventHandler<GattConnectionStateChangedEventArgs> _connectionStateChanged;
 
         internal BluetoothGattServerImpl()
         {
@@ -205,6 +207,51 @@ namespace Tizen.Network.Bluetooth
             if (ret != (int)BluetoothError.None)
             {
                 Log.Error(Globals.LogTag, "Failed to unset MTU changed callback, Error - " + (BluetoothError)ret);
+            }
+        }
+
+        internal event EventHandler<GattConnectionStateChangedEventArgs> ConnectionStateChanged
+        {
+            add
+            {
+                if (_connectionStateChanged == null)
+                {
+                    RegisterConnectionStateChangedEvent();
+                }
+                _connectionStateChanged += value;
+            }
+            remove
+            {
+                _connectionStateChanged -= value;
+                if (_connectionStateChanged == null)
+                {
+                    UnregisterConnectionStateChangedEvent();
+                }
+            }
+        }
+
+        private void RegisterConnectionStateChangedEvent()
+        {
+            _connectionStateChangedCallback = (int result, bool connected, string remoteDeviceAddress, IntPtr userData) =>
+            {
+                Log.Info(Globals.LogTag, "Setting gatt connection state changed callback");
+                GattConnectionStateChangedEventArgs e = new GattConnectionStateChangedEventArgs(result, connected, remoteDeviceAddress);
+                _connectionStateChanged?.Invoke(null, e);
+            };
+
+            int ret = Interop.Bluetooth.SetGattConnectionStateChangedCallback(_connectionStateChangedCallback, IntPtr.Zero);
+            if (ret != (int)BluetoothError.None)
+            {
+                Log.Error(Globals.LogTag, "Failed to set gatt connection state changed callback, Error - " + (BluetoothError)ret);
+            }
+        }
+
+        private static void UnregisterConnectionStateChangedEvent()
+        {
+            int ret = Interop.Bluetooth.UnsetGattConnectionStateChangedCallback();
+            if (ret != (int)BluetoothError.None)
+            {
+                Log.Error(Globals.LogTag, "Failed to unset gatt connection state changed callback, Error - " + (BluetoothError)ret);
             }
         }
 
